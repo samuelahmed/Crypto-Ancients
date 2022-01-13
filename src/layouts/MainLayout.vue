@@ -25,7 +25,7 @@
     >
       <q-list>
         <q-item-label header>
-          Essential Links
+          Welcome to the Foundation
         </q-item-label>
 
         <EssentialLink
