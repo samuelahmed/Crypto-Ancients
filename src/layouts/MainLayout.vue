@@ -11,9 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title>
-          Crypto Ancients
-        </q-toolbar-title>
+        <q-toolbar-title> Crypto Ancients </q-toolbar-title>
 
         <div>Crypto Ancients v1.0</div>
         <!-- <div>Quasar v{{ $q.version }}</div> -->
@@ -26,9 +24,7 @@
       bordered
     >
       <q-list>
-        <q-item-label
-          header
-        >
+        <q-item-label header>
           Essential Links
         </q-item-label>
 
@@ -51,46 +47,40 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    title: 'Home',
+    caption: 'Mission HQ',
+    icon: 'home',
+    link: ''
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    title: 'Mint',
+    caption: 'Mint a New Ancient',
+    icon: 'factory',
+    link: ''
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    title: 'My Ancients',
+    caption: 'See your Crypto Ancients',
+    icon: 'person',
+    link: ''
   },
   {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    title: 'Galery',
+    caption: 'See all Minted Ancients',
+    icon: 'image',
+    link: ''
   },
   {
     title: 'Twitter',
-    caption: '@quasarframework',
+    caption: 'We tweet sometimes',
     icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    link: ''
   },
   {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
+    title: 'Discord',
+    caption: 'Come hangout',
+    icon: 'code',
+    link: ''
   }
 ]
 
