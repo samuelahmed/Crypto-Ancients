@@ -54,7 +54,7 @@ const linksList = [
   },
   {
     title: 'Mint',
-    caption: 'Mint a new Crytpo Ancient',
+    caption: 'Mint a Crytpo Ancient',
     icon: 'factory',
     link: ''
   },
