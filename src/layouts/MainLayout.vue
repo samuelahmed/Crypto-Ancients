@@ -12,10 +12,11 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          Crypto Ancients
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>Crypto Ancients v1.0</div>
+        <!-- <div>Quasar v{{ $q.version }}</div> -->
       </q-toolbar>
     </q-header>
 
