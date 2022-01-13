@@ -54,19 +54,19 @@ const linksList = [
   },
   {
     title: 'Mint',
-    caption: 'Mint a New Ancient',
+    caption: 'Mint a new Crytpo Ancient',
     icon: 'factory',
     link: ''
   },
   {
     title: 'My Ancients',
-    caption: 'See your Crypto Ancients',
+    caption: 'Your Crypto Ancients',
     icon: 'person',
     link: ''
   },
   {
     title: 'Galery',
-    caption: 'See all Minted Ancients',
+    caption: 'All Crypto Ancients',
     icon: 'image',
     link: ''
   },
@@ -79,7 +79,7 @@ const linksList = [
   {
     title: 'Discord',
     caption: 'Come hangout',
-    icon: 'code',
+    icon: 'chat',
     link: ''
   }
 ]
