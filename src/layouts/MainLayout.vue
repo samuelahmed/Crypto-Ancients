@@ -10,8 +10,10 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
-
-        <q-toolbar-title> Crypto Ancients </q-toolbar-title>
+        <!-- remove text gold in future -->
+        <q-toolbar-title>
+          Crypto Ancients
+        </q-toolbar-title>
 
         <div>v1.0</div>
         <!-- <div>Quasar v{{ $q.version }}</div> -->
@@ -23,7 +25,7 @@
       show-if-above
       bordered
     >
-      <q-list>
+      <q-list color="primary">
         <q-item-label header>
           Welcome to the Foundation
         </q-item-label>
