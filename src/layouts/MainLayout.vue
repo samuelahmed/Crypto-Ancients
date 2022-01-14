@@ -27,7 +27,6 @@
     >
       <q-list>
 
-
 <!-- make mobile only when possible -->
         <q-toolbar class="bg-accent glossy">
           <q-toolbar-title class="text-black text-body2 text-center ">
@@ -35,48 +34,66 @@
           </q-toolbar-title>
         </q-toolbar>
 
-        <q-item  clickable v-ripple>
-          <q-item-section side>
-          <q-icon name="mdi-home" />
-          </q-item-section>
-          <q-item-section>
-          <q-item-label>
-            Home
-          </q-item-label>
-          <q-item-label caption>
-            Project HQ
-          </q-item-label>
-          </q-item-section>
-        </q-item>
+        <router-link 
+        style="text-decoration: none; color: inherit;"
+        to="/home">
+          <q-item  
+          clickable 
+          v-ripple
+          >
+            <q-item-section side>
+            <q-icon name="mdi-home" />
+            </q-item-section>
+            <q-item-section>
+            <q-item-label>
+              Home
+            </q-item-label>
+            <q-item-label caption>
+              Project HQ
+            </q-item-label>
+            </q-item-section>
+          </q-item>
+        </router-link>
 
-        <q-item  clickable v-ripple>
-          <q-item-section side>
-          <q-icon name="mdi-account-multiple-plus" />
-          </q-item-section>
-          <q-item-section>
-          <q-item-label>
-            Mint
-          </q-item-label>
-          <q-item-label caption>
-            Create a new Crypto Ancient
-          </q-item-label>
-          </q-item-section>
-        </q-item>
+        <router-link 
+        style="text-decoration: none; color: inherit;"
+        to="/mint">
+           <q-item  clickable v-ripple>
+            <q-item-section side>
+            <q-icon name="mdi-account-multiple-plus" />
+            </q-item-section>
+            <q-item-section>
+            <q-item-label>
+              Mint
+            </q-item-label>
+            <q-item-label caption>
+              Create a new Crypto Ancient
+            </q-item-label>
+            </q-item-section>
+          </q-item>
+        </router-link>
 
-        <q-item  clickable v-ripple>
-          <q-item-section side>
-          <q-icon name="mdi-wallet" />
-          </q-item-section>
-          <q-item-section>
-          <q-item-label>
-            My Ancients
-          </q-item-label>
-          <q-item-label caption>
-            View your Crypto Ancients
-          </q-item-label>
-          </q-item-section>
-        </q-item>
+        <router-link 
+        style="text-decoration: none; color: inherit;"
+        to="/myancients">   
+           <q-item  clickable v-ripple>
+            <q-item-section side>
+            <q-icon name="mdi-wallet" />
+            </q-item-section>
+            <q-item-section>
+            <q-item-label>
+              My Ancients
+            </q-item-label>
+            <q-item-label caption>
+              View your Crypto Ancients
+            </q-item-label>
+            </q-item-section>
+          </q-item>
+        </router-link>
 
+        <router-link 
+        style="text-decoration: none; color: inherit;"
+        to="/galery">   
         <q-item  clickable v-ripple>
           <q-item-section side>
           <q-icon name="mdi-eye" />
@@ -90,10 +107,10 @@
           </q-item-label>
           </q-item-section>
         </q-item>
+        </router-link>
 
       </q-list>
     </q-drawer>
-
     <q-page-container>
       <router-view />
     </q-page-container>
