@@ -109,6 +109,24 @@
         </q-item>
         </router-link>
 
+                <router-link 
+        style="text-decoration: none; color: inherit;"
+        to="/connectmetamask">   
+        <q-item  clickable v-ripple>
+          <q-item-section side>
+          <q-icon name="mdi-badge-account" />
+          </q-item-section>
+          <q-item-section>
+          <q-item-label>
+            Connect Metamask
+          </q-item-label>
+          <q-item-label caption>
+            Activate web3 wallet
+          </q-item-label>
+          </q-item-section>
+        </q-item>
+        </router-link>
+
       </q-list>
     </q-drawer>
     <q-page-container>

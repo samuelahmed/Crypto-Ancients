@@ -8,7 +8,8 @@ const routes = [
       { path: 'home', component: () => import('pages/Index.vue') },
       { path: 'mint', component: () => import('pages/Mint.vue') },
       { path: 'myancients', component: () => import('pages/MyAncients.vue') },
-      { path: 'galery', component: () => import('pages/Galery.vue') }
+      { path: 'galery', component: () => import('pages/Galery.vue') },
+      { path: 'connectmetamask', component: () => import('pages/ConnectMetamask.vue') }
     ]
   },
 
