@@ -13,7 +13,7 @@
 
         <q-toolbar-title> Crypto Ancients </q-toolbar-title>
 
-        <div>Crypto Ancients v1.0</div>
+        <div>v1.0</div>
         <!-- <div>Quasar v{{ $q.version }}</div> -->
       </q-toolbar>
     </q-header>
