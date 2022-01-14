@@ -4,14 +4,14 @@
       alt="Quasar logo"
       src="~assets/nftHumans.png"
       style="width: 400px; height: 400px"
-    >
+    />
   </q-page>
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: 'PageIndex'
-})
+  name: "PageIndex",
+});
 </script>
