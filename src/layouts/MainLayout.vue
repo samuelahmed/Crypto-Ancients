@@ -1,12 +1,12 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="hHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar>
+    <q-toolbar class="bg-primary glossy text-white">
         <q-btn
           flat
           dense
           round
-          icon="menu"
+          icon="mdi-menu"
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
@@ -25,16 +25,72 @@
       show-if-above
       bordered
     >
-      <q-list color="primary">
-        <q-item-label header>
-          Welcome to the Foundation
-        </q-item-label>
+      <q-list>
 
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
+
+<!-- make mobile only when possible -->
+        <q-toolbar class="bg-accent glossy">
+          <q-toolbar-title class="text-black text-body2 text-center ">
+            Welcome to the Foundation
+          </q-toolbar-title>
+        </q-toolbar>
+
+        <q-item  clickable v-ripple>
+          <q-item-section side>
+          <q-icon name="mdi-home" />
+          </q-item-section>
+          <q-item-section>
+          <q-item-label>
+            Home
+          </q-item-label>
+          <q-item-label caption>
+            Project HQ
+          </q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item  clickable v-ripple>
+          <q-item-section side>
+          <q-icon name="mdi-home" />
+          </q-item-section>
+          <q-item-section>
+          <q-item-label>
+            Mint
+          </q-item-label>
+          <q-item-label caption>
+            Create a new Crypto Ancient
+          </q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item  clickable v-ripple>
+          <q-item-section side>
+          <q-icon name="mdi-home" />
+          </q-item-section>
+          <q-item-section>
+          <q-item-label>
+            My Ancients
+          </q-item-label>
+          <q-item-label caption>
+            View your Crypto Ancients
+          </q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item  clickable v-ripple>
+          <q-item-section side>
+          <q-icon name="mdi-home" />
+          </q-item-section>
+          <q-item-section>
+          <q-item-label>
+            Galery
+          </q-item-label>
+          <q-item-label caption>
+            View all Crypto Ancients
+          </q-item-label>
+          </q-item-section>
+        </q-item>
+
       </q-list>
     </q-drawer>
 
@@ -45,46 +101,7 @@
 </template>
 
 <script>
-import EssentialLink from 'components/EssentialLink.vue'
 
-const linksList = [
-  {
-    title: 'Home',
-    caption: 'Mission HQ',
-    icon: 'home',
-    link: ''
-  },
-  {
-    title: 'Mint',
-    caption: 'Mint a Crytpo Ancient',
-    icon: 'factory',
-    link: ''
-  },
-  {
-    title: 'My Ancients',
-    caption: 'Your Crypto Ancients',
-    icon: 'person',
-    link: ''
-  },
-  {
-    title: 'Galery',
-    caption: 'All Crypto Ancients',
-    icon: 'image',
-    link: ''
-  },
-  {
-    title: 'Twitter',
-    caption: 'We tweet sometimes',
-    icon: 'rss_feed',
-    link: ''
-  },
-  {
-    title: 'Discord',
-    caption: 'Come hangout',
-    icon: 'chat',
-    link: ''
-  }
-]
 
 import { defineComponent, ref } from 'vue'
 
@@ -92,14 +109,12 @@ export default defineComponent({
   name: 'MainLayout',
 
   components: {
-    EssentialLink
   },
-
+   
   setup () {
     const leftDrawerOpen = ref(false)
 
     return {
-      essentialLinks: linksList,
       leftDrawerOpen,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value
