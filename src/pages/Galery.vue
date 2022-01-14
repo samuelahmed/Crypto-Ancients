@@ -1,17 +1,15 @@
 <template>
-<q-page class="row">
 
-<div
+<!-- <div
 class="bg-blue col-3"
 style="height: 50px"
- />
+ /> -->
   <q-page class="flex flex-center">
     <img
       alt="Quasar logo"
       src="~assets/GaleryImg.png"
       style="width: 400px; height: 400px"
     >
-  </q-page>
   </q-page>
 </template>
 
