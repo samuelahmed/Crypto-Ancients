@@ -28,7 +28,7 @@
       <q-list>
 
 <!-- make mobile only when possible -->
-        <q-toolbar class="bg-secondary glossy">
+        <q-toolbar class="bg-primary glossy">
           <q-toolbar-title class="text-white text-body2 text-center ">
             Welcome to the Foundation
           </q-toolbar-title>
