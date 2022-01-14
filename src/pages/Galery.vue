@@ -8,7 +8,7 @@ style="height: 50px"
   <q-page class="flex flex-center">
     <img
       alt="Quasar logo"
-      src="~assets/MintUnderConstruction.png"
+      src="~assets/GaleryImg.png"
       style="width: 400px; height: 400px"
     >
   </q-page>
