@@ -51,7 +51,7 @@
 
         <q-item  clickable v-ripple>
           <q-item-section side>
-          <q-icon name="mdi-home" />
+          <q-icon name="mdi-account-multiple-plus" />
           </q-item-section>
           <q-item-section>
           <q-item-label>
@@ -65,7 +65,7 @@
 
         <q-item  clickable v-ripple>
           <q-item-section side>
-          <q-icon name="mdi-home" />
+          <q-icon name="mdi-wallet" />
           </q-item-section>
           <q-item-section>
           <q-item-label>
@@ -79,14 +79,14 @@
 
         <q-item  clickable v-ripple>
           <q-item-section side>
-          <q-icon name="mdi-home" />
+          <q-icon name="mdi-eye" />
           </q-item-section>
           <q-item-section>
           <q-item-label>
             Galery
           </q-item-label>
           <q-item-label caption>
-            View all Crypto Ancients
+            See all minted Crypto Ancients
           </q-item-label>
           </q-item-section>
         </q-item>
