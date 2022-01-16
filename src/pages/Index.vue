@@ -1,15 +1,18 @@
 <template>
-  <q-page class="flex flex-center" style="margin-top: 10vh">
+
+<div id="background">
+  
+ <q-page class="flex flex-center"> 
+    
     <img
       alt="Quasar logo"
       src="~assets/nftHumans.png"
       style="width: 400px; height: 400px"
-    />
-
+    /> 
 
 
     <div id="q-app">
-      <div class="q-pa-md row items-start q-gutter-md flex-center" style="height: 250px">
+      <div class="q-pa-md row items-start q-gutter-md flex-center" style="height: 250px; margin-top: -200px">
     <q-card
       class="my-card text-black"
       style="background: radial-gradient(circle, #FFD700 0%, #FFFFFF 100%)"
@@ -44,11 +47,11 @@ Inspired by CryptoPunks, Nouns, and other pioneering projects, Crypto Ancients a
       style="background: radial-gradient(circle, #0072C5 0%, #FFFFFF 100%)"
     >
       <q-card-section>
-        <div class="text-h6">Reflection</div>
-        <div class="text-subtitle2">Who are you?</div>
+        <div class="text-h6">Hope</div>
+        <div class="text-subtitle2">NFTs for digital ownership</div>
       </q-card-section>
       <q-card-section class="q-pt-none">
-Every ancient is unique and wants to build a bond with you. Ownership of a Crypto Ancient NFT is membership to the foundation.
+        digital ownership is important because... 
       </q-card-section>
        </q-card>
 
@@ -87,6 +90,8 @@ Every ancient is unique and wants to build a bond with you. Ownership of a Crypt
 
   </div> -->
 
+  </div>
+
   
 </template>
 
@@ -106,4 +111,5 @@ export default defineComponent({
   height: 100%
   max-width: 350px
   max-height: 350px
+  
 </style>
