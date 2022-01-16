@@ -4,11 +4,10 @@
 class="bg-blue col-3"
 style="height: 50px"
  /> -->
-   <q-page class="flex flex-center"
-   >
-      <div class="q-pa-md shadow-10"
-            style="width: 400px; height: 400px; padding: 0px;"
->
+   <q-page class="flex flex-center">
+     
+      <div class="q-pa-md shadow-5"
+            style="width: 400px; height: 400px; padding: 0px;">
     <q-carousel
       swipeable
       animated
@@ -48,9 +47,13 @@ style="height: 50px"
         </q-carousel-control>
       </template>
     </q-carousel>
-
-
       </div>
+
+      
+
+
+
+
   </q-page>
 </template>
 
