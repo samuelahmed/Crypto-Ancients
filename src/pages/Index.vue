@@ -9,7 +9,7 @@
 
 
     <div id="q-app">
-      <div class="q-pa-md row items-start q-gutter-md" style="height: 250px">
+      <div class="q-pa-md row items-start q-gutter-md flex-center" style="height: 250px">
     <q-card
       class="my-card text-black"
       style="background: radial-gradient(circle, #FFD700 0%, #FFFFFF 100%)"
