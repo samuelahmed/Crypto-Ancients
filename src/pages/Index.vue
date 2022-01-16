@@ -12,7 +12,7 @@
       <div class="q-pa-md row items-start q-gutter-md" style="height: 250px">
     <q-card
       class="my-card text-black"
-      style="background: radial-gradient(circle, #0072C5 0%, #FFFFFF 100%)"
+      style="background: radial-gradient(circle, #FFD700 0%, #FFFFFF 100%)"
     >
       <q-card-section>
         <div class="text-h6">Foundation</div>
@@ -41,7 +41,7 @@ Inspired by CryptoPunks, Nouns, and other pioneering projects, Crypto Ancients a
 
     <q-card
       class="my-card text-black"
-      style="background: radial-gradient(circle, #FFD700 0%, #FFFFFF 100%)"
+      style="background: radial-gradient(circle, #0072C5 0%, #FFFFFF 100%)"
     >
       <q-card-section>
         <div class="text-h6">Reflection</div>
