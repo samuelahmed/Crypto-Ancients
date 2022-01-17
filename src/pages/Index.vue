@@ -13,9 +13,8 @@
 
 
     <div id="q-app">
-     <div class="q-pa-md row items-start q-gutter-md flex-center">
 
- <div class="q-pa-md row-3 items-start q-gutter-md flex-center">
+ <div class="q-pa-md row items-start q-gutter-md flex-center">
 <q-card
       class="my-card text-black"
       style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)"
@@ -60,10 +59,8 @@ The Crypto Ancients foundation is for those passionate to improve the world. Peo
        </q-card>
 
 
-</div>
 
 
-      <div class="q-pa-md row-6 items-start q-gutter-md flex-center items-max:3">
 
 
     <q-card
@@ -109,9 +106,6 @@ Simply put a blockchain is a distributed digital ledger, a record of IDs and the
        </q-card>
 
 
-</div>
-
-      <div class="q-pa-md row-3 items-start q-gutter-md flex-center items-max:3">
 
     <q-card
       class="my-card text-black"
@@ -162,8 +156,7 @@ Simply put a blockchain is a distributed digital ledger, a record of IDs and the
 
 
 
-     </div>
-      </div>
+     
 
    
 
@@ -171,6 +164,7 @@ Simply put a blockchain is a distributed digital ledger, a record of IDs and the
 </div>
 
 
+</div>
 
 
   </q-page>
