@@ -51,7 +51,7 @@
       style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)"
     >
       <q-card-section>
-        <div class="text-h6">Are Banks just Rent Seeking?</div>
+        <div class="text-h6">Are Banks just Rent Seeking</div>
         <div class="text-subtitle2">Our Grandparents Landlord</div>
       </q-card-section>
       <q-card-section class="q-pt-none">
@@ -65,7 +65,7 @@ Somewhere between 5-10% of the world’s economy is given to banks. In exchange 
       style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)"
     >
       <q-card-section>
-        <div class="text-h6">Where do NFTs fit?</div>
+        <div class="text-h6">Where do NFTs fit</div>
         <div class="text-subtitle2">Method for Digital Ownership</div>
       </q-card-section>
       <q-card-section class="q-pt-none">
