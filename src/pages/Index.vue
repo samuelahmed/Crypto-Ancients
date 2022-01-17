@@ -26,7 +26,7 @@
     >
       <q-card-section>
         <div class="text-h6">What’s a Blockchain</div>
-        <div class="text-subtitle2">The Holy Grail</div>
+        <div class="text-subtitle2">Emerging Digital States</div>
       </q-card-section>
       <q-card-section class="q-pt-none">
 Simply put a blockchain is a distributed digital ledger, a record of IDs and their assets that is maintained by many full-nodes globally. The revolution ushered by Bitcoin is the ability to turn computing power into social trust. So that all participants in the network can be assured that the ledger is most likely accurate even in the face of adversaries. Blockchains achieve this without a central authority by instead relying on cryptographic proofs. 
@@ -40,7 +40,7 @@ Simply put a blockchain is a distributed digital ledger, a record of IDs and the
     >
       <q-card-section>
         <div class="text-h6">How does it work</div>
-        <div class="text-subtitle2">The most Beautiful Code</div>
+        <div class="text-subtitle2">Injecting Cryptographic Trust</div>
       </q-card-section>
       <q-card-section class="q-pt-none">
 Bitcoin showed that it is possible to use computing power to solve social issues. Some issues, such as digital ownership and currencies, may seem solved at first glance as most of us use some sort of online banking, make digital payments, and our personal investments are often done on purely digital platforms, but technological decisions have major implications for the distribution of power across the society. Whoever owns the servers owns the servers ultim   
@@ -74,7 +74,7 @@ The Crypto Ancients foundation is for those passionate to improve the world. Peo
     >
       <q-card-section>
         <div class="text-h6">Bitcoin and Ethereum</div>
-        <div class="text-subtitle2">The Digital Empires</div>
+        <div class="text-subtitle2">Digital Empires</div>
       </q-card-section>
       <q-card-section class="q-pt-none">
 A non-fungible token (NFT) is a series in which each member is different. Humans are non-fungible members of the homo sapiens series, whereas the US dollar bills are fungible because can be exchanged equally for one another. The homo sapient or felis catus series are backed by methods of biology (decentralized), the US dollar is backed by the government (centralized). NFTs are digital tokens backed by new decentralized authorities known as blockchains. 
