@@ -1,15 +1,16 @@
 <template>
-    <q-btn label="{{ edition }}" @click="card = true">
-         <q-img
 
+    <q-img
         :src="`https://gateway.pinata.cloud/ipfs/QmVuuRsSJRB4REFA9jgfyJzEPBnJU4qwW3tdgZHNUWcKMN/${edition}.png`"
         spinner-color="red"
         style="height: 69px; max-width: 69px; margin: 5px"
-        class ="responsive"
-        label="{{ edition }}">
-      </q-img>
+        @mouseover="showText = true" @mouseleave="showText = false"
+        >
+         <div class="absolute-full text-subtitle2 flex flex-center" v-show="showText">
+            {{ edition }}
+        </div>
+    </q-img>
 
-      </q-btn>
 
 </template>
 
@@ -17,6 +18,7 @@
 
 export default {
     name: 'imgComp',
+
     props: {
          edition: Number,
           image: String,
@@ -26,8 +28,16 @@ export default {
         date: Number,
         attributes: Array,
         compiler: String
-    }  
+    },
+    data: function () {
+    return {
+      showText: false
+    }
+  }
 }
 
 
+
 </script>
+
+
