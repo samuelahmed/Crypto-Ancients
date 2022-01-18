@@ -43,7 +43,7 @@
         <div class="text-subtitle2">World of Money</div>
       </q-card-section>
       <q-card-section class="q-pt-none">
-        Ledgers are one of the foundations of capitalism. They allow for enterprise at scale, borrowing and loaning, the standardization of money exchanges and the ability to do so quickly securely without having to carry lots of valuable goods, such as precious metals or cash. For ledgers to work they need to be backed by some sort of authority so that the users know they can rely on what is writen. The beauty of decentralized cryptographic ledgers is that they allow all parties to rely on crytographic proofs instead of human-institutiosn to create turst. 
+        Ledgers are one of the foundations of capitalism. They allow for enterprise at scale, borrowing and loaning, the standardization of money exchanges and the ability to do so quickly securely without having to carry lots of valuable goods, such as precious metals or cash. For ledgers to work they need to be backed by some sort of authority so that the users know they can rely on what is writen. The beauty of decentralized cryptographic ledgers is that they allow all parties to rely on crytographic proofs instead of human-institutiosn to create trust.
       </q-card-section>
       </q-card>
       <q-card
@@ -69,19 +69,16 @@ Somewhere between 5-10% of the world’s economy is given to banks. In exchange 
         <div class="text-subtitle2">Method for Digital Ownership</div>
       </q-card-section>
       <q-card-section class="q-pt-none">
-Simply put a blockchain is a distributed digital ledger, a record of IDs and their assets that is maintained by many full-nodes globally. The revolution ushered by Bitcoin is the ability to turn computing power into social trust. So that all participants in the network can be assured that the ledger is most likely accurate even in the face of adversaries. Blockchains achieve this without a central authority by instead relying on cryptographic proofs. 
+A non-fungible token (NFT) is a series in which each member is different. Humans are non-fungible members of the homo sapiens series, whereas the US dollar bills are fungible because can be exchanged equally for one another. The homo sapient or felis catus series are backed by methods of biology (decentralized), the US dollar is backed by the government (centralized). NFTs are digital tokens backed by new decentralized authorities known as blockchains. 
 </q-card-section>
        </q-card>
-
-
-
     <q-card
       class="my-card text-black"
       style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)"
     >
       <q-card-section>
-        <div class="text-h6">What's a Crypto Ancient</div>
-        <div class="text-subtitle2">Nodes of Truth</div>
+        <div class="text-h6">Bitcoin and Ethereum</div>
+        <div class="text-subtitle2">Digital Empires</div>
       </q-card-section>
       <q-card-section class="q-pt-none">
 Simply put a blockchain is a distributed digital ledger, a record of IDs and their assets that is maintained by many full-nodes globally. The revolution ushered by Bitcoin is the ability to turn computing power into social trust. So that all participants in the network can be assured that the ledger is most likely accurate even in the face of adversaries. Blockchains achieve this without a central authority by instead relying on cryptographic proofs. 
@@ -109,7 +106,7 @@ A non-fungible token (NFT) is a series in which each member is different. Humans
       style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)"
     >
       <q-card-section>
-        <div class="text-h6">Getting Involved </div>
+        <div class="text-h6">What's a Crypto Ancient</div>
         <div class="text-subtitle2">Architects of the Future</div>
       </q-card-section>
       <q-card-section class="q-pt-none">
