@@ -3,7 +3,7 @@
               <q-img
         :src="`https://gateway.pinata.cloud/ipfs/QmVuuRsSJRB4REFA9jgfyJzEPBnJU4qwW3tdgZHNUWcKMN/${edition}.png`"
         spinner-color="red"
-        style="height: 140px; max-width: 150px"
+        style="height: 69px; max-width: 69px; margin: 5px"
       />
 </template>
 
