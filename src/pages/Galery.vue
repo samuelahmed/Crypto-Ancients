@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-    <q-infinite-scroll @load="onLoad(done, index)" :offset="250">
+    <q-infinite-scroll @load="onLoad" :offset="250">
       <imgComp v-for="item in items" v-bind="item" v-bind:key="item.edition" />
       <template v-slot:loading>
         <div class="row justify-center q-my-md">
@@ -16,23 +16,22 @@ import imgComp from "../components/ImgComponent.vue"
 
 export default {
   components: {
-    imgComp
+    imgComp,
+    galery
   },
 data() {
   return {
-    items: [],
+    items: []
   }
 },
   methods: {
     async onLoad()  {
-      // const res = await fetch(`https://gateway.pinata.cloud/ipfs/QmZgb8gMhMnsc3sZUf5aargWKi35jS5pc9AJj9GYVKrJ1p/${this.page++}.json`);
      const res = await fetch("https://gateway.pinata.cloud/ipfs/QmZgb8gMhMnsc3sZUf5aargWKi35jS5pc9AJj9GYVKrJ1p/_metadata.json");
       this.items = await res.json();
-      // let imgurl = res.url;
-      // console.log(item)
     }
   }
 }
+
 </script>
 
 
