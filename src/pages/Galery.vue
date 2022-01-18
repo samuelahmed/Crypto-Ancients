@@ -17,7 +17,6 @@ import imgComp from "../components/ImgComponent.vue"
 export default {
   components: {
     imgComp,
-    galery
   },
 data() {
   return {

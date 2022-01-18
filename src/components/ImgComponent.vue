@@ -1,15 +1,14 @@
 <template>
-
     <q-btn label="{{ edition }}" @click="card = true">
-
-         <q-img 
+         <q-img
 
         :src="`https://gateway.pinata.cloud/ipfs/QmVuuRsSJRB4REFA9jgfyJzEPBnJU4qwW3tdgZHNUWcKMN/${edition}.png`"
         spinner-color="red"
         style="height: 69px; max-width: 69px; margin: 5px"
-        class ="responsive">
+        class ="responsive"
+        label="{{ edition }}">
+      </q-img>
 
-</q-img>
       </q-btn>
 
 </template>
