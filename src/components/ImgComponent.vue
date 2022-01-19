@@ -7,7 +7,7 @@
         @mouseover="showText = true" @mouseleave="showText = false"
         >
          <div class="absolute-full text-subtitle2 flex flex-center" v-show="showText">
-            {{ edition }}
+          <div> {{ edition }} </div>
         </div>
     </q-img>
 
