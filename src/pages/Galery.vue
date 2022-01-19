@@ -2,11 +2,7 @@
   <div class="q-pa-md">
     <q-infinite-scroll @load="onLoad" :offset="250">
       <imgComp v-for="item in items" v-bind="item" v-bind:key="item.edition" />
-      <template v-slot:loading>
-        <div class="row justify-center q-my-md">
-          <q-spinner-dots color="primary" size="40px" />
-        </div>
-      </template>
+
     </q-infinite-scroll>
   </div>
 </template>
