@@ -45,32 +45,27 @@ import Web3 from "../components/Web3.vue"
 import detectEthereumProvider from '@metamask/detect-provider'
 
 export default defineComponent({
-  name: 'PageIndex',
-  components: {
-    Web3,
-    detectEthereumProvider
+name: 'PageIndex',
+components: {
+  Web3,
+  detectEthereumProvider
+  },
+mounted:function(){
+  this.method1() //method1 will execute at pageload
     },
-  mounted:function(){
-    this.method1() //method1 will execute at pageload
-      },
-  methods:{
-    method1:function(){
-      return {
-        async detectEthereumProvider () {
-          let provider = await detectEthereumProvider();
-          if (provider) {
-          // From now on, this should always be true:
-          // provider === window.ethereum
-          startApp(provider); // initialize your app
-          } else {
-          console.log('Please install MetaMask!');
-          this.method1() 
-          return
-            }
-          }
+methods:{
+       method1: async function detectEthereumProvider(){
+        let provider = await detectEthereumProvider();
+        if (provider) {
+        // From now on, this should always be true:
+        // provider === window.ethereum
+        startApp(provider); // initialize your app
+        } else {
+        console.log('Please install MetaMask!');
+        return
         }
       }
-    },
+    }
   }
 )
 console.log("iamhere")
