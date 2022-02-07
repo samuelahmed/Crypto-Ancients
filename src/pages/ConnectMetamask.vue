@@ -1,9 +1,8 @@
 <template>
-  <q-page class="flex flex-center">
-    <q-btn icon="mdi-firefox" label="Metamask" stack color="accent">
-
-    </q-btn>
-  </q-page>
+<q-page class="flex flex-center">
+<q-btn icon="mdi-firefox" label="Metamask" stack color="accent">
+</q-btn>
+</q-page>
 </template>
 
 <script>

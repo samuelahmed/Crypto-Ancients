@@ -1,21 +1,22 @@
 <template>
-  <div class="background-image">  
-
-  <div class="text-h6 flex flex-center" style="width: 1000px; height: 100px">
-  A Story of Blockchains and NFTs
-  </div> 
-<div class="row items-start q-gutter-md flex-center" style="height: 300px">
-<q-card
-  class="my-card text-black"
-  style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
-  <q-card-section>
-  <div class="text-h6">What’s a Blockchain?</div>
-  <div class="text-subtitle2">1</div>
-  </q-card-section>
-  <q-card-section class="q-pt-none">
-  A blockchain is a distributed digital ledger, a record of IDs and their assets, that is maintained by global peer to peer networks. 
-  </q-card-section>
-</q-card>
+  <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
+  <div>
+    <div class="text-h6 flex flex-center" style="width: 100vh; height: 100px">
+      A Story of Blockchains and NFTs
+    </div> 
+  <div class="row items-start q-gutter-md flex-center" style="height: 300px">
+    
+  <q-card
+    class="my-card text-black"
+    style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+    <q-card-section>
+      <div class="text-h6">What’s a Blockchain?</div>
+      <div class="text-subtitle2">1</div>
+    </q-card-section>
+    <q-card-section class="q-pt-none">
+      A blockchain is a distributed digital ledger, a record of IDs and their assets, that is maintained by global peer to peer networks. 
+    </q-card-section>
+  </q-card>
 
 <q-card
   class="my-card text-black"
@@ -233,8 +234,8 @@
   </q-card-section>
 </q-card>
 
-  </div>
-  </div>
+</div>
+</div>
 </template>
 
 <script>
@@ -247,8 +248,7 @@ export default defineComponent({
 <style lang="sass" scoped>
 .background-image
   //WHY DOES STICKY NOT WORK FOR SUN ONLY IT EITHER WORKS FOR ALL OR NOTHING
-  position: top
-  top: 0
+ 
   background-image: url(~assets/vueBackgroundSun.png)
   // height: 100vh
   // width: 100vh
