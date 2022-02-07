@@ -40,7 +40,7 @@ bordered
     Home
   </q-item-label>
   <q-item-label caption>
-    A Story of Blockchains and NFTs
+    Genesis
   </q-item-label>
   </q-item-section>
   </q-item>
