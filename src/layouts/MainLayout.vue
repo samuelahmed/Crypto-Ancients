@@ -49,7 +49,7 @@
               Home
             </q-item-label>
             <q-item-label caption>
-              Project HQ
+A Story of Blockchains and NFTs
             </q-item-label>
             </q-item-section>
           </q-item>

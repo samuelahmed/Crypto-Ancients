@@ -1,16 +1,17 @@
 <template>
-<div id="background">
-<q-page>
-<div id="q-app" class="flex flex-center">
-  <img
-  alt="Quasar logo"
-  src="~assets/nftHumans.png"
-  style="width: 200px; height: 200px"
-  /> 
+
+
+<div id="q-app" style="min-height: 100vh;">
+  <div class="background-image">
+
+ 
+
+
   <div class="text-h6 flex flex-center" style="width: 1000px; height: 100px">
-  What are Blockchains and NFTs [1/19]
+  A Story of Blockchains and NFTs [1/19]
   </div>
-<div class="q-pa-md row items-start q-gutter-md flex-center" style="height: 300px">
+<div class="row items-start q-gutter-md flex-center" style="height: 300px">
+
 
 <q-card
   class="my-card text-black"
@@ -213,7 +214,7 @@ Humanity does not have infinite time to get our shit together. There are many in
   <div class="text-subtitle2">17</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-They do not. Crypto ancients consists of a few hundred layers I made in photoshop, had some JS program rearrange layers into 10,000 unique Ancients, uploaded to pinata IPFS, pointed a Ethereum smart contract to those images and made that contract available for minting. In most cases that is every NFT project today, give or take a few bells and whistles. 
+They do not. Crypto ancients consists of a few hundred layers made in photoshop, had a JS program rearrange into 10,000 unique Ancients, uploaded to pinata IPFS, pointed a Ethereum smart contract to those images, built a website, and made that contract available for minting. In most cases that is every NFT project today, give or take some bells and whistles. 
   </q-card-section>
 </q-card>
 
@@ -241,10 +242,10 @@ Digital spaces protect the environment. They allow us to meet and explore withou
   </q-card-section>
 </q-card>
 
-</div>
-</div>
-</q-page>
-</div>
+  </div>
+  </div>
+  </div>
+
 </template>
 
 <script>
@@ -259,4 +260,18 @@ export default defineComponent({
   width: 100%
   height: 100%
   max-width: 350px
+
+.background-image
+  position: sticky
+  top: 0
+  background-image: url(~assets/vueBackgroundSun.png)
+  // height: 100vh
+  // width: 100vh
+  background-repeat: no-repeat
+  background-size: contain  
+
+
+
+
+  
 </style>
