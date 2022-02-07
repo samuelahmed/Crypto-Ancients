@@ -1,11 +1,10 @@
 <template>
-<div class="sam-image">
-<div id="q-app">
-  <div class="text-h6 flex flex-center" style="width: 1000px; height: 100px">
-  A Story of Blockchains and NFTs [1/19]
-  </div>
-<div class="row items-start q-gutter-md flex-center" style="height: 300px">
+  <div class="background-image">  
 
+  <div class="text-h6 flex flex-center" style="width: 1000px; height: 100px">
+  A Story of Blockchains and NFTs
+  </div> 
+<div class="row items-start q-gutter-md flex-center" style="height: 300px">
 <q-card
   class="my-card text-black"
   style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
@@ -126,7 +125,6 @@
   </q-card-section>
 </q-card>
 
-
 <q-card
   class="my-card text-black"
   style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
@@ -235,9 +233,8 @@
   </q-card-section>
 </q-card>
 
-</div>
-</div>
-</div>
+  </div>
+  </div>
 </template>
 
 <script>
@@ -248,10 +245,9 @@ export default defineComponent({
 </script>
 
 <style lang="sass" scoped>
-.sam-image
+.background-image
   //WHY DOES STICKY NOT WORK FOR SUN ONLY IT EITHER WORKS FOR ALL OR NOTHING
-  position: abosolute
-  position: sticky
+  position: top
   top: 0
   background-image: url(~assets/vueBackgroundSun.png)
   // height: 100vh

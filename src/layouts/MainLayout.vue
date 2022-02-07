@@ -1,7 +1,7 @@
 <template>
   <q-layout view="hHh Lpr lFf">
     <q-header elevated>
-    <q-toolbar class="bg-primary glossy text-white">
+    <q-toolbar class="bg-primary text-white">
         <q-btn
           flat
           dense
@@ -28,11 +28,11 @@
       <q-list>
 
 <!-- make mobile only when possible -->
-        <q-toolbar class="bg-primary glossy">
-          <q-toolbar-title class="text-white text-body2 text-center ">
+        <!-- <q-toolbar class="bg-white"> -->
+          <!-- <q-toolbar-title class="text-white text-body2 text-center ">
             Welcome to the Foundation
-          </q-toolbar-title>
-        </q-toolbar>
+          </q-toolbar-title> -->
+        <!-- </q-toolbar> -->
 
         <router-link 
         style="text-decoration: none; color: inherit;"
@@ -111,17 +111,17 @@ A Story of Blockchains and NFTs
 
                 <router-link 
         style="text-decoration: none; color: inherit;"
-        to="/connectmetamask">   
+        to="/history">   
         <q-item  clickable v-ripple>
           <q-item-section side>
           <q-icon name="mdi-badge-account" />
           </q-item-section>
           <q-item-section>
           <q-item-label>
-            Connect Metamask
+            History
           </q-item-label>
           <q-item-label caption>
-            Activate web3 wallet
+            A Story of Blockchains and NFTs
           </q-item-label>
           </q-item-section>
         </q-item>
