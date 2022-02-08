@@ -4,7 +4,7 @@
     <div class="row justify-between">
    <div class="q-pa-xl">
 <div class="row flex flex-center">
-  <div class="col-12 col-md-12">
+  <div class="col-12 col-md-10">
          <p class="fontchange" style="font-size: 55px; text-align: center;">
     CRYPTO ANCIENTS
         </p>
