@@ -21,7 +21,8 @@
 <q-drawer
 v-model="leftDrawerOpen"
 show-if-above
-bordered
+:width="100"
+
 >
 <q-list>
 
@@ -33,14 +34,14 @@ bordered
   v-ripple
   >
   <q-item-section side>
-  <q-icon name="mdi-home" />
+  <!-- <q-icon name="mdi-home" /> -->
   </q-item-section>
   <q-item-section>
   <q-item-label>
     Home
   </q-item-label>
   <q-item-label caption>
-    Genesis
+    <!-- Genesis -->
   </q-item-label>
   </q-item-section>
   </q-item>
@@ -51,14 +52,14 @@ bordered
   to="/story">   
   <q-item  clickable v-ripple>
   <q-item-section side>
-  <q-icon name="mdi-badge-account" />
+  <!-- <q-icon name="mdi-badge-account" /> -->
   </q-item-section>
   <q-item-section>
   <q-item-label>
     Story
   </q-item-label>
   <q-item-label caption>
-    Bitcoin, Ethereum, NFTs and our World
+    <!-- Bitcoin, Ethereum, NFTs and our World -->
   </q-item-label>
   </q-item-section>
   </q-item>
@@ -88,14 +89,14 @@ bordered
   to="/galery">   
   <q-item  clickable v-ripple>
   <q-item-section side>
-  <q-icon name="mdi-eye" />
+  <!-- <q-icon name="mdi-eye" /> -->
   </q-item-section>
   <q-item-section>
   <q-item-label>
     Galery
   </q-item-label>
   <q-item-label caption>
-    See all minted Crypto Ancients
+    <!-- See all minted Crypto Ancients -->
   </q-item-label>
   </q-item-section>
   </q-item>
@@ -106,14 +107,14 @@ bordered
   to="/mint">
   <q-item  clickable v-ripple>
   <q-item-section side>
-  <q-icon name="mdi-account-multiple-plus" />
+  <!-- <q-icon name="mdi-account-multiple-plus" /> -->
   </q-item-section>
   <q-item-section>
   <q-item-label>
     Mint
   </q-item-label>
   <q-item-label caption>
-    Create a new Crypto Ancient
+    <!-- Create a new Crypto Ancient -->
   </q-item-label>
   </q-item-section>
   </q-item>
