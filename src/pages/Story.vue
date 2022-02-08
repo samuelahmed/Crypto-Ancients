@@ -1,10 +1,16 @@
 <template>
   <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
   <div class="q-mt-xl">
-    <div class="text-h6 flex flex-center" style="width: 100vh; height: 100px">
+    <div class="flex flex-center">
+     <p class="fontchange q-mt-xl" style="font-size: 26px; text-align: center;">
       A Story of Blockchains and NFTs
+    </p>
+        <p class="fontchange q-mt-lg" style="font-size: 22px; text-align: left;">
+    Arranged is a short story on Bitcoin, Ethereum, NFTs and how they relate to our world. Where do you stand?  
+    </p>
     </div> 
-  <div class="row items-start q-gutter-md flex-center" style="height: 300px">
+
+  <div class="row items-start q-gutter-md flex-center q-mt-xl" style="height: 300px">
     
   <q-card
     class="my-card text-black"
@@ -254,13 +260,16 @@ export default defineComponent({
   // width: 100vh
   background-repeat: no-repeat
   background-size: contain  
+  z-index:-1
+
 
 .my-card
   width: 100%
   height: 100%
   max-width: 350px
 
-
+.fontchange
+    font-family: 'Titillium Web'
 
 
 
