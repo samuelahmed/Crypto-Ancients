@@ -1,4 +1,6 @@
 <template>
+    <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
+
 <div class="q-pa-md">
 <q-infinite-scroll @load="onLoad" :offset="250">
 <imgComp v-for="item in items" v-bind="item" v-bind:key="item.edition" />
@@ -26,5 +28,12 @@ async onLoad()  {
 </script>
 
 
+<style lang="sass" scoped>
+.background-image
+  background-image: url(~assets/vueBackgroundSun.png)
+  background-repeat: no-repeat
+  background-size: contain  
+  z-index:-1
+</style>
 
 

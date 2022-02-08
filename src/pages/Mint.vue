@@ -1,4 +1,5 @@
 <template>
+    <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
 <q-page class="flex flex-center">
 <div div id="q-app">
 <div class="q-pa-md row items-start q-gutter-md">
@@ -67,3 +68,11 @@ method1: async function detectEthereumProvider(){
 console.log("iamhere")
 console.log("Why is nothing happening above??")
 </script>
+
+<style lang="sass" scoped>
+.background-image
+  background-image: url(~assets/vueBackgroundSun.png)
+  background-repeat: no-repeat
+  background-size: contain  
+  z-index:-1
+</style>

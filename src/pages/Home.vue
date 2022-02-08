@@ -1,26 +1,36 @@
 <template>
-<div class="q-pa-md">
-<div class="row">
+    <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
 
-<div class="col flex flex-center" style="height: 500px">
-    <p class="fontchange text-h2">
+  <div class="q-pa-md q-gutter-md stack-top">
+    <div class="row justify-between">
+
+
+   <div class="q-pa-md">
+<div class="row flex flex-center">
+  <div class="col-12 col-md-6">
+         <p class="fontchange" style="font-size: 55px; text-align: center;">
     CRYPTO ANCIENTS
         </p>
-    <p>
+    <p class="fontchange" style="font-size: 20px; text-align: center;">
     Crypto Ancients are for those passionate to improve the world. People, artists, leaders, workers, lovers, geniuses, degens and all are welcome so long as you devote your life to progress the world.
     </p>
-</div>
+  </div>
 
-<div class="col flex flex-center">
-    <img
+  <div class="col-12 col-md-6">
+
+          <img
     alt="Quasar logo"
-    src="~assets/MyAncientsUnderConstruction.png"
+    src="~assets/centerPic.png"
     style="width: 400px; height: 400px"
     >
+  </div>
+</div>
 </div>
 
-</div>
-</div>
+    </div>
+  </div>
+
+ 
 </template>
 
 <script>
@@ -43,5 +53,15 @@ name: 'PageIndex'
   
 .fontchange
     font-family: 'Titillium Web'
+
+.background-image
+  //WHY DOES STICKY NOT WORK FOR SUN ONLY IT EITHER WORKS FOR ALL OR NOTHING
+
+  background-image: url(~assets/vueBackgroundSun.png)
+  // height: 100vh
+  // width: 100vh
+  background-repeat: no-repeat
+  background-size: contain  
+  z-index:-1
 
 </style>
