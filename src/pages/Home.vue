@@ -12,7 +12,10 @@
     Crypto Ancients is for those passionate to improve the world. People, artists, leaders, workers, lovers, geniuses, degens and all are welcome.
     </p>
        <p class="fontchange" style="font-size: 22px; text-align: left;">
-    No roadmap, the jpegs simply are themselves. NFTs living on the Ethereum blockchain hoping to inspire people to stand strong and make the hard decisions for the joy of our species.
+    No roadmap, the jpegs simply are themselves. NFTs living on the Ethereum blockchain hoping to inspire people to make the hard decisions for the joy of our species.
+    </p>
+         <p class="fontchange" style="font-size: 22px; text-align: left;">
+    Arranged is a short story on Bitcoin, Ethereum, NFTs and how they relate to our world. Where do you stand?  
     </p>
   </div>
 

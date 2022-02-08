@@ -48,21 +48,22 @@ bordered
 
 <router-link 
   style="text-decoration: none; color: inherit;"
-  to="/mint">
+  to="/story">   
   <q-item  clickable v-ripple>
   <q-item-section side>
-  <q-icon name="mdi-account-multiple-plus" />
+  <q-icon name="mdi-badge-account" />
   </q-item-section>
   <q-item-section>
   <q-item-label>
-    Mint
+    Story
   </q-item-label>
   <q-item-label caption>
-    Create a new Crypto Ancient
+    Bitcoin, Ethereum, NFTs and our World
   </q-item-label>
   </q-item-section>
   </q-item>
 </router-link>
+
 
 <!-- <router-link 
   style="text-decoration: none; color: inherit;"
@@ -102,21 +103,22 @@ bordered
 
 <router-link 
   style="text-decoration: none; color: inherit;"
-  to="/history">   
+  to="/mint">
   <q-item  clickable v-ripple>
   <q-item-section side>
-  <q-icon name="mdi-badge-account" />
+  <q-icon name="mdi-account-multiple-plus" />
   </q-item-section>
   <q-item-section>
   <q-item-label>
-    History
+    Mint
   </q-item-label>
   <q-item-label caption>
-    A Story of Blockchains and NFTs
+    Create a new Crypto Ancient
   </q-item-label>
   </q-item-section>
   </q-item>
 </router-link>
+
 
 </q-list>
 </q-drawer>
