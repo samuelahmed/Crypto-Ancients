@@ -8,10 +8,10 @@
          <p class="fontchange" style="font-size: 55px; text-align: center;">
     CRYPTO ANCIENTS
         </p>
-    <p class="fontchange" style="font-size: 28px; text-align: left;">
+    <p class="fontchange" style="font-size: 22px; text-align: left;">
     Crypto Ancients is for those passionate to improve the world. People, artists, leaders, workers, lovers, geniuses, degens and all are welcome.
     </p>
-       <p class="fontchange" style="font-size: 28px; text-align: left;">
+       <p class="fontchange" style="font-size: 22px; text-align: left;">
     No roadmap, the jpegs simply are themselves. NFTs living on the Ethereum blockchain hoping to inspire people to stand strong and make the hard decisions for the joy of our species.
     </p>
   </div>
