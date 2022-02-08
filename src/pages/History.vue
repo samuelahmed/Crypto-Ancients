@@ -1,6 +1,6 @@
 <template>
   <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
-  <div>
+  <div class="q-mt-xl">
     <div class="text-h6 flex flex-center" style="width: 100vh; height: 100px">
       A Story of Blockchains and NFTs
     </div> 

@@ -1,6 +1,6 @@
 <template>
     <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
-    <div class="">
+    <div class="q-mt-xl">
     <div class="row justify-between">
    <div class="q-pa-xl">
 <div class="row flex flex-center">
@@ -16,12 +16,11 @@
     </p>
   </div>
 
-  <div class="col-12 col-md-6">
+  <div class="col-12 col-md-6 q-mt-xl">
 
           <img
     alt="Quasar logo"
-    src="~assets/centerPic.png"
-    style="width: 400px; height: 400px"
+    src="~assets/cryptoAncientLogo.png"
     >
   </div>
 </div>
