@@ -1,14 +1,11 @@
 <template>
     <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
-
-  <div class="">
+    <div class="">
     <div class="row justify-between">
-
-
    <div class="q-pa-xl">
 <div class="row flex flex-center">
   <div class="col-12 col-md-12">
-         <p class="fontchange" style="font-size: 100px; text-align: center;">
+         <p class="fontchange" style="font-size: 80px; text-align: center;">
     CRYPTO ANCIENTS
         </p>
     <p class="fontchange" style="font-size: 28px; text-align: left;">
