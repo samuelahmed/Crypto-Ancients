@@ -12,10 +12,10 @@
     Crypto Ancients is for those passionate to improve the world. People, artists, leaders, workers, lovers, geniuses, degens and all are welcome.
     </p>
        <p class="fontchange q-mt-lg" style="font-size: 22px; text-align: left;">
-    No roadmap, the jpegs are simply themselves, tokens living on the Ethereum blockchain hoping to inspire people.
+    No roadmap, No Discord, No Community. The jpegs are simply themselves, tokens living on the Ethereum blockchain hoping to inspire people.
     </p>
          <p class="fontchange q-mt-lg" style="font-size: 22px; text-align: left;">
-    Arranged is a short story on Bitcoin, Ethereum, NFTs and how they relate to our world. Where do you stand?  
+    Explore the story of cryptocurrencies and our gallery. If it feels right you can also mint your very own crypto ancient.  
     </p>
   </div>
 

@@ -1,12 +1,12 @@
 <template>
     <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
-<q-page class="flex flex-center">
+<q-page class="flex flex-center q-mt-xl">
 <div div id="q-app">
 <div class="q-pa-md row items-start q-gutter-md">
 <q-card class="my-card" flat bordered>
 <q-card-section horizontal>
-<q-card-section class="q-pt-xs">
-<div class="text-h5 q-mt-sm q-mb-xs">
+<q-card-section class="q-pt-xl">
+<div class="text-h5 q-mt-sm q-mb-xs" style="text-align: center">
   Mint
   </div>
   <div class="text-caption text-grey">

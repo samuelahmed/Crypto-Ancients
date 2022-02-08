@@ -4,15 +4,15 @@
   <div class="q-mt-xl">
     <div class="flex flex-center">
      <p class="fontchange q-mt-xl" style="font-size: 26px; text-align: center;">
-      A Story of Blockchains and NFTs
+      Galery
     </p>
-        <p class="fontchange q-mt-lg" style="font-size: 22px; text-align: left;">
+        <!-- <p class="fontchange q-mt-lg" style="font-size: 22px; text-align: left;">
     Arranged is a short story on Bitcoin, Ethereum, NFTs and how they relate to our world. Where do you stand?  
-    </p>
+    </p> -->
     </div> 
 
 
-<div class="q-pa-md">
+<div class="q-pa-xl">
 <q-infinite-scroll @load="onLoad" :offset="250">
 <imgComp v-for="item in items" v-bind="item" v-bind:key="item.edition" />
 </q-infinite-scroll>
@@ -46,6 +46,9 @@ async onLoad()  {
   background-repeat: no-repeat
   background-size: contain  
   z-index:-1
+
+.fontchange
+    font-family: 'Titillium Web'
 </style>
 
 
