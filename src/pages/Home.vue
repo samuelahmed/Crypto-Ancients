@@ -7,7 +7,7 @@
 
    <div class="q-pa-md">
 <div class="row flex flex-center">
-  <div class="col-12 col-md-12">
+  <div class="col-12 col-md-12 p-md">
          <p class="fontchange" style="font-size: 100px; text-align: center;">
     CRYPTO ANCIENTS
         </p>
