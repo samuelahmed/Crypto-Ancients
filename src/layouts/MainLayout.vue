@@ -64,7 +64,7 @@ bordered
   </q-item>
 </router-link>
 
-<router-link 
+<!-- <router-link 
   style="text-decoration: none; color: inherit;"
   to="/myancients">   
   <q-item  clickable v-ripple>
@@ -80,7 +80,7 @@ bordered
   </q-item-label>
   </q-item-section>
   </q-item>
-</router-link>
+</router-link> -->
 
 <router-link 
   style="text-decoration: none; color: inherit;"
