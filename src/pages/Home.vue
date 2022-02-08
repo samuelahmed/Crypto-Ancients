@@ -18,10 +18,10 @@
 
   <div class="col-12 col-md-6 q-mt-xl">
 
-          <img
+          <q-img
     alt="Quasar logo"
     src="~assets/cryptoAncientLogo.png"
-    >
+     />
   </div>
 </div>
 </div>
