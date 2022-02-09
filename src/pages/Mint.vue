@@ -1,14 +1,22 @@
 <template>
     <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
-<q-page class="flex flex-center q-mt-sm">
+
+      <div class="q-mt-xl">
+
+        <div class="flex flex-center">
+     <p class="fontchange q-mt-md" style="font-size: 26px; text-align: center;">
+      Mint
+    </p>
+    </div> 
+<q-page class="flex flex-center">
 <div div id="q-app">
 <div class="q-pa-md row items-start q-gutter-md">
 <q-card class="my-card" flat bordered>
 <q-card-section horizontal>
 <q-card-section class="q-pt-xl">
-<div class="text-h5 q-mt-sm q-mb-xs" style="text-align: center">
+<!-- <div class="text-h5 q-mt-sm q-mb-xs" style="text-align: center">
   Mint
-  </div>
+  </div> -->
   <div class="text-caption text-grey">
   Starting sometime soon you can mint your own Crypto Ancient. Proudly display it as your new profile picture to show your values and membership in the foundation. While you are allowed to mint up to 69 per address, please only hold a single one by 2025 to make sure our foundation is as vibrant and diverse as possible. When all have been minted the yellow button will disappear.
   Each is 69x69 pixels and provides foundation membership to owner
@@ -35,9 +43,13 @@
 </q-btn>
 </q-card-actions>
 </q-card>
+
 </div>
 </div>
+
 </q-page>
+</div>
+
 </template>
 
 <script>
