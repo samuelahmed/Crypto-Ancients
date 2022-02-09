@@ -21,10 +21,10 @@
 
   <div class="col-12 col-md-6 q-mt-xl">
 
-          <q-img
+          <!-- <q-img
     alt="Quasar logo"
     src="~assets/cryptoAncientLogo.png"
-     />
+     /> -->
   </div>
 </div>
 </div>
@@ -59,7 +59,7 @@ name: 'PageIndex'
 .background-image
   //WHY DOES STICKY NOT WORK FOR SUN ONLY IT EITHER WORKS FOR ALL OR NOTHING
 
-  background-image: url(~assets/sunPurple.png)
+  background-image: url(~assets/sunGolden.png)
   // height: 100vh
   // width: 100vh
   background-repeat: no-repeat
