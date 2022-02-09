@@ -1,6 +1,6 @@
 <template>
     <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
-<q-page class="flex flex-center q-mt-xl">
+<q-page class="flex flex-center q-mt-sm">
 <div div id="q-app">
 <div class="q-pa-md row items-start q-gutter-md">
 <q-card class="my-card" flat bordered>
@@ -71,7 +71,7 @@ console.log("Why is nothing happening above??")
 
 <style lang="sass" scoped>
 .background-image
-  background-image: url(~assets/vueBackgroundSun.png)
+  background-image: url(~assets/sunRed.png)
   background-repeat: no-repeat
   background-size: contain  
   z-index:-1

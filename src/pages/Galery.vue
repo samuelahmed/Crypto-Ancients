@@ -42,7 +42,7 @@ async onLoad()  {
 
 <style lang="sass" scoped>
 .background-image
-  background-image: url(~assets/vueBackgroundSun.png)
+  background-image: url(~assets/sunPink.png)
   background-repeat: no-repeat
   background-size: contain  
   z-index:-1
