@@ -86,14 +86,14 @@ show-if-above
 
 <router-link 
   style="text-decoration: none; color: inherit;"
-  to="/galery">   
+  to="/gallery">   
   <q-item  clickable v-ripple>
   <q-item-section side>
   <!-- <q-icon name="mdi-eye" /> -->
   </q-item-section>
   <q-item-section>
   <q-item-label>
-    Galery
+    Gallery
   </q-item-label>
   <q-item-label caption>
     <!-- See all minted Crypto Ancients -->
