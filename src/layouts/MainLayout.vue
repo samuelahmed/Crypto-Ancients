@@ -1,7 +1,7 @@
 <template>
 <q-layout view="hHh Lpr lFf">
 <q-header elevated>
-  <q-toolbar class="bg-primary text-white">
+  <q-toolbar class="bg-white text-primary">
   <q-btn
   flat
   dense
@@ -11,7 +11,7 @@
   @click="toggleLeftDrawer"
   />
   <q-toolbar-title>
-    Crypto Ancients
+    <!-- Crypto Ancients -->
   </q-toolbar-title>
 
   <div>v1.0</div>
