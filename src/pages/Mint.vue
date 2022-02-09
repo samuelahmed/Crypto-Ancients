@@ -1,23 +1,25 @@
 <template>
-    <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
+<div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
+<div class="q-mt-xl">
 
-      <div class="q-mt-xl">
-
-        <div class="flex flex-center">
-     <p class="fontchange q-mt-md" style="font-size: 26px; text-align: center;">
-      Mint
-    </p>
-    </div> 
-<q-page class="flex flex-center">
+  <div class="flex flex-center">
+<p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
+Mint
+</p>
+</div> 
+<q-page class="flex-center">
 <div div id="q-app">
-<div class="q-pa-md row items-start q-gutter-md">
+<div class="q-pa-xl row items-start q-gutter-md">
 <q-card class="my-card" flat bordered>
 <q-card-section horizontal>
-<q-card-section class="q-pt-xl">
+<q-card-section class="q-pt-md">
 <!-- <div class="text-h5 q-mt-sm q-mb-xs" style="text-align: center">
-  Mint
-  </div> -->
-  <div class="text-caption text-grey">
+Mint
+</div> -->
+<div class="text-caption text-grey">
+
+
+
   Starting sometime soon you can mint your own Crypto Ancient. Proudly display it as your new profile picture to show your values and membership in the foundation. While you are allowed to mint up to 69 per address, please only hold a single one by 2025 to make sure our foundation is as vibrant and diverse as possible. When all have been minted the yellow button will disappear.
   Each is 69x69 pixels and provides foundation membership to owner
   Hot on the blockchain and in your collection
@@ -27,10 +29,11 @@
   Currently only Live on Rinkeby Test Network
 </div>      
 </q-card-section>
-<q-card-section class="col-5 flex flex-center">
+<q-card-section class="col-4 flex flex-center">
 <q-img
   class="rounded-borders"
-  src="~assets/MintUnderConstruction.png"
+  src="~assets/378.png"
+  style="width: 400px"
   >
 </q-img>
 </q-card-section>
@@ -58,27 +61,8 @@ import Web3 from "../components/Web3.vue"
 import detectEthereumProvider from '@metamask/detect-provider'
 
 export default defineComponent({
-name: 'PageIndex',
-components: {
-Web3,
-detectEthereumProvider
-},
-mounted:function(){
-this.method1() //method1 will execute at pageload
-},
-methods:{
-method1: async function detectEthereumProvider(){
-  let provider = await detectEthereumProvider();
-  if (provider) {
-  // From now on, this should always be true:
-  // provider === window.ethereum
-  startApp(provider); // initialize your app
-  } else {
-  console.log('Please install MetaMask!');
-  return
-}}}})
-console.log("iamhere")
-console.log("Why is nothing happening above??")
+name: 'PageIndex'
+})
 </script>
 
 <style lang="sass" scoped>
@@ -87,4 +71,9 @@ console.log("Why is nothing happening above??")
   background-repeat: no-repeat
   background-size: contain  
   z-index:-1
+
+
+.fontchange
+  font-family: 'Titillium Web'
+
 </style>

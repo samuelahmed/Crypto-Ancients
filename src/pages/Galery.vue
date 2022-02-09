@@ -3,7 +3,7 @@
 
   <div class="q-mt-xl">
     <div class="flex flex-center">
-     <p class="fontchange q-mt-xl" style="font-size: 26px; text-align: center;">
+     <p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
       Galery
     </p>
         <!-- <p class="fontchange q-mt-lg" style="font-size: 22px; text-align: left;">

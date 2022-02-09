@@ -9,7 +9,7 @@
     CRYPTO ANCIENTS
         </p>
     <p class="fontchange q-mt-xl" style="font-size: 26px; text-align: left;">
-    Crypto Ancients is for those passionate to improve the world. People, artists, leaders, workers, lovers, geniuses, degens and all are welcome.
+    For those passionate to improve the world. People, artists, leaders, workers, lovers, geniuses, degens and all are welcome.
     </p>
        <p class="fontchange q-mt-lg" style="font-size: 22px; text-align: left;">
     No roadmap, No Discord, No Community. The jpegs are simply themselves, tokens living on the Ethereum blockchain hoping to inspire people.

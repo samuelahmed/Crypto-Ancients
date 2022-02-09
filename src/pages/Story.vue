@@ -2,8 +2,8 @@
   <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
   <div class="q-mt-xl">
     <div class="flex flex-center">
-     <p class="fontchange q-mt-xl" style="font-size: 26px; text-align: center;">
-      From blockchains to NFTs
+     <p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
+      Blockchains and NFTs in our World
     </p>
         <!-- <p class="fontchange q-mt-lg" style="font-size: 22px; text-align: left;">
     Arranged is a short story on Bitcoin, Ethereum, NFTs and how they relate to our world. Where do you stand?  
