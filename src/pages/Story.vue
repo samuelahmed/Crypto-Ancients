@@ -20,7 +20,7 @@
       <div class="text-subtitle2">1</div>
     </q-card-section>
     <q-card-section class="q-pt-none">
-      A blockchain is a distributed digital ledger, a record of IDs and their assets, that is maintained by global peer to peer networks. 
+A blockchain is a distributed digital ledger. A database which tracks ownership, transactions, and is maintained by a network. In a decentralized blockchain anyone with an able computer can join the global peer-to-peer network. Information is usually stored in a series of timestamped blocks whose data is hashed to provide long-term security. 
     </q-card-section>
   </q-card>
 
@@ -32,7 +32,7 @@
   <div class="text-subtitle2">2</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  The revolution started by Bitcoin is the ability to turn computing power into social trust. So that all participants in the network can be assured that the ledger is most likely accurate even in the face of adversaries.
+The revolution started by Bitcoin is the ability to turn computing power into social trust. So that all participants in the network can be assured that their ledger is most likely accurate even in the face of adversaries. This is a sharp change from past digital ledgers which were susceptible to corruption by both hackers and the issuing authority, regardless of intentions <a class="has-text-info" href="https://en.wikipedia.org/wiki/DigiCash" target="_blank">DigiCash</a>.
   </q-card-section>
 </q-card>
 
@@ -44,7 +44,7 @@
   <div class="text-subtitle2">3</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  Blockchains achieve this security without a central authority by using cryptographic proofs which leverage known deterministic patterns of nature to solve problems such as double spending.
+Blockchains achieve security without a central authority through cryptographic methods. For example Bitcoin uses <a class="has-text-info" href="https://en.wikipedia.org/wiki/Proof_of_work" target="_blank">proof of work</a>, which requires miners to repeatedly update a nonce and hash until their output has a certain number of leading 0s. When achieved they can submit that block and peers can easily <a class="has-text-info" href="https://en.wikipedia.org/wiki/One-way_function" target="_blank">verify</a> that the necessary work was completed. 
   </q-card-section>
 </q-card>
 
@@ -56,8 +56,8 @@
   <div class="text-subtitle2">4</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  When completed each block has a set value.  Any change to data in the block will vary that value wildly, so just by knowing that number we can also have trust that past data has not been altered.
-  </q-card-section>
+When completed each block has a set value in the header. Any change to the data in the block will alter that value wildly, which will in turn impact the hash of the next block and so on. So because of the hash-chain we can generally assume that past information in the blockchain is accurate, with deeper blocks becoming increasingly secure.   
+</q-card-section>
 </q-card>
 
 <q-card
@@ -68,8 +68,7 @@
   <div class="text-subtitle2">5</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  Ledgers are one of the foundations of capitalism. They allow for enterprise at scale, borrowing and loaning, the standardization of money exchanges and the ability to do so quickly securely without having to carry lots of valuable goods, such as precious metals or cash. 
-  </q-card-section>
+Ledgers are one of the foundations of capitalism. They enable enterprises to scale globally, borrowing and loaning, standardization of money, exchanges, and the ability to do all this quickly and securely without having to carry lots of valuable goods, such as precious metals or cash. Nearly all meaningful exchanges are recorded somewhere, and that location matters.   </q-card-section>
 </q-card>
 
 <q-card
@@ -80,7 +79,7 @@
   <div class="text-subtitle2">6</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  For ledgers to work they need to be backed by some sort of authority so that the users know they can rely on what is written.  In the past this was corporations and countries, now blockchains have entered the sphere. 
+For ledgers to work they need to be backed by some sort of authority. People must know that they can rely on what is written. In the past this was mostly corporations and countries, now blockchains have entered the sphere. In the spirit of modernity and globalization, blockchains are not tied to specific locations or people as tightly as issuers of the past. 
   </q-card-section>
 </q-card>
 
@@ -92,7 +91,7 @@
   <div class="text-subtitle2">7</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  Somewhere between 5-10% of the world’s economy is given to banks. In exchange they allow commerce at scale; international money exchanges, acts as a trusted third party, loans, basic financial services, and more. 
+In the last 100 years banks have been central to finance across the world. Their hard work made it possible for the commerce we know today: international monetary exchanges, loans, stock markets, ATMs, basic financial services, and more. In exchange for managing our ledgers somewhere between 5-10% of the world’s economy is taken by banks. 
   </q-card-section>
 </q-card>
 
@@ -104,7 +103,7 @@
   <div class="text-subtitle2">8</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  Without the internet this price tag is a bargain. However, in today’s world it is about 3-10% too high. More so, decades of clear disregard for structural stability, basic economic security, high fees to users, and constant predatory practices make a strong case for investments in alternatives.
+Without the internet, giving nearly 1/10th of the world’s economy to banks in exchange for being a trustworthy third party may be a fair price. However, with the internet there is the possibility for digital ledgers. More so, decades of disregard for structural stability, high fees to users, and constant predatory practices make a strong case for investments in alternatives.
   </q-card-section>
 </q-card>
 
@@ -116,7 +115,7 @@
   <div class="text-subtitle2">9</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  Bitcoin (2009) is the genesis blockchain. It combined advances in cryptography to create the first stable peer to peer digital currency. Tight, controlled, and led by a conservative development team, it seems to aim as a beacon of stability. The ultimate deflationary asset. 
+Bitcoin (2009) is the genesis blockchain. It combined advances in cryptography to create the first stable peer to peer digital currency. Tightly controlled and led by a conservative development team, it seems to aim as a beacon of stability. The ultimate deflationary asset. Early 2022 the market cap of Bitcoin is about 10% physical gold, if it is ever to be the global asset that all economies are pegged to - it must still grow by another 50-100x. 
   </q-card-section>
 </q-card>
 
@@ -128,7 +127,7 @@
   <div class="text-subtitle2">10</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-    Ethereum (2013) is a virtual state machine blockchain. Turing complete and able to host applications and smart contracts. If Bitcoin is akin to gold, then Ethereum is like the creation of concrete. 
+Ethereum (2013) is the virtual state machine blockchain. Turing complete and able to host applications and smart contracts. If Bitcoin is akin to gold, then Ethereum is like the creation of concrete. Through its coding language Solidity, it is possible to create DAPPs and ledgers that track more complex ownership: such as art, housing, DeFi, games and more. It is important to remember Ethereum gave up some security for functionality. 
   </q-card-section>
 </q-card>
 
