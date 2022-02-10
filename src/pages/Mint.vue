@@ -41,7 +41,7 @@ Mint
     </p>
   </div>
 
-<div class="flex flex-center">
+<div class="flex flex-center q-pt-xl">
 <q-btn align="right" id="enableEthereumButton" color="primary">
   Mint
 </q-btn>
