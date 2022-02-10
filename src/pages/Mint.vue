@@ -155,7 +155,8 @@ data() {
   // filter: brightness(1.05)
 
 
-
+.my-card
+  background: transparent
 
 
 </style>
