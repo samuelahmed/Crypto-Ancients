@@ -36,8 +36,14 @@ Mint
          <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
       Full ownership with 0% Creator Royalty
     </p>
+          <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
+      ERC-721 Tokens on Ethereum 
+    </p>
+         <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
+      Images on Pinata IPFS
+    </p>
       <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
-      Mint yours for 0.01 ETH
+      Mint yours for 0.01 ETH + gas 
     </p>
   </div>
 
