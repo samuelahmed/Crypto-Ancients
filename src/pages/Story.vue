@@ -255,7 +255,7 @@ export default defineComponent({
 .background-image
   //WHY DOES STICKY NOT WORK FOR SUN ONLY IT EITHER WORKS FOR ALL OR NOTHING
  
-  background-image: url(~assets/sunPurple.png)
+  background-image: url(~assets/sunRed.png)
   // height: 100vh
   // width: 100vh
   background-repeat: no-repeat

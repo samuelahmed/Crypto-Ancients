@@ -83,10 +83,6 @@ data() {
     images: [{
       id: 1,
       src: "https://lh3.googleusercontent.com/gqryHen2xwI8u5FCMGHnbMfUH9Mv33ahDkUWO3TtWiDmyeBwPdK-suj_HtHkS6uL1Gvf0eQ0kn3K8e0juKsYSMEkrY0jBELl3r3Y12A",
-      traits: [{ 
-        0: {trait_type: 'Background', value: 'Daytime', display_type: null, max_value: null, trait_count: 193},
-        1: {trait_type: 'Sun', value: 'Standard', display_type: null, max_value: null, trait_count: 191}
-      }]
     },
     {
       id:2,
@@ -132,7 +128,7 @@ data() {
 
 <style lang="sass" scoped>
 .background-image
-  background-image: url(~assets/sunRed.png)
+  background-image: url(~assets/sunPurple.png)
   background-repeat: no-repeat
   background-size: contain  
   z-index:-1
