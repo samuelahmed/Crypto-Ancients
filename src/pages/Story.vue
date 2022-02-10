@@ -56,7 +56,7 @@ Blockchains achieve security without a central authority through cryptographic m
   <div class="text-subtitle2">4</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-When completed each block has a set value in the header. Any change to the data in the block will alter that value wildly, which will in turn impact the hash of the next block and so on. So because of the hash-chain we can generally assume that past information in the blockchain is accurate, with deeper blocks becoming increasingly secure.   
+Every block has a set value in the header. Any change to the data in the block will alter that value wildly, which will in turn impact the hash of the next block and so on. So because of the hash-chain we can generally assume that past information in the blockchain is accurate, with deeper blocks becoming increasingly secure.   
 </q-card-section>
 </q-card>
 
