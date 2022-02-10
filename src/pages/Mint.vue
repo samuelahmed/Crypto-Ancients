@@ -143,8 +143,8 @@ data() {
 
 
 .image 
-  max-height: 450px
-  max-width: 450px
+  max-height: 50vh
+  max-width: 50vh
   image-orientation: center
   cursor: pointer
   transition: filter 0.3s ease-in
