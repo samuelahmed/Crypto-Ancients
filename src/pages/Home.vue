@@ -5,18 +5,67 @@
    <div class="q-pa-xl">
 <div class="row flex flex-center">
   <div class="col-12 col-md-10">
-         <p class="fontchange" style="font-size: 48px; text-align: center;">
+
+
+      
+  	<!-- <button @click="show = !show">Toggle</button> -->
+  <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__backInDown animate__slow"
+  >
+    <p v-if="show">
+
+          <p class="fontchange" style="font-size: 48px; text-align: center;">
     CRYPTO ANCIENTS
         </p>
+
+    </p>
+  </Transition>
+  
+
+    <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__fadeIn animate__slow animate__delay-3s"
+  >
+    <p v-if="show">
     <p class="fontchange q-mt-xl" style="font-size: 20px; text-align: left;">
     For those passionate to improve the world. People, artists, leaders, workers, lovers, geniuses, degens and all are welcome.
     </p>
+    </p>
+  </Transition>
+
+    <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__fadeIn animate__slow animate__delay-4s"
+  >
+    <p v-if="show">
+
        <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
     No roadmap, No Discord, No Community. The jpegs are simply themselves, tokens living on the Ethereum blockchain hoping to inspire people.
     </p>
+    </p>
+  </Transition>
+
+
+      <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__fadeIn animate__slow animate__delay-5s"
+  >
+    <p v-if="show">
+
+
          <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
     Explore the story of blockchains and our gallery. If it feels right you can also mint your very own crypto ancient.  
     </p>
+    </p>
+  </Transition>
+
+    
+       
   </div>
 
   <div class="col-12 col-md-6 q-mt-xl">
@@ -37,10 +86,19 @@
 
 <script>
 import { defineComponent } from 'vue'
+ 
 
 export default defineComponent({
-name: 'PageIndex'
+name: 'PageIndex',
+  data() {
+    return {
+      show: true
+    }
+
+  }
 })
+
+
 </script>
 
 
@@ -65,5 +123,15 @@ name: 'PageIndex'
   background-repeat: no-repeat
   background-size: contain  
   z-index:-1
+
+.dropdown 
+  display: inline-block
+  margin: 0 0.5rem
+  animation-duration: 10s
+  --animate-delay: 2s
+
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
 
 </style>
