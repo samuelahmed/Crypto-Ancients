@@ -220,7 +220,7 @@ Crypto Ancients are ERC-721 tokens on the Ethereum blockchain. At time of writin
   <div class="text-subtitle2">18</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  No, they are structural. NFTs are paving the foundations for digital ownership. While Ethereum created the methods, the actual pathway to ownership is defined by constant conflict among all the members and eventual temporary agreement as to what ‘owning’ means. In the same way the laws of Rome no longer apply today, the definition of ownership in the future
+  No, they are structural. NFTs are paving the foundations for digital ownership. While Ethereum created the methods, the actual pathway to ownership is defined by constant conflict among all the members and eventual temporary agreement as to what ‘owning’ means. In the same way the laws of Rome no longer apply today, the rules of ownership in the future remain contested.
   </q-card-section>
 </q-card>
 
