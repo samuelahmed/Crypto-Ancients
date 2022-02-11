@@ -4,7 +4,7 @@
     <div class="row justify-between">
    <div class="q-pa-xl">
 <div class="row flex flex-center">
-  <div class="col-12 col-md-10">
+  <div class="col-12 col-md-10 flex flex-center">
 
 
       
@@ -43,7 +43,7 @@
   >
     <p v-if="show">
 
-       <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
+       <p class="fontchange q-mt-lg aling-left" style="font-size: 20px; text-align: left;">
     No roadmap, No Discord, No Community. The jpegs are simply themselves, tokens living on the Ethereum blockchain hoping to inspire people.
     </p>
     </p>
@@ -58,7 +58,7 @@
     <p v-if="show">
 
 
-         <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
+         <p class="fontchange q-mt-lg align-left" style="font-size: 20px; text-align: left;">
     Explore the story of blockchains and our gallery. If it feels right you can also mint your very own crypto ancient.  
     </p>
     </p>
