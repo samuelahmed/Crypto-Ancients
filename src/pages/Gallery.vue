@@ -29,14 +29,14 @@ components: {
 imgComp
 },
 data() {
-return {
-items: []
-}},
-methods: {
-async onLoad()  {
-  const res = await fetch("https://gateway.pinata.cloud/ipfs/QmZgb8gMhMnsc3sZUf5aargWKi35jS5pc9AJj9GYVKrJ1p/_metadata.json");
-  this.items = await res.json();
-}}}
+  return {
+    items: []
+    }},
+    methods: {
+    async onLoad()  {
+    const res = await fetch("https://gateway.pinata.cloud/ipfs/QmZgb8gMhMnsc3sZUf5aargWKi35jS5pc9AJj9GYVKrJ1p/_metadata.json");
+    this.items = await res.json();
+    }}}
 </script>
 
 
