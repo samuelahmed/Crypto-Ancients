@@ -139,8 +139,7 @@ Ethereum (2013) is the virtual state machine blockchain. Turing complete and abl
   <div class="text-subtitle2">11</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  Forgoing a dramatic event, the future of blockchain will be built upon these two empires: The bitcoin empire of deflation in which all economies are pegged to, and the ethereum empire of web3 which allows for ownership of digital assets.
-  </q-card-section>
+The technological marvels that are Bitcoin and Ethereum should not be underestimated. Many alternative solutions to scalability are but illusions with great intents. Forgoing a dramatic event, the future of blockchain will be built upon these two empires: The Bitcoin empire of deflation in which all economies are pegged to; and the Ethereum empire of web3 which allows for ownership of digital assets.  </q-card-section>
 </q-card>
 
 <q-card
@@ -151,8 +150,7 @@ Ethereum (2013) is the virtual state machine blockchain. Turing complete and abl
   <div class="text-subtitle2">12</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  The grass is always greener on the other side. All forms of organization will have advantages and disadvantages. However, after some thousands of years of varying degrees of centralization it is pleasantly refreshing to see the rise of censorship resistant technologies. 
-  </q-card-section>
+The grass is always greener on the other side. All forms of organization will have advantages and disadvantages. However, after some thousands of years of higher degrees of centralization it is pleasantly refreshing to see the rise of censorship resistant technologies. Blockchains are naturally censorship resistant because they have no central authority, which makes it far more difficult for any specific to impose its will upon another.   </q-card-section>
 </q-card>
 
 <q-card
@@ -163,7 +161,7 @@ Ethereum (2013) is the virtual state machine blockchain. Turing complete and abl
   <div class="text-subtitle2">13</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  A non-fungible token (NFT) is a token in a series in which each member is different. Humans are non-fungible members of the homo sapiens series, whereas the US dollar bills are fungible because they can be exchanged equally for one another. The homo sapien series is backed by methods of biology (decentralized) while the US dollar is backed by the government (centralized). 
+A non-fungible token (NFT) is a token on a blockchain in which each member is different. Humans are non-fungible members of the homo sapiens series, whereas the US dollar bills are fungible because they can be exchanged equally for one another. The homo sapien series is backed by methods of biology (decentralized) while the US dollar is backed by the government (centralized).
   </q-card-section>
 </q-card>
 
@@ -175,7 +173,7 @@ Ethereum (2013) is the virtual state machine blockchain. Turing complete and abl
   <div class="text-subtitle2">14</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  It depends on your definitions and which blockchain your NFT is on. In most cases the image itself is stored with an IPFS (which is semi-decentralized) and not on the blockchain. The NFT is a smart contract that is stored on a blockchain; some blockchains are more decentralized than others. 
+  It depends. What is your definition, but more importantly which blockchain is your NFT is on. In most cases the image itself is stored on an IPFS and not on the blockchain. The NFT is a smart contract that is stored on a blockchain; some blockchains are more secure and decentralized than others. 
   </q-card-section>
 </q-card>
 
@@ -187,8 +185,7 @@ Ethereum (2013) is the virtual state machine blockchain. Turing complete and abl
   <div class="text-subtitle2">15</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  Crypto Ancients are for those passionate to improve the world. People, artists, leaders, workers, lovers, geniuses, degens and all are welcome so long as you devote your life to progress the world.
-  </q-card-section>
+Crypto Ancients are ERC-721 tokens on the Ethereum blockchain. At time of writing that seems the only blockchain capable of providing long-term digital ownership. Full ownership of the image’s IP and 0% creator royalty: You mint it, you own it. They have no utility but are to inspire those passionate to improve the world. People, artists, leaders, workers, lovers, geniuses, degens and all are welcome.  </q-card-section>
 </q-card>
 
 <q-card
@@ -199,7 +196,7 @@ Ethereum (2013) is the virtual state machine blockchain. Turing complete and abl
   <div class="text-subtitle2">16</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  Humanity does not have infinite time to get our shit together. There are many internal and external existential threats that could end the human project before we have a chance to really explore nature. Greed, hatred, environmental destructuction, and more are real threats to progress and the long-term joy of our species. 
+  Humanity does not have infinite time to get our shit together. There are many internal and external existential threats that could end the human project before we have a chance to really explore Nature. Greed, hatred, environmental destructuction, and more are real threats to progress and the long-term joy of our species. Those with this pfp have focus.
   </q-card-section>
 </q-card>
 
@@ -211,7 +208,7 @@ Ethereum (2013) is the virtual state machine blockchain. Turing complete and abl
   <div class="text-subtitle2">17</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  They do not. Crypto ancients consists of a few hundred layers made in photoshop, had a JS program rearrange into 10,000 unique Ancients, uploaded to pinata IPFS, pointed a Ethereum smart contract to those images, built a website, and made that contract available for minting. In most cases that is every NFT project today, give or take some bells and whistles. 
+  They do not. They consists of a few hundred layers made with passion in photoshop, rearranged with a JS program into 10,000 unique images, uploaded to pinata IPFS, pointed a Ethereum smart contract to those images, built a website, and made that contract available for minting. In most cases that is every NFT project today, give or take some bells and whistles. 
   </q-card-section>
 </q-card>
 
@@ -223,7 +220,7 @@ Ethereum (2013) is the virtual state machine blockchain. Turing complete and abl
   <div class="text-subtitle2">18</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  Not at all! NFTs are creating the foundations for digital ownership. While Ethereum and other L1 blockchains created the methods. The actual pathway to ownership is defined by constant conflict among all the members and eventual agreement as to what ‘owning’ means. 
+  No, they are structural. NFTs are paving the foundations for digital ownership. While Ethereum created the methods, the actual pathway to ownership is defined by constant conflict among all the members and eventual temporary agreement as to what ‘owning’ means. In the same way the laws of Rome no longer apply today, the definition of ownership in the future
   </q-card-section>
 </q-card>
 
