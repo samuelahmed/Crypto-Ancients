@@ -64,14 +64,17 @@
   </Transition>
 
     
-       <Transition
+   
+ <Transition
     name="dropdown"
     appear
-    enter-active-class="animate__animated animate__fadeIn animate__slow animate__delay-5s"
+    enter-active-class="animate__animated animate__fadeInLeftBig animate__slow animate__delay-5s"
   >
     <p v-if="show">
 
-  <div class="col-12 col-md-6 q-mt-xl flex flex-center">
+  <div class="row flex flex-center">
+
+
 
           <q-img
     alt="Quasar logo"
@@ -80,20 +83,26 @@
 
      />
 
+ 
               <q-img
     alt="Quasar logo"
     src="~assets/homeCAPurple.png"
     style="height: 200px; max-width: 200px"
      />
 
+
+
                   <q-img
     alt="Quasar logo"
     src="~assets/homeCASwirl.png"
     style="height: 200px; max-width: 200px"
      />
+
+
   </div>
-   </p>
+</p>
   </Transition>
+
   
         
   </div>
@@ -145,11 +154,6 @@ name: 'PageIndex',
   background-size: contain  
   z-index:-1
 
-.dropdown 
-  display: inline-block
-  margin: 0 0.5rem
-  animation-duration: 10s
-  --animate-delay: 2s
 
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
