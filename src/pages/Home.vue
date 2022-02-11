@@ -65,15 +65,33 @@
   </Transition>
 
     
-       
-  </div>
+       <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__fadeIn animate__slow animate__delay-5s"
+  >
+    <p v-if="show">
 
-  <div class="col-12 col-md-6 q-mt-xl">
+  <div class="col-12 col-md-6 q-mt-xl flex flex-center">
 
-          <!-- <q-img
+          <q-img
     alt="Quasar logo"
-    src="~assets/cryptoAncientLogo.png"
-     /> -->
+    src="~assets/homeCABlue.png"
+    style="height: 200px; max-width: 200px"
+
+     />
+
+              <q-img
+    alt="Quasar logo"
+    src="~assets/homeCAPurple.png"
+    style="height: 200px; max-width: 200px"
+
+     />
+  </div>
+   </p>
+  </Transition>
+  
+        
   </div>
 </div>
 </div>
