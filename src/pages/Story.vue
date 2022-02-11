@@ -169,7 +169,7 @@ A non-fungible token (NFT) is a token on a blockchain in which each member is di
   class="my-card text-black"
   style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
   <q-card-section>
-  <div class="text-h6">Are NFTs Centralized or Decentralized?</div>
+  <div class="text-h6">Are NFTs Decentralized?</div>
   <div class="text-subtitle2">14</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
