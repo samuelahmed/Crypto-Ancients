@@ -8,13 +8,13 @@
          <p class="fontchange" style="font-size: 55px; text-align: center;">
     CRYPTO ANCIENTS
         </p>
-    <p class="fontchange q-mt-xl" style="font-size: 26px; text-align: left;">
+    <p class="fontchange q-mt-xl" style="font-size: 20px; text-align: left;">
     For those passionate to improve the world. People, artists, leaders, workers, lovers, geniuses, degens and all are welcome.
     </p>
-       <p class="fontchange q-mt-lg" style="font-size: 26px; text-align: left;">
+       <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
     No roadmap, No Discord, No Community. The jpegs are simply themselves, tokens living on the Ethereum blockchain hoping to inspire people.
     </p>
-         <p class="fontchange q-mt-lg" style="font-size: 26px; text-align: left;">
+         <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
     Explore the story of blockchains and our gallery. If it feels right you can also mint your very own crypto ancient.  
     </p>
   </div>
