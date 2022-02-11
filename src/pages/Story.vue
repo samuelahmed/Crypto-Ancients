@@ -208,7 +208,7 @@ Crypto Ancients are ERC-721 tokens on the Ethereum blockchain. At time of writin
   <div class="text-subtitle2">17</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-  They do not. They consists of a few hundred layers made with passion in photoshop, rearranged with a JS program into 10,000 unique images, uploaded to pinata IPFS, pointed a Ethereum smart contract to those images, built a website, and made that contract available for minting. In most cases that is every NFT project today, give or take some bells and whistles. 
+They do not. They consist of a few hundred layers made with passion in photoshop, rearranged with a JS program into 10,000 unique images, uploaded to pinata IPFS, pointed a Ethereum smart contract to those images, built a website, and made that contract available for minting. In most cases that is every NFT project today, give or take some bells and whistles.
   </q-card-section>
 </q-card>
 
