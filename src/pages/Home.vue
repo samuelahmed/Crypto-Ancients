@@ -4,7 +4,7 @@
     <div class="row justify-between">
    <div class="q-pa-xl">
 <div class="row flex flex-center">
-  <div class="col-12 col-md-10 flex flex-center">
+  <div class="col-12 col-md-10 flex-center">
 
 
       
