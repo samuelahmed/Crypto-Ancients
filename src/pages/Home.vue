@@ -1,7 +1,7 @@
 <template>
     <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
     <div class="q-mt-xl">
-    <div class="row justify-between flex-center">
+    <div class="row justify-between flex flex-center">
    <div class="q-pa-xl">
 <div class="row flex flex-center">
   <div class="col-12 col-md-10 flex-center">
@@ -85,7 +85,12 @@
     alt="Quasar logo"
     src="~assets/homeCAPurple.png"
     style="height: 200px; max-width: 200px"
+     />
 
+                  <q-img
+    alt="Quasar logo"
+    src="~assets/homeCASwirl.png"
+    style="height: 200px; max-width: 200px"
      />
   </div>
    </p>
