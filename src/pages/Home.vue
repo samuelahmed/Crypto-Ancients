@@ -39,7 +39,7 @@
     <Transition
     name="dropdown"
     appear
-    enter-active-class="animate__animated animate__fadeIn animate__slow animate__delay-4s"
+    enter-active-class="animate__animated animate__fadeIn animate__slow animate__delay-3s"
   >
     <p v-if="show">
 
@@ -53,7 +53,7 @@
       <Transition
     name="dropdown"
     appear
-    enter-active-class="animate__animated animate__fadeIn animate__slow animate__delay-5s"
+    enter-active-class="animate__animated animate__fadeIn animate__slow animate__delay-3s"
   >
     <p v-if="show">
 
