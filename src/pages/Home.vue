@@ -43,7 +43,7 @@
     <p v-if="show">
 
        <p class="fontchange q-mt-lg aling-left" style="font-size: 20px; text-align: left;">
-    No roadmap, No Discord, No Community. The jpegs are simply themselves, tokens living on the Ethereum blockchain hoping to inspire people.
+    No Roadmap. No Discord. No Community. The jpegs are simply themselves, tokens living on the Ethereum blockchain hoping to inspire people.
     </p>
     </p>
   </Transition>
