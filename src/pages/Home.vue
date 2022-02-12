@@ -72,11 +72,12 @@
   >
     <p v-if="show">
 
-  <div class="row flex flex-center">
+  <div class="row flex flex-center q-mt-xl">
 
 
 
           <q-img
+    class="caImg"
     alt="Quasar logo"
     src="~assets/homeCABlue.png"
     style="height: 200px; max-width: 200px"
@@ -85,6 +86,7 @@
 
  
               <q-img
+    class="caImg"
     alt="Quasar logo"
     src="~assets/homeCAPurple.png"
     style="height: 200px; max-width: 200px"
@@ -93,6 +95,7 @@
 
 
                   <q-img
+    class="caImg"
     alt="Quasar logo"
     src="~assets/homeCASwirl.png"
     style="height: 200px; max-width: 200px"
@@ -154,6 +157,9 @@ name: 'PageIndex',
   background-size: contain  
   z-index:-1
 
+.caImg
+    margin-left: 25px
+    margin-right: 25px
 
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
