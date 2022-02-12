@@ -11,12 +11,22 @@
     </p> -->
     </div> 
 
+    <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__fadeIn"
+  >
+    <p v-if="show">
 
 <div class="q-pa-xl">
 <q-infinite-scroll @load="onLoad" :offset="250">
 <imgComp v-for="item in items" v-bind="item" v-bind:key="item.edition" />
 </q-infinite-scroll>
 </div>
+
+  </p>
+  </Transition>
+
 </div>
 </template>
 
@@ -30,13 +40,15 @@ imgComp
 },
 data() {
   return {
-    items: []
+    items: [],
+    show: true
     }},
-    methods: {
+  methods: {
     async onLoad()  {
     const res = await fetch("https://gateway.pinata.cloud/ipfs/QmZgb8gMhMnsc3sZUf5aargWKi35jS5pc9AJj9GYVKrJ1p/_metadata.json");
     this.items = await res.json();
     }}}
+    
 </script>
 
 
@@ -49,6 +61,9 @@ data() {
 
 .fontchange
     font-family: 'Titillium Web'
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
 </style>
 
 

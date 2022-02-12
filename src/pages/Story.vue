@@ -12,6 +12,17 @@
 
   <div class="row items-start q-gutter-md flex-center q-mt-xl" style="height: 300px">
     
+
+
+
+ <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__backInDown"
+  >
+    <p v-if="show">
+
+
   <q-card
     class="my-card text-black"
     style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
@@ -23,6 +34,18 @@
 A blockchain is a distributed digital ledger. A database which tracks ownership, transactions, and is maintained by a network. In a decentralized blockchain anyone with an able computer can join the global peer-to-peer network. Information is usually stored in a series of timestamped blocks whose data is hashed to provide long-term security. 
     </q-card-section>
   </q-card>
+
+  </p>
+  </Transition>
+
+
+
+ <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__backInDown animate__slow"
+  >
+    <p v-if="show">
 
 <q-card
   class="my-card text-black"
@@ -36,6 +59,17 @@ The revolution started by Bitcoin is the ability to turn computing power into so
   </q-card-section>
 </q-card>
 
+  </p>
+  </Transition>
+
+ <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__backInDown animate__slow animate__slow animate__delay-1s"
+  >
+    <p v-if="show">
+
+
 <q-card
   class="my-card text-black"
   style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
@@ -47,6 +81,17 @@ The revolution started by Bitcoin is the ability to turn computing power into so
 Blockchains achieve security without a central authority through cryptographic methods. For example Bitcoin uses <a class="has-text-info" href="https://en.wikipedia.org/wiki/Proof_of_work" target="_blank">proof of work</a>, which requires miners to repeatedly update a nonce and hash until their output has a certain number of leading 0s. When achieved they can submit that block and peers can easily <a class="has-text-info" href="https://en.wikipedia.org/wiki/One-way_function" target="_blank">verify</a> that the necessary work was completed. 
   </q-card-section>
 </q-card>
+
+  </p>
+  </Transition>
+
+  <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__backInDown animate__delay-2s"
+  >
+    <p v-if="show">
+
 
 <q-card
   class="my-card text-black"
@@ -60,6 +105,16 @@ Every block has a set value in the header. Any change to the data in the block w
 </q-card-section>
 </q-card>
 
+</p>
+  </Transition>
+
+  <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__backInDown animate__slow animate__delay-2s"
+  >
+    <p v-if="show">
+
 <q-card
   class="my-card text-black"
   style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
@@ -70,6 +125,18 @@ Every block has a set value in the header. Any change to the data in the block w
   <q-card-section class="q-pt-none">
 Ledgers are one of the foundations of capitalism. They enable enterprises to scale globally, borrowing and loaning, standardization of money, exchanges, and the ability to do all this quickly and securely without having to carry lots of valuable goods, such as precious metals or cash. Nearly all meaningful exchanges are recorded somewhere, and that location matters.   </q-card-section>
 </q-card>
+
+</p>
+  </Transition>
+
+
+
+  <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__backInDown animate__delay-3s"
+  >
+    <p v-if="show">
 
 <q-card
   class="my-card text-black"
@@ -83,6 +150,16 @@ For ledgers to work they need to be backed by some sort of authority. People mus
   </q-card-section>
 </q-card>
 
+</p>
+  </Transition>
+
+
+  <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__backInDown animate__slow animate__delay-3s"
+  >
+    <p v-if="show">
 <q-card
   class="my-card text-black"
   style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
@@ -94,7 +171,8 @@ For ledgers to work they need to be backed by some sort of authority. People mus
 In the last 100 years banks have been central to finance across the world. Their hard work made it possible for the commerce we know today: international monetary exchanges, loans, stock markets, ATMs, basic financial services, and more. In exchange for managing our ledgers somewhere between 5-10% of the world’s economy is taken by banks. 
   </q-card-section>
 </q-card>
-
+</p>
+  </Transition>
 <q-card
   class="my-card text-black"
   style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
@@ -244,7 +322,11 @@ They do not. They consist of a few hundred layers made with passion in photoshop
 import { defineComponent, } from "vue";
 export default defineComponent({
   name: "PageIndex",
-});
+  data() {
+    return {
+      show: true
+    }
+}});
 </script>
 
 <style lang="sass" scoped>
@@ -268,6 +350,7 @@ export default defineComponent({
     font-family: 'Titillium Web'
 
 
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 
   
