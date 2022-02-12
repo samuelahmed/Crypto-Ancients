@@ -23,8 +23,8 @@ Mint
 <!-- <div class="text-h5 q-mt-sm q-mb-xs" style="text-align: center">
 Mint
 </div> -->
-<div class="text-caption q-px-xl">
- <div class="col-12 col-md-10">
+<div class="text-caption">
+ <div class="col-12 col-md-12">
     <p class="fontchange q-mt-xl" style="font-size: 20px; text-align: left;">
     There are 10,000 Crypto Ancients 
     </p>
