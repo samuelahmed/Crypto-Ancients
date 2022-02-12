@@ -57,7 +57,7 @@
     <p v-if="show">
 
 
-         <p class="fontchange q-mt-lg align-left" style="font-size: 20px; text-align: left;">
+         <p class="fontchange q-my-lg align-left" style="font-size: 20px; text-align: left;">
     Explore the story of blockchains and our gallery. If it feels right you can also mint your very own crypto ancient.  
     </p>
     </p>
