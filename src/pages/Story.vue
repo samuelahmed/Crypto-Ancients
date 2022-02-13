@@ -227,12 +227,40 @@ They do not. They consist of a few hundred layers made with passion in photoshop
   </q-card-section>
 </q-card>
 
+
+<q-card
+  class="my-card text-black"
+  style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+  <q-card-section>
+  <div class="text-h6">Art and Community</div>
+  <div class="text-subtitle2">19</div>
+  </q-card-section>
+  <q-card-section class="q-pt-none">
+Are are at the core of what make us human. NFTs and web3 offer potential new spaces but they remain in flux. What new possibilities are being created and are any being destroyed? Is the space really equal or are some groups benefiting more? How can people be aware and protected from scams? If anything we must see that constant wild speculation on all art is a little exhausting. 
+  </q-card-section>
+</q-card>
+
+
+<q-card
+  class="my-card text-black"
+  style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+  <q-card-section>
+  <div class="text-h6">Avoiding Scams</div>
+  <div class="text-subtitle2">20</div>
+  </q-card-section>
+  <q-card-section class="q-pt-none">
+With blockchains there is no central-authority to fix mistakes. Adversaries with technical skills are everywhere. If a project does relate to ledgers it is probably a scam or does not require blockchain.  Promises to double your money or more are likely scam. Future is not determined be careful of projects that say so. If you feel pressured, it is probably a scam. Every machine that has connected to the internet could be compromised. 
+  </q-card-section>
+</q-card>
+
+
+
 <q-card
   class="my-card text-black"
   style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
   <q-card-section>
   <div class="text-h6">Enter the Metaverse</div>
-  <div class="text-subtitle2">19</div>
+  <div class="text-subtitle2">21</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
   Digital spaces protect the environment. They allow us to meet and explore without having to destroy the life which surrounds us. Our connection to other lifeforms on the planet is vital to health and joy. There are now so many humans with such destructive machinery that we really must take the lead in respecting the environment around us. 
