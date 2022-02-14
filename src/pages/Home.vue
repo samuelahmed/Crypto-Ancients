@@ -2,6 +2,9 @@
     <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
     
     <div class="q-mt-xl">
+
+                <CircleTextAnimation />
+
    <div class="q-pa-xl flex flex-center">
 <div class="row flex flex-center">
   <div class="col-12 col-md-10 flex-center">
@@ -21,7 +24,6 @@
  
 
           <p class="fontchange">
-          <CircleTextAnimation />
 
 
         </p>
@@ -160,8 +162,6 @@ components: {
   
 <style lang="sass" scoped>
   
-.fontchange
-    font-family: 'Titillium Web'
 
 .background-image
   //WHY DOES STICKY NOT WORK FOR SUN ONLY IT EITHER WORKS FOR ALL OR NOTHING
@@ -174,8 +174,8 @@ components: {
   z-index:-1
 
 .caImg
-    margin-left: 25px
-    margin-right: 25px
+  margin-left: 25px
+  margin-right: 25px
 
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
