@@ -41,8 +41,7 @@ body
 }
 .circle
 {
-    -webkit-transform-style: preserve-3d(0,0,0);
-    transform-style: preserve-3d(0,0,0);
+    transform-style: preserve-3d;
   animation: animate 10s linear infinite;
 }
 @keyframes animate
@@ -63,8 +62,7 @@ body
   padding: 5px 12px;
   border-top: 4px solid purple;
   border-bottom: 4px solid blue; 
-    -webkit-transform-style: preserve-3d(0,0,0);
-    transform-style: preserve-3d(0,0,0);
+  transform-style: preserve-3d;
   transform-origin: center;
   transform: rotateY(calc(var(--char-index) * 12deg))
   translateZ(250px);
