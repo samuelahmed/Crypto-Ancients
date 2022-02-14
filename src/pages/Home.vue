@@ -12,7 +12,7 @@
       
   	<!-- <button @click="show = !show">Toggle</button> -->
 
-<div class="q-pa-xl">
+
   <Transition
     name="dropdown"
     appear
@@ -20,12 +20,16 @@
   >
     <p v-if="show">
 
-                  <CircleTextAnimation />
+ 
 
+          <p class="titlefont" style="font-size: 48px; text-align: center;">
+CRYPTO ANCIENTS
+
+        </p>
 
     </p>
   </Transition>
-</div>
+  
 
     <Transition
     name="dropdown"
@@ -124,7 +128,6 @@
 <script>
 
 
-import CircleTextAnimation from 'src/components/CircleTextAnimation.vue'
 
 
 import { defineComponent } from 'vue'
@@ -137,10 +140,7 @@ name: 'PageIndex',
     return {
       show: true
     }
-  },
-components: {
-    CircleTextAnimation
-}
+  }
 })
 
 
@@ -156,7 +156,11 @@ components: {
 
   
 <style lang="sass" scoped>
-  
+.fontchange
+    font-family: monospace
+
+.titlefont
+    font-family: 'Titillium Web'
 
 .background-image
   //WHY DOES STICKY NOT WORK FOR SUN ONLY IT EITHER WORKS FOR ALL OR NOTHING

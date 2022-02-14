@@ -1,4 +1,7 @@
+
 <template>
+<!-- // REMEMBER TO UNINSTALL NPM DEPENDENCIES -->
+
 
 <div class="circle" data-splitting>Crypto-Ancients-</div>  
 
