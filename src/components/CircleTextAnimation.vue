@@ -48,7 +48,7 @@ body
 {
   0%
   {
-    transform: perspective(1000px) rotateY(360deg) rotateX(30deg);
+    transform: perspective(500px) rotateY(360deg) rotateX(30deg);
   }
 }
 .circle .char

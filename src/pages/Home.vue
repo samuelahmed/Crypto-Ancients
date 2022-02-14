@@ -3,7 +3,6 @@
     
     <div class="q-mt-xl">
 
-                <CircleTextAnimation />
 
    <div class="q-pa-xl flex flex-center">
 <div class="row flex flex-center">
@@ -13,7 +12,7 @@
       
   	<!-- <button @click="show = !show">Toggle</button> -->
 
-
+<div class="q-pa-xl">
   <Transition
     name="dropdown"
     appear
@@ -21,16 +20,12 @@
   >
     <p v-if="show">
 
- 
+                  <CircleTextAnimation />
 
-          <p class="fontchange">
-
-
-        </p>
 
     </p>
   </Transition>
-  
+</div>
 
     <Transition
     name="dropdown"
