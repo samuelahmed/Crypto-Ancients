@@ -25,7 +25,7 @@ console.log("here")
 </script>
 
 <style>
-*
+.circle
 {
   margin: 0;
   padding: 0;
@@ -37,7 +37,7 @@ body
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 .circle
 {
@@ -48,7 +48,7 @@ body
 {
   0%
   {
-    transform: perspective(500px) rotateY(360deg) rotateX(30deg);
+    transform: perspective(1000px) rotateY(360deg) rotateX(0deg);
   }
 }
 .circle .char
@@ -65,7 +65,7 @@ body
   transform-style: preserve-3d;
   transform-origin: center;
   transform: rotateY(calc(var(--char-index) * 12deg))
-  translateZ(250px);
+  translateZ(100px);
 }
 
 
