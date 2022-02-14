@@ -62,9 +62,9 @@ body
   padding: 5px 12px;
   border-top: 4px solid purple;
   border-bottom: 4px solid blue; 
-  transform-style: preserve-3d;
+transform-style: preserve-3d;
   transform-origin: center;
-  transform: rotate(calc(var(--char-index) * 12deg))
+  transform: rotateY(calc(var(--char-index) * 12deg))
   translateZ(250px);
 }
 
