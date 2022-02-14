@@ -1,5 +1,6 @@
 <template>
     <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
+    
     <div class="q-mt-xl">
    <div class="q-pa-xl flex flex-center">
 <div class="row flex flex-center">
@@ -8,6 +9,8 @@
 
       
   	<!-- <button @click="show = !show">Toggle</button> -->
+
+
   <Transition
     name="dropdown"
     appear
@@ -15,8 +18,12 @@
   >
     <p v-if="show">
 
-          <p class="fontchange" style="font-size: 48px; text-align: center;">
-    CRYPTO ANCIENTS
+ 
+
+          <p class="fontchange">
+          <CircleTextAnimation />
+
+
         </p>
 
     </p>
@@ -118,18 +125,27 @@
 </template>
 
 <script>
+
+
+import CircleTextAnimation from 'src/components/CircleTextAnimation.vue'
+
+
 import { defineComponent } from 'vue'
  
 
 export default defineComponent({
+
 name: 'PageIndex',
   data() {
     return {
       show: true
     }
-
-  }
+  },
+components: {
+    CircleTextAnimation
+}
 })
+
 
 
 </script>
@@ -163,6 +179,7 @@ name: 'PageIndex',
 
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
 
 
 </style>

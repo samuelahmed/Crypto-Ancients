@@ -249,7 +249,7 @@ Are are at the core of what make us human. NFTs and web3 offer potential new spa
   <div class="text-subtitle2">20</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-With blockchains there is no central-authority to fix mistakes. Adversaries with technical skills are everywhere. If a project does relate to ledgers it is probably a scam or does not require blockchain.  Promises to double your money or more are likely scam. Future is not determined be careful of projects that say so. If you feel pressured, it is probably a scam. Every machine that has connected to the internet could be compromised. 
+With blockchains there is no central-authority to fix mistakes. Adversaries with technical skills are everywhere. Promises to double your money or more are likely scam. The future is not determined be careful of projects that say so. If you feel pressured, it is probably a scam. Every machine that has connected to the internet could be compromised. 
   </q-card-section>
 </q-card>
 
