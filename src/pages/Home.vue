@@ -1,4 +1,15 @@
 <template>
+
+  <Renderer>
+    <Camera :position="{ z: 10 }" />
+    <Scene>
+      <PointLight :position="{ y: 50, z: 50 }" />
+      <Box>
+        <LambertMaterial />
+      </Box>
+    </Scene>
+  </Renderer>
+
     <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
     
     <div class="q-mt-xl">
@@ -23,6 +34,7 @@
  
 
           <p class="titlefont" style="font-size: 48px; text-align: center;">
+
 CRYPTO ANCIENTS
 
         </p>
@@ -131,9 +143,13 @@ CRYPTO ANCIENTS
 
 
 import { defineComponent } from 'vue'
- 
+import { Box, Camera, LambertMaterial, PointLight, Renderer, Scene } from 'troisjs';
+
+
 
 export default defineComponent({
+    components: { Box, Camera, LambertMaterial, PointLight, Renderer, Scene },
+
 
 name: 'PageIndex',
   data() {
