@@ -1,6 +1,6 @@
 <template>
 
-<div class="circle" data-splitting>circle-text-animation-effects-</div>  
+<div class="circle" data-splitting>Crypto-Ancients-</div>  
 
 </template>
 
