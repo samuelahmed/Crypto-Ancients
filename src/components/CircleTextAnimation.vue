@@ -41,14 +41,15 @@ body
 }
 .circle
 {
-    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d(0,0,0);
+    transform-style: preserve-3d(0,0,0);
   animation: animate 10s linear infinite;
 }
 @keyframes animate
 {
   0%
   {
-    transform: perspective(1000px) rotateY(360deg) rotateX(30deg);
+    transform: perspective(600px) rotateY(360deg) rotateX(30deg);
   }
 }
 .circle .char
@@ -62,7 +63,8 @@ body
   padding: 5px 12px;
   border-top: 4px solid purple;
   border-bottom: 4px solid blue; 
-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d(0,0,0);
+    transform-style: preserve-3d(0,0,0);
   transform-origin: center;
   transform: rotateY(calc(var(--char-index) * 12deg))
   translateZ(250px);
