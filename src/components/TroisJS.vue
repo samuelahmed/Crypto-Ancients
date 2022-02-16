@@ -31,6 +31,7 @@ import {
 } from 'troisjs';
 import chroma from 'chroma-js';
 export default {
+  name: TroiJS,
   components: {
     AmbientLight,
     Camera,
