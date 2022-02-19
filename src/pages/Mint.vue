@@ -1,4 +1,5 @@
 <template>
+<div class="background-image" style="width: 100vh; height: 100vh; position: fixed">
 <Particles
  
     id="tsparticles"
@@ -105,7 +106,7 @@
     }"
   />
 
-<div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
+</div>
 <div class="q-mt-xl">
 
   <div class="flex flex-center">

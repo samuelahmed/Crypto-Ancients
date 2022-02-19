@@ -12,6 +12,7 @@
 </div> -->
 
 <!-- <button @click="pause()"> hello</button> -->
+<div class="background-image" style="width: 100vh; height: 100vh; position: fixed">
 <Particles
  
     id="tsparticles"
@@ -118,11 +119,11 @@
     }"
   />
 
-    <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
+    </div>
     
 
 
-    <div class="q-mt-xl">
+    <div id="absolute" class="q-mt-xl">
 
 
    <div class="q-pa-xl flex flex-center">
@@ -285,23 +286,27 @@ name: 'PageIndex',
 
 .titlefont
     font-family: 'Titillium Web'
+      z-index: 9999
 
+  
 .background-image
   background-image: url(~assets/sunGolden.png)
-  // height: 100vh
-  // width: 100vh
   background-repeat: no-repeat
   background-size: contain  
-  z-index:-1
+  z-index: -2
 
 .caImg
   margin-left: 25px
   margin-right: 25px
 
 .tsparticles
-  position: fixed
   width: 100%
-  z-index: -2
+  height: 100%
+  z-index: -9999
+
+.absolute
+  z-index: 9999
+
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
