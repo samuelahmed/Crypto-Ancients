@@ -144,7 +144,7 @@
 
  
 
-          <p class="titlefont" style="font-size: 77px; text-align: center;">
+          <p class="titlefont" style="font-size: 48px; text-align: center;">
 
 CRYPTO ANCIENTS
 
