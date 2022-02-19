@@ -1,5 +1,5 @@
 <template>
-<div class="background-image" style="width: 100vh; height: 100vh; position: fixed">\
+<div class="background-image" style="width: 100vh; height: 100vh; position: fixed">
 <Particles
  
     id="tsparticless"
