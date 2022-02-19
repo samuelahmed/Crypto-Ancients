@@ -1,38 +1,5 @@
 <template>
 
-
-  
-    <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
-
-  <div class="q-mt-xl">
-    
-    <div class="flex flex-center">
-     <p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
-      Gallery
-    </p>
-        <!-- <p class="fontchange q-mt-lg" style="font-size: 22px; text-align: left;">
-    Arranged is a short story on Bitcoin, Ethereum, NFTs and how they relate to our world. Where do you stand?  
-    </p> -->
-    </div> 
-
-    <Transition
-    name="dropdown"
-    appear
-    enter-active-class="animate__animated animate__fadeIn"
-  >
-    <p v-if="show">
-
-<div class="q-pa-xl">
-<q-infinite-scroll @load="onLoad" :offset="250">
-<imgComp v-for="item in items" v-bind="item" v-bind:key="item.edition" />
-</q-infinite-scroll>
-</div>
-
-  </p>
-  </Transition>
-
-</div>
-
 <Particles
  
     id="tsparticles"
@@ -138,6 +105,43 @@
 
     }"
   />
+  
+    <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
+
+  <div class="q-mt-xl">
+    
+    <div class="flex flex-center">
+     <p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
+      Gallery
+    </p>
+        <!-- <p class="fontchange q-mt-lg" style="font-size: 22px; text-align: left;">
+    Arranged is a short story on Bitcoin, Ethereum, NFTs and how they relate to our world. Where do you stand?  
+    </p> -->
+    </div> 
+
+    <Transition
+    name="dropdown"
+    appear
+    enter-active-class="animate__animated animate__fadeIn"
+  >
+    <p v-if="show">
+
+<div class="q-pa-xl">
+<q-infinite-scroll @load="onLoad" :offset="250">
+  <q-card>     
+     
+
+<imgComp v-for="item in items" v-bind="item" v-bind:key="item.edition" />
+ </q-card>
+</q-infinite-scroll>
+</div>
+
+  </p>
+  </Transition>
+
+</div>
+
+
 </template>
 
 <script>
