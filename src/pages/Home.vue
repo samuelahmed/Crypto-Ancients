@@ -1,17 +1,4 @@
 <template>
-<!-- <div class="container">
-  <Renderer resize="window" orbit-ctrl>
-    <Camera :position="{ z: 10 }" />
-    <Scene>
-      <PointLight :position="{ y: 50, z: 50 }" />
-      <Box>
-        <LambertMaterial />
-      </Box>
-    </Scene>
-  </Renderer>
-</div> -->
-
-<!-- <button @click="pause()"> hello</button> -->
 <div class="background-image" style="width: 100vh; height: 100vh; position: fixed">
   <Particles
  

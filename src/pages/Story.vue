@@ -94,8 +94,6 @@
  <Particles
  
     id="tsparticles"
-      :particlesInit="particlesInit"
-                :particlesLoaded="particlesLoaded"
     :options="{
         fpsLimit: 60,
        particles: {
@@ -476,12 +474,8 @@ export default defineComponent({
 </script>
 
 <style lang="sass" scoped>
-.background-image
-  //WHY DOES STICKY NOT WORK FOR SUN ONLY IT EITHER WORKS FOR ALL OR NOTHING
- 
+.background-image 
   background-image: url(~assets/sunPurple.png)
-  // height: 100vh
-  // width: 100vh
   background-repeat: no-repeat
   background-size: contain  
   z-index:-1

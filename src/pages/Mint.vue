@@ -93,8 +93,7 @@
 <Particles
  
     id="tsparticles"
-      :particlesInit="particlesInit"
-                :particlesLoaded="particlesLoaded"
+
     :options="{
         fpsLimit: 60,
        particles: {
