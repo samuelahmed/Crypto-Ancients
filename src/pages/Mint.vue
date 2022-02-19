@@ -178,7 +178,7 @@
   emitters: {
     direction: 'bottom-right',
     rate: {
-      quantity: 50,
+      quantity: 5,
       delay: 0
     },
     size: {
