@@ -136,7 +136,7 @@
     },
     life: {
       duration: {
-        value: 1
+        value: 2
       },
       count: 1
     },
@@ -148,7 +148,7 @@
       enable: true,
       gravity: {
         enable: true,
-        acceleration: -1,
+        acceleration: 0,
         inverse: true,
       },
       speed: 10,
