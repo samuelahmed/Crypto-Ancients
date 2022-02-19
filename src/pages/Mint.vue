@@ -81,12 +81,7 @@
       }
     }
   },
-  interactivity: {
-    detectsOn: 'canvas',
-    events: {
-      resize: true
-    }
-  },
+
   detectRetina: true,
   background: {
   },
@@ -101,7 +96,7 @@
       height: 10
     },
     position: {
-      x: -30,
+      x: -38,
       y: 10
     }}
 
