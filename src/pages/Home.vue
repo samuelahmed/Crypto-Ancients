@@ -251,7 +251,7 @@ CRYPTO ANCIENTS
     <p v-if="show">
 
        <p class="fontchange q-mt-lg aling-left" style="font-size: 20px; text-align: left;">
-    No roadmap. No discord. No community. The jpegs are simply themselves, tokens living on the Ethereum blockchain hoping to inspire people.
+    No roadmap. No discord. The jpegs are simply themselves, tokens living on the Ethereum blockchain hoping to inspire people.
     </p>
     </p>
   </Transition>
