@@ -143,7 +143,7 @@
 
  
 
-          <p class="titlefont" style="font-size: 48px; text-align: center;">
+          <p class="titlefont" style="font-size: 77px; text-align: center;">
 
 CRYPTO ANCIENTS
 
@@ -298,6 +298,10 @@ name: 'PageIndex',
   margin-left: 25px
   margin-right: 25px
 
+.tsparticles
+  position: fixed
+  width: 100%
+  z-index: -2
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
