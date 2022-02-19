@@ -1,79 +1,112 @@
 <template>
  <Particles
+ 
     id="tsparticles"
+      :particlesInit="particlesInit"
+                :particlesLoaded="particlesLoaded"
     :options="{
-      fpsLimit: 60,
-      interactivity: {
-        detectsOn: 'window',
-        events: {
-          onClick: {
-            enable: true,
-            mode: 'push'
-          },
-          onHover: {
-            enable: true,
-            mode: 'repulse'
-          },
-          resize: true
-        },
-        modes: {
-          bubble: {
-            distance: 400,
-            duration: 2,
-            opacity: 0.8,
-            size: 40,
-            speed: 3
-          },
-          push: {
-            quantity: 4
-          },
-          repulse: {
-            distance: 200,
-            duration: 0.4
-          }
-        }
+        fpsLimit: 60,
+       particles: {
+       number: {
+       value: 1,
+       density: {
+        enable: true,
+        value_area: 800
+         }
+         },
+    color: {
+      value: '#ff3333',
+      animation: {
+        enable: true,
+        speed: 5,
+        sync: true
+      }
+       },
+    shape: {
+      type: 'circle'
+    },
+    opacity: {
+      value: 1,
+      random: false,
+      animation: {
+        enable: true,
+        speed: 0.5,
+        minimumValue: 10,
+        sync: false
+      }
+    },
+    size: {
+      value: 1,
+      random: { enable: true, minimumValue: 4 },
+      animation: {
+        enable: false,
+        speed: 7,
+        minimumValue: 1,
+        sync: false
+      }
+    },
+    life: {
+      duration: {
+        value: 1
       },
-      particles: {
-        color: {
-          value: '#FF0000'
-        },
-        links: {
-          color: '#FF0000',
-          distance: 150,
-          enable: true,
-          opacity: 0.5,
-          width: 1
-        },
-        collisions: {
-          enable: true
-        },
-        move: {
-          direction: 'none',
-          enable: true,
-          outMode: 'bounce',
-          random: false,
-          speed: 6,
-          straight: false
-        },
-        number: {
-          density: {
-            enable: true,
-            value_area: 800
-          },
-          value: 80
-        },
-        opacity: {
-          value: 0.5
-        },
-        shape: {
-          type: 'circle'
-        },
-        size: {
-          random: true,
-          value: 5
-        }
+      count: 1
+    },
+    move: {
+      angle: {
+        value: 90,
+        offset: 0
       },
-      detectRetina: true
+      enable: true,
+      gravity: {
+        enable: true,
+        acceleration: -1,
+        inverse: true,
+      },
+      speed: 10,
+      direction: 'side',
+      random: true,
+      straight: false,
+      size: true,
+      outModes: {
+        default: 'destroy',
+        bottom: 'none'
+      },
+      attract: {
+        enable: false,
+        distance: 300,
+        rotate: {
+          x: 0,
+          y: 0,
+        }
+      }
+    }
+  },
+  interactivity: {
+    detectsOn: 'canvas',
+    events: {
+      resize: true
+    }
+  },
+  detectRetina: true,
+  background: {
+  },
+  emitters: {
+    direction: 'bottom-right',
+    rate: {
+      quantity: 50,
+      delay: 0
+    },
+    size: {
+      width: 100,
+      height: 10
+    },
+    position: {
+      x: -30,
+      y: 10
+    }}
+
+
+
     }"
   />
   <div class="background-image" style="width: 100vh; height: 100vh; position: fixed"></div>
