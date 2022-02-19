@@ -25,9 +25,9 @@
     }
   },
   particles: {
-    color: { value: '#ff3333' },
+    color: { value: '#663366' },
     line_linked: {
-      color: '#ff3333',
+      color: '#663366',
       distance: 150,
       enable: false,
       opacity: 0.4,
@@ -107,7 +107,7 @@
          }
          },
     color: {
-      value: '#ff3333',
+      value: '#663366',
       animation: {
         enable: true,
         speed: 5,
@@ -479,7 +479,7 @@ export default defineComponent({
 .background-image
   //WHY DOES STICKY NOT WORK FOR SUN ONLY IT EITHER WORKS FOR ALL OR NOTHING
  
-  background-image: url(~assets/sunRed.png)
+  background-image: url(~assets/sunPurple.png)
   // height: 100vh
   // width: 100vh
   background-repeat: no-repeat

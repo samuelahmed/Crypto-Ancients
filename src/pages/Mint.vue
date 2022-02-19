@@ -25,9 +25,9 @@
     }
   },
   particles: {
-    color: { value: '#663366' },
+    color: { value: '#0033ff' },
     line_linked: {
-      color: '#663366',
+      color: '#0033ff',
       distance: 150,
       enable: false,
       opacity: 0.4,
@@ -106,7 +106,7 @@
          }
          },
     color: {
-      value: '#663366',
+      value: '#0033ff',
       animation: {
         enable: true,
         speed: 5,
@@ -325,7 +325,7 @@ data() {
 
 <style lang="sass" scoped>
 .background-image
-  background-image: url(~assets/sunPurple.png)
+  background-image: url(~assets/sunMetaverse.png)
   background-repeat: no-repeat
   background-size: contain  
   z-index:-1
