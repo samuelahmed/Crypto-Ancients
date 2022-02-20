@@ -212,23 +212,19 @@
     appear
     enter-active-class="animate__animated animate__fadeIn"
   >
+    <p v-if="show">
 
-
-
-<p v-if="show">
 <div class="q-pa-xl">
 <q-infinite-scroll @load="onLoad" :offset="250">
-<q-card>     
+  <q-card>     
+     
+
 <imgComp v-for="item in items" v-bind="item" v-bind:key="item.edition" />
-</q-card>
+ </q-card>
 </q-infinite-scroll>
 </div>
-</p>
 
-
-
-
-
+  </p>
   </Transition>
 
 </div>
