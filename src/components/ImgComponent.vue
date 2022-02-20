@@ -3,7 +3,7 @@
   <n-image
     width="69"
     height="69"
-    :src="`https://gateway.pinata.cloud/ipfs/QmVuuRsSJRB4REFA9jgfyJzEPBnJU4qwW3tdgZHNUWcKMN/${edition}.png`"
+    :src="getImage()"
   />         
 </div>
 </template>
@@ -26,12 +26,19 @@ export default defineComponent({
         date: Number,
         attributes: Array,
         compiler: String
+        // getImage:function () {console.log("in getImage"); return `assets/${edition}.png`}
     },
-data: function () {
-    return {
-        showText: false,
-    }
-  },
+    methods: {
+      getImage: function () {
+              console.log("in getImage method ")
+              return `images/${this.edition}.png`
+          }
+    },
+    data () {
+        return {
+            showText: true,
+        }
+      }
 })
 </script>
 
