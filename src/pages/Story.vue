@@ -205,6 +205,8 @@
     </p> -->
     </div> 
 
+
+
   <div class="row items-start q-gutter-md flex-center q-mt-xl" style="height: 300px">
     
   <q-card
@@ -462,8 +464,14 @@ With blockchains there is no central-authority to fix mistakes. Adversaries with
   </q-card-section>
 </q-card>
 
+
+
+
 </div>
-</div>
+  </div>
+
+
+
 </template>
 
 <script>
