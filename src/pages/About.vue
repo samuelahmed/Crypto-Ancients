@@ -25,7 +25,7 @@
     }
   },
   particles: {
-    color: { value: '#000' },
+    color: { value: '#ff3333' },
     line_linked: {
       color: '#0033ff',
       distance: 150,
@@ -105,7 +105,7 @@
          }
          },
     color: {
-      value: '#000',
+      value: '#ff3333',
       animation: {
         enable: true,
         speed: 5,
@@ -113,7 +113,7 @@
       }
        },
     shape: {
-      type: 'star'
+      type: 'circle'
     },
     opacity: {
       value: 1,
@@ -349,23 +349,12 @@ data() {
   font-family: 'Titillium Web'
 
 
-.image 
-  max-height: 30vh
-  max-width: 30vh
-  image-orientation: center
-  cursor: pointer
-  transition: filter 0.3s ease-in
-  image-borders: rounded
-  border-radius: 25px
-
-// .image:hover 
-  // filter: brightness(1.05)
 
 
 .my-card
   background: transparent
 
-$link-color: #663366
+$link-color: #000000
 $hover-color: darken($link-color, 20%)
 $visited-color: lighten($link-color, 20%)
 
