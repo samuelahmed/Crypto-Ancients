@@ -218,7 +218,7 @@ About
   <div class="text-h6">Artist</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-Welcome to my genesis project - Crypto Ancients. It's 2022, I'm 29 studied at UC Berkeley for a BA in political science and the LSE for an MSc in anthropology. Been passionate about blockchains for 5 years. Worked in tech but wasn't technical to my satisfaction so I'm now spending all my time learning computer science to work on and build systems that improve the world. Very attuned to the institutial extraction that is occuring from the less wealthy towards those with more. Challenging the systems that pertetuate inequalities is often abstract and requires constant tiny sacrifices as well as bold moments. Huge shoutout to MIT for having so many courses available online for free, youtube creators with coding content, and most importantly those who helped me directly. 
+Welcome to my genesis project - Crypto Ancients. It's 2022, I'm 29 studied at UC Berkeley for a BA in political science and the LSE for an MSc in anthropology. Been passionate about blockchains for 5 years. Worked in tech but wasn't technical to my satisfaction so I'm now spending all my time learning computer science to work on and build systems that improve the world. Very attuned to the institutial extraction that is occuring from the less wealthy towards those with more. Challenging the systems that perpetuate inequalities is often abstract and requires constant tiny sacrifices as well as bold moments. Huge shoutout to MIT for having so many courses available online for free, youtube creators with coding content, and most importantly those who helped me directly. 
   </q-card-section>
 </q-card>
 
@@ -247,7 +247,7 @@ Official Ethereum Contract Address (Rinkeby Test Network): <a class="has-text-in
   </q-card-section>
   <q-card-section class="q-pt-none">
     <p>
-      At time of writing there is already one copy named cryptohumans with 10x more followers on twitter and is a SCAM. Their website uses an old bulma version of the project which had the following footer “Crypto Ancients by humans. Please take any idea if you use it to fight greed and evil across the world”. While I doubt their scam is being used positively, the idea that others making copies does not harm the original or owners remains. 
+      At time of writing there is already one copy named cryptohumans with 100x more followers on twitter and is a SCAM. Their website uses an old bulma version of the project which had the following footer “Crypto Ancients by humans. Please take any idea if you use it to fight greed and evil across the world”. While I doubt their scam is being used positively, the idea that others making copies does not harm the original or owners remains. 
     </p>
     <p>
 
