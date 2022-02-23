@@ -218,7 +218,13 @@ About
   <div class="text-h6">Artist</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-Welcome to my genesis project - Crypto Ancients. It's 2022, I'm 29 studied at UC Berkeley for a BA in political science and the LSE for an MSc in anthropology. Been passionate about blockchains for 5 years. Worked in tech but wasn't technical to my satisfaction so I'm now spending all my time learning computer science to work on and build systems that improve the world. Very attuned to the institutial extraction that is occuring from the less wealthy towards those with more. Challenging the systems that perpetuate inequalities is often abstract and requires constant tiny sacrifices as well as bold moments. Huge shoutout to <a class="has-text-info" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/" target="_blank">MIT</a> for having so many courses available online for free, youtube creators with coding content, and most importantly those who helped me directly. 
+    <p>
+Welcome to my genesis project - Crypto Ancients. It's 2022, I'm 29 studied at UC Berkeley for a BA in political science and the LSE for an MSc in anthropology. Been passionate about blockchains for 5 years. Worked in tech but wasn't technical to my satisfaction so I'm now spending all my time learning computer science to work on and build systems that improve the world.
+    </p>
+    <p>
+ Very attuned to the institutial extraction that is occuring from the less wealthy towards those with more. Challenging the systems that perpetuate inequalities is often abstract and requires constant tiny sacrifices as well as bold moments. Huge shoutout to <a class="has-text-info" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/" target="_blank">MIT</a> for having so many courses available online for free, youtube creators with coding content, and most importantly those who helped me directly. 
+
+    </p>
   </q-card-section>
 </q-card>
 
@@ -230,7 +236,9 @@ Welcome to my genesis project - Crypto Ancients. It's 2022, I'm 29 studied at UC
   <div class="text-h6">Build</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
+    <p>
 This project was built using <a class="has-text-info" href="https://vuejs.org/" target="_blank">Vue 3</a>, <a class="has-text-info" href="https://quasar.dev/" target="_blank">Quasar</a>, <a class="has-text-info" href="https://www.naiveui.com/en-US/os-theme" target="_blank">Naive UI</a>, <a class="has-text-info" href="https://particles.js.org/" target="_blank">tsParticles</a>, <a class="has-text-info" href="https://github.com/HashLips" target="_blank">Hashlips Art Engine</a>, <a class="has-text-info" href="https://code.visualstudio.com/" target="_blank">VSCode</a> , <a class="has-text-info" href="https://remix.ethereum.org/" target="_blank">Remix</a>, <a class="has-text-info" href="https://www.adobe.com/products/photoshop.html" target="_blank">Photoshop</a>, and <a class="has-text-info" href="https://bulma.io/" target="_blank">Bulma</a> for earliers version of the website. Checkout the public repo on <a class="has-text-info" href="https://github.com/samuelahmed/quasar-vue-cryptoancient-v1.0" target="_blank">Github</a>. Website hosted by <a class="has-text-info" href="https://www.netlify.com/" target="_blank">Netlify</a>. 
+</p>
 <p>
 Official Ethereum Contract Address (Rinkeby Test Network): <a class="has-text-info" href="https://rinkeby.etherscan.io/address/0x5472754c449fb990017e82c9449e456f2b9f3b58" target="_blank">0x5472754c449fB990017e82C9449e456f2B9f3B58</a>
 </p>
