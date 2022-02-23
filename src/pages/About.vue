@@ -218,7 +218,7 @@ About
   <div class="text-h6">Artist</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-Welcome to my genesis project - Crypto Ancients. It's 2022, I'm 29 with a BA/MS in politics and anthropology, passionate about blockchains for 5 years, worked in tech but I wasn't technical to my satisfaction so I'm now spending all my time learning computer science to work on and build systems that improve the world. Very attuned to the institutial extraction that is occuring from the less wealthy towards those with more. No amount of wealth is worth the constant unease and economic poverty of billions, challenging the systems that pertetuates these inequalities is often abstract and requires constant tiny scrifices as well as bold moments. Huge shoutout to MIT for having so many courses available online for free, youtube creators with coding content, and most importantly those who helped me directly. 
+Welcome to my genesis project - Crypto Ancients. It's 2022, I'm 29 studied at UC Berkeley for a BA in political science and the LSE for an MSc in anthropology. Been passionate about blockchains for 5 years. Worked in tech but wasn't technical to my satisfaction so I'm now spending all my time learning computer science to work on and build systems that improve the world. Very attuned to the institutial extraction that is occuring from the less wealthy towards those with more. Challenging the systems that pertetuate inequalities is often abstract and requires constant tiny sacrifices as well as bold moments. Huge shoutout to MIT for having so many courses available online for free, youtube creators with coding content, and most importantly those who helped me directly. 
   </q-card-section>
 </q-card>
 
@@ -230,21 +230,29 @@ Welcome to my genesis project - Crypto Ancients. It's 2022, I'm 29 with a BA/MS 
   <div class="text-h6">Build</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-Vue 3, Quasar, Naive, tsParticles, Hashlips Art Engine, VSCode, Remix, Photoshop, and Bulma for earliers version of the website. Checkout the public repo on Github. Website hosted by Netlify. 
+This project was built using <a class="has-text-info" href="https://vuejs.org/" target="_blank">Vue 3</a>, <a class="has-text-info" href="https://quasar.dev/" target="_blank">Quasar</a>, <a class="has-text-info" href="https://www.naiveui.com/en-US/os-theme" target="_blank">Naive UI</a>, <a class="has-text-info" href="https://particles.js.org/" target="_blank">tsParticles</a>, <a class="has-text-info" href="https://github.com/HashLips" target="_blank">Hashlips Art Engine</a>, <a class="has-text-info" href="https://code.visualstudio.com/" target="_blank">VSCode</a> , <a class="has-text-info" href="https://remix.ethereum.org/" target="_blank">Remix</a>, <a class="has-text-info" href="https://www.adobe.com/products/photoshop.html" target="_blank">Photoshop</a>, and <a class="has-text-info" href="https://bulma.io/" target="_blank">Bulma</a> for earliers version of the website. Checkout the public repo on <a class="has-text-info" href="https://github.com/samuelahmed/quasar-vue-cryptoancient-v1.0" target="_blank">Github</a>. Website hosted by <a class="has-text-info" href="https://www.netlify.com/" target="_blank">Netlify</a>. 
+<p>
+Official Ethereum Contract Address (Rinkeby Test Network): <a class="has-text-info" href="https://rinkeby.etherscan.io/address/0x5472754c449fb990017e82c9449e456f2b9f3b58" target="_blank">0x5472754c449fB990017e82C9449e456f2B9f3B58</a>
+</p>
 
   </q-card-section>
 </q-card>
-
 
 
 <q-card
   class="my-card text-black q-ma-sm"
   style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
   <q-card-section>
-  <div class="text-h6">Crypto Ancient Copies</div>
+  <div class="text-h6">Copies</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-You may have noticed the website footer which claims "Cryto Ancients by Humans, Copy any idea if you use it to fight greed and evil", and wonder why I am so comfortable with anyone copying the work. It all boils downs to what we are doing, making a method to track online ownership, and while I do not know what the human community will accept as a whole, one method that seems promissing is following what is on the blockchain. Therefore, anyone who mints a crypto ancient from the official contract [offical contract link] has a real-origial crypto ancient. Anyone can go to any block-explorer, such as etherscan, and validate this. Copycat projects may even point their token to the same IPFS it does not matter since they are on a different contract. While the copycat may gain value it will never be the same as the original which is on the confirmed contract. I think the projects with more copies will become more popular and trying to block such may be going against the spirit of web3 and digital ownership. Please do research before interacting with any project, especially a copy project. At time of writing there is one copy of Crypto Ancients called cryptohumans with 10x more followers on twitter and it seems a SCAM. Do google reverse-image search, reach the solidity contract, google the project, look it up on a block explorer, search keywords on twitter, and even message the project itself are some ways to get more insights. If you are interacting with a project you are not sure about, do so with a fresh wallet.
+    <p>
+      At time of writing there is already one copy named cryptohumans with 10x more followers on twitter and is a SCAM. Their website uses an old bulma version of the project which had the following footer “Crypto Ancients by humans. Please take any idea if you use it to fight greed and evil across the world”. While I doubt their scam is being used positively, the idea that others making copies does not harm the original or owners remains. 
+    </p>
+    <p>
+
+    </p>
+When it comes to digital ownership, who owns what can be seen by looking at the blockchain. Copy projects will have different addresses or not even be on the blockchain whatsoever. For owners there is no need to worry about these developments, on the contrary, it is likely that the more a token is desired and copied the higher the value of the original.
   </q-card-section>
 </q-card>
 
@@ -348,6 +356,27 @@ data() {
 
 .my-card
   background: transparent
+
+$link-color: #663366
+$hover-color: darken($link-color, 20%)
+$visited-color: lighten($link-color, 20%)
+
+a
+  color: $link-color
+  text-decoration: none
+  background: transparent
+  transition: background 1s ease, padding 1s ease
+
+  &:hover
+    color: $hover-color
+    background: lighten($hover-color, 65%)
+    padding: 4px 0
+  
+
+  &:visited
+    color: $visited-color
+  
+  
 
 
 </style>

@@ -232,7 +232,7 @@ A blockchain is a distributed digital ledger. A database which tracks ownership,
   <div class="text-subtitle2">2</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-The revolution started by Bitcoin is the ability to turn computing power into social trust. So that all participants in the network can be assured that their ledger is most likely accurate even in the face of adversaries. This is a sharp change from past digital ledgers which were susceptible to corruption by both hackers and the issuing authority, regardless of intentions <a class="has-text-info" href="https://en.wikipedia.org/wiki/DigiCash" target="_blank">DigiCash</a>.
+The revolution started by Bitcoin is the ability to turn computing power into social trust. So that all participants in the network can be assured that their ledger is most likely accurate even in the face of adversaries. This is a sharp change from past digital ledgers which were susceptible to corruption by both hackers and the issuing authority, regardless of intentions.
   </q-card-section>
 </q-card>
 
@@ -244,7 +244,7 @@ The revolution started by Bitcoin is the ability to turn computing power into so
   <div class="text-subtitle2">3</div>
   </q-card-section>
   <q-card-section class="q-pt-none">
-Blockchains achieve security without a central authority through cryptographic methods. For example Bitcoin uses <a class="has-text-info" href="https://en.wikipedia.org/wiki/Proof_of_work" target="_blank">proof of work</a>, which requires miners to repeatedly update a nonce and hash until their output has a certain number of leading 0s. When achieved they can submit that block and peers can easily <a class="has-text-info" href="https://en.wikipedia.org/wiki/One-way_function" target="_blank">verify</a> that the necessary work was completed. 
+Blockchains achieve security without a central authority through cryptographic methods. For example Bitcoin uses proof of work, which requires miners to repeatedly update a nonce and hash until their output has a certain number of leading 0s. When achieved they can submit that block and peers can easily verify that the necessary work was completed. 
   </q-card-section>
 </q-card>
 
