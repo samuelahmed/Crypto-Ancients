@@ -355,8 +355,8 @@ data() {
   background: transparent
 
 $link-color: #000000
-$hover-color: darken($link-color, 20%)
-$visited-color: lighten($link-color, 20%)
+$hover-color: #ff3333
+$visited-color: none
 
 a
   color: $link-color
@@ -365,11 +365,10 @@ a
   transition: background 1s ease, padding 1s ease
 
   &:hover
-    color: $hover-color
-    background: lighten($hover-color, 65%)
+    color: #ff3333
+    background: darken($hover-color, 100%)
     padding: 4px 0
   
-
   &:visited
     color: $visited-color
   
