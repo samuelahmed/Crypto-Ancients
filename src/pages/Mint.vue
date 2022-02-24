@@ -242,7 +242,9 @@ Mint
   </div>
 
 <div class="flex flex-center q-pt-sm">
-<q-btn align="right" id="enableEthereumButton" color="primary">
+
+<q-btn align="right" id="enableEthereumButton" color="primary" @click="mint">
+  
   Mint
 </q-btn>
 </div>
@@ -267,11 +269,11 @@ Mint
 
 <script>
 import { defineComponent } from 'vue'
-import Web3 from "../components/Web3.vue"
-import detectEthereumProvider from '@metamask/detect-provider'
+
 
 export default defineComponent({
 name: 'PageIndex',
+
 data() {
   return {
     index: 0,
@@ -314,10 +316,15 @@ data() {
     switchImage() {
       this.image = this.images[this.index]
       this.index = (this.index + 1) % this.images.length;
+    },
+    mint() {
+        async () => {
+      await contract.methods.mint(1).send({from: account, gas: 3000000, value: 10000000000000000})
+      }
     }
   }
-
 })
+
 
 
 </script>

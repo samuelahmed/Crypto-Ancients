@@ -10,7 +10,9 @@ const routes = [
       { path: 'myancients', component: () => import('pages/MyAncients.vue') },
       { path: 'gallery', component: () => import('src/pages/Gallery.vue') },
       { path: 'story', component: () => import('pages/Story.vue') },
-      { path: 'about', component: () => import('pages/About.vue') }
+      { path: 'about', component: () => import('pages/About.vue') },
+      { path: 'metamask', component: () => import('pages/Metamask.vue') }
+
     ]
   },
 

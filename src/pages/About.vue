@@ -282,8 +282,7 @@ When it comes to digital ownership, who owns what can be seen by looking at the 
 
 <script>
 import { defineComponent } from 'vue'
-import Web3 from "../components/Web3.vue"
-import detectEthereumProvider from '@metamask/detect-provider'
+
 
 export default defineComponent({
 name: 'PageIndex',
