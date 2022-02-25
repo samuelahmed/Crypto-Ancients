@@ -1,35 +1,106 @@
 <template>
-  <div class="grid place-items-center h-96">
-    <div> you are connected with address: {{address}} </div>
-    <div v-if="!isLoggedIn">
-      <button
-        @click="connectWallet"
-        v-if="isMetamaskSupported"
-        class="px-4 py-2 rounded"
-      >
-        Metamask Login
-      </button>
-      <div v-else>Install Metamask extension</div>
-    </div>
+  <div>
+    <q-btn color="purple" @click="connectMetamask" label="Connect Metamask" />
+        <q-btn color="blue" @click="mintButton" label="Mint Button" />
 
-    <div v-else>
-       you are connected with address: {{address}}
-    </div>
+<h2>Account: <span class="showAccount"></span></h2>
   </div>
+
+
+
+              <div class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content py-5 px-5">
+                    <div> Successfully minted crypto ancient, number: <span id="newToken"></span></div>
+                    <div class= "is-size-7"> Transaction ID: <span id="newTransactionLink"></span></div>
+                    <div id="linkhere"> </div>
+                </div>
+              </div>
+
+
+
+
+
 </template>
 
-<script lang="ts" setup>
-import { onMounted, ref } from "@vue/runtime-core";
 
-const isLoggedIn = ref(false);
-const address = ref("")
-const isMetamaskSupported = ref(false);
-onMounted(() => {
-  isMetamaskSupported.value = typeof (window as any).ethereum !== "undefined";
-});
-async function connectWallet() {
-  const accounts = await (window as any).ethereum.request({ method: "eth_requestAccounts" });
-  address.value = accounts[0]
-  isLoggedIn.value =  address.value ? true : false
-}
+
+<script>
+import Web3 from 'web3/dist/web3.min.js'
+
+
+export default {
+  setup () {
+      var account = null;
+      var contract = null; 
+      const ADDRESS = "0x5472754c449fB990017e82C9449e456f2B9f3B58";
+      const ABI = [{"inputs":[{"internalType":"string","name":"_name","type":"string"},{"internalType":"string","name":"_symbol","type":"string"},{"internalType":"string","name":"_initBaseURI","type":"string"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"approved","type":"address"},{"indexed":true,"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"operator","type":"address"},{"indexed":false,"internalType":"bool","name":"approved","type":"bool"}],"name":"ApprovalForAll","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":true,"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"Transfer","type":"event"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"addressMintedBalance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"approve","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"baseExtension","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"baseURI","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"cost","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"getApproved","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"operator","type":"address"}],"name":"isApprovedForAll","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"maxMintAmount","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"maxSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"_mintAmount","type":"uint256"}],"name":"mint","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"nftPerAddressLimit","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"ownerOf","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"bool","name":"_state","type":"bool"}],"name":"pause","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"paused","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"renounceOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"safeTransferFrom","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"tokenId","type":"uint256"},{"internalType":"bytes","name":"_data","type":"bytes"}],"name":"safeTransferFrom","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"operator","type":"address"},{"internalType":"bool","name":"approved","type":"bool"}],"name":"setApprovalForAll","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"string","name":"_newBaseExtension","type":"string"}],"name":"setBaseExtension","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"string","name":"_newBaseURI","type":"string"}],"name":"setBaseURI","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_newCost","type":"uint256"}],"name":"setCost","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_limit","type":"uint256"}],"name":"setNftPerAddressLimit","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_newmaxMintAmount","type":"uint256"}],"name":"setmaxMintAmount","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"bytes4","name":"interfaceId","type":"bytes4"}],"name":"supportsInterface","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"index","type":"uint256"}],"name":"tokenByIndex","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"uint256","name":"index","type":"uint256"}],"name":"tokenOfOwnerByIndex","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"tokenURI","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"transferFrom","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"_owner","type":"address"}],"name":"walletOfOwner","outputs":[{"internalType":"uint256[]","name":"","type":"uint256[]"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"withdraw","outputs":[],"stateMutability":"payable","type":"function"}]
+
+    return {
+        async connectMetamask () {
+            //User does NOT have Metamask
+            if (typeof window.ethereum == 'undefined') {
+            alert('Must install Metamask!') }
+            //User HAS Metamask
+            if (typeof window.ethereum !== 'undefined') {
+            console.log('MetaMask is installed!') }
+            //call metamask
+            const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+            const account = accounts[0];
+            //Metamask Connected log & Show Account
+            if (accounts !== null) {
+                console.log('MetaMask is Connected!') 
+                const showAccount = document.querySelector('.showAccount');
+                showAccount.innerHTML = account;}
+              contract = new web3.eth.Contract(ABI, ADDRESS);
+          },
+         async mintButton () {
+              window.web3 = new Web3(window.ethereum);
+              var accounts = await web3.eth.getAccounts();
+              account = accounts[0];
+              contract = new web3.eth.Contract(ABI, ADDRESS)
+              await contract.methods.mint(1).send({from: account, gas: 3000000, value: 10000000000000000})
+                .once('sent', (payload) => {console.log('sent')})
+                .once('transactionHash', (hash) => {
+                  alert('Crypto Ancient Mining. This may take a few seconds to a couple minutes. When complete your new Ancient will be displayed.')
+                  console.log('hashed')
+                });
+                let newToken = transaction.events.Transfer.returnValues.tokenId;
+                let trasactionLink = transaction.transactionHash;
+                //select background 
+                const modalBg = document.querySelector('.modal-background');
+                //select modal
+                const modal = document.querySelector('.modal');
+                //set img link 
+                let img = document.createElement('img');
+                //delete past img on multi mint
+                if (document.querySelector('#linkdelete') !==null) {
+                  document.querySelector('#linkdelete').remove();
+                }
+                //create img and give id to delte
+                img.src = `https://gateway.pinata.cloud/ipfs/QmaCvNHRxVpizVFs4yQ22YnebheT1MA4njUoPb8DZmmZP4/${newToken}.png`;
+                document.querySelector('#linkhere').appendChild(img);
+                img.id = 'linkdelete';
+                img.style.borderRadius = '2em';
+                //token ID number
+                newToken = document.getElementById('newToken').textContent = newToken;
+                //confirmation link
+                document.getElementById('newTransactionLink').textContent = trasactionLink;
+                //trigger modal
+                modal.classList.add('is-active');
+                //close modal
+                modalBg.addEventListener('click', () => {
+                  modal.classList.remove('is-active')
+                });
+                console.log(newToken)
+         }
+
+
+        }
+      }   
+    }
+
+
+
+
 </script>
