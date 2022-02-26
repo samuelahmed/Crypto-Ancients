@@ -33,3 +33,31 @@ async function connectWallet() {
   isLoggedIn.value =  address.value ? true : false
 }
 </script>
+
+
+                //select background 
+                const modalBg = document.querySelector('.modal-background');
+                //select modal
+                const modal = document.querySelector('.modal');
+                //set img link 
+                let img = document.createElement('img');
+                //delete past img on multi mint
+                if (document.querySelector('#linkdelete') !==null) {
+                  document.querySelector('#linkdelete').remove();
+                }
+                //create img and give id to delte
+                img.src = `https://gateway.pinata.cloud/ipfs/QmaCvNHRxVpizVFs4yQ22YnebheT1MA4njUoPb8DZmmZP4/${newToken}.png`;
+                document.querySelector('#linkhere').appendChild(img);
+                img.id = 'linkdelete';
+                img.style.borderRadius = '2em';
+                //token ID number
+                newToken = document.getElementById('newToken').textContent = newToken;
+                //confirmation link
+                document.getElementById('newTransactionLink').textContent = trasactionLink;
+                //trigger modal
+                modal.classList.add('is-active');
+                //close modal
+                modalBg.addEventListener('click', () => {
+                  modal.classList.remove('is-active')
+                });
+                console.log(newToken)

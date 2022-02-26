@@ -11,9 +11,19 @@
               <div class="modal">
                 <div class="modal-background"></div>
                 <div class="modal-content py-5 px-5">
-                    <div> Successfully minted crypto ancient, number: <span id="newToken"></span></div>
-                    <div class= "is-size-7"> Transaction ID: <span id="newTransactionLink"></span></div>
-                    <div id="linkhere"> </div>
+                    <div> Successfully minted crypto ancient, number: <span class="newTokenLoad"></span></div>
+                    <div class= "is-size-7"> Transaction ID: <span class="newTransactionLink"></span></div>
+
+
+<div class="vImg q-pa-sm final" height="69" width="69" >
+  <n-image
+    width="69"
+    height="69"
+  />         
+</div>
+
+
+
                 </div>
               </div>
 
@@ -27,9 +37,13 @@
 
 <script>
 import Web3 from 'web3/dist/web3.min.js'
+  import { NImage } from 'naive-ui'
 
 
 export default {
+    components: {
+        NImage
+    },
   setup () {
       var account = null;
       var contract = null; 
@@ -52,54 +66,53 @@ export default {
                 console.log('MetaMask is Connected!') 
                 const showAccount = document.querySelector('.showAccount');
                 showAccount.innerHTML = account;}
-              contract = new web3.eth.Contract(ABI, ADDRESS);
           },
          async mintButton () {
               window.web3 = new Web3(window.ethereum);
               var accounts = await web3.eth.getAccounts();
               account = accounts[0];
               contract = new web3.eth.Contract(ABI, ADDRESS)
-              await contract.methods.mint(1).send({from: account, gas: 3000000, value: 10000000000000000})
+              let transaction = await contract.methods.mint(1).send({from: account, gas: 3000000, value: 10000000000000000})
                 .once('sent', (payload) => {console.log('sent')})
                 .once('transactionHash', (hash) => {
                   alert('Crypto Ancient Mining. This may take a few seconds to a couple minutes. When complete your new Ancient will be displayed.')
                   console.log('hashed')
                 });
                 let newToken = transaction.events.Transfer.returnValues.tokenId;
-                let trasactionLink = transaction.transactionHash;
-                //select background 
-                const modalBg = document.querySelector('.modal-background');
-                //select modal
-                const modal = document.querySelector('.modal');
-                //set img link 
-                let img = document.createElement('img');
-                //delete past img on multi mint
-                if (document.querySelector('#linkdelete') !==null) {
-                  document.querySelector('#linkdelete').remove();
+                let transactionLink = transaction.transactionHash;
+                let img = `https://gateway.pinata.cloud/ipfs/QmaCvNHRxVpizVFs4yQ22YnebheT1MA4njUoPb8DZmmZP4/${newToken}.png`;
+ 
+                console.log(newToken);
+                console.log(transactionLink);
+                console.log(img);
+        
+                if (newToken !== null) {
+                console.log('newtokencreated') 
+
+
+                const newTokenLoad = document.querySelector('.newTokenLoad');
+                newTokenLoad.innerHTML = newToken;
+
+
+                const newTransactionLink = document.querySelector('.newTransactionLink');
+                newTransactionLink.innerHTML = transactionLink;
+
+
+                const vImg = document.querySelector('.vImg');
+                vImg.innerHTML = img;
+
                 }
-                //create img and give id to delte
-                img.src = `https://gateway.pinata.cloud/ipfs/QmaCvNHRxVpizVFs4yQ22YnebheT1MA4njUoPb8DZmmZP4/${newToken}.png`;
-                document.querySelector('#linkhere').appendChild(img);
-                img.id = 'linkdelete';
-                img.style.borderRadius = '2em';
-                //token ID number
-                newToken = document.getElementById('newToken').textContent = newToken;
-                //confirmation link
-                document.getElementById('newTransactionLink').textContent = trasactionLink;
-                //trigger modal
-                modal.classList.add('is-active');
-                //close modal
-                modalBg.addEventListener('click', () => {
-                  modal.classList.remove('is-active')
-                });
-                console.log(newToken)
+                 }
+    
+          }
+        }
+          
          }
 
 
-        }
-      }   
-    }
-
+        
+      
+    
 
 
 
