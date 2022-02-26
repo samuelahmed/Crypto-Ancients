@@ -8,24 +8,17 @@
 
 
 
-              <div class="modal">
-                <div class="modal-background"></div>
-                <div class="modal-content py-5 px-5">
+      
                     <div> Successfully minted crypto ancient, number: <span class="newTokenLoad"></span></div>
                     <div class= "is-size-7"> Transaction ID: <span class="newTransactionLink"></span></div>
 
 
-<div class="vImg q-pa-sm final" height="69" width="69" >
-  <n-image
+     <n-image
     width="69"
     height="69"
-  />         
-</div>
-
-
-
-                </div>
-              </div>
+    :src="getImage()"
+  />  
+      
 
 
 
@@ -80,7 +73,7 @@ export default {
                 });
                 let newToken = transaction.events.Transfer.returnValues.tokenId;
                 let transactionLink = transaction.transactionHash;
-                let img = `https://gateway.pinata.cloud/ipfs/QmaCvNHRxVpizVFs4yQ22YnebheT1MA4njUoPb8DZmmZP4/${newToken}.png`;
+                let img = `https://gateway.pinata.cloud/ipfs/QmaCvNHRxVpizVFs4yQ22YnebheT1MA4njUoPb8DZmmZP4/${newToken}.png`
  
                 console.log(newToken);
                 console.log(transactionLink);
@@ -89,23 +82,24 @@ export default {
                 if (newToken !== null) {
                 console.log('newtokencreated') 
 
-
                 const newTokenLoad = document.querySelector('.newTokenLoad');
                 newTokenLoad.innerHTML = newToken;
-
 
                 const newTransactionLink = document.querySelector('.newTransactionLink');
                 newTransactionLink.innerHTML = transactionLink;
 
-
-                const vImg = document.querySelector('.vImg');
-                vImg.innerHTML = img;
-
                 }
                  }
-    
           }
-        }
+        },
+    methods: {
+      getImage: function () {
+        if (newToken !== null) {
+
+              console.log("in getImage method ")
+              return `https://gateway.pinata.cloud/ipfs/QmaCvNHRxVpizVFs4yQ22YnebheT1MA4njUoPb8DZmmZP4/${newToken}.png`
+          }}
+    }
           
          }
 
