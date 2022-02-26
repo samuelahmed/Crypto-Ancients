@@ -1,39 +1,22 @@
 <template>
   <div>
     <q-btn color="purple" @click="connectMetamask" label="Connect Metamask" />
-        <q-btn color="blue" @click="mintButton" label="Mint Button" />
-
+    <q-btn color="blue" @click="mintButton" label="Mint Button" />
     <h2>Account: <span class="showAccount"></span></h2>
+    <div> Successfully minted crypto ancient, number: <span class="newTokenLoad"></span></div>
+    <div class= "is-size-7"> Transaction ID: <span class="newTransactionLink"></span></div>
+    <n-image
+      width="500"
+      height="500"
+      :src="getImage()"
+    />  
   </div>
-
-
-
-      
-                    <div> Successfully minted crypto ancient, number: <span class="newTokenLoad"></span></div>
-                    <div class= "is-size-7"> Transaction ID: <span class="newTransactionLink"></span></div>
-
-
-     <n-image
-    width="500"
-    height="500"
-    :src="getImage()"
-  />  
-      
-
-
-
-
-
 </template>
-
-
 
 <script>
 import { defineComponent, ref} from 'vue';
 import Web3 from 'web3/dist/web3.min.js'
 import { NImage } from 'naive-ui'
-
-
 
 export default defineComponent({
   components: {
@@ -43,11 +26,9 @@ export default defineComponent({
   props: {
   },
   data () {
-      return {
-      }
-    },
+      return {}
+  },
   methods: {
-
   },
   setup (props) {
     var account = null;
@@ -77,36 +58,31 @@ export default defineComponent({
               showAccount.innerHTML = account;}
         },
         async mintButton () {
-            window.web3 = new Web3(window.ethereum);
-            var accounts = await web3.eth.getAccounts();
-            account = accounts[0];
-            contract = new web3.eth.Contract(ABI, ADDRESS)
-            let transaction = await contract.methods.mint(1).send({from: account, gas: 3000000, value: 10000000000000000})
-              .once('sent', (payload) => {console.log('sent')})
-              .once('transactionHash', (hash) => {
-                alert('Crypto Ancient Mining. This may take a few seconds to a couple minutes. When complete your new Ancient will be displayed.')
-                console.log('hashed')
-              });
-              newToken.value = transaction.events.Transfer.returnValues.tokenId;
-              let transactionLink = transaction.transactionHash;
-              console.log(newToken.value);
-              console.log(transactionLink);
-              
-  // that needs to be replaced by a reference in the vue template   
-  
-              if (newToken.value !== null) {
-                console.log('newtokencreated') 
-
-                const newTokenLoad = document.querySelector('.newTokenLoad');
-                newTokenLoad.innerHTML = newToken.value;
-
-                const newTransactionLink = document.querySelector('.newTransactionLink');
-                newTransactionLink.innerHTML = transactionLink;
-
-                }
+          window.web3 = new Web3(window.ethereum);
+          var accounts = await web3.eth.getAccounts();
+          account = accounts[0];
+          contract = new web3.eth.Contract(ABI, ADDRESS)
+          let transaction = await contract.methods.mint(1).send({from: account, gas: 3000000, value: 10000000000000000})
+          //TRANSACTION IS INITIATED
+          .once('sent', (payload) => {console.log('sent')})
+          .once('transactionHash', (hash) => {
+            alert('Crypto Ancient Mining. This may take a few seconds to a couple minutes. When complete your new Ancient will be displayed.')
+            console.log('hashed')
+          });
+          newToken.value = transaction.events.Transfer.returnValues.tokenId;
+          let transactionLink = transaction.transactionHash;
+          console.log(newToken.value);
+          console.log(transactionLink);
+          // that needs to be replaced by a reference in the vue template   
+          if (newToken.value !== null) {
+            console.log('newtokencreated') 
+            const newTokenLoad = document.querySelector('.newTokenLoad');
+            newTokenLoad.innerHTML = newToken.value;
+            const newTransactionLink = document.querySelector('.newTransactionLink');
+            newTransactionLink.innerHTML = transactionLink;
             }
         }
-      }        
+    }
+  }        
 });
-
 </script>
