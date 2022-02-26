@@ -12,7 +12,7 @@
   import { defineComponent } from 'vue'
   import { NImage } from 'naive-ui'
   
-export default defineComponent({
+  export default defineComponent({
     components: {
         NImage
     },
@@ -35,10 +35,10 @@ export default defineComponent({
           }
     },
     data () {
-        return {
-            showText: true,
-        }
+      return {
+          showText: true,
       }
+    }
 })
 </script>
 
