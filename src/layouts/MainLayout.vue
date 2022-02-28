@@ -65,25 +65,6 @@ show-if-above
   </q-item>
 </router-link>
 
-
-<!-- <router-link 
-  style="text-decoration: none; color: inherit;"
-  to="/myancients">   
-  <q-item  clickable v-ripple>
-  <q-item-section side>
-  <q-icon name="mdi-wallet" />
-  </q-item-section>
-  <q-item-section>
-  <q-item-label>
-    My Ancients
-  </q-item-label>
-  <q-item-label caption>
-    View your Crypto Ancients
-  </q-item-label>
-  </q-item-section>
-  </q-item>
-</router-link> -->
-
 <router-link 
   style="text-decoration: none; color: inherit;"
   to="/gallery">   

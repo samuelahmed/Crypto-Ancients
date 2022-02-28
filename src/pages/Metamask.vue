@@ -61,6 +61,7 @@ export default defineComponent({
           window.web3 = new Web3(window.ethereum);
           var accounts = await web3.eth.getAccounts();
           account = accounts[0];
+          //START TRANSACTION
           contract = new web3.eth.Contract(ABI, ADDRESS)
           let transaction = await contract.methods.mint(1).send({from: account, gas: 3000000, value: 10000000000000000})
           //TRANSACTION IS INITIATED
@@ -69,6 +70,7 @@ export default defineComponent({
             alert('Crypto Ancient Mining. This may take a few seconds to a couple minutes. When complete your new Ancient will be displayed.')
             console.log('hashed')
           });
+          //CREATE AND DISPLAY RECEIPT ON WEBPAGE
           newToken.value = transaction.events.Transfer.returnValues.tokenId;
           let transactionLink = transaction.transactionHash;
           console.log(newToken.value);
@@ -79,7 +81,7 @@ export default defineComponent({
             const newTokenLoad = document.querySelector('.newTokenLoad');
             newTokenLoad.innerHTML = newToken.value;
             const newTransactionLink = document.querySelector('.newTransactionLink');
-            newTransactionLink.innerHTML = transactionLink;
+            newTransactionLink.innerHTML = "https://rinkeby.etherscan.io/tx/" + transactionLink;
             }
         }
     }
