@@ -208,22 +208,22 @@
 
                 <q-card-section class="q-pt-md" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
                   <div class="text-caption">
-                      <p class="fontchange q-mt-xl" style="font-size: 20px; text-align: left;">
+                      <p class="fontchange q-mt-lg text-h6" style="text-align: left;">
                       There are 10,000 Crypto Ancients 
                       </p>
-                      <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
+                      <p class="fontchange text-h6" style="text-align: left;">
                       Each is unique 69x69 pixel art
                       </p>
-                      <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
+                      <p class="fontchange text-h6" style="text-align: left;">
                       Full ownership with 0% Creator Royalty
                       </p>
-                      <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
+                      <p class="fontchange text-h6" style="text-align: left;">
                       ERC-721 Tokens on Ethereum 
                       </p>
-                      <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
+                      <p class="fontchange text-h6" style="text-align: left;">
                       Images on Pinata IPFS
                       </p>
-                      <p class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
+                      <p class="fontchange text-h6" style="text-align: left;">
                       Mint yours for 0.01 ETH + gas 
                       </p>
                     </div>

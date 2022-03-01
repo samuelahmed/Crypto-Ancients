@@ -239,7 +239,7 @@
                                         <q-card-section class="q-mt-sm" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
 
     <p v-if="show">
-    <p class="fontchange" style="font-size: 20px; text-align: left;">
+    <p class="fontchange text-h6" style="text-align: left;">
     For those passionate to improve the world. People, artists, leaders, workers, lovers, geniuses, degens and all are welcome.
     </p>
     </p>
@@ -255,7 +255,7 @@
 
     <p v-if="show">
 
-       <p class="fontchange aling-left" style="font-size: 20px; text-align: left;">
+       <p class="fontchange text-h6" style="text-align: left;">
 
     No roadmap. No discord. The jpegs are simply themselves, tokens living on the Ethereum blockchain hoping to inspire people.
     </p>
@@ -274,7 +274,7 @@
     <p v-if="show">
 
 
-         <p class="fontchange align-left" style="font-size: 20px; text-align: left;">
+         <p class="fontchange text-h6" style="text-align: left;">
     Explore the story of blockchains and our gallery. If it feels right you can also mint your very own crypto ancient.  
     </p>
     </p>
