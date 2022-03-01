@@ -200,8 +200,8 @@
                 <q-card-section class="q-mt-xl" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
 
                  <n-image
-                    width="250"
-                    height="250"
+                    width="269"
+                    height="269"
                     :src="getImage()"
                   />  
                                   </q-card-section>
@@ -228,8 +228,8 @@
                       </p>
                     </div>
                     <div class="flex flex-center q-pt-sm">
-                       <q-btn color="purple" @click="connectMetamask" label="Connect Metamask" />
-                         <q-btn color="blue" @click="mintButton" label="Mint" />
+                       <q-btn class="q-mr-sm" color="amber-10" @click="connectMetamask" label="Connect Metamask" />
+                         <q-btn color="blue-10" @click="mintButton" label="Mint Crypto Ancient" />
                   </div>      
                 </q-card-section>
               </div>
