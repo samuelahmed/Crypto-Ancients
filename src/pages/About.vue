@@ -184,31 +184,31 @@
   </div>
   <div class="q-mt-xl">
     <div class="flex flex-center">
-      <p class="fontchange flex flex-center q-mt-xl" style="font-size: 48px; text-align: center;">
+      <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+     <p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
       About
-      </p>
+    </p>
+    </q-card-section>
     </div> 
     <q-page class="flex-center">
-      <div div id="q-app" class="flex flex-center q-mt-xl">
+      <div id="q-app" class="flex flex-center q-mt-sm">
         <div class="flex flex-center" style="width:1000px">
-          <q-card
-            class="my-card text-black q-ma-sm"
-            style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+                                <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+
             <q-card-section>
             <div class="text-h6">Artist</div>
             </q-card-section>
             <q-card-section class="q-pt-none">
             <p>
-            Welcome to my genesis project - Crypto Ancients. It's 2022, I'm 29 studied at UC Berkeley for a BA in political science and the LSE for an MSc in anthropology. Been passionate about blockchains for 5 years. Worked in tech but wasn't technical to my satisfaction so I'm now spending all my time learning computer science to work on and build systems that improve the world.
+            Welcome to my genesis project - Crypto Ancients. It's 2022, I studied at UC Berkeley for a BA in political science and the LSE for an MSc in anthropology. Been passionate about blockchains for 5 years. Worked in tech but wasn't technical to my satisfaction so I'm now spending all my time learning computer science to work on and build systems that improve the world.
             </p>
             <p>
             Very attuned to the institutial extraction that is occuring from the less wealthy towards those with more. Challenging the systems that perpetuate inequalities is often abstract and requires constant tiny sacrifices as well as bold moments. Huge shoutout to <a class="has-text-info" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/" target="_blank">MIT</a> for having so many courses available online for free, youtube creators with coding content, and most importantly those who helped me directly. 
             </p>
             </q-card-section>
-          </q-card>
-          <q-card
-            class="my-card text-black q-ma-sm"
-            style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+                                </q-card-section>
+                                      <q-card-section class="q-mt-sm" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+
             <q-card-section>
             <div class="text-h6">Build</div>
             </q-card-section>
@@ -220,10 +220,9 @@
             Official Ethereum Contract Address (Rinkeby Test Network): <a class="has-text-info" href="https://rinkeby.etherscan.io/address/0x5472754c449fb990017e82c9449e456f2b9f3b58" target="_blank">0x5472754c449fB990017e82C9449e456f2B9f3B58</a>
             </p>
             </q-card-section>
-          </q-card>
-          <q-card
-            class="my-card text-black q-ma-sm"
-            style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+                                      </q-card-section>
+                                            <q-card-section class="q-mt-sm"  style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+
             <q-card-section>
             <div class="text-h6">Copies</div>
             </q-card-section>
@@ -235,7 +234,7 @@
             </p>
             When it comes to digital ownership, who owns what can be seen by looking at the blockchain. Copy projects will have different addresses or not even be on the blockchain whatsoever. For owners there is no need to worry about these developments, on the contrary, it is likely that the more a token is desired and copied the higher the value of the original.
             </q-card-section>
-          </q-card>
+                                            </q-card-section>
        </div>
       </div>
     </q-page>

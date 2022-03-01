@@ -212,72 +212,83 @@
   	<!-- <button @click="show = !show">Toggle</button> -->
 
 
-  <Transition
+  <!-- <Transition
     name="dropdown"
     appear
     enter-active-class="animate__animated animate__backInDown animate__slow"
-  >
+  > -->
     <p v-if="show">
 
  
 
-          <p class="titlefont" style="font-size: 48px; text-align: center;">
-
-CRYPTO ANCIENTS
-
-        </p>
+      <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+     <p class="cafont" style="font-size: 48px; text-align: center;">
+      Crypto Ancients
+    </p>
+    </q-card-section>
 
     </p>
-  </Transition>
+  <!-- </Transition> -->
   
 
-    <Transition
+    <!-- <Transition
     name="dropdown"
     appear
     enter-active-class="animate__animated animate__fadeIn animate__slow animate__delay-3s"
-  >
+  > -->
+                                        <q-card-section class="q-mt-sm" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+
     <p v-if="show">
-    <p class="fontchange q-mt-xl" style="font-size: 20px; text-align: left;">
+    <p class="fontchange" style="font-size: 20px; text-align: left;">
     For those passionate to improve the world. People, artists, leaders, workers, lovers, geniuses, degens and all are welcome.
     </p>
     </p>
-  </Transition>
+    </q-card-section>
+  <!-- </Transition> -->
 
-    <Transition
+    <!-- <Transition
     name="dropdown"
     appear
     enter-active-class="animate__animated animate__fadeIn animate__slow animate__delay-3s"
-  >
+  > -->
+          <q-card-section class="q-mt-sm" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+
     <p v-if="show">
 
-       <p class="fontchange q-mt-lg aling-left" style="font-size: 20px; text-align: left;">
+       <p class="fontchange aling-left" style="font-size: 20px; text-align: left;">
+
     No roadmap. No discord. The jpegs are simply themselves, tokens living on the Ethereum blockchain hoping to inspire people.
     </p>
     </p>
-  </Transition>
+    </q-card-section>
+  <!-- </Transition> -->
 
 
-      <Transition
+      <!-- <Transition
     name="dropdown"
     appear
     enter-active-class="animate__animated animate__fadeIn animate__slow animate__delay-3s"
-  >
+  > -->
+            <q-card-section class="q-mt-sm" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+
     <p v-if="show">
 
 
-         <p class="fontchange q-my-lg align-left" style="font-size: 20px; text-align: left;">
+         <p class="fontchange align-left" style="font-size: 20px; text-align: left;">
     Explore the story of blockchains and our gallery. If it feels right you can also mint your very own crypto ancient.  
     </p>
     </p>
-  </Transition>
+        </q-card-section>
+
+  <!-- </Transition> -->
 
     
-   
+<!--    
  <Transition
     name="dropdown"
     appear
     enter-active-class="animate__animated animate__fadeInLeftBig animate__slow animate__delay-5s"
-  >
+  > -->
     <p v-if="show">
 
   <div class="row flex flex-center q-mt-xl">
@@ -312,7 +323,7 @@ CRYPTO ANCIENTS
 
   </div>
 </p>
-  </Transition>
+  <!-- </Transition> -->
 
   
         
@@ -359,7 +370,7 @@ name: 'PageIndex',
   
 <style lang="sass" scoped>
 .fontchange
-    font-family: monospace
+    font-family: 'Titillium Web'
 
 .titlefont
     font-family: 'Titillium Web'
@@ -385,7 +396,8 @@ name: 'PageIndex',
   z-index: 9999
 
 
-
+.cafont
+    font-family: 'Titillium Web'
 
 
 

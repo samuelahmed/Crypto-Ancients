@@ -197,9 +197,11 @@
   </div>
   <div class="q-mt-xl">
     <div class="flex flex-center">
+      <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
      <p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
       Blockchains and NFTs in our World
     </p>
+    </q-card-section>
         <!-- <p class="fontchange q-mt-lg" style="font-size: 22px; text-align: left;">
     Arranged is a short story on Bitcoin, Ethereum, NFTs and how they relate to our world. Where do you stand?  
     </p> -->
