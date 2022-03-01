@@ -242,7 +242,8 @@
                       <q-card-section class="q-mt-xl" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
 
 
-                      <div class="fontchange q-mt-lg" style="font-size: 20px; text-align: left;">
+                      <div class="fontchange q-mt-lg text-h6" style="text-align: left">
+                        <p>Official Contract: <a href="https://rinkeby.etherscan.io/address/0x4bf827186cc2f59a48bc9f93f11d81b78b2e1be5" target="_blank">0x4bf827186Cc2F59A48BC9f93F11D81b78b2E1bE5</a>  </p>
                         <p><span class="newTokenLoad"></span></p>
                        <p> <span class="newTransactionLink"></span></p>
                         <p><span class="showAccount"></span></p>
@@ -324,7 +325,7 @@ export default defineComponent({
           if (newToken.value !== null) {
             console.log('newtokencreated') 
             const newTokenLoad = document.querySelector('.newTokenLoad');
-            newTokenLoad.innerHTML = "Successfully minted crypto ancient, number: " + newToken.value;
+            newTokenLoad.innerHTML = "Successfully minted Crypto Ancient: " + newToken.value;
             const newTransactionLink = document.querySelector('.newTransactionLink');
             newTransactionLink.innerHTML = "Transaction ID: " + transactionLink;
             }
@@ -347,4 +348,20 @@ export default defineComponent({
 .fontchange
   font-family: 'Titillium Web'
 
+$link-color: #000000
+$hover-color: #0033ff
+$visited-color: none
+
+a
+  color: $link-color
+  text-decoration: none
+  background: transparent
+  transition: background 1s ease, padding 1s ease
+
+  &:hover
+    color: #0033ff
+    padding: 4px 0
+  
+  &:visited
+    color: $visited-color
 </style>

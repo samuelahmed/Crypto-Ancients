@@ -274,7 +274,6 @@ a
 
   &:hover
     color: #ff3333
-    background: darken($hover-color, 100%)
     padding: 4px 0
   
   &:visited
