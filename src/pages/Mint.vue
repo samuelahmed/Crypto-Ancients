@@ -203,6 +203,8 @@
                     width="269"
                     height="269"
                     :src="getImage()"
+                    :alt="getAltImage ()"
+                    :fallback-src="getAltImage ()"
                   />  
                                   </q-card-section>
 
@@ -270,9 +272,14 @@ export default defineComponent({
   },
   name:"Blah",
   props: {
+     image: String,
+
   },
   data () {
-      return {}
+      return {
+          showText: true,
+  
+      }
   },
   methods: {
   },
@@ -285,7 +292,11 @@ export default defineComponent({
     return {
       getImage () {
         console.log("in getImage method with new Token:",newToken.value);
-        return `https://gateway.pinata.cloud/ipfs/QmaCvNHRxVpizVFs4yQ22YnebheT1MA4njUoPb8DZmmZP4/${newToken.value || 1}.png`
+        return `https://gateway.pinata.cloud/ipfs/QmaCvNHRxVpizVFs4yQ22YnebheT1MA4njUoPb8DZmmZP4/${newToken.value}.png`
+      },
+      getAltImage () {
+        console.log("am i here?")
+        return `img/greyAncient.png`
       },
       async connectMetamask () {
           //User does NOT have Metamask
