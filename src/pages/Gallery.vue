@@ -221,7 +221,7 @@
   <q-card>     
      
 
-<imgComp v-for="item in items" v-bind="item" v-bind:key="item.edition" />
+<imgComp v-for="item in items" v-bind="item" v-bind:key="items" />
  </q-card>
 </q-infinite-scroll>
 </div>
