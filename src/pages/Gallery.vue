@@ -249,7 +249,7 @@ data() {
     }},
   methods: {
     async onLoad()  {
-    const res = await fetch("https://gateway.pinata.cloud/ipfs/QmZgb8gMhMnsc3sZUf5aargWKi35jS5pc9AJj9GYVKrJ1p/_metadata.json");
+    const res = await fetch("https://github.com/samuelahmed/quasar-vue-cryptoancient-v1.0/blob/master/public/img/metadata.json");
     this.items = await res.json();
     }}}
     
