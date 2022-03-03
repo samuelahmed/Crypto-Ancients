@@ -249,7 +249,7 @@ data() {
     }},
   methods: {
     async onLoad()  {
-    const res = await fetch("https://github.com/samuelahmed/quasar-vue-cryptoancient-v1.0/blob/master/public/img/metadata.json");
+    const res = await fetch("https://raw.githubusercontent.com/samuelahmed/quasar-vue-cryptoancient-v1.0/master/public/img/metadata.json");
     this.items = await res.json();
     }}}
     
