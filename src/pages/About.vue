@@ -182,13 +182,13 @@
         }"
       />
   </div>
-  <div class="q-mt-xl">
+  <div class="q-mt-none">
     <div class="flex flex-center">
       <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
-     <p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
-      About
-    </p>
-    </q-card-section>
+        <p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
+          About
+        </p>
+      </q-card-section>
     </div> 
     <q-page class="flex-center">
       <div id="q-app" class="flex flex-center q-mt-sm">
