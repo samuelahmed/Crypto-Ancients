@@ -218,10 +218,16 @@
 
 <div class="q-pa-xl">
 <q-infinite-scroll @load="onLoad" :offset="250">
-  <q-card>     
-     
+  <q-card>   
 
+    <n-image-group>
+          <n-space>
 <imgComp v-for="item in items" v-bind="item" v-bind:key="items" />
+
+      </n-space>
+
+  </n-image-group>    
+
  </q-card>
 </q-infinite-scroll>
 </div>
@@ -236,11 +242,15 @@
 
 <script>
 import imgComp from "../components/ImgComponent.vue"
+import { NImage, NImageGroup } from 'naive-ui'
+
 
 export default {
 name: 'Galery',
 components: {
-imgComp
+imgComp,
+NImage,
+NImageGroup
 },
 data() {
   return {

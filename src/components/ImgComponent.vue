@@ -1,20 +1,23 @@
 <template>
 <div class="q-pa-sm final" height="69" width="69" >
+
   <n-image
     width="69"
     height="69"
     :src="getImage()"
-  />         
+  />   
+  
 </div>
 </template>
 
 <script>
   import { defineComponent } from 'vue'
-  import { NImage } from 'naive-ui'
+  import { NImage, NImageGroup } from 'naive-ui'
   
   export default defineComponent({
     components: {
-        NImage
+        NImage,
+        NImageGroup,
     },
     name: 'imgComp',
     props: {
