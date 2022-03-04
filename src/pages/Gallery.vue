@@ -196,7 +196,7 @@
   
     </div>
 
-  <div class="q-mt-xl">
+  <div class="q-mt-none">
     
     <div class="flex flex-center">
       <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">

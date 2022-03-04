@@ -200,7 +200,7 @@
     
 
 
-    <div id="absolute" class="q-mt-xl">
+    <div id="absolute" class="q-mt-none">
 
 
    <div class="q-pa-xl flex flex-center">
