@@ -223,7 +223,6 @@
     <n-image-group>
           <n-space>
 <imgComp v-for="item in items" v-bind="item" v-bind:key="items" />
-
       </n-space>
 
   </n-image-group>    

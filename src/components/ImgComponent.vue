@@ -5,7 +5,8 @@
     width="69"
     height="69"
     :src="getImage()"
-  />   
+  />
+  <div class="flex flex-center"> {{ edition }} </div>
   
 </div>
 </template>
