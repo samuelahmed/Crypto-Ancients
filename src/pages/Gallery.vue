@@ -195,39 +195,53 @@
     </div> 
       <div class="row fontchange q-pa-xl">
         <!-- Menu -->
-        <div class="col text-h6">
-          <q-card-section class="q-pa-none">
-            <p>Attribute Select Menu </p>
-            <q-input v-model="text" label="Search Ancient"></q-input>
-          </q-card-section>
-        </div>
+
+         <imgMenu :filterPosts="filterPosts" />
+
         <!-- Images -->
         <div class="col-10" v-if="show">
-          <q-infinite-scroll @load="onLoad" :offset="250">
-            <q-card>  
-              <n-image-group>
-                <n-space>
-                  <imgComp v-for="item in items" v-bind="item" v-bind:key="items" />
-                </n-space>
-              </n-image-group>    
-            </q-card>
-          </q-infinite-scroll>
+            <div class="q-pa-md">
+
+
+<q-infinite-scroll @load="onLoad" :offset="250">
+  <q-card>   
+
+    <n-image-group>
+          <n-space>
+<imgComp :posts="posts" v-for="item in items" v-bind="item" v-bind:key="items" />
+      </n-space>
+
+  </n-image-group>    
+
+ </q-card>
+</q-infinite-scroll>     
+            </div>
         </div>
     </div>
   </div>
 </template>
 
 <script>
+import { ref } from 'vue'
+
+
 import imgComp from "../components/ImgComponent.vue"
 import { NImage, NImageGroup } from 'naive-ui'
+import imgMenu from "../components/ImgMenu.vue"
 
 
+ 
 export default {
+
 name: 'Galery',
+props: [
+  'posts',
+],
 components: {
 imgComp,
 NImage,
-NImageGroup
+NImageGroup,
+imgMenu,
 },
 data() {
   return {
@@ -235,12 +249,19 @@ data() {
     ],
     show: true
     }
+  
   },
   methods: {
     async onLoad()  {
       const res = await fetch("https://raw.githubusercontent.com/samuelahmed/quasar-vue-cryptoancient-v1.0/master/public/img/metadata.json");
       this.items = await res.json();
+      },
+    filterPosts (trait_type) {
+      this.posts = this.post.filter((post) => {
+        return post.category === trait_type
       }
+            )
+    }
     }
   }
   
