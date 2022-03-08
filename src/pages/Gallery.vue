@@ -226,7 +226,7 @@ import { ref } from 'vue'
 
 
 import imgComp from "../components/ImgComponent.vue"
-import { NImage, NImageGroup } from 'naive-ui'
+import { NImage, NImageGroup, NSpace } from 'naive-ui'
 import imgMenu from "../components/ImgMenu.vue"
 
 
@@ -242,6 +242,7 @@ imgComp,
 NImage,
 NImageGroup,
 imgMenu,
+NSpace
 },
 data() {
   return {
