@@ -1,5 +1,4 @@
 <template>
-  <!-- Sun & Animation -->
   <div class="background-image" style="width: 100vh; height: 100vh; position: fixed">
     <Particles
         id="tsparticless"
@@ -184,90 +183,71 @@
         }"
       />
   </div>
-  <!-- Menu & Images -->
   <div class="q-mt-none">
     <div class="flex flex-center">
       <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
         <p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
-         Gallery
+          Gallery
         </p>
       </q-card-section>
     </div> 
-      <div class="row fontchange q-pa-xl">
-        <!-- Menu -->
-
-         <imgMenu :filterPosts="filterPosts" />
-
-        <!-- Images -->
-        <div class="col-10" v-if="show">
-            <div class="q-pa-md">
-
-
-<q-infinite-scroll @load="onLoad" :offset="250">
-  <q-card>   
-
-    <n-image-group>
-          <n-space>
-<imgComp :posts="posts" v-for="item in items" v-bind="item" v-bind:key="items" />
-      </n-space>
-
-  </n-image-group>    
-
- </q-card>
-</q-infinite-scroll>     
-            </div>
+    <div class="row fontchange q-pa-xl">
+      <div class="col-2">
+        <imgMenu :filterPosts="filterPosts" />
+      </div>
+      <div class="col-10" v-if="show">
+        <div class="q-pa-md">
+          <q-infinite-scroll @load="onLoad" :offset="250">
+            <q-card>   
+              <n-image-group>
+                <n-space>
+                  <imgComp :posts="posts" v-for="item in items" v-bind="item" v-bind:key="items" />
+                </n-space>
+              </n-image-group>    
+            </q-card>
+          </q-infinite-scroll>     
         </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import { ref } from 'vue'
-
-
 import imgComp from "../components/ImgComponent.vue"
 import { NImage, NImageGroup, NSpace } from 'naive-ui'
 import imgMenu from "../components/ImgMenu.vue"
 
-
- 
 export default {
-
-name: 'Galery',
-props: [
-  'posts',
-],
-components: {
-imgComp,
-NImage,
-NImageGroup,
-imgMenu,
-NSpace
-},
-data() {
-  return {
-    items: [
-    ],
-    show: true
-    }
-  
+  name: 'Galery',
+  props: [
+    'posts',
+  ],
+  components: {
+    imgComp,
+    NImage,
+    NImageGroup,
+    imgMenu,
+    NSpace
   },
-  methods: {
-    async onLoad()  {
-      const res = await fetch("https://raw.githubusercontent.com/samuelahmed/quasar-vue-cryptoancient-v1.0/master/public/img/metadata.json");
-      this.items = await res.json();
-      },
-    filterPosts (trait_type) {
-      this.posts = this.post.filter((post) => {
-        return post.category === trait_type
+  data() {
+    return {
+      items: [],
+      show: true
       }
-            )
-    }
+    },
+    methods: {
+      async onLoad()  {
+        const res = await fetch("https://raw.githubusercontent.com/samuelahmed/quasar-vue-cryptoancient-v1.0/master/public/img/metadata.json");
+        this.items = await res.json();
+        },
+      filterPosts (trait_type) {
+        this.posts = this.post.filter((post) => {
+          return post.category === trait_type
+      })
     }
   }
-  
+}  
 </script>
-
 
 <style lang="sass" scoped>
 .background-image
@@ -278,8 +258,6 @@ data() {
 
 .fontchange
     font-family: 'Titillium Web'
-
-@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 </style>
 

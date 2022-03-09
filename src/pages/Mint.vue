@@ -1,195 +1,195 @@
 <template>
   <div class="background-image" style="width: 100vh; height: 100vh; position: fixed">
-  <Particles
-      id="tsparticless"
-      :options="{
-    fps_limit: 60,
-    interactivity: {
-      detect_on: 'canvas',
-      events: {
-        onclick: { enable: true, mode: 'repulse' },
-        onhover: {
+    <Particles
+        id="tsparticless"
+        :options="{
+      fps_limit: 60,
+      interactivity: {
+        detect_on: 'canvas',
+        events: {
+          onclick: { enable: true, mode: 'repulse' },
+          onhover: {
+            enable: true,
+            mode: 'bubble',
+            parallax: { enable: false, force: 2, smooth: 10 }
+          },
+          resize: true
+        },
+        modes: {
+          bubble: { distance: 250, duration: 2, opacity: 0, size: 0, speed: 3 },
+          grab: { distance: 400, line_linked: { opacity: 1 } },
+          push: { particles_nb: 4 },
+          remove: { particles_nb: 2 },
+          repulse: { distance: 400, duration: 0.4 }
+        }
+      },
+      particles: {
+        color: { value: '#0033ff' },
+        line_linked: {
+          color: '#0033ff',
+          distance: 150,
+          enable: false,
+          opacity: 0.4,
+          width: 1
+        },
+        move: {
+          size: true,
+          attract: { enable: false, rotateX: 600, rotateY: 600 },
+          bounce: false,
+          direction: 'none',
           enable: true,
-          mode: 'bubble',
-          parallax: { enable: false, force: 2, smooth: 10 }
+          out_mode: 'out',
+          random: true,
+          speed: 0.3,
+          straight: false
         },
-        resize: true
-      },
-      modes: {
-        bubble: { distance: 250, duration: 2, opacity: 0, size: 0, speed: 3 },
-        grab: { distance: 400, line_linked: { opacity: 1 } },
-        push: { particles_nb: 4 },
-        remove: { particles_nb: 2 },
-        repulse: { distance: 400, duration: 0.4 }
-      }
-    },
-    particles: {
-      color: { value: '#0033ff' },
-      line_linked: {
-        color: '#0033ff',
-        distance: 150,
-        enable: false,
-        opacity: 0.4,
-        width: 1
-      },
-      move: {
-        size: true,
-        attract: { enable: false, rotateX: 600, rotateY: 600 },
-        bounce: false,
-        direction: 'none',
-        enable: true,
-        out_mode: 'out',
-        random: true,
-        speed: 0.3,
-        straight: false
-      },
-      number: { density: { enable: true, value_area: 800 }, value: 160 },
-      opacity: {
-        anim: { enable: true, opacity_min: 0, speed: 1, sync: false },
-        random: true,
-        value: 1
-      },
-      shape: {
-        character: {
-          fill: false,
-          font: 'Verdana',
-          style: '',
-          value: '*',
-          weight: '400'
+        number: { density: { enable: true, value_area: 800 }, value: 160 },
+        opacity: {
+          anim: { enable: true, opacity_min: 0, speed: 1, sync: false },
+          random: true,
+          value: 1
         },
-        image: {
-          height: 100,
-          replace_color: true,
-          src: 'images/github.svg',
-          width: 100
+        shape: {
+          character: {
+            fill: false,
+            font: 'Verdana',
+            style: '',
+            value: '*',
+            weight: '400'
+          },
+          image: {
+            height: 100,
+            replace_color: true,
+            src: 'images/github.svg',
+            width: 100
+          },
+          polygon: { nb_sides: 5 },
+          stroke: { color: '#000000', width: 0 },
+          type: 'circle'
         },
-        polygon: { nb_sides: 5 },
-        stroke: { color: '#000000', width: 0 },
-        type: 'circle'
+        size: {
+          anim: { enable: false, size_min: 0.3, speed: 4, sync: false },
+          random: true,
+          value: 3
+        }
       },
-      size: {
-        anim: { enable: false, size_min: 0.3, speed: 4, sync: false },
-        random: true,
-        value: 3
-      }
-    },
-    polygon: {
-      draw: { enable: false, lineColor: '#ffffff', lineWidth: 0.5 },
-      move: { radius: 10 },
-      scale: 1,
-      type: 'none',
-      url: ''
-    },
-    retina_detect: true
-    }"
-    />
-  <Particles
-      id="tsparticles"
-      :options="{
-          fpsLimit: 60,
-        particles: {
-        number: {
-        value: 1,
-        density: {
-          enable: true,
-          value_area: 800
+      polygon: {
+        draw: { enable: false, lineColor: '#ffffff', lineWidth: 0.5 },
+        move: { radius: 10 },
+        scale: 1,
+        type: 'none',
+        url: ''
+      },
+      retina_detect: true
+      }"
+      />
+    <Particles
+        id="tsparticles"
+        :options="{
+            fpsLimit: 60,
+          particles: {
+          number: {
+          value: 1,
+          density: {
+            enable: true,
+            value_area: 800
+            }
+            },
+        color: {
+          value: '#0033ff',
+          animation: {
+            enable: true,
+            speed: 5,
+            sync: true
           }
           },
-      color: {
-        value: '#0033ff',
-        animation: {
+        shape: {
+          type: 'circle'
+        },
+        opacity: {
+          value: 1,
+          random: false,
+          animation: {
+            enable: true,
+            speed: 0.5,
+            minimumValue: 10,
+            sync: false
+          }
+        },
+        size: {
+          value: 1,
+          random: { enable: true, minimumValue: 4 },
+          animation: {
+            enable: false,
+            speed: 7,
+            minimumValue: 1,
+            sync: false
+          }
+        },
+        life: {
+          duration: {
+            value: 2
+          },
+          count: 1
+        },
+        move: {
+          angle: {
+            value: 90,
+            offset: 0
+          },
           enable: true,
-          speed: 5,
-          sync: true
-        }
-        },
-      shape: {
-        type: 'circle'
-      },
-      opacity: {
-        value: 1,
-        random: false,
-        animation: {
-          enable: true,
-          speed: 0.5,
-          minimumValue: 10,
-          sync: false
-        }
-      },
-      size: {
-        value: 1,
-        random: { enable: true, minimumValue: 4 },
-        animation: {
-          enable: false,
-          speed: 7,
-          minimumValue: 1,
-          sync: false
-        }
-      },
-      life: {
-        duration: {
-          value: 2
-        },
-        count: 1
-      },
-      move: {
-        angle: {
-          value: 90,
-          offset: 0
-        },
-        enable: true,
-        gravity: {
-          enable: true,
-          acceleration: 0,
-          inverse: true,
-        },
-        speed: 10,
-        direction: 'side',
-        random: true,
-        straight: false,
-        size: true,
-        outModes: {
-          default: 'destroy',
-          bottom: 'none'
-        },
-        attract: {
-          enable: false,
-          distance: 300,
-          rotate: {
-            x: 0,
-            y: 0,
+          gravity: {
+            enable: true,
+            acceleration: 0,
+            inverse: true,
+          },
+          speed: 10,
+          direction: 'side',
+          random: true,
+          straight: false,
+          size: true,
+          outModes: {
+            default: 'destroy',
+            bottom: 'none'
+          },
+          attract: {
+            enable: false,
+            distance: 300,
+            rotate: {
+              x: 0,
+              y: 0,
+            }
           }
         }
-      }
-    },
+      },
 
-    detectRetina: true,
-    background: {
-    },
-    emitters: {
-      direction: 'bottom-right',
-      rate: {
-        quantity: 5,
-        delay: 0
+      detectRetina: true,
+      background: {
       },
-      size: {
-        width: 100,
-        height: 10
-      },
-      position: {
-        x: -38,
-        y: 10
-      }}
-      }"
-    />
+      emitters: {
+        direction: 'bottom-right',
+        rate: {
+          quantity: 5,
+          delay: 0
+        },
+        size: {
+          width: 100,
+          height: 10
+        },
+        position: {
+          x: -38,
+          y: 10
+        }}
+        }"
+      />
   </div>
   <div class="q-mt-none">
     <div class="flex flex-center">
-     <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
-     <p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
-      Mint
-    </p>
-    </q-card-section>
+      <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+        <p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
+          Mint
+        </p>
+      </q-card-section>
     </div> 
     <q-page class="flex-center">
       <div div id="q-app">
@@ -198,67 +198,57 @@
             <q-card-section horizontal>
               <div class="flex flex-centered">
                 <q-card-section class="q-mt-xl" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
-
-                 <n-image
-                    width="269"
-                    height="269"
-                    :src="getImage()"
-                    :alt="getAltImage ()"
-                    :fallback-src="getAltImage ()"
+                  <n-image
+                  width="269"
+                  height="269"
+                  :src="getImage()"
+                  :alt="getAltImage ()"
+                  :fallback-src="getAltImage ()"
                   />  
-                                  </q-card-section>
-
+                </q-card-section>
                 <q-card-section class="q-pt-md" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
                   <div class="text-caption">
-                      <p class="fontchange q-mt-lg text-h6" style="text-align: left;">
-                      There are 10,000 Crypto Ancients 
-                      </p>
-                      <p class="fontchange text-h6" style="text-align: left;">
-                      Each is unique 69x69 pixel art
-                      </p>
-                      <p class="fontchange text-h6" style="text-align: left;">
-                      Full ownership with 0% Creator Royalty
-                      </p>
-                      <p class="fontchange text-h6" style="text-align: left;">
-                      ERC-721 Tokens on Ethereum 
-                      </p>
-                      <p class="fontchange text-h6" style="text-align: left;">
-                      Images on Pinata IPFS
-                      </p>
-                      <p class="fontchange text-h6" style="text-align: left;">
+                    <p class="fontchange q-mt-lg text-h6" style="text-align: left;">
+                     There are 10,000 Crypto Ancients 
+                    </p>
+                    <p class="fontchange text-h6" style="text-align: left;">
+                     Each is unique 69x69 pixel art
+                    </p>
+                    <p class="fontchange text-h6" style="text-align: left;">
+                     Full ownership with 0% Creator Royalty
+                    </p>
+                    <p class="fontchange text-h6" style="text-align: left;">
+                     ERC-721 Tokens on Ethereum 
+                    </p>
+                    <p class="fontchange text-h6" style="text-align: left;">
+                     Images on Pinata IPFS
+                    </p>
+                    <p class="fontchange text-h6" style="text-align: left;">
                       Mint yours for 0.01 ETH + gas 
-                      </p>
-                    </div>
-                    <div class="flex flex-center q-pt-sm">
-                       <q-btn class="q-mr-sm" color="amber-10" @click="connectMetamask" label="Connect Metamask" />
-                         <q-btn color="blue-10" @click="mintButton" label="Mint Crypto Ancient" />
+                    </p>
+                  </div>
+                  <div class="flex flex-center q-pt-sm">
+                    <q-btn class="q-mr-sm" color="amber-10" @click="connectMetamask" label="Connect Metamask" />
+                    <q-btn color="blue-10" @click="mintButton" label="Mint Crypto Ancient" />
                   </div>      
                 </q-card-section>
               </div>
             </q-card-section>
           </q-card>
         </div>
-
-               <div class="q-pa-sm row items-start q-gutter-md flex flex-center">
-                  
-                      <q-card-section class="q-mt-xl" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
-
-
-                      <div class="fontchange q-mt-lg text-h6" style="text-align: left">
-                        <p>Official Contract: <a href="https://rinkeby.etherscan.io/address/0xA761d9C1C3639a243ee274b226A9a4D08c0178c3" target="_blank">0xA761d9C1C3639a243ee274b226A9a4D08c0178c3</a>  </p>
-                        <p><span class="newTokenLoad"></span></p>
-                       <p> <span class="newTransactionLink"></span></p>
-                        <p><span class="showAccount"></span></p>
-
-                        
-                        </div>
-</q-card-section>
-</div>
-
+        <div class="q-pa-sm row items-start q-gutter-md flex flex-center">
+          <q-card-section class="q-mt-xl" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+            <div class="fontchange q-mt-lg text-h6" style="text-align: left">
+              <p>Official Contract: <a href="https://rinkeby.etherscan.io/address/0xA761d9C1C3639a243ee274b226A9a4D08c0178c3" target="_blank">0xA761d9C1C3639a243ee274b226A9a4D08c0178c3</a>  </p>
+              <p><span class="newTokenLoad"></span></p>
+              <p> <span class="newTransactionLink"></span></p>
+              <p><span class="showAccount"></span></p>          
+            </div>
+          </q-card-section>
+        </div>
       </div>
     </q-page>
   </div>
-
 </template>
 
 <script>
@@ -273,12 +263,10 @@ export default defineComponent({
   name:"Blah",
   props: {
      image: String,
-
   },
   data () {
       return {
           showText: true,
-  
       }
   },
   methods: {
