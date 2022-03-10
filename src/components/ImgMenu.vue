@@ -4,6 +4,16 @@
     <p>
      Attribute Select Menu   
     </p>
+
+    <label for="search">
+    Search
+    <input
+      id="search"
+      v-model="term"
+      @keypress.enter="search(term)"
+    />
+  </label>
+
     <p 
       v-for="filter in filters" 
       :key="filter"
@@ -15,24 +25,42 @@
 </template>
 
 <script>
+import Gallery from "../pages/Gallery.vue"
+
 const filters = [
+    '',
     'Daytime',
-    'body'
-  ]
+    'body',
+    '55'
+]
 export default {
   props: [
     'filterPosts',
     'search',
-    'filteredPosts'
+    'filteredPosts',
   ],
   data () {
     return {
+      show: true,
       filters,
       term: '',
     }
   },
-  name: 'imgMenu'
-  }
+  name: 
+    'ImgMenu',
+  methods: {
+          search (term) {
+        this.resetPosts()
+        this.items = this.items.filter((item) => {
+          return item.title.toLowerCase().includes(term.toLowerCase())
+        })
+      },
+            resetPosts () {
+        this.posts = items
+      }    
+  },
+
+}
 </script>
 
 
