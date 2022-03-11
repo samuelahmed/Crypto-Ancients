@@ -12,18 +12,14 @@
     </div> 
     <div class="row fontchange q-pa-xl">
       <div class="col-2">
-        <imgMenu :filterPosts="filterPosts" />
+        <p>Add Search Menu Here</p>
       </div>
-      <div class="col-10" v-if="show">
+      <div class="col-10">
         <div class="q-pa-md">
           <q-infinite-scroll @load="onLoad" :offset="250">
-            <q-card>   
               <n-image-group>
-                <n-space>
-                  <imgComp :posts="posts" v-for="item in items" v-bind="item" v-bind:key="items" />
-                </n-space>
+                  <imgComp v-for="item in items" v-bind="item" v-bind:key="items" />
               </n-image-group>    
-            </q-card>
           </q-infinite-scroll>     
         </div>
       </div>
@@ -33,43 +29,29 @@
 
 <script>
 import imgComp from "../components/ImgComponent.vue"
-import { NImage, NImageGroup, NSpace } from 'naive-ui'
-import ImgMenu from "../components/ImgMenu.vue"
 import PinkParticles from "../components/PinkParticles"
+import { NImageGroup } from 'naive-ui'
+
 
 export default {
   name: 'Galery',
-  props: [
-    'posts',
-  ],
   components: {
     imgComp,
-    NImage,
-    NImageGroup,
-    ImgMenu,
-    NSpace,
-    PinkParticles
+    PinkParticles,
+    NImageGroup
   },
   data() {
     return {
       items: [],
-      show: true,
-      str: '',
-      type: '',
       }
     },
     methods: {
       async onLoad()  {
         const res = await fetch("https://raw.githubusercontent.com/samuelahmed/quasar-vue-cryptoancient-v1.0/master/public/img/metadata.json");
         this.items = await res.json();
-        },
-      filterPosts (edition) {
-        this.items = this.items.filter((item) => {
-          return item.edition === edition
-        })
-      }
-    }
-  }  
+    },
+  }
+}
 </script>
 
 <style lang="sass" scoped>

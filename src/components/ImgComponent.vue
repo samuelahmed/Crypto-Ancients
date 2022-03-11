@@ -1,12 +1,15 @@
 <template>
-<div class="q-pa-sm final">
-  <n-image
-    width="69"
-    height="69"
-    :src="getImage()"
-  />
-  <div class="flex flex-center"> {{ edition }} </div>
-</div>
+  <div class="q-pa-sm final">
+    <n-image
+      width="69"
+      height="69"
+      :src="getImage()"
+    />
+    <div class="flex flex-center"> 
+      {{ edition }} 
+
+    </div>
+  </div>
 </template>
 
 <script>
@@ -29,19 +32,14 @@ export default defineComponent({
     dna: NaN,
     date: Number,
     attributes: Array,
-    compiler: String
+    compiler: String,
   },
   methods: {
     getImage: function () {
       console.log("in getImage method ")
       return `images/${this.edition}.png`
     }
-  },
-    data () {
-      return {
-        showText: true,
-      }
-    }
+  }
 })
 </script>
 
