@@ -36,7 +36,7 @@ export default defineComponent({
   },
   methods: {
     getImage: function () {
-      console.log("in getImage method ")
+      // console.log("in getImage method ")
       return `images/${this.edition}.png`
     }
   }

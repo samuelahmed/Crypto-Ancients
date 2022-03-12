@@ -13,12 +13,17 @@
     <div class="row fontchange q-pa-xl">
       <div class="col-2">
         <p>Add Search Menu Here</p>
+        <input v-model="searchQuery" type="text" placeholder="search here">
+        <li v-for="item in filteredItem" :key="edition">
+          {{ item.edition }}
+          {{ item.attributes }}
+        </li>
       </div>
       <div class="col-10">
         <div class="q-pa-md">
-          <q-infinite-scroll @load="onLoad" :offset="250">
+          <q-infinite-scroll @load="onLoad" :offset="99">
               <n-image-group>
-                  <imgComp v-for="item in items" v-bind="item" v-bind:key="items" />
+                <imgComp v-for="item in filteredItem" v-bind="item" v-bind:key="items" />
               </n-image-group>    
           </q-infinite-scroll>     
         </div>
@@ -40,15 +45,41 @@ export default {
     PinkParticles,
     NImageGroup
   },
+   props: {
+    edition: Number,
+    image: String,
+    name: String,
+    description: String,
+    dna: NaN,
+    date: Number,
+    attributes: Array,
+    compiler: String,
+  },
   data() {
     return {
       items: [],
+      searchQuery: "",
+      searchItems: "",
       }
+    },
+    computed: {
+      filteredItem() {
+        var searchItems = this.items
+        const query = this.searchQuery.toLowerCase()
+        if(this.searchQuery == "") {
+          return searchItems
+        }
+        return searchItems.filter((item) => {
+          return Object.values(item).some((word) => 
+            String(word).toLowerCase().includes(query)
+        )}
+      )}
     },
     methods: {
       async onLoad()  {
         const res = await fetch("https://raw.githubusercontent.com/samuelahmed/quasar-vue-cryptoancient-v1.0/master/public/img/metadata.json");
         this.items = await res.json();
+        console.log(this.items);
     },
   }
 }
