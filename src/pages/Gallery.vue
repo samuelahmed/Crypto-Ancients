@@ -14,7 +14,7 @@
       <div class="col-2">
         <p>Add Search Menu Here</p>
         <input v-model="searchQuery" type="text" placeholder="search here">
-        <li v-for="item in filteredItem" :key="edition">
+        <li v-for="item in filteredItems" :key="edition">
           {{ item.edition }}
           {{ item.attributes }}
         </li>
@@ -23,7 +23,7 @@
         <div class="q-pa-md">
           <q-infinite-scroll @load="onLoad" :offset="99">
               <n-image-group>
-                <imgComp v-for="item in filteredItem" v-bind="item" v-bind:key="items" />
+                <imgComp v-for="item in filteredItems" v-bind="item" />
               </n-image-group>    
           </q-infinite-scroll>     
         </div>
@@ -63,17 +63,21 @@ export default {
       }
     },
     computed: {
-      filteredItem() {
-        var searchItems = this.items
+      filteredItems() {
         const query = this.searchQuery.toLowerCase()
         if(this.searchQuery == "") {
-          return searchItems
+          return this.items
         }
-        return searchItems.filter((item) => {
-          return Object.values(item).some((word) => 
-            String(word).toLowerCase().includes(query)
-        )}
-      )}
+        function strContainsQuery(str) {
+          return str.toString().includes(query);
+        } 
+        return this.items.filter(item => {
+            return strContainsQuery(item.edition) || 
+            item.attributes.some( att=>
+                strContainsQuery(att.trait_type) || 
+                strContainsQuery(att.value))
+        });
+      }
     },
     methods: {
       async onLoad()  {
