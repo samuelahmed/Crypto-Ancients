@@ -1,6 +1,6 @@
 <template>
   <div class="background-image" style="width: 100vh; height: 100vh; position: fixed">
-  <PinkParticles />
+    <PinkParticles />
   </div>
   <div class="q-mt-none">
     <div class="flex flex-center">
@@ -12,12 +12,14 @@
     </div> 
     <div class="row fontchange q-pa-xl">
       <div class="col-2">
-        <p>Add Search Menu Here</p>
+        <p>
+          Add Search Menu Here
+        </p>
         <input v-model="searchQuery" type="text" placeholder="search here">
-        <li v-for="item in filteredItems" :key="edition">
+        <!-- <li v-for="item in filteredItems" :key="edition">
           {{ item.edition }}
-          {{ item.attributes }}
-        </li>
+          {{ item.attributes }} -->
+        <!-- </li> -->
       </div>
       <div class="col-10">
         <div class="q-pa-md">
@@ -36,7 +38,6 @@
 import imgComp from "../components/ImgComponent.vue"
 import PinkParticles from "../components/PinkParticles"
 import { NImageGroup } from 'naive-ui'
-
 
 export default {
   name: 'Galery',
@@ -72,10 +73,10 @@ export default {
           return str.toString().includes(query);
         } 
         return this.items.filter(item => {
-            return strContainsQuery(item.edition) || 
-            item.attributes.some( att=>
-                strContainsQuery(att.trait_type) || 
-                strContainsQuery(att.value))
+          return strContainsQuery(item.edition) || 
+          item.attributes.some(att=>
+            strContainsQuery(att.trait_type) || 
+            strContainsQuery(att.value))
         });
       }
     },

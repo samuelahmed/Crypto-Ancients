@@ -7,7 +7,6 @@
     />
     <div class="flex flex-center"> 
       {{ edition }} 
-
     </div>
   </div>
 </template>
