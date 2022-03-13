@@ -70,13 +70,13 @@ export default {
           return this.items
         }
         function strContainsQuery(str) {
-          return str.toString().includes(query);
+          return str.toString().includes(query)
         } 
         return this.items.filter(item => {
-          return strContainsQuery(item.edition) || 
-          item.attributes.some(att=>
-            strContainsQuery(att.trait_type) || 
-            strContainsQuery(att.value))
+          return strContainsQuery(item.edition)  
+          // ||  item.attributes.some(att=>
+          //   strContainsQuery(att.trait_type) || 
+          //   strContainsQuery(att.value))
         });
       }
     },
