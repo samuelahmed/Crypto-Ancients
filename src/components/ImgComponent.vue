@@ -1,7 +1,7 @@
 <template>
 <q-card
 class="card text-black q-ma-sm"
-style="height: 325px; width: 250px"
+style="height: 300px; width: 300px"
 >
   <q-card-section class="q-pa-none">
     <div class="q-pa-sm final">
@@ -22,7 +22,7 @@ style="height: 325px; width: 250px"
 
       <div class="q-pt-sm"> 
           <div class="row text-center">
-            <div class="col-6 text-left q-pl-md">
+            <div class="col-6 text-left q-pl-lg">
               <p>{{ attributes[1].trait_type }}: {{ attributes[1].value }}</p> 
               <p>{{ attributes[3].trait_type }}: {{ attributes[3].value }}</p> 
               <p>{{ attributes[4].trait_type }}: {{ attributes[4].value }}</p> 
