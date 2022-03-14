@@ -16,10 +16,14 @@
           Add Search Menu Here
         </p>
         <input v-model="searchQuery" type="text" placeholder="search here">
-        <!-- <li v-for="item in filteredItems" :key="edition">
-          {{ item.edition }}
-          {{ item.attributes }} -->
-        <!-- </li> -->
+        <!-- <li v-for="(item, index) in filteredItems" :key="`item-${index}`">
+            {{ item.edition }}
+          <p>{{ item.attributes[0].trait_type }} {{ item.attributes[0].value }}</p> 
+          <p>{{ item.attributes[1].trait_type }} {{ item.attributes[1].value }}</p> 
+          <p>{{ item.attributes[3].trait_type }} {{ item.attributes[3].value }}</p> 
+          <p>{{ item.attributes[4].trait_type }} {{ item.attributes[4].value }}</p> 
+          <p>{{ item.attributes[5].trait_type }} {{ item.attributes[5].value }}</p> 
+        </li> -->
       </div>
       <div class="col-10">
         <div class="q-pa-md">
@@ -55,6 +59,7 @@ export default {
     date: Number,
     attributes: Array,
     compiler: String,
+    trait_type: String
   },
   data() {
     return {
@@ -70,11 +75,31 @@ export default {
           return this.items
         }
         function strContainsQuery(str) {
-          return str.toString().includes(query)
+          return str.toString().toLowerCase().includes(query)
         } 
         return this.items.filter(item => {
           return strContainsQuery(item.edition)  
-          // ||  item.attributes.some(att=>
+          || strContainsQuery(item.attributes[0].trait_type) 
+          || strContainsQuery(item.attributes[0].value) 
+          || strContainsQuery(item.attributes[1].trait_type) 
+          || strContainsQuery(item.attributes[1].value) 
+          || strContainsQuery(item.attributes[2].trait_type) 
+          || strContainsQuery(item.attributes[2].value) 
+          || strContainsQuery(item.attributes[3].trait_type) 
+          || strContainsQuery(item.attributes[3].value) 
+          || strContainsQuery(item.attributes[4].trait_type) 
+          || strContainsQuery(item.attributes[4].value) 
+          || strContainsQuery(item.attributes[5].trait_type) 
+          || strContainsQuery(item.attributes[5].value) 
+          || strContainsQuery(item.attributes[6].trait_type) 
+          || strContainsQuery(item.attributes[6].value) 
+          || strContainsQuery(item.attributes[7].trait_type) 
+          || strContainsQuery(item.attributes[7].value) 
+          || strContainsQuery(item.attributes[8].trait_type) 
+          || strContainsQuery(item.attributes[8].value) 
+          || strContainsQuery(item.attributes[9].trait_type) 
+          || strContainsQuery(item.attributes[9].value) 
+          // item.attributes.some(att=>
           //   strContainsQuery(att.trait_type) || 
           //   strContainsQuery(att.value))
         });
