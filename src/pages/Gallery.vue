@@ -27,7 +27,7 @@
       </div>
       <div class="col-10">
         <div class="q-pa-md">
-          <q-infinite-scroll @load="onLoad" :offset="99">
+          <q-infinite-scroll class="wrap" @load="onLoad" :offset="99">
               <n-image-group>
                 <imgComp v-for="item in filteredItems" v-bind="item" />
               </n-image-group>    
@@ -70,38 +70,37 @@ export default {
     },
     computed: {
       filteredItems() {
-        const query = this.searchQuery.toLowerCase()
-        if(this.searchQuery == "") {
+        const query = this.searchQuery.toLowerCase().split(' ')
+        if(this.searchQuery == " ") {
           return this.items
         }
         function strContainsQuery(str) {
-          return str.toString().toLowerCase().includes(query)
+          return str.toString().toLowerCase().indexOf(query) > -1
         } 
         return this.items.filter(item => {
-          return ( strContainsQuery(item.edition)  
-          || strContainsQuery(item.attributes[0].trait_type || value) 
-          || strContainsQuery(item.attributes[1].trait_type) 
-          || strContainsQuery(item.attributes[1].value) 
-          || strContainsQuery(item.attributes[2].trait_type) 
-          || strContainsQuery(item.attributes[2].value) 
-          || strContainsQuery(item.attributes[3].trait_type) 
-          || strContainsQuery(item.attributes[3].value) 
-          || strContainsQuery(item.attributes[4].trait_type) 
-          || strContainsQuery(item.attributes[4].value) 
-          || strContainsQuery(item.attributes[5].trait_type) 
-          || strContainsQuery(item.attributes[5].value) 
-          || strContainsQuery(item.attributes[6].trait_type) 
-          || strContainsQuery(item.attributes[6].value) 
-          || strContainsQuery(item.attributes[7].trait_type) 
-          || strContainsQuery(item.attributes[7].value) 
-          || strContainsQuery(item.attributes[8].trait_type) 
-          || strContainsQuery(item.attributes[8].value) 
-          || strContainsQuery(item.attributes[9].trait_type) 
-          || strContainsQuery(item.attributes[9].value) 
-        )
-          // item.attributes.some(att=>
-          //   strContainsQuery(att.trait_type) || 
-          //   strContainsQuery(att.value))
+          return ( 
+            strContainsQuery(item.edition)  
+            || strContainsQuery(item.attributes[0].trait_type)
+            || strContainsQuery(item.attributes[0].value) 
+            || strContainsQuery(item.attributes[1].trait_type) 
+            || strContainsQuery(item.attributes[1].value) 
+            || strContainsQuery(item.attributes[2].trait_type) 
+            || strContainsQuery(item.attributes[2].value) 
+            || strContainsQuery(item.attributes[3].trait_type) 
+            || strContainsQuery(item.attributes[3].value) 
+            || strContainsQuery(item.attributes[4].trait_type) 
+            || strContainsQuery(item.attributes[4].value) 
+            || strContainsQuery(item.attributes[5].trait_type) 
+            || strContainsQuery(item.attributes[5].value) 
+            || strContainsQuery(item.attributes[6].trait_type) 
+            || strContainsQuery(item.attributes[6].value) 
+            || strContainsQuery(item.attributes[7].trait_type) 
+            || strContainsQuery(item.attributes[7].value) 
+            || strContainsQuery(item.attributes[8].trait_type) 
+            || strContainsQuery(item.attributes[8].value) 
+            || strContainsQuery(item.attributes[9].trait_type) 
+            || strContainsQuery(item.attributes[9].value) 
+          )
         });
       }
     },
@@ -123,7 +122,13 @@ export default {
   z-index:-1
 
 .fontchange
-    font-family: 'Titillium Web'
+  font-family: 'Titillium Web'
+
+.wrap 
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
 
 </style>
 
