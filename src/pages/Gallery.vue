@@ -78,9 +78,8 @@ export default {
           return str.toString().toLowerCase().includes(query)
         } 
         return this.items.filter(item => {
-          return strContainsQuery(item.edition)  
-          || strContainsQuery(item.attributes[0].trait_type) 
-          || strContainsQuery(item.attributes[0].value) 
+          return ( strContainsQuery(item.edition)  
+          || strContainsQuery(item.attributes[0].trait_type || value) 
           || strContainsQuery(item.attributes[1].trait_type) 
           || strContainsQuery(item.attributes[1].value) 
           || strContainsQuery(item.attributes[2].trait_type) 
@@ -99,6 +98,7 @@ export default {
           || strContainsQuery(item.attributes[8].value) 
           || strContainsQuery(item.attributes[9].trait_type) 
           || strContainsQuery(item.attributes[9].value) 
+        )
           // item.attributes.some(att=>
           //   strContainsQuery(att.trait_type) || 
           //   strContainsQuery(att.value))
