@@ -16,22 +16,19 @@
           Add Search Menu Here
         </p>
         <input v-model="searchQuery" type="text" placeholder="search here">
-        <!-- <li v-for="(item, index) in filteredItems" :key="`item-${index}`">
-            {{ item.edition }}
-          <p>{{ item.attributes[0].trait_type }} {{ item.attributes[0].value }}</p> 
-          <p>{{ item.attributes[1].trait_type }} {{ item.attributes[1].value }}</p> 
-          <p>{{ item.attributes[3].trait_type }} {{ item.attributes[3].value }}</p> 
-          <p>{{ item.attributes[4].trait_type }} {{ item.attributes[4].value }}</p> 
-          <p>{{ item.attributes[5].trait_type }} {{ item.attributes[5].value }}</p> 
-        </li> -->
       </div>
       <div class="col-10">
         <div class="q-pa-md">
+              <q-scroll-area style="height: 1000px; max-width: 1000px;">
+
           <q-infinite-scroll class="wrap" @load="onLoad" :offset="99">
               <n-image-group>
-                <imgComp v-for="item in filteredItems" v-bind="item" />
+                <ImgComp v-for="item in filteredItems" v-bind="item"  />
+                <!-- <imgComp :key="index" :index="item.index" :sent="item.sent" /> -->
               </n-image-group>    
-          </q-infinite-scroll>     
+           </q-infinite-scroll>
+               </q-scroll-area>
+
         </div>
       </div>
     </div>
@@ -39,14 +36,16 @@
 </template>
 
 <script>
-import imgComp from "../components/ImgComponent.vue"
+import ImgComp from "../components/ImgComponent.vue"
 import PinkParticles from "../components/PinkParticles"
 import { NImageGroup } from 'naive-ui'
+
+
 
 export default {
   name: 'Galery',
   components: {
-    imgComp,
+    ImgComp,
     PinkParticles,
     NImageGroup
   },
@@ -70,12 +69,12 @@ export default {
     },
     computed: {
       filteredItems() {
-        const query = this.searchQuery.toLowerCase().split(' ')
-        if(this.searchQuery == " ") {
+        const query = this.searchQuery.toLowerCase()
+        if(this.searchQuery == "") {
           return this.items
         }
         function strContainsQuery(str) {
-          return str.toString().toLowerCase().indexOf(query) > -1
+          return str.toString().toLowerCase().includes(query);
         } 
         return this.items.filter(item => {
           return ( 
@@ -109,6 +108,7 @@ export default {
         const res = await fetch("https://raw.githubusercontent.com/samuelahmed/quasar-vue-cryptoancient-v1.0/master/public/img/metadata.json");
         this.items = await res.json();
         console.log(this.items);
+        return this.items
     },
   }
 }

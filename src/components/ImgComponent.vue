@@ -52,7 +52,7 @@ export default defineComponent({
     NImageGroup,
   },
   name:  [
-    'imgComp'
+    'ImgComp'
   ],
   props: {
     edition: Number,
