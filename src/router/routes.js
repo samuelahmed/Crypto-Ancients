@@ -9,7 +9,9 @@ const routes = [
       { path: 'mint', component: () => import('pages/Mint.vue') },
       { path: 'gallery', component: () => import('src/pages/Gallery.vue') },
       { path: 'story', component: () => import('pages/Story.vue') },
-      { path: 'about', component: () => import('pages/About.vue') }
+      { path: 'about', component: () => import('pages/About.vue') },
+      { name: 'AncientDetails', path: 'crypto-ancient/:edition', component: () => import('pages/AncientDetails.vue') }
+
     ]
   },
 

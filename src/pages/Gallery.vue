@@ -29,7 +29,7 @@
         <div class="q-pa-md">
           <q-infinite-scroll class="wrap" @load="onLoad" :offset="99">
               <n-image-group>
-                <imgComp v-for="item in filteredItems" v-bind="item" />
+                <GalleryIndex />
               </n-image-group>    
           </q-infinite-scroll>     
         </div>
@@ -42,13 +42,16 @@
 import imgComp from "../components/ImgComponent.vue"
 import PinkParticles from "../components/PinkParticles"
 import { NImageGroup } from 'naive-ui'
+import GalleryIndex from './GalleryIndex.vue'
+
 
 export default {
   name: 'Galery',
   components: {
     imgComp,
     PinkParticles,
-    NImageGroup
+    NImageGroup,
+    GalleryIndex
   },
    props: {
     edition: Number,
