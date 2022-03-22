@@ -62,10 +62,10 @@ export default defineComponent({
       const res = await this.$api.get('/json/metadata.json')
       res.status === 200
         ? (this.items = res.data)
-        : alert('there was an error getting items')
+        : alert('there was an error getting items here')
       console.log(res.data)
     } catch (error) {
-      alert('there was an error getting items')
+      alert('there was an error getting items at this location')
     }
   },
   methods: {
