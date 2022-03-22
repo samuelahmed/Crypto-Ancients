@@ -11,29 +11,8 @@
       </q-card-section>
     </div> 
     <div class="row fontchange q-pa-xl">
-      <div class="col-2">
-        <p>
-          Add Search Menu Here
-        </p>
-        <input v-model="searchQuery" type="text" placeholder="search here">
-        <!-- <li v-for="(item, index) in filteredItems" :key="`item-${index}`">
-            {{ item.edition }}
-          <p>{{ item.attributes[0].trait_type }} {{ item.attributes[0].value }}</p> 
-          <p>{{ item.attributes[1].trait_type }} {{ item.attributes[1].value }}</p> 
-          <p>{{ item.attributes[3].trait_type }} {{ item.attributes[3].value }}</p> 
-          <p>{{ item.attributes[4].trait_type }} {{ item.attributes[4].value }}</p> 
-          <p>{{ item.attributes[5].trait_type }} {{ item.attributes[5].value }}</p> 
-        </li> -->
-      </div>
-      <div class="col-10">
-        <div class="q-pa-md">
-          <q-infinite-scroll class="wrap" @load="onLoad" :offset="99">
-              <n-image-group>
-                <GalleryIndex />
-              </n-image-group>    
-          </q-infinite-scroll>     
-        </div>
-      </div>
+                    <GalleryIndex />
+
     </div>
   </div>
 </template>
@@ -41,7 +20,6 @@
 <script>
 import imgComp from "../components/ImgComponent.vue"
 import PinkParticles from "../components/PinkParticles"
-import { NImageGroup } from 'naive-ui'
 import GalleryIndex from './GalleryIndex.vue'
 
 
@@ -50,70 +28,8 @@ export default {
   components: {
     imgComp,
     PinkParticles,
-    NImageGroup,
     GalleryIndex
   },
-   props: {
-    edition: Number,
-    image: String,
-    name: String,
-    description: String,
-    dna: NaN,
-    date: Number,
-    attributes: Array,
-    compiler: String,
-    trait_type: String
-  },
-  data() {
-    return {
-      items: [],
-      searchQuery: "",
-      searchItems: "",
-      }
-    },
-    computed: {
-      filteredItems() {
-        const query = this.searchQuery.toLowerCase().split(' ')
-        if(this.searchQuery == " ") {
-          return this.items
-        }
-        function strContainsQuery(str) {
-          return str.toString().toLowerCase().indexOf(query) > -1
-        } 
-        return this.items.filter(item => {
-          return ( 
-            strContainsQuery(item.edition)  
-            || strContainsQuery(item.attributes[0].trait_type)
-            || strContainsQuery(item.attributes[0].value) 
-            || strContainsQuery(item.attributes[1].trait_type) 
-            || strContainsQuery(item.attributes[1].value) 
-            || strContainsQuery(item.attributes[2].trait_type) 
-            || strContainsQuery(item.attributes[2].value) 
-            || strContainsQuery(item.attributes[3].trait_type) 
-            || strContainsQuery(item.attributes[3].value) 
-            || strContainsQuery(item.attributes[4].trait_type) 
-            || strContainsQuery(item.attributes[4].value) 
-            || strContainsQuery(item.attributes[5].trait_type) 
-            || strContainsQuery(item.attributes[5].value) 
-            || strContainsQuery(item.attributes[6].trait_type) 
-            || strContainsQuery(item.attributes[6].value) 
-            || strContainsQuery(item.attributes[7].trait_type) 
-            || strContainsQuery(item.attributes[7].value) 
-            || strContainsQuery(item.attributes[8].trait_type) 
-            || strContainsQuery(item.attributes[8].value) 
-            || strContainsQuery(item.attributes[9].trait_type) 
-            || strContainsQuery(item.attributes[9].value) 
-          )
-        });
-      }
-    },
-    methods: {
-      async onLoad()  {
-        const res = await fetch("https://raw.githubusercontent.com/samuelahmed/quasar-vue-cryptoancient-v1.0/master/public/img/metadata.json");
-        this.items = await res.json();
-        console.log(this.items);
-    },
-  }
 }
 </script>
 

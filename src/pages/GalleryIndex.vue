@@ -19,7 +19,6 @@
           placeholder="Search"
           >
             <template v-slot:append>
-              <q-icon name="search" />
             </template>
           </q-input>
         </template>
@@ -66,6 +65,7 @@ export default defineComponent({
       console.log(res.data)
     } catch (error) {
       alert('there was an error getting items at this location')
+      console.log(error)
     }
   },
   methods: {
