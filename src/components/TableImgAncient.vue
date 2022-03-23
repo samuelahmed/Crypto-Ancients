@@ -1,5 +1,5 @@
 <template>
-  <q-img class=" q-pt-xl" width="69px" height="69px" :src="getImage()"></q-img>
+  <q-img class="q-pt-xl rounded-borders" width="69px" height="69px" :src="getImage()"></q-img>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-center q-pt-xl">
-    <q-img class=" q-pt-xl" width="300px" :src="getImage()"></q-img>
+    <q-img class="q-pt-xl rounded-borders" width="300px" :src="getImage()"></q-img>
   </div>
   <div class="text-h5 flex flex-center">
     <div class="row text-left">
