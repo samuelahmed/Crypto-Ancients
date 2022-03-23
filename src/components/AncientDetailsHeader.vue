@@ -3,7 +3,7 @@
         <p>{{ name }}</p>
       </div>
   <div class="flex flex-center q-pt-none">
-    <q-img class="q-pt-xl rounded-borders" width="300px" :src="getImage()"></q-img>
+    <q-img class="q-pt-xl rounded-borders" width="369px" height="369px"  :src="getImage()"></q-img>
   </div>
   <div class="text-h6 flex flex-center">
     <div class="col-12 flex flex-center">
