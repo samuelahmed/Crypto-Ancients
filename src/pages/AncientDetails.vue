@@ -1,10 +1,12 @@
 <template>
 <div class="row">
   <div class="col flex flex-center">
-    <q-btn color="primary" label="Previous Ancient"
+    <q-btn color="blue-grey-1" label="Previous"
+        text-color="blue-grey-10"
+
         @click="PreviousAncient()"  />      
   </div>
-  <div class="col-8 flex flex-center">
+  <div class="col-7 flex flex-center">
     <div v-if="details">
       <AncientDetailsHeader
         :name="details.name"
@@ -15,18 +17,15 @@
     </div>
   </div>
   <div class="col flex flex-center">
-    <q-btn color="primary" label="Next Ancient"
+    <q-btn color="blue-grey-1" label="Next" align=""
+    text-color="blue-grey-10"
+
     @click="NextAncient()"  />
   </div>
 </div>
 
 
 
-
-
-
-
-  
 </template>
 
 <script>
