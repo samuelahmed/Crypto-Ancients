@@ -1,6 +1,5 @@
 <template>
 
-<router-view :key="$route.fullPath">
 
   <div v-if="details">
     <AncientDetailsHeader
@@ -8,15 +7,15 @@
       :edition="details.edition"
       :attributes="details.attributes"
       >
- 
-
     </AncientDetailsHeader>
   </div>
-  
-   
+
+ 
      <q-btn color="primary" label="Next Ancient"
-      @click="forceRerender(Newedition)"  />
-</router-view>
+      @click="forceRerender()"  />
+
+
+  
 </template>
 
 <script>
@@ -51,11 +50,24 @@ export default defineComponent({
   },
     methods: {
     forceRerender() {
-      let Newedition = this.$route.params.edition ++
+      let edition = this.$route.params.edition ++
+      edition ++
       console.log("in Ancient Details")
-      console.log(Newedition) 
-      this.$router.push({ params: { Newedition } }) 
+      console.log(edition) 
+      this.$router.push({ name: 'AncientDetails', params: { edition }, replace:true })
 
+
+
+
+
+        .then(() => {
+          
+    console.log('Updated route', this.$route)
+this.$forceUpdate();
+  })
+
+      
+    
     },
 
     },
