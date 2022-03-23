@@ -7,8 +7,10 @@
         row-key="name"
         :filter="filter"
         hide-header
+        :columns="columns"
+        virtual-scroll
         :pagination="{rowsPerPage: 100}"
-        :rows-per-page-options="[100, 150, 200]"
+        :rows-per-page-options="[50, 100, 250, 500, 1000]"
       >
         <template v-slot:top-left>
           <q-input
@@ -29,10 +31,12 @@
                 <TableImgAncient
                   @click="navToAncientDetails(props.row.edition)"
                   :edition="props.row.edition"
+                  :attributes="props.row.attributes"
                   >
                 </TableImgAncient>
                 <span class="text-h6">
                   {{ props.row.edition }}
+                  <!-- {{ props.row.attributes }} -->
                 </span>
               </q-card-section>
             </q-card>
@@ -47,6 +51,12 @@
 import { defineComponent } from 'vue'
 import TableImgAncient from '../components/TableImgAncient.vue'
 
+const columns = [
+    { name: 'edition', label: 'edition', field: 'edition', sortable: true },
+    //FILTERING DOES NOT WORK FOR ATTRIBUTES nor attributes[0].value 
+    { name: 'attributes', label: 'attributes', field: 'attributes', sortable: true },
+]
+
 export default defineComponent({
   name: 'GalleryIndex',
   components: {
@@ -54,7 +64,9 @@ export default defineComponent({
   },
   data: () => ({
     items: [],
-    filter: ''
+    filter: '',
+    columns,
+    rows: []
   }),
   async created () {
     try {
@@ -65,13 +77,13 @@ export default defineComponent({
       console.log(res.data)
     } catch (error) {
       alert('there was an error getting items at this location')
-      console.log(error)
+      console.log(attributes[0].value)
     }
   },
   methods: {
     navToAncientDetails (edition) {
       this.$router.push({ name: 'AncientDetails', params: { edition } })
-    }
+    },
   }
 })
 </script>

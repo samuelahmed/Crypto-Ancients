@@ -23,6 +23,7 @@
         <p>{{ attributes[9].trait_type }}: {{ attributes[9].value }}</p>
       </div>
     </div>
+   
   </div>
 </template>
 
@@ -51,7 +52,7 @@ export default defineComponent({
     getImage: function () {
       // console.log("in getImage method ")
       return `images/${this.edition}.png`
-    }
+    },
   }
 })
 </script>

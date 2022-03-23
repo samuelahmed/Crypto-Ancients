@@ -20,8 +20,12 @@ export default defineComponent({
     edition: {
       type: Number
     },
-    trait_type: String,
-    value: String
+    trait_type: {
+      type: Object
+    },
+    value: {
+      type: Object
+    },
   },
   methods: {
     getImage: function () {

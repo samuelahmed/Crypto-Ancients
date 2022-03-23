@@ -1,12 +1,24 @@
 <template>
+
+<router-view :key="$route.fullPath">
+
   <div v-if="details">
     <AncientDetailsHeader
       :name="details.name"
       :edition="details.edition"
       :attributes="details.attributes"
       >
+ 
+
     </AncientDetailsHeader>
   </div>
+  
+
+
+   
+     <q-btn color="primary" label="Next Ancient"
+      @click="forceRerender(Newedition)"  />
+</router-view>
 </template>
 
 <script>
@@ -14,12 +26,14 @@ import { defineComponent } from 'vue'
 import AncientDetailsHeader from '../components/AncientDetailsHeader.vue'
 
 export default defineComponent({
+
   components: {
     AncientDetailsHeader
-  },
+      },
   data: () => ({
     details: undefined
   }),
+
   async created () {
     try {
       const edition = this.$route.params.edition
@@ -36,6 +50,16 @@ export default defineComponent({
     } catch (error) {
       alert('there was another error')
     }
-  }
+  },
+    methods: {
+    forceRerender() {
+      let Newedition = this.$route.params.edition ++
+      console.log("in Ancient Details")
+      console.log(Newedition) 
+      this.$router.push({ params: { Newedition } }) 
+
+    },
+
+    },
 })
 </script>
