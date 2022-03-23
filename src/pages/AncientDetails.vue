@@ -13,8 +13,6 @@
     </AncientDetailsHeader>
   </div>
   
-
-
    
      <q-btn color="primary" label="Next Ancient"
       @click="forceRerender(Newedition)"  />
