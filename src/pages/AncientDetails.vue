@@ -1,39 +1,28 @@
 <template>
-
-
-
-    <div class="row">
-      <div class="col flex flex-center">
-      <q-btn color="primary" label="Previous Ancient"
-          @click="PreviousAncient()"  />      </div>
-      <div class="col-5">
-
-           <div v-if="details">
-        <AncientDetailsHeader
-          :name="details.name"
-          :edition="details.edition"
-          :attributes="details.attributes"
-          >
-        </AncientDetailsHeader>
-      </div>
-
-      </div>
-      <div class="col flex flex-center">
-
-
-        <q-btn color="primary" label="Next Ancient"
-          @click="NextAncient()"  />
-          
-                </div>
+<div class="row">
+  <div class="col flex flex-center">
+    <q-btn color="primary" label="Previous Ancient"
+        @click="PreviousAncient()"  />      
+  </div>
+  <div class="col-8 flex flex-center">
+    <div v-if="details">
+      <AncientDetailsHeader
+        :name="details.name"
+        :edition="details.edition"
+        :attributes="details.attributes"
+        >
+      </AncientDetailsHeader>
     </div>
+  </div>
+  <div class="col flex flex-center">
+    <q-btn color="primary" label="Next Ancient"
+    @click="NextAncient()"  />
+  </div>
+</div>
 
 
 
 
-
-
-
- 
 
 
 
@@ -50,7 +39,8 @@ export default defineComponent({
     AncientDetailsHeader
       },
   data: () => ({
-    details: undefined
+    details: undefined,
+    edition: Number,
   }),
 
   async created () {
