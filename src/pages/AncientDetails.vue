@@ -1,18 +1,40 @@
 <template>
 
 
-  <div v-if="details">
-    <AncientDetailsHeader
-      :name="details.name"
-      :edition="details.edition"
-      :attributes="details.attributes"
-      >
-    </AncientDetailsHeader>
-  </div>
+
+    <div class="row">
+      <div class="col flex flex-center">
+      <q-btn color="primary" label="Previous Ancient"
+          @click="PreviousAncient()"  />      </div>
+      <div class="col-5">
+
+           <div v-if="details">
+        <AncientDetailsHeader
+          :name="details.name"
+          :edition="details.edition"
+          :attributes="details.attributes"
+          >
+        </AncientDetailsHeader>
+      </div>
+
+      </div>
+      <div class="col flex flex-center">
+
+
+        <q-btn color="primary" label="Next Ancient"
+          @click="NextAncient()"  />
+          
+                </div>
+    </div>
+
+
+
+
+
+
 
  
-     <q-btn color="primary" label="Next Ancient"
-      @click="forceRerender()"  />
+
 
 
   
@@ -49,27 +71,16 @@ export default defineComponent({
     }
   },
     methods: {
-    forceRerender() {
-      let edition = this.$route.params.edition ++
+    NextAncient() {
+      let edition = this.$route.params.edition
       edition ++
-      console.log("in Ancient Details")
-      console.log(edition) 
       this.$router.push({ name: 'AncientDetails', params: { edition }, replace:true })
-
-
-
-
-
-        .then(() => {
-          
-    console.log('Updated route', this.$route)
-this.$forceUpdate();
-  })
-
-      
-    
     },
-
+    PreviousAncient() {
+      let edition = this.$route.params.edition
+      edition --
+      this.$router.push({ name: 'AncientDetails', params: { edition }, replace:true })
     },
+    }
 })
 </script>
