@@ -1,7 +1,10 @@
 <template>
 <div class="row" 
     tabindex="0"
+    autofocus
     id="divfocus"
+    ref="divfocus"
+    @keydown="focusOnDivFocus()"
     @keydown.left="PreviousAncient()"
     @keydown.right="NextAncient()"
     >
@@ -34,7 +37,20 @@
 <script>
 import { defineComponent } from 'vue'
 import AncientDetailsHeader from '../components/AncientDetailsHeader.vue'
+import ref from 'vue'
 
+
+
+
+
+
+
+// const element = document.getElementById(tabindex);
+// if (element.value.length >= 10) {
+//     alert("Mobile Number Should be in 10 digits only")
+//     element.value = ""
+//     window.setTimeout(() => element.focus(), 0)
+// }
 
 
 // document.onkeydown = checkKey;
@@ -66,6 +82,7 @@ export default defineComponent({
     details: undefined,
     edition: Number,
   }),
+
 // created() {
 //     const self = this;
 //     window.addEventListener("keydown", function (e) {
@@ -96,6 +113,7 @@ export default defineComponent({
       alert('there was another error')
     }
   },
+
     methods: {
     NextAncient() {
       let edition = this.$route.params.edition
@@ -107,6 +125,15 @@ export default defineComponent({
       edition --
       this.$router.push({ name: 'AncientDetails', params: { edition }, replace:true })
     },
+     focusOnDivFocus() {
+window.setTimeout(function () { 
+    document.getElementById('divfocus').focus(); 
+}, 0); 
+}
+    },
+  
+
+    
 //       onLoad () {
 //     const element = document.querySelector('divfocus');
 // element.focus();
@@ -114,7 +141,14 @@ export default defineComponent({
 //   created () {
 //     this.onLoad()
 //   }
-    }
+  
+//     created: {
+//   onLoad() {
+//   window.setTimeout(function () { 
+//     document.getElementById('divfocus').focus(); 
+// }, 0); 
+//   },
+//     }
 })
 </script>
 
@@ -122,5 +156,5 @@ export default defineComponent({
 <style lang="sass" scoped>
 
   .divfocus
-    focus
+    :focus
 </style>
