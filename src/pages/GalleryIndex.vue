@@ -14,13 +14,14 @@
       >
         <template v-slot:top-left>
           <q-input
-          outlined
-          dense
-          debounce="300"
-          v-model="filter"
-          placeholder="Search"
-          >
-            <template v-slot:append>
+            outlined
+            dense
+            debounce="300"
+            v-model="filter"
+            placeholder="Search"
+            >
+            <template 
+              v-slot:append>
             </template>
           </q-input>
         </template>
@@ -36,7 +37,6 @@
                 </TableImgAncient>
                 <span class="text-h6">
                   {{ props.row.edition }}
-                  <!-- {{ props.row.attributes }} -->
                 </span>
               </q-card-section>
             </q-card>
@@ -52,21 +52,60 @@ import { defineComponent } from 'vue'
 import TableImgAncient from '../components/TableImgAncient.vue'
 
 const columns = [
-    { name: 'edition', label: 'edition', field: 'edition', sortable: true },
-    //FILTERING DOES NOT WORK FOR ATTRIBUTES nor attributes[0].value 
-    { name: 'attributes', label: 'attributes', field: 'attributes', sortable: true },
+  {
+    name: 'edition',
+    label: 'Edition',
+    sortable: true,
+    required: true,
+    sort: true,
+    filter: true,
+    field: row => row.edition,
+    format: val => `${val}`,
+    filterMethod: (val, row) => row.edition.toString().includes(val)
+  },
+  {
+    name: 'attributes',
+    label: 'Attributes',
+    sortable: true,
+    required: true,
+    filter: true,
+    field: row => 
+      row.attributes[0].value + ' ' + row.attributes[0].trait_type + ' ' +
+      row.attributes[1].value + ' ' + row.attributes[1].trait_type + ' ' +
+      row.attributes[2].value + ' ' + row.attributes[2].trait_type + ' ' +
+      row.attributes[3].value + ' ' + row.attributes[3].trait_type + ' ' +
+      row.attributes[4].value + ' ' + row.attributes[4].trait_type + ' ' +
+      row.attributes[5].value + ' ' + row.attributes[5].trait_type + ' ' +
+      row.attributes[6].value + ' ' + row.attributes[6].trait_type + ' ' +
+      row.attributes[7].value + ' ' + row.attributes[7].trait_type + ' ' +
+      row.attributes[8].value + ' ' + row.attributes[8].trait_type + ' ' +
+      row.attributes[9].value + ' ' + row.attributes[9].trait_type + ' ',
+    format: val => `${val}`,
+    filterMethod: (val, row) => row.attributes.toString().includes(val),
+  },
+    {
+    name: 'name',
+    label: 'Name',
+    sortable: true,
+    required: true,
+    filter: true,
+    field: row => row.name,
+    format: val => `${val}`,
+    filterMethod: (val, row) => row.name.toString().includes(val),
+  },
 ]
 
 export default defineComponent({
   name: 'GalleryIndex',
   components: {
-    TableImgAncient
+    TableImgAncient,
   },
+ 
   data: () => ({
     items: [],
     filter: '',
     columns,
-    rows: []
+    rows: [],
   }),
   async created () {
     try {

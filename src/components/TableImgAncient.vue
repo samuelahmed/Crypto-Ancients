@@ -1,5 +1,5 @@
 <template>
-  <q-img class="q-pt-xl rounded-borders" width="69px" height="69px" :src="getImage()"></q-img>
+  <q-img class=" q-pt-xl" width="69px" height="69px" :src="getImage()"></q-img>
 </template>
 
 <script>
@@ -20,16 +20,12 @@ export default defineComponent({
     edition: {
       type: Number
     },
-    trait_type: {
-      type: Object
-    },
-    value: {
-      type: Object
-    },
+    trait_type: String,
+    value: String
   },
   methods: {
     getImage: function () {
-      // console.log("in getImage method ")
+      // console.log(this.attributes)
       return `images/${this.edition}.png`
     }
   }

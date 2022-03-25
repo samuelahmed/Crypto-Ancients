@@ -11,8 +11,7 @@
       </q-card-section>
     </div> 
     <div class="row fontchange q-pa-xl">
-                    <GalleryIndex />
-
+      <GalleryIndex />
     </div>
   </div>
 </template>
@@ -47,8 +46,6 @@ export default {
   display: flex
   flex-direction: row
   flex-wrap: wrap
-
-
 </style>
 
 
