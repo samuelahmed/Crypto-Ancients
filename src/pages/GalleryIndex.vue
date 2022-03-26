@@ -5,9 +5,12 @@
       <p class="text-h4">Attributes</p>
     </div>
     <div style="width: 17vw">
-        <!-- <q-badge color="secondary" class="q-mb-md">
-          Selected: {{ modelMultiple || '[]' }}
-        </q-badge> -->
+        <q-badge color="secondary" class="q-mb-md">
+          Selected: {{ (
+            modelBackground + modelSun + modelEyes + modelFace + modelGlasses + modelHead +
+            modelJewlery + modelSkin + modelLips
+          ) }}
+        </q-badge>
       <q-select
         v-model="modelBackground"
         multiple
@@ -17,8 +20,6 @@
         use-chips
         label="Background"
       />
-    </div>
-    <div  class="q-pt-sm" style="width: 17vw">
       <q-select
         v-model="modelSun"
         multiple
@@ -118,7 +119,8 @@
                 :rows="items"
                 row-key="name"
                 table-style="overflow-y:hidden"
-                :filter="filter"
+                :filter="filter || this.Selected"
+
                 hide-header
                 :columns="columns"
                 virtual-scroll
@@ -233,7 +235,9 @@ setup () {
       modelHead: ref([]),
 
       optionsBackground: [
-        'Standard', 'Day', 'Night', 'Woods', 'Ocean'
+        
+       'Standard', 'Day', 'Night', 'Woods', 'Ocean',
+        
       ],
       optionsSun: [
         'Standard', 'Red', 'Metaverse Blue', 'Golden', 'Purple'
