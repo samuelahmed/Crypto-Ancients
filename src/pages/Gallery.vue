@@ -10,7 +10,7 @@
         </p>
       </q-card-section>
     </div> 
-    <div class="row fontchange q-pa-xl">
+    <div class="row fontchange q-pa-none">
       <GalleryIndex />
     </div>
   </div>
