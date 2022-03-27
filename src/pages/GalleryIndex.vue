@@ -5,12 +5,12 @@
       <p class="text-h4">Attributes</p>
     </div>
     <div  class="q-pt-sm" style="width: 17vw">
-        <!-- <q-badge color="secondary" class="q-mb-md">
+        <q-badge color="secondary" class="q-mb-md">
           Selected: {{ (
             modelBackground + modelSun + modelEyes + modelFace + modelGlasses + modelHead +
             modelJewlery + modelSkin + modelLips
           ) }}
-        </q-badge> -->
+        </q-badge>
       <q-select
         v-model="modelBackground"
         multiple
@@ -246,31 +246,38 @@ setup () {
       modelHead: ref([]),
 
       optionsBackground: [
-       'Standard', 'Day', 'Night', 'Woods', 'Ocean',
+        //fix spelling for night
+        'Daytime', 'Night', 'Ocean', 'background Metaverse', 'Forest' 
+
       ],
+
+
+      //make object into arra
+      
       optionsSun: [
-        'Standard', 'Sun Red', 'Metaverse Blue', 'Golden', 'Purple'
+        'sun Standard', 'sun Red', 'sun Metaverse Blue', 'sun Golden', 'sun Purple', 'sun Pink'
       ],
       optionsSkin: [
-        'Human A', 'Human B', 'Human C', 'Human D', 'Human E', 'Human F', 'Human G'
+        'Human A', 'Human B', 'Human C', 'Human D', 'Human E', 'Human F', 'Human G', 'Human H', 'Human I', 'Human K', 'Human L', 'Human M', 'Human O'
       ],
       optionsEyes: [
-        'Standard', 'Green', 'Blue', 'Snake', 'Red', 'Teal Tear Drops'
+        'eyes Standard', 'Bloodshot', 'eyes Blue', 'eyes Cross', 'eyes Green', 'Swirly Eye Tattoo', 'eyes Brown', 'eyes White', 'eyes Golden', 'eyes Pink',  'eyes Purple', 'eyes Red', 'Teal Tear Drops', 'Purple Tear Drops', 'Red Tear Drops', 'Green Tear Drops'
       ],
       optionsLips: [
-        'Standard', 'Pink', 'Green', 'Blue', 'Brown', 'Teal', 'Purple', 'Dark Blue', 
+        'lips Green', 'lips Blue', 'lips Dark Blue', 'lips Dark Purple', 'lips Brown', 'lips Teal', 'lips Purple', 'lips Dark Red', 'Lips Metaverse Blue', 'lips Beige', 'lips Orange', 'lips Dark Purple', 'lips Red'
       ],
       optionsFace: [
-        'Standard', 'Swirly Tattoo', 'Heaven Mark', 'Red Teardrops', '777 Tattoo', 'Mask', 'Pink Circle'
+        'face Standard', 'Curly Mustache', 'Heaven Sign', 'Numbers Tattoo', 'Seven Tattoo', 'Mask', 'Pink Circle', 'Heart Cheek', 'Stubble', 'Young Beard', 'Green Handlebars', 'Grey Beard'
       ],
       optionsGlasses: [
-        'Standard', 'Fashion', 'Red Glasses', 'Future', 'Seeing', 'AR Headwear 2027'
+        'glasses None', 'Fashion', 'Eye Patch', 'AR Headwear 2027', 'Future', 'Seeing', 'Active Red', 'Sunglasses', 'glasses Purple'
       ],
       optionsJewlery: [
-        'Standard', 'Facechain', 'Neck Swag', 'Gold Earring', 'Red', 'Gold Cross', 
+        'jewelry None', 'Facechain', 'Neck Swag Two', 'Green Neck Swag', 'Golden Round Earing', 'Metaverse Blue Gold', 'Gold Cross', 'Purple Gem', 'Pearls', 'Multiple Gold Earrings', 'Scarab Gold Plate', 'Gold Chain', 'Gold Earing', 'Neck Swag Unique', 'Neck Swag' 
       ],
       optionsHead: [
-        'Standard', 'Hardhat', 'Metapriest', 'Queen', 'Grey Hair', 'Purple Blue Bangs', 'Flow Hair'
+        'head Standard', 'Hardhat', 'Metapriest', 'head Queen', 'Metaverse Queen', 'Ancient Headwear', 'Gold Hat', 'head Blue Hair', 'head Purple Hair', 'Crazy Blue Hair', 'Crazy Green Hair', 'Crazy Grey Hair', 'Side Ponytail', 'Orange Bun', 'head Grey Hair', 'Purple Blue Bangs', 'Flow Hair',
+        'Brown Punk Hair', 'Metaverseblue Punk Hair', 'Gold Punk Hair', 'Multicolor Hat', 'Blue Hat', 'Animal Ears', 'Pink Hoodie', 'Grey Hoodie', 'Underground Pink', 'NPC Purple', 'NPC Brown', 'Lego Orange', 'Lego Brown', 'Pink Killa', 'Curly Purple Hair', 'Napoleon Hat'
       ],
       pagination: ref({
         rowsPerPage: 0
