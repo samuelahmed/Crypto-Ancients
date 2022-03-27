@@ -4,13 +4,13 @@
     <div class="q-mt-xl text-center">
       <p class="text-h4">Attributes</p>
     </div>
-    <div style="width: 17vw">
-        <q-badge color="secondary" class="q-mb-md">
+    <div  class="q-pt-sm" style="width: 17vw">
+        <!-- <q-badge color="secondary" class="q-mb-md">
           Selected: {{ (
             modelBackground + modelSun + modelEyes + modelFace + modelGlasses + modelHead +
             modelJewlery + modelSkin + modelLips
           ) }}
-        </q-badge>
+        </q-badge> -->
       <q-select
         v-model="modelBackground"
         multiple
@@ -18,8 +18,12 @@
         bg-color="white"
         :options="optionsBackground"
         use-chips
+        max-values="1"
         label="Background"
       />
+    </div>
+          <div  class="q-pt-sm" style="width: 17vw">
+
       <q-select
         v-model="modelSun"
         multiple
@@ -27,6 +31,7 @@
         bg-color="white"
         :options="optionsSun"
         use-chips
+        max-values="1"
         label="Sun"
       />
     </div>
@@ -38,6 +43,7 @@
         outlined
         :options="optionsSkin"
         use-chips
+        max-values="1"
         label="Skin"
       />
     </div>
@@ -49,6 +55,7 @@
         outlined
         :options="optionsEyes"
         use-chips
+        max-values="1"
         label="Eyes"
       />
     </div>
@@ -60,6 +67,7 @@
         outlined
         :options="optionsLips"
         use-chips
+        max-values="1"
         label="Lips"
       />
     </div>
@@ -71,6 +79,7 @@
         outlined
         :options="optionsFace"
         use-chips
+        max-values="1"
         label="Face"
       />
     </div>
@@ -82,6 +91,7 @@
         outlined
         :options="optionsGlasses"
         use-chips
+        max-values="1"
         label="Glasses"
       />
     </div>
@@ -93,6 +103,7 @@
         outlined
         :options="optionsJewlery"
         use-chips
+        max-values="1"
         label="Jewlery"
       />
     </div>
@@ -104,6 +115,7 @@
         outlined
         :options="optionsHead"
         use-chips
+        max-values="1"
         label="Head"
       />
     </div>
@@ -119,8 +131,7 @@
                 :rows="items"
                 row-key="name"
                 table-style="overflow-y:hidden"
-                :filter="filter || this.Selected"
-
+                :filter="filter || modelBackground + modelSun + modelEyes + modelFace + modelGlasses + modelHead + modelJewlery + modelSkin + modelLips"
                 hide-header
                 :columns="columns"
                 virtual-scroll
@@ -235,12 +246,10 @@ setup () {
       modelHead: ref([]),
 
       optionsBackground: [
-        
        'Standard', 'Day', 'Night', 'Woods', 'Ocean',
-        
       ],
       optionsSun: [
-        'Standard', 'Red', 'Metaverse Blue', 'Golden', 'Purple'
+        'Standard', 'Sun Red', 'Metaverse Blue', 'Golden', 'Purple'
       ],
       optionsSkin: [
         'Human A', 'Human B', 'Human C', 'Human D', 'Human E', 'Human F', 'Human G'
@@ -273,6 +282,7 @@ setup () {
     filter: '',
     columns,
     rows: [],
+    Selected: []
   }),
   async created () {
     try {
