@@ -4,16 +4,23 @@
     <div class="q-mt-xl text-center">
       <p class="text-h4">Attributes</p>
     </div>
-    <div  class="q-pt-sm" style="width: 17vw">
+    <div  class="q-pt-sm" style="width: 17vw; min-width: 200px">
         <q-badge color="secondary" class="q-mb-md">
           Selected: {{ (
             modelBackground + modelSun + modelEyes + modelFace + modelGlasses + modelHead +
             modelJewlery + modelSkin + modelLips
           ) }}
         </q-badge>
+                      <div> see the {{ filter }}</div>
+
       <q-select
         v-model="modelBackground"
         multiple
+          use-input
+          map-options
+          emit-value
+          option-value="id"
+          option-label="name"
         outlined
         bg-color="white"
         :options="optionsBackground"
@@ -22,11 +29,15 @@
         label="Background"
       />
     </div>
-          <div  class="q-pt-sm" style="width: 17vw">
+          <div  class="q-pt-sm" style="width: 17vw; min-width: 200px">
 
       <q-select
         v-model="modelSun"
         multiple
+          map-options
+          emit-value
+          option-value="id"
+          option-label="name"
         outlined
         bg-color="white"
         :options="optionsSun"
@@ -35,10 +46,14 @@
         label="Sun"
       />
     </div>
-    <div  class="q-pt-sm" style="width: 17vw">
+    <div  class="q-pt-sm" style="width: 17vw; min-width: 200px">
       <q-select
         v-model="modelSkin"
         multiple
+               map-options
+          emit-value
+          option-value="id"
+          option-label="name"
         bg-color="white"
         outlined
         :options="optionsSkin"
@@ -47,7 +62,7 @@
         label="Skin"
       />
     </div>
-    <div  class="q-pt-sm" style="width: 17vw">
+    <div  class="q-pt-sm" style="width: 17vw; min-width: 200px">
       <q-select
         v-model="modelEyes"
         multiple
@@ -59,7 +74,7 @@
         label="Eyes"
       />
     </div>
-    <div  class="q-pt-sm" style="width: 17vw">
+    <div  class="q-pt-sm" style="width: 17vw; min-width: 200px">
       <q-select
         v-model="modelLips"
         multiple
@@ -71,7 +86,7 @@
         label="Lips"
       />
     </div>
-    <div  class="q-pt-sm" style="width: 17vw">
+    <div  class="q-pt-sm" style="width: 17vw; min-width: 200px">
       <q-select
         v-model="modelFace"
         multiple
@@ -83,7 +98,7 @@
         label="Face"
       />
     </div>
-    <div  class="q-pt-sm" style="width: 17vw">
+    <div  class="q-pt-sm" style="width: 17vw; min-width: 200px">
       <q-select
         v-model="modelGlasses"
         multiple
@@ -95,7 +110,7 @@
         label="Glasses"
       />
     </div>
-    <div  class="q-pt-sm" style="width: 17vw">
+    <div  class="q-pt-sm" style="width: 17vw; min-width: 200px">
       <q-select
         v-model="modelJewlery"
         multiple
@@ -107,7 +122,7 @@
         label="Jewlery"
       />
     </div>
-    <div  class="q-pt-sm" style="width: 17vw">
+    <div  class="q-pt-sm" style="width: 17vw; min-width: 200px">
       <q-select
         v-model="modelHead"
         multiple
@@ -131,7 +146,9 @@
                 :rows="items"
                 row-key="name"
                 table-style="overflow-y:hidden"
-                :filter="filter || modelBackground + modelSun + modelEyes + modelFace + modelGlasses + modelHead + modelJewlery + modelSkin + modelLips"
+                :filter="filter + modelBackground + modelSun + modelEyes + modelFace + modelGlasses + modelHead +
+            modelJewlery + modelSkin + modelLips"
+                :filter-method="myFilter"
                 hide-header
                 :columns="columns"
                 virtual-scroll
@@ -194,7 +211,7 @@ const columns = [
     filter: true,
     field: row => row.edition,
     format: val => `${val}`,
-    filterMethod: (val, row) => row.edition.toString().includes(val)
+    // filterMethod: (val, row) => row.edition.toString().filter(val)
   },
   {
     name: 'attributes',
@@ -202,19 +219,9 @@ const columns = [
     sortable: true,
     required: true,
     filter: true,
-    field: row => 
-      row.attributes[0].trait_type + ' ' + row.attributes[0].value + ' ' +
-      row.attributes[1].trait_type + ' ' + row.attributes[1].value + ' ' +
-      row.attributes[2].trait_type + ' ' + row.attributes[2].value + ' ' +
-      row.attributes[3].trait_type + ' ' + row.attributes[3].value + ' ' +
-      row.attributes[4].trait_type + ' ' + row.attributes[4].value + ' ' +
-      row.attributes[5].trait_type + ' ' + row.attributes[5].value + ' ' +
-      row.attributes[6].trait_type + ' ' + row.attributes[6].value + ' ' +
-      row.attributes[7].trait_type + ' ' + row.attributes[7].value + ' ' +
-      row.attributes[8].trait_type + ' ' + row.attributes[8].value + ' ' +
-      row.attributes[9].trait_type + ' ' + row.attributes[9].value + ' ',
+    field: row => row.attributes.map( x => x.trait_type + ' ' + x.value).join( ' ' ),
     format: val => `${val}`,
-    filterMethod: (val, row) => row.attributes.toString().includes(val),
+    // filterMethod: (val) => field.toString().toLowerCase().filter(val)
   },
     {
     name: 'name',
@@ -224,7 +231,7 @@ const columns = [
     filter: true,
     field: row => row.name,
     format: val => `${val}`,
-    filterMethod: (val, row) => row.name.toString().includes(val),
+    // filterMethod: (val, row) => row.name.toString().filter(val),
   },
 ]
 
@@ -235,6 +242,7 @@ export default defineComponent({
   },
 setup () {
     return {
+      modelTest: ref([]),
       modelBackground: ref([]),
       modelSun: ref([]),
       modelSkin: ref([]),
@@ -245,20 +253,102 @@ setup () {
       modelJewlery: ref([]),
       modelHead: ref([]),
 
-      optionsBackground: [
+    optionsBackground: [
+      {
+        label: 'Background',
+        value: 'background',
+        id: 'background',
+        name: 'background',
+      },
+      {
+        label: 'Daytime',
+        value: 'daytime',
+        id: 'daytime',
+        name: 'daytime',
+      },
+      {
+        label: 'Night',
+        value: 'night',
+        id: 'night',
+        name: 'night',
+      },
+      {
+        label: 'Ocean',
+        value: 'ocean',
+        id: 'ocean',
+        name: 'ocean',
+      },
+      {
+        label: 'Background Metaverse',
+        value: 'background metaverse',
+        id: 'background metaverse',
+        name: 'background metaverse',
+      },
+      {
+        label: 'Forest',
+        value: (' ' + 'forest'),
+        id: (' ' + 'forest'),
+        name: 'forest',
+      },
+    ],
+
         //fix spelling for night
-        'Daytime', 'Night', 'Ocean', 'background Metaverse', 'Forest' 
-
-      ],
-
-
-      //make object into arra
-      
-      optionsSun: [
-        'sun Standard', 'sun Red', 'sun Metaverse Blue', 'sun Golden', 'sun Purple', 'sun Pink'
+        // 'Daytime', 'Night', 'Ocean', 'background Metaverse', 'Forest' 
+    
+     optionsSun: [
+        // 'Sun Standard', 'sun Red', 'sun Metaverse Blue', 'sun Golden', 'sun Purple', 'sun Pink'
+              {
+        label: 'Sun Standard',
+        value: 'sun Standard',
+        id: (' ' + 'sun Standard'),
+        name: (' ' + 'sun Standard'),
+      },
+      {
+        label: 'sun Red',
+        value: 'sun Red crypto ancient cryptoancient',
+        id: (' ' + 'sun Red crypto ancient cryptoancient'),
+        name: (' ' + 'sun Red crypto ancient cryptoancient'),
+      },
+      {
+        label: 'sun Metaverse Blue',
+        value: 'sun Metaverse Blue',
+        id: (' ' + 'sun Metaverse Blue'),
+        name: (' ' + 'sun Metaverse Blue'),
+      },
+      {
+        label: 'sun Golden',
+        value: 'sun Golden',
+        id: (' ' + 'sun Golden' + ' '),
+        name: (' ' + 'sun Golden' + ' '),
+      },
+      {
+        label: 'sun Purple',
+        value: 'sun Purple',
+        id: (' ' + 'sun Purple' + ' '),
+        name: (' ' + 'sun Purple' + ' '),
+      },
+      {
+        label: 'sun Pink',
+        value: 'sun Pink',
+        id: (' ' + 'sun Pink' + ' '),
+        name: (' ' + 'sun Pink' + ' '),
+      },
       ],
       optionsSkin: [
-        'Human A', 'Human B', 'Human C', 'Human D', 'Human E', 'Human F', 'Human G', 'Human H', 'Human I', 'Human K', 'Human L', 'Human M', 'Human O'
+      //  'skin Human A', 'Human B', 'Human C', 'Human D', 'Human E', 'Human F', 'Human G', 'Human H', 'Human I', 'Human K', 'Human L', 'Human M', 'Human O'
+        {
+        label: 'skin Human A',
+        value: 'skin Human A',
+        id: (' ' + 'skin Human A' + ' '),
+        name: (' ' + 'skin Human A' + ' '),
+      },
+      {
+        label: 'Human B',
+        value: 'Human B',
+        id: (' ' + 'Human B' + ' '),
+        name: (' ' + 'Human B' + ' '),
+      },
+
       ],
       optionsEyes: [
         'eyes Standard', 'Bloodshot', 'eyes Blue', 'eyes Cross', 'eyes Green', 'Swirly Eye Tattoo', 'eyes Brown', 'eyes White', 'eyes Golden', 'eyes Pink',  'eyes Purple', 'eyes Red', 'Teal Tear Drops', 'Purple Tear Drops', 'Red Tear Drops', 'Green Tear Drops'
@@ -279,17 +369,19 @@ setup () {
         'head Standard', 'Hardhat', 'Metapriest', 'head Queen', 'Metaverse Queen', 'Ancient Headwear', 'Gold Hat', 'head Blue Hair', 'head Purple Hair', 'Crazy Blue Hair', 'Crazy Green Hair', 'Crazy Grey Hair', 'Side Ponytail', 'Orange Bun', 'head Grey Hair', 'Purple Blue Bangs', 'Flow Hair',
         'Brown Punk Hair', 'Metaverseblue Punk Hair', 'Gold Punk Hair', 'Multicolor Hat', 'Blue Hat', 'Animal Ears', 'Pink Hoodie', 'Grey Hoodie', 'Underground Pink', 'NPC Purple', 'NPC Brown', 'Lego Orange', 'Lego Brown', 'Pink Killa', 'Curly Purple Hair', 'Napoleon Hat'
       ],
-      pagination: ref({
-        rowsPerPage: 0
-      }),
+      //       pagination: ref({
+      //   rowsPerPage: 0
+      // }),
     }
   }, 
+
   data: () => ({
     items: [],
     filter: '',
+    terms: '',
     columns,
     rows: [],
-    Selected: []
+    Selected: [],
   }),
   async created () {
     try {
@@ -303,11 +395,36 @@ setup () {
       console.log(attributes[0].value)
     }
   },
+  computed: {
+     filter() {
+      return {
+        search: this.search,   
+      }
+    },
+  },
   methods: {
     navToAncientDetails (edition) {
       this.$router.push({ name: 'AncientDetails', params: { edition } })
     },
-  }
+      //      modelBackground + modelSun + modelEyes + modelFace + modelGlasses + modelHead +
+        //    modelJewlery + modelSkin + modelLips
+        
+ myFilter (rows, terms, cols, cellValue) {
+      const lowerTerms = terms 
+      //add modelBackground + modelSun + modelEyes + modelFace + modelGlasses + modelHead +
+      //   modelJewlery + modelSkin + modelLips 
+        ? terms.toLowerCase() 
+        : ''
+      // console.log(rows)
+      // console.log(terms)
+      // console.log(cols)
+      // console.log(cellValue)
+      // console.log(lowerTerms)
+      return rows.filter(
+        row => cols.some(col => (cellValue(col, row) + '').toLowerCase().includes(lowerTerms))
+      )
+    }
+  },
 })
 </script>
 
