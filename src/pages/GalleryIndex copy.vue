@@ -8,7 +8,7 @@
         <q-badge color="secondary" class="q-mb-md">
           Selected: {{ (
             modelBackground + modelSun + modelEyes + modelFace + modelGlasses + modelHead +
-            modelJewelry + modelSkin + modelLips
+            modelJewlery + modelSkin + modelLips
           ) }}
         </q-badge>
         <div> see the {{ filter }}</div>
@@ -110,14 +110,14 @@
     </div>
     <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
       <q-select
-        v-model="modelJewelry"
+        v-model="modelJewlery"
         multiple
         bg-color="white"
         outlined
-        :options="optionsJewelry"
+        :options="optionsJewlery"
         use-chips
         max-values="1"
-        label="jewelry"
+        label="Jewlery"
       />
     </div>
     <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
@@ -144,7 +144,7 @@
                 :rows="items"
                 row-key="name"
                 table-style="overflow-y:hidden"
-                :filter="buildFilter()"
+                :filter="filter || modelBackground + modelSun + modelEyes + modelFace + modelGlasses + modelHead + modelJewlery + modelSkin + modelLips"
                 :filter-method="myFilter"
                 hide-header
                 :columns="columns"
@@ -215,6 +215,7 @@ const columns = [
     sortable: true,
     required: true,
     filter: true,
+    
     field: row => row.attributes.map( x => x.trait_type + ' ' + x.value).join( ' ' ),
     format: val => `${val}`,
     },
@@ -244,24 +245,105 @@ setup () {
       modelLips: ref([]),
       modelFace: ref([]),
       modelGlasses: ref([]),
-      modelJewelry: ref([]),
+      modelJewlery: ref([]),
       modelHead: ref([]),
 
     optionsBackground: [
-      'Daytime', 'Night', 'Ocean', 'Metaverse', 'Forest'
+      {
+        label: 'Background',
+        value: 'background',
+        id: 'background',
+        name: 'background',
+      },
+      {
+        label: 'Daytime',
+        value: 'daytime',
+        id: 'daytime',
+        name: 'daytime',
+      },
+      {
+        label: 'Night',
+        value: 'night',
+        id: 'night',
+        name: 'night',
+      },
+      {
+        label: 'Ocean',
+        value: 'ocean',
+        id: 'ocean',
+        name: 'ocean',
+      },
+      {
+        label: 'Background Metaverse',
+        value: 'background metaverse',
+        id: 'background metaverse',
+        name: 'background metaverse',
+      },
+      {
+        label: 'Forest',
+        value: (' ' + 'forest'),
+        id: (' ' + 'forest'),
+        name: 'forest',
+      },
     ],
-
      optionsSun: [
-       'Standard', 'Red', 'Metaverse Blue', 'Golden', 'Purple', 'Pink'
-     ],
+              {
+        label: 'Sun Standard',
+        value: 'sun Standard',
+        id: (' ' + 'sun Standard'),
+        name: (' ' + 'sun Standard'),
+      },
+      {
+        label: 'sun Red',
+        value: 'sun Red crypto ancient cryptoancient',
+        id: (' ' + 'sun Red crypto ancient cryptoancient'),
+        name: (' ' + 'sun Red crypto ancient cryptoancient'),
+      },
+      {
+        label: 'sun Metaverse Blue',
+        value: 'sun Metaverse Blue',
+        id: (' ' + 'sun Metaverse Blue'),
+        name: (' ' + 'sun Metaverse Blue'),
+      },
+      {
+        label: 'sun Golden',
+        value: 'sun Golden',
+        id: (' ' + 'sun Golden' + ' '),
+        name: (' ' + 'sun Golden' + ' '),
+      },
+      {
+        label: 'sun Purple',
+        value: 'sun Purple',
+        id: (' ' + 'sun Purple' + ' '),
+        name: (' ' + 'sun Purple' + ' '),
+      },
+      {
+        label: 'sun Pink',
+        value: 'sun Pink',
+        id: (' ' + 'sun Pink' + ' '),
+        name: (' ' + 'sun Pink' + ' '),
+      },
+      ],
       optionsSkin: [
-        'Human A', 'Human B', 'Human C', 'Human D', 'Human E', 'Human F', 'Human H', 'Human I', 'Human K', 'Human L', 'Human O'
+        {
+        label: 'skin Human A',
+        value: 'skin Human A',
+        id: (' ' + 'skin Human A' + ' '),
+        name: (' ' + 'skin Human A' + ' '),
+      },
+      {
+        label: 'Human B',
+        value: 'Human B',
+        id: (' ' + 'Human B' + ' '),
+        name: (' ' + 'Human B' + ' '),
+      },
+
       ],
       optionsEyes: [
-        'Standard', 'Bloodshot', 'Blue', 'Cross', 'Green', 'Swirly Eye Tattoo', 'Brown', 'White', 'Golden', 'Pink',  'Purple', 'Red', 'Teal Tear Drops', 'Purple Tear Drops', 'Red Tear Drops', 'Green Tear Drops'
+        'eyes Standard', 'Bloodshot', 'eyes Blue', 'eyes Cross', 'eyes Green', 'Swirly Eye Tattoo', 'eyes Brown', 'eyes White', 'eyes Golden', 'eyes Pink',  'eyes Purple', 'eyes Red', 'Teal Tear Drops', 'Purple Tear Drops', 'Red Tear Drops', 'Green Tear Drops'
       ],
       optionsLips: [
-        'Green', 'Blue', 'Dark Blue', 'Dark Purple', 'Brown', 'Teal', 'Purple', 'Dark Red', 'Metaverse Blue', 'Beige', 'Orange', 'Dark Purple', 'Red'
+        'lips Green', 'lips Blue', 'lips Dark Blue', 'lips Dark Purple', 'lips Brown', 'lips Teal', 'lips Purple', 'lips Dark Red', 'Lips Metaverse Blue', 'lips Beige', 'lips Orange', 'lips Dark Purple', 'lips Red'
       ],
       optionsFace: [
         'face Standard', 'Curly Mustache', 'Heaven Sign', 'Numbers Tattoo', 'Seven Tattoo', 'Mask', 'Pink Circle', 'Heart Cheek', 'Stubble', 'Young Beard', 'Green Handlebars', 'Grey Beard'
@@ -269,7 +351,7 @@ setup () {
       optionsGlasses: [
         'glasses None', 'Fashion', 'Eye Patch', 'AR Headwear 2027', 'Future', 'Seeing', 'Active Red', 'Sunglasses', 'glasses Purple'
       ],
-      optionsJewelry: [
+      optionsJewlery: [
         'jewelry None', 'Facechain', 'Neck Swag Two', 'Green Neck Swag', 'Golden Round Earing', 'Metaverse Blue Gold', 'Gold Cross', 'Purple Gem', 'Pearls', 'Multiple Gold Earrings', 'Scarab Gold Plate', 'Gold Chain', 'Gold Earing', 'Neck Swag Unique', 'Neck Swag' 
       ],
       optionsHead: [
@@ -295,7 +377,7 @@ setup () {
           // console.log(this.optionsBackground)
           // console.log(this.optionsHead)
           // console.log(this.optionsSun)
-          // console.log(this.optionsJewelry)
+          // console.log(this.optionsJewlery)
           // console.log(res.data)
     } catch (error) {
       alert('there was an error getting items at this location')
@@ -305,44 +387,10 @@ setup () {
     navToAncientDetails (edition) {
       this.$router.push({ name: 'AncientDetails', params: { edition } })
     },
-    buildFilter() {
-      return  [ 
-        this.modelBackground,
-        this.modelSun,
-        [],//this._ignore, //So I build the same stuff for this as for the others, correct?
-        this.modelSkin,
-        this.modelEyes,
-        this.modelLips,
-        this.modelFace,
-        this.modelGlasses,
-        this.modelJewelry,
-        this.modelHead
-      ];
-// 0: {trait_type: 'Background', value: 'Daytime'}
-// 1: {trait_type: 'Sun', value: 'Purple'}
-// 2: {trait_type: 'Crypto Ancient', value: 'CryptoAncient'}
-// 3: {trait_type: 'Skin', value: 'Human M'}
-// 4: {trait_type: 'Eyes', value: 'Standard'}
-// 5: {trait_type: 'Lips', value: 'Dark Purple'}
-// 6: {trait_type: 'Face', value: 'Standard'}
-// 7: {trait_type: 'Glasses', value: 'None'}
-// 8: {trait_type: 'Jewelry', value: 'None'}
-// 9: {trait_type: 'Head', value: 'Standard'}
-
-    },
-    myFilter (rows, filterValues, cols, cellValue) {
+ myFilter (rows, terms, cols, cellValue) {
+      const lowerTerms = terms.toLowerCase() || '';
       return rows.filter(
-        row => { 
-          // debugger;
-          for (var i=0;i<=9;i++) { //we might not need those lowercasees
-            if (filterValues[i].length && 
-              !filterValues[i].some(filterValue => row.attributes[i].value.toLowerCase().includes(filterValue.toLowerCase()))) {
-                // console.log('bailed at i:'+i+' for:'+row.name)
-                return false; 
-              }
-          }
-          return true;
-        }
+        row => cols.some(col => (cellValue(col, row) + '').toLowerCase().includes(lowerTerms))
       )
     }
   },
