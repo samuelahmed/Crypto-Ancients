@@ -132,6 +132,18 @@
         label="Head"
       />
     </div>
+        <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
+      <q-select
+        v-model="modelEdition"
+        multiple
+        bg-color="white"
+        outlined
+        :options="optionsEdition"
+        use-chips
+        max-values="1"
+        label="Test"
+      />
+    </div>
   </div>
   <div class="col">
     <div class="q-ma-md">
@@ -196,6 +208,8 @@
 import { defineComponent } from 'vue'
 import TableImgAncient from '../components/TableImgAncient.vue'
 import { ref } from 'vue'
+import FiltersVue from 'src/components/Filters.vue'
+
 
 
 const columns = [
@@ -208,6 +222,7 @@ const columns = [
     filter: true,
     field: row => row.edition,
     format: val => `${val}`,
+    filterMethod: (val, row) => row.edition.toString().includes(val)
   },
   {
     name: 'attributes',
@@ -246,14 +261,14 @@ setup () {
       modelGlasses: ref([]),
       modelJewelry: ref([]),
       modelHead: ref([]),
+      modelEdition: ref([]),
 
-    optionsBackground: [
-      'Daytime', 'Night', 'Ocean', 'Metaverse', 'Forest'
-    ],
-
-     optionsSun: [
-       'Standard', 'Red', 'Metaverse Blue', 'Golden', 'Purple', 'Pink'
-     ],
+      optionsBackground: [
+        'Daytime', 'Night', 'Ocean', 'Metaverse', 'Forest'
+      ],
+      optionsSun: [
+        'Standard', 'Red', 'Metaverse Blue', 'Golden', 'Purple', 'Pink'
+      ],
       optionsSkin: [
         'Human A', 'Human B', 'Human C', 'Human D', 'Human E', 'Human F', 'Human H', 'Human I', 'Human K', 'Human L', 'Human O'
       ],
@@ -276,6 +291,10 @@ setup () {
         'head Standard', 'Hardhat', 'Metapriest', 'head Queen', 'Metaverse Queen', 'Ancient Headwear', 'Gold Hat', 'head Blue Hair', 'head Purple Hair', 'Crazy Blue Hair', 'Crazy Green Hair', 'Crazy Grey Hair', 'Side Ponytail', 'Orange Bun', 'head Grey Hair', 'Purple Blue Bangs', 'Flow Hair',
         'Brown Punk Hair', 'Metaverseblue Punk Hair', 'Gold Punk Hair', 'Multicolor Hat', 'Blue Hat', 'Animal Ears', 'Pink Hoodie', 'Grey Hoodie', 'Underground Pink', 'NPC Purple', 'NPC Brown', 'Lego Orange', 'Lego Brown', 'Pink Killa', 'Curly Purple Hair', 'Napoleon Hat'
       ],
+      optionsEdition: [
+        '1', '2', '3', '4', 'red'
+
+      ]
     }
   }, 
   data: () => ({
@@ -285,6 +304,8 @@ setup () {
     columns,
     rows: [],
     Selected: [],
+    list: []
+
   }),
   async created () {
     try {
@@ -292,11 +313,6 @@ setup () {
       res.status === 200
         ? (this.items = res.data)
         : alert('there was an error getting items here')
-          // console.log(this.optionsBackground)
-          // console.log(this.optionsHead)
-          // console.log(this.optionsSun)
-          // console.log(this.optionsJewelry)
-          // console.log(res.data)
     } catch (error) {
       alert('there was an error getting items at this location')
     }
@@ -306,46 +322,53 @@ setup () {
       this.$router.push({ name: 'AncientDetails', params: { edition } })
     },
     buildFilter() {
+      //Partially repairs q-table pagination by preventing filter from activating until a value is selected.
+      //STILL BROKEN IF VALUE IS SELECTED THAT HAS MORE THAN ONE PAGE
+      if (
+        this.modelBackground.length > 0 ||
+        this.modelSun.length > 0 ||
+        this.modelSkin.length > 0 ||
+        this.modelEyes.length > 0 ||
+        this.modelLips.length > 0 ||
+        this.modelFace.length > 0 ||
+        this.modelGlasses.length > 0 ||
+        this.modelJewelry.length > 0 ||
+        this.modelHead.length > 0 ||
+        this.modelEdition.length > 0
+        ) 
       return  [ 
         this.modelBackground,
         this.modelSun,
-        [],//this._ignore, //So I build the same stuff for this as for the others, correct?
+        [],//this._ignore
         this.modelSkin,
         this.modelEyes,
         this.modelLips,
         this.modelFace,
         this.modelGlasses,
         this.modelJewelry,
-        this.modelHead
+        this.modelHead,
+        this.modelEdition
       ];
-// 0: {trait_type: 'Background', value: 'Daytime'}
-// 1: {trait_type: 'Sun', value: 'Purple'}
-// 2: {trait_type: 'Crypto Ancient', value: 'CryptoAncient'}
-// 3: {trait_type: 'Skin', value: 'Human M'}
-// 4: {trait_type: 'Eyes', value: 'Standard'}
-// 5: {trait_type: 'Lips', value: 'Dark Purple'}
-// 6: {trait_type: 'Face', value: 'Standard'}
-// 7: {trait_type: 'Glasses', value: 'None'}
-// 8: {trait_type: 'Jewelry', value: 'None'}
-// 9: {trait_type: 'Head', value: 'Standard'}
-
     },
-    myFilter (rows, filterValues, cols, cellValue) {
+  
+
+    myFilter (rows, filterValues) {
+
+
       return rows.filter(
         row => { 
-          // debugger;
-          for (var i=0;i<=9;i++) { //we might not need those lowercasees
+          for (var i=0;i<=9;i++) { 
             if (filterValues[i].length && 
-              !filterValues[i].some(filterValue => row.attributes[i].value.toLowerCase().includes(filterValue.toLowerCase()))) {
-                // console.log('bailed at i:'+i+' for:'+row.name)
-                return false; 
-              }
-          }
+              !filterValues[i].some(filterValue => row.attributes[i].value.toLowerCase().includes(filterValue.toLowerCase())))
+              // console.log('bailed at i:'+i+' for:'+row.name)
+              return false;
+            } 
+            
           return true;
         }
       )
-    }
-  },
+    },
+  }
 })
 </script>
 
