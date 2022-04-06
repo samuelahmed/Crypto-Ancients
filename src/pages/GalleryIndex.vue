@@ -24,7 +24,6 @@
       max-values="1"
       input-debounce="0"
       @new-value="createValue"
-      :options="optionsEdition"
       @filter="filterFn"
       label="Search by ID">
 
@@ -450,13 +449,11 @@ setup () {
     },
      numberSearchFilter(rows, terms, cols, cellValue) {
         console.log(filterOptions.value)
-
       const lowerTerms = filterOptions.value[filterOptions.value.length - 1]
               console.log(lowerTerms)
-                  
       return rows.filter(
-        row => cols.some(col => (cellValue(col, row)).toLowerCase().includes(lowerTerms))
-      )
+        row => cols.some(col => (cellValue(col, row)).toLowerCase() === lowerTerms))
+      
     },
   }})
 
