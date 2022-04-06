@@ -5,13 +5,48 @@
       <p class="text-h4">Attributes</p>
     </div>
     <div  class="q-pt-sm" style="width: 17vw; min-width: 200px">
-        <q-badge color="secondary" class="q-mb-md">
+        <!-- <q-badge color="secondary" class="q-mb-md">
           Selected: {{ (
             modelBackground + modelSun + modelEyes + modelFace + modelGlasses + modelHead +
             modelJewelry + modelSkin + modelLips
           ) }}
         </q-badge>
-        <div> see the {{ filter }}</div>
+        <div> see the {{ filter }}</div> -->
+                <div class="q-pt-none" style="width: 17vw; min-width: 200px">
+              <q-select
+        hide-dropdown-icon
+
+      filled
+      v-model="modelEdition"
+      use-input
+      use-chips
+      multiple
+      max-values="1"
+      input-debounce="0"
+      @new-value="createValue"
+      :options="optionsEdition"
+      @filter="filterFn"
+      label="Search by ID">
+
+
+      <template v-slot:append>
+          <q-icon name="search" @click.stop />
+        </template>
+    </q-select>
+  
+      <!-- <q-select
+        v-model="modelEdition"
+        multiple
+        bg-color="white"
+        outlined
+        :options="optionsEdition"
+        use-chips
+        max-values="1"
+        label="Test"
+      /> -->
+    </div>
+                    <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
+
       <q-select
         v-model="modelBackground"
         multiple
@@ -27,6 +62,7 @@
         max-values="1"
         label="Background"
       />
+    </div>
     </div>
     <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
       <q-select
@@ -132,18 +168,6 @@
         label="Head"
       />
     </div>
-        <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
-      <q-select
-        v-model="modelEdition"
-        multiple
-        bg-color="white"
-        outlined
-        :options="optionsEdition"
-        use-chips
-        max-values="1"
-        label="Test"
-      />
-    </div>
   </div>
   <div class="col">
     <div class="q-ma-md">
@@ -157,14 +181,14 @@
                 row-key="name"
                 table-style="overflow-y:hidden"
                 :filter="buildFilter()"
-                :filter-method="myFilter"
+                :filter-method="filterProducts"
                 hide-header
                 :columns="columns"
                 virtual-scroll
                 :pagination="{rowsPerPage: 100}"
                 :rows-per-page-options="[50, 100, 250, 500, 1000]"
               >
-                <template v-slot:top-left>
+                <!-- <template v-slot:top-left>
                   <q-input
                     outlined
                     dense
@@ -176,7 +200,7 @@
                       v-slot:append>
                     </template>
                   </q-input>
-                </template>
+                </template> -->
                 <template v-slot:item="props">
                   <div class="q-pa-sm">
                     <q-card style="width: 100px; height: 115px">
@@ -210,7 +234,11 @@ import TableImgAncient from '../components/TableImgAncient.vue'
 import { ref } from 'vue'
 import FiltersVue from 'src/components/Filters.vue'
 
+const stringOptions = []
 
+
+
+const filterOptions = ref(stringOptions)
 
 const columns = [
   {
@@ -244,12 +272,15 @@ const columns = [
   },
 ]
 
+// const thisValue = this.val
+
 export default defineComponent({
   name: 'GalleryIndex',
   components: {
     TableImgAncient,
   },
 setup () {
+
     return {
       modelTest: ref([]),
       modelBackground: ref([]),
@@ -262,6 +293,10 @@ setup () {
       modelJewelry: ref([]),
       modelHead: ref([]),
       modelEdition: ref([]),
+      filterOptions,
+      needle: ref(''),
+            model: ref(null),
+
 
       optionsBackground: [
         'Daytime', 'Night', 'Ocean', 'Metaverse', 'Forest'
@@ -291,10 +326,52 @@ setup () {
         'head Standard', 'Hardhat', 'Metapriest', 'head Queen', 'Metaverse Queen', 'Ancient Headwear', 'Gold Hat', 'head Blue Hair', 'head Purple Hair', 'Crazy Blue Hair', 'Crazy Green Hair', 'Crazy Grey Hair', 'Side Ponytail', 'Orange Bun', 'head Grey Hair', 'Purple Blue Bangs', 'Flow Hair',
         'Brown Punk Hair', 'Metaverseblue Punk Hair', 'Gold Punk Hair', 'Multicolor Hat', 'Blue Hat', 'Animal Ears', 'Pink Hoodie', 'Grey Hoodie', 'Underground Pink', 'NPC Purple', 'NPC Brown', 'Lego Orange', 'Lego Brown', 'Pink Killa', 'Curly Purple Hair', 'Napoleon Hat'
       ],
-      optionsEdition: [
-        '1', '2', '3', '4', 'red'
+      // optionsEdition: [
+      //   '1', '69', '2356', '6529', '99999'
+      // ],
+      
+      
+      createValue (val, done) {
+        // Calling done(var) when new-value-mode is not set or "add", or done(var, "add") adds "var" content to the model
+        // and it resets the input textbox to empty string
+        // ----
+        // Calling done(var) when new-value-mode is "add-unique", or done(var, "add-unique") adds "var" content to the model
+        // only if is not already set
+        // and it resets the input textbox to empty string
+        // ----
+        // Calling done(var) when new-value-mode is "toggle", or done(var, "toggle") toggles the model with "var" content
+        // (adds to model if not already in the model, removes from model if already has it)
+        // and it resets the input textbox to empty string
+        // ----
+        // If "var" content is undefined/null, then it doesn't tampers with the model
+        // and only resets the input textbox to empty string
 
-      ]
+      // console.log(val)
+        if (val.length > 0) {
+          if (!stringOptions.includes(val)) {
+            stringOptions.push(val)
+          }
+
+          done(val, 'toggle')
+        }
+      },
+      filterFn (val, update) {
+        update(() => {
+          if (val === '') {
+            filterOptions.value = stringOptions
+          }
+   
+          else {
+            const needle = val.toLowerCase()
+            filterOptions.value = stringOptions.filter(
+              v => v.toLowerCase().indexOf(needle) > -1
+            )
+                          // console.log(needle)
+                          // console.log(filterOptions.value)
+
+          }
+        })
+      }
     }
   }, 
   data: () => ({
@@ -304,7 +381,8 @@ setup () {
     columns,
     rows: [],
     Selected: [],
-    list: []
+    list: [],
+    needle: '',
 
   }),
   async created () {
@@ -315,6 +393,14 @@ setup () {
         : alert('there was an error getting items here')
     } catch (error) {
       alert('there was an error getting items at this location')
+    }
+  },
+  computed: {
+    filterProducts: function() {
+      if (this.modelEdition > 0)
+        return this.numberSearchFilter 
+      else
+        return this.myFilter
     }
   },
   methods: {
@@ -350,26 +436,89 @@ setup () {
         this.modelEdition
       ];
     },
-  
-
     myFilter (rows, filterValues) {
-
-
       return rows.filter(
         row => { 
-          for (var i=0;i<=9;i++) { 
+          for (var i=0;i<=9;i++){ 
             if (filterValues[i].length && 
-              !filterValues[i].some(filterValue => row.attributes[i].value.toLowerCase().includes(filterValue.toLowerCase())))
-              // console.log('bailed at i:'+i+' for:'+row.name)
+              !filterValues[i].some(filterValue => (row.attributes[i]).value.toLowerCase().includes(filterValue.toLowerCase())))
               return false;
-            } 
-            
+          }
           return true;
         }
       )
     },
-  }
-})
+     numberSearchFilter(rows, terms, cols, cellValue) {
+        console.log(filterOptions.value)
+
+      const lowerTerms = filterOptions.value[filterOptions.value.length - 1]
+              console.log(lowerTerms)
+                  
+      return rows.filter(
+        row => cols.some(col => (cellValue(col, row)).toLowerCase().includes(lowerTerms))
+      )
+    },
+  }})
+
+
+
+
+       //row.editon is the number of the edition
+      //          console.log(filterOptions.value)
+      //          console.log(row.edition)
+
+      // return rows.filter(
+      //   row => { 
+          // for (var e=0; e<=10000; e++){ 
+            // if (filterOptions.value == row.edition)
+            
+            //   return false
+          // for (row.edition; row.edition <= 10000; row.edition++) { 
+          // if (filterValues.length && 
+          //     !filterValues.some(filterValue => (row.edition).toString().indexOf(filterValue) > -1))
+          // }
+      //     return true;
+      //     }
+      //   )
+      // },
+
+
+      // return rows.filter(
+      //   row => { 
+      //     for (var i=0;i<=9;i++){ 
+      //       if (filterValues[i].length && 
+      //         !filterValues[i].some(filterValue => (row.attributes[i]).value.toLowerCase().includes(filterValue.toLowerCase())))
+      //         return false;
+      //     }
+      //     return true;
+      //   }
+      // )
+  
+
+                  // row.edition.toString().includes(val)
+
+         // else if (i == 10) {
+            //     filterValue => (row.edition).value.toLowerCase().includes(filterValue.toLowerCase())
+            //   return false;
+            // }
+          //row.edition
+        // for (var j=0; j<=10000; j++){
+        //   if (filterValues[j].length &&
+        //     !filterValues[j].some(filterValue => (row.edition).value.toLowerCase().includes(filterValue.toLowerCase())))
+        //     return false;
+        // }
+              // console.log('bailed at i:'+i+' for:'+row.name)
+                          // console.log(row.attributes[1])
+
+      //                             let lowerTerms = this.new-value.toLowerCase()
+      //   let filteredRows = rows.filter(
+      //     row => toFilter.some(col => (row[col] + '').toLowerCase().includes(lowerTerms))
+      //   )
+      // return filteredRows
+
+
 </script>
+
+
 
 
