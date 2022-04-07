@@ -3,6 +3,7 @@
   <div class="row-12">
     <div class="q-mt-xl text-center">
       <p class="text-h4">Attributes</p>
+      <q-btn class="q-ma-sm" style="background-color:white" @click="resetAllFilters">Reset all Filters</q-btn>
     </div>
     <div class="q-pt-none" style="width: 17vw; min-width: 200px">
       <q-select
@@ -377,7 +378,19 @@ setup () {
       const lowerTerms = filterOptions.value[filterOptions.value.length - 1]
       return rows.filter(
         row => cols.some(col => (cellValue(col, row)).toLowerCase() === lowerTerms))
-    }
+    },
+    resetAllFilters() {
+      this.modelBackground = []
+      this.modelSun = []
+      this.modelSkin = []
+      this.modelEyes = []
+      this.modelLips = []
+      this.modelFace = []
+      this.modelGlasses = []
+      this.modelJewelry = []
+      this.modelHead = []
+      this.modelEdition = []
+    },
   }
 })
 </script>
