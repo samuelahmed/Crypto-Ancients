@@ -5,139 +5,141 @@
       <p class="text-h4">Attributes</p>
       <q-btn class="q-ma-sm" style="background-color:white" @click="resetAllFilters">Reset all Filters</q-btn>
     </div>
-    <div class="q-pt-none" style="width: 17vw; min-width: 200px">
-      <q-select
-        hide-dropdown-icon
-        filled
-        v-model="modelEdition"
-        use-input
-        use-chips
-        multiple
-        max-values="1"
-        input-debounce="0"
-        @new-value="createValue"
-        @filter="filterFn"
-        label="Search by ID">
-        <template v-slot:append>
-          <q-icon name="search" @click.stop />
-        </template>
-      </q-select>
-    </div>
-    <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
-      <q-select
-        v-model="modelBackground"
-        multiple
+    <div class="q-pt-none text-center" style="width: 17vw; min-width: 150px;">
+      <div>
+        <q-select
+          hide-dropdown-icon
+          filled
+          v-model="modelEdition"
           use-input
-          map-options
-          emit-value
-          option-value="id"
-          option-label="name"
-        outlined
-        bg-color="white"
-        :options="optionsBackground"
-        use-chips
-        max-values="1"
-        label="Background"
-      />
-    </div>
-    <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
-      <q-select
-        v-model="modelSun"
-        multiple
-          map-options
-          emit-value
-          option-value="id"
-          option-label="name"
-        outlined
-        bg-color="white"
-        :options="optionsSun"
-        use-chips
-        max-values="1"
-        label="Sun"
-      />
-    </div>
-    <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
+          use-chips
+          multiple
+          max-values="1"
+          input-debounce="0"
+          @new-value="createValue"
+          @filter="filterFn"
+          label="Search by ID">
+          <template v-slot:append>
+            <q-icon name="search" @click.stop />
+          </template>
+        </q-select>
+      </div>
+      <div class="q-pt-sm">
+        <q-select
+          v-model="modelBackground"
+          multiple
+            use-input
+            map-options
+            emit-value
+            option-value="id"
+            option-label="name"
+          outlined
+          bg-color="white"
+          :options="optionsBackground"
+          use-chips
+          max-values="1"
+          label="Background"
+        />
+      </div>
+      
+       <div class="q-pt-sm">
+        <q-select
+          v-model="modelSun"
+          multiple
+          outlined
+          use-input 
+          bg-color="white"
+          :options="optionsSun"
+          use-chips
+          max-values="1"
+          label="Sun"
+         />
+        </div>
+    <div class="q-pt-sm">
       <q-select
         v-model="modelSkin"
         multiple
-          map-options
-          emit-value
-          option-value="id"
-          option-label="name"
         bg-color="white"
         outlined
+        use-input 
         :options="optionsSkin"
         use-chips
         max-values="1"
         label="Skin"
       />
     </div>
-    <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
+    <div class="q-pt-sm">
       <q-select
         v-model="modelEyes"
         multiple
         bg-color="white"
         outlined
+        use-input 
         :options="optionsEyes"
         use-chips
         max-values="1"
         label="Eyes"
       />
     </div>
-    <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
+    <div class="q-pt-sm">
       <q-select
         v-model="modelLips"
         multiple
         bg-color="white"
         outlined
+        use-input 
         :options="optionsLips"
         use-chips
         max-values="1"
         label="Lips"
       />
     </div>
-    <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
+    <div class="q-pt-sm">
       <q-select
         v-model="modelFace"
         multiple
         bg-color="white"
         outlined
+        use-input
         :options="optionsFace"
         use-chips
         max-values="1"
         label="Face"
       />
     </div>
-    <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
+    <div class="q-pt-sm">
       <q-select
         v-model="modelGlasses"
         multiple
         bg-color="white"
         outlined
+        use-input 
         :options="optionsGlasses"
         use-chips
         max-values="1"
         label="Glasses"
       />
     </div>
-    <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
+    <div class="q-pt-sm">
       <q-select
         v-model="modelJewelry"
         multiple
         bg-color="white"
         outlined
+        use-input 
         :options="optionsJewelry"
         use-chips
         max-values="1"
         label="jewelry"
       />
     </div>
-    <div class="q-pt-sm" style="width: 17vw; min-width: 200px">
+    <div class="q-pt-sm">
       <q-select
         v-model="modelHead"
         multiple
         bg-color="white"
         outlined
+                use-input 
         :options="optionsHead"
         use-chips
         max-values="1"
@@ -145,9 +147,11 @@
       />
     </div>
   </div>
+
+  </div>
   <div class="col">
     <div class="q-ma-md">
-    <q-scroll-area style="height: 700px; width: 69vw;">
+    <q-scroll-area class="q-mt-xl" style="height: 800px; width: 60vw;">
         <div class="q-py-xs">
           <q-page class="flex flex-center">
             <div class="q-pa-md">

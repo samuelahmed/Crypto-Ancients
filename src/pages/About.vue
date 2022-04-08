@@ -6,7 +6,7 @@
   <div>
     <div class="q-mt-none">
       <div class="flex flex-center">
-        <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+        <q-card-section>
           <p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
             About
           </p>
@@ -16,10 +16,10 @@
         <div id="q-app" class="flex flex-center q-mt-sm">
           <div class="flex flex-center" style="width:1000px">
             <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
-              <q-card-section>
+              <q-card-section class="q-pt-none">
                 <div class="text-h6">Artist</div>
               </q-card-section>
-              <q-card-section class="q-pt-none">
+              <q-card-section class="q-pt-none q-pb-none">
                 <p>
                   Welcome to my genesis project - Crypto Ancients. It's 2022, I studied at UC Berkeley for a BA in political science and the LSE for an MSc in anthropology. Been passionate about blockchains for 5 years. Worked in tech but wasn't technical to my satisfaction so I'm now spending all my time learning computer science.
                 </p>
@@ -28,7 +28,7 @@
                 </p>
               </q-card-section>
             </q-card-section>
-            <q-card-section class="q-mt-sm" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+            <q-card-section class="q-mt-sm q-pt-none q-pb-none" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
               <q-card-section>
                 <div class="text-h6">Build</div>
               </q-card-section>
@@ -41,7 +41,7 @@
                 </p>
               </q-card-section>
             </q-card-section>
-            <q-card-section class="q-mt-sm"  style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+            <q-card-section class="q-mt-sm q-pt-none q-pb-none"  style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
               <q-card-section>
                 <div class="text-h6">Copies</div>
               </q-card-section>

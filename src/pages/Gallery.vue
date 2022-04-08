@@ -4,13 +4,13 @@
   </div>
   <div class="q-mt-none">
     <div class="flex flex-center">
-      <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+      <q-card-section>
         <p class="fontchange q-mt-xl" style="font-size: 48px; text-align: center;">
           Gallery
         </p>
       </q-card-section>
     </div> 
-    <div class="row fontchange q-pa-none">
+    <div class="row fontchange q-pa-none flex flex-center">
       <GalleryIndex />
     </div>
   </div>
