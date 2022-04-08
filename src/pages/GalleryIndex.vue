@@ -13,6 +13,7 @@
           v-model="modelEdition"
           use-input
           use-chips
+          center start
           multiple
           max-values="1"
           input-debounce="0"
@@ -33,6 +34,7 @@
             emit-value
             option-value="id"
             option-label="name"
+            center start
           outlined
           bg-color="white"
           :options="optionsBackground"
@@ -47,6 +49,7 @@
           v-model="modelSun"
           multiple
           outlined
+          center start
           use-input 
           bg-color="white"
           :options="optionsSun"
