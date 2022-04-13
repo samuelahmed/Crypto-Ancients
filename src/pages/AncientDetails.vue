@@ -33,7 +33,7 @@
 
 <script>
 import { defineComponent } from 'vue'
-import AncientDetailsHeader from '../pages/AncientDetailsHeader.vue'
+import AncientDetailsHeader from '../components/AncientDetailsHeader.vue'
 
 export default defineComponent({
 

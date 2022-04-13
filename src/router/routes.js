@@ -10,7 +10,7 @@ const routes = [
       { path: 'gallery', component: () => import('src/pages/Gallery.vue') },
       { path: 'story', component: () => import('pages/Story.vue') },
       { path: 'about', component: () => import('pages/About.vue') },
-      { name: 'AncientDetails', path: 'crypto-ancient/:edition', component: () => import('src/components/AncientDetails.vue') }
+      { name: 'AncientDetails', path: 'crypto-ancient/:edition', component: () => import('src/pages/AncientDetails.vue') }
 
     ]
   },
