@@ -5,59 +5,54 @@
       <p class="text-h4">Attributes</p>
       <q-btn class="q-ma-sm" style="background-color:white" @click="resetAllFilters">Reset all Filters</q-btn>
     </div>
-    <div class="q-pt-none text-center" style="width: 17vw; min-width: 150px;">
-      <div>
-        <q-select
-          hide-dropdown-icon
-          filled
-          v-model="modelEdition"
-          use-input
-          use-chips
-          center start
-          multiple
-          max-values="1"
-          input-debounce="0"
-          @new-value="createValue"
-          @filter="filterFn"
-          label="Search by ID">
-          <template v-slot:append>
-            <q-icon name="search" @click.stop />
-          </template>
-        </q-select>
-      </div>
-      <div class="q-pt-sm">
-        <q-select
-          v-model="modelBackground"
-          multiple
-            use-input
-            map-options
-            emit-value
-            option-value="id"
-            option-label="name"
-            center start
-          outlined
-          bg-color="white"
-          :options="optionsBackground"
-          use-chips
-          max-values="1"
-          label="Background"
+  <div class="q-pt-none text-center" style="width: 17vw; min-width: 150px;">
+      <q-select
+        hide-dropdown-icon
+        filled
+        v-model="modelEdition"
+        use-input
+        use-chips
+        multiple
+        max-values="1"
+        input-debounce="0"
+        @new-value="createValue"
+        @filter="filterFn"
+        label="Search by ID">
+        <template v-slot:append>
+          <q-icon name="search" @click.stop />
+        </template>
+      </q-select>
+    </div>
+    <div class="q-pt-sm">
+      <q-select
+        v-model="modelBackground"
+        multiple
+        use-input
+        map-options
+        emit-value
+        option-value="id"
+        option-label="name"
+        outlined
+        bg-color="white"
+        :options="optionsBackground"
+        use-chips
+        max-values="1"
+        label="Background"
+      />
+    </div>
+    <div class="q-pt-sm">
+      <q-select
+        v-model="modelSun"
+        multiple
+        outlined
+        use-input 
+        bg-color="white"
+        :options="optionsSun"
+        use-chips
+        max-values="1"
+        label="Sun"
         />
-      </div>
-      
-       <div class="q-pt-sm">
-        <q-select
-          v-model="modelSun"
-          multiple
-          outlined
-          center start
-          use-input 
-          bg-color="white"
-          :options="optionsSun"
-          use-chips
-          max-values="1"
-          label="Sun"
-         />
-        </div>
+    </div>
     <div class="q-pt-sm">
       <q-select
         v-model="modelSkin"
@@ -142,7 +137,7 @@
         multiple
         bg-color="white"
         outlined
-                use-input 
+        use-input 
         :options="optionsHead"
         use-chips
         max-values="1"
@@ -150,11 +145,9 @@
       />
     </div>
   </div>
-
-  </div>
   <div class="col">
     <div class="q-ma-md">
-    <q-scroll-area class="q-mt-xl" style="height: 800px; width: 60vw;">
+    <q-scroll-area class="q-mt-xl" style="height: 800px; width: 60vw; min-width: 300px">
         <div class="q-py-xs">
           <q-page class="flex flex-center">
             <div class="q-pa-md">
@@ -173,7 +166,7 @@
               >
                 <template v-slot:item="props">
                   <div class="q-pa-sm">
-                    <q-card style="width: 100px; height: 115px">
+                    <q-card style="width: 250px; height: 260px">
                       <q-card-section class="text-center">
                         <TableImgAncient
                           @click="navToAncientDetails(props.row.edition)"
@@ -181,9 +174,9 @@
                           :attributes="props.row.attributes"
                           >
                         </TableImgAncient>
-                        <span class="text-h6">
+                        <div class="text-h6">
                           {{ props.row.edition }}
-                        </span>
+                        </div>
                       </q-card-section>
                     </q-card>
                   </div>
@@ -200,7 +193,7 @@
 
 <script>
 import { defineComponent } from 'vue'
-import TableImgAncient from '../components/TableImgAncient.vue'
+import TableImgAncient from './TableImgAncient.vue'
 import { ref } from 'vue'
 
 const stringOptions = []

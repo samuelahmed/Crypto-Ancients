@@ -19,7 +19,7 @@
 <script>
 import imgComp from "../components/ImgComponent.vue"
 import PinkParticles from "../components/PinkParticles"
-import GalleryIndex from './GalleryIndex.vue'
+import GalleryIndex from '../components/GalleryIndex.vue'
 
 
 export default {

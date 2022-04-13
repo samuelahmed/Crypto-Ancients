@@ -29,49 +29,11 @@
     @click="NextAncient()"  />
   </div>
 </div>
-
-
 </template>
-
 
 <script>
 import { defineComponent } from 'vue'
-import AncientDetailsHeader from '../components/AncientDetailsHeader.vue'
-import ref from 'vue'
-
-
-
-
-
-
-
-// const element = document.getElementById(tabindex);
-// if (element.value.length >= 10) {
-//     alert("Mobile Number Should be in 10 digits only")
-//     element.value = ""
-//     window.setTimeout(() => element.focus(), 0)
-// }
-
-
-// document.onkeydown = checkKey;
-// // let PreviousAncient = PreviousAncient()
-// function checkKey(e) {
-
-//     e = e || window.event;
-
-//     if (e.keyCode == '38') {
-//         // up arrow
-//         console.log("up arrow")
-//     }
-//     else if (e.keyCode == '37') {
-//        // left arrow
-//          PreviousAncient()
-//     }
-//     else if (e.keyCode == '39') {
-//        // right arrow
-//          NextAncient
-//     }
-// }
+import AncientDetailsHeader from '../pages/AncientDetailsHeader.vue'
 
 export default defineComponent({
 
@@ -82,24 +44,9 @@ export default defineComponent({
     details: undefined,
     edition: Number,
   }),
-
-// created() {
-//     const self = this;
-//     window.addEventListener("keydown", function (e) {
-//       switch (e.key) {
-//         case "ArrowLeft":
-//           self.PreviousAncient();
-//           break;
-//         case "ArrowRight":
-//           self.addAnimateToNext();
-//       }
-//     });
-//   },
-
   async created () {
     try {
       const edition = this.$route.params.edition
-
       if (!edition) {
         alert('no edition specified, try again')
         return
@@ -113,8 +60,7 @@ export default defineComponent({
       alert('there was another error')
     }
   },
-
-    methods: {
+  methods: {
     NextAncient() {
       let edition = this.$route.params.edition
       edition ++
@@ -128,33 +74,13 @@ export default defineComponent({
      focusOnDivFocus() {
 window.setTimeout(function () { 
     document.getElementById('divfocus').focus(); 
-}, 0); 
-}
-    },
-  
-
-    
-//       onLoad () {
-//     const element = document.querySelector('divfocus');
-// element.focus();
-//   },
-//   created () {
-//     this.onLoad()
-//   }
-  
-//     created: {
-//   onLoad() {
-//   window.setTimeout(function () { 
-//     document.getElementById('divfocus').focus(); 
-// }, 0); 
-//   },
-//     }
+    }, 0); 
+    }
+  },
 })
 </script>
 
-
 <style lang="sass" scoped>
-
   .divfocus
     :focus
 </style>
