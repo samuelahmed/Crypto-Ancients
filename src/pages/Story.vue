@@ -294,6 +294,6 @@ export default defineComponent({
   max-width: 350px
 
 .fontchange
-    font-family: 'Titillium Web'
+  font-family: 'Titillium Web'
 
 </style>

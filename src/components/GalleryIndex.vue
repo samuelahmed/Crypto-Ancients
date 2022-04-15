@@ -1,190 +1,190 @@
 <template>
-<div class="row">
-  <div class="row-12">
-    <div class="q-mt-xl text-center">
-      <p class="text-h4">Attributes</p>
-      <q-btn class="q-ma-sm" style="background-color:white" @click="resetAllFilters">Reset all Filters</q-btn>
-    </div>
-  <div class="q-pt-none text-center" style="width: 17vw; min-width: 150px;">
-      <q-select
-        hide-dropdown-icon
-        filled
-        v-model="modelEdition"
-        use-input
-        use-chips
-        multiple
-        max-values="1"
-        input-debounce="0"
-        @new-value="createValue"
-        @filter="filterFn"
-        label="Search by ID">
-        <template v-slot:append>
-          <q-icon name="search" @click.stop />
-        </template>
-      </q-select>
-    </div>
-    <div class="q-pt-sm">
-      <q-select
-        v-model="modelBackground"
-        multiple
-        use-input
-        map-options
-        emit-value
-        option-value="id"
-        option-label="name"
-        outlined
-        bg-color="white"
-        :options="optionsBackground"
-        use-chips
-        max-values="1"
-        label="Background"
-      />
-    </div>
-    <div class="q-pt-sm">
-      <q-select
-        v-model="modelSun"
-        multiple
-        outlined
-        use-input 
-        bg-color="white"
-        :options="optionsSun"
-        use-chips
-        max-values="1"
-        label="Sun"
+  <div class="row">
+    <div class="row-12">
+      <div class="q-mt-xl text-center">
+        <p class="text-h4">Attributes</p>
+        <q-btn class="q-ma-sm" style="background-color:white" @click="resetAllFilters">Reset all Filters</q-btn>
+      </div>
+    <div class="q-pt-none text-center" style="width: 17vw; min-width: 150px;">
+        <q-select
+          hide-dropdown-icon
+          filled
+          v-model="modelEdition"
+          use-input
+          use-chips
+          multiple
+          max-values="1"
+          input-debounce="0"
+          @new-value="createValue"
+          @filter="filterFn"
+          label="Search by ID">
+          <template v-slot:append>
+            <q-icon name="search" @click.stop />
+          </template>
+        </q-select>
+      </div>
+      <div class="q-pt-sm">
+        <q-select
+          v-model="modelBackground"
+          multiple
+          use-input
+          map-options
+          emit-value
+          option-value="id"
+          option-label="name"
+          outlined
+          bg-color="white"
+          :options="optionsBackground"
+          use-chips
+          max-values="1"
+          label="Background"
         />
+      </div>
+      <div class="q-pt-sm">
+        <q-select
+          v-model="modelSun"
+          multiple
+          outlined
+          use-input 
+          bg-color="white"
+          :options="optionsSun"
+          use-chips
+          max-values="1"
+          label="Sun"
+          />
+      </div>
+      <div class="q-pt-sm">
+        <q-select
+          v-model="modelSkin"
+          multiple
+          bg-color="white"
+          outlined
+          use-input 
+          :options="optionsSkin"
+          use-chips
+          max-values="1"
+          label="Skin"
+        />
+      </div>
+      <div class="q-pt-sm">
+        <q-select
+          v-model="modelEyes"
+          multiple
+          bg-color="white"
+          outlined
+          use-input 
+          :options="optionsEyes"
+          use-chips
+          max-values="1"
+          label="Eyes"
+        />
+      </div>
+      <div class="q-pt-sm">
+        <q-select
+          v-model="modelLips"
+          multiple
+          bg-color="white"
+          outlined
+          use-input 
+          :options="optionsLips"
+          use-chips
+          max-values="1"
+          label="Lips"
+        />
+      </div>
+      <div class="q-pt-sm">
+        <q-select
+          v-model="modelFace"
+          multiple
+          bg-color="white"
+          outlined
+          use-input
+          :options="optionsFace"
+          use-chips
+          max-values="1"
+          label="Face"
+        />
+      </div>
+      <div class="q-pt-sm">
+        <q-select
+          v-model="modelGlasses"
+          multiple
+          bg-color="white"
+          outlined
+          use-input 
+          :options="optionsGlasses"
+          use-chips
+          max-values="1"
+          label="Glasses"
+        />
+      </div>
+      <div class="q-pt-sm">
+        <q-select
+          v-model="modelJewelry"
+          multiple
+          bg-color="white"
+          outlined
+          use-input 
+          :options="optionsJewelry"
+          use-chips
+          max-values="1"
+          label="jewelry"
+        />
+      </div>
+      <div class="q-pt-sm">
+        <q-select
+          v-model="modelHead"
+          multiple
+          bg-color="white"
+          outlined
+          use-input 
+          :options="optionsHead"
+          use-chips
+          max-values="1"
+          label="Head"
+        />
+      </div>
     </div>
-    <div class="q-pt-sm">
-      <q-select
-        v-model="modelSkin"
-        multiple
-        bg-color="white"
-        outlined
-        use-input 
-        :options="optionsSkin"
-        use-chips
-        max-values="1"
-        label="Skin"
-      />
-    </div>
-    <div class="q-pt-sm">
-      <q-select
-        v-model="modelEyes"
-        multiple
-        bg-color="white"
-        outlined
-        use-input 
-        :options="optionsEyes"
-        use-chips
-        max-values="1"
-        label="Eyes"
-      />
-    </div>
-    <div class="q-pt-sm">
-      <q-select
-        v-model="modelLips"
-        multiple
-        bg-color="white"
-        outlined
-        use-input 
-        :options="optionsLips"
-        use-chips
-        max-values="1"
-        label="Lips"
-      />
-    </div>
-    <div class="q-pt-sm">
-      <q-select
-        v-model="modelFace"
-        multiple
-        bg-color="white"
-        outlined
-        use-input
-        :options="optionsFace"
-        use-chips
-        max-values="1"
-        label="Face"
-      />
-    </div>
-    <div class="q-pt-sm">
-      <q-select
-        v-model="modelGlasses"
-        multiple
-        bg-color="white"
-        outlined
-        use-input 
-        :options="optionsGlasses"
-        use-chips
-        max-values="1"
-        label="Glasses"
-      />
-    </div>
-    <div class="q-pt-sm">
-      <q-select
-        v-model="modelJewelry"
-        multiple
-        bg-color="white"
-        outlined
-        use-input 
-        :options="optionsJewelry"
-        use-chips
-        max-values="1"
-        label="jewelry"
-      />
-    </div>
-    <div class="q-pt-sm">
-      <q-select
-        v-model="modelHead"
-        multiple
-        bg-color="white"
-        outlined
-        use-input 
-        :options="optionsHead"
-        use-chips
-        max-values="1"
-        label="Head"
-      />
+    <div class="col">
+      <div class="q-ma-md">
+      <q-scroll-area class="q-mt-xl" style="height: 800px; width: 60vw; min-width: 300px">
+          <div class="q-py-xs">
+            <q-page class="flex flex-center">
+              <div class="q-pa-md">
+                <q-table
+                  grid
+                  :rows="items"
+                  row-key="name"
+                  table-style="overflow-y:hidden"
+                  :filter="buildFilter()"
+                  :filter-method="filterProducts"
+                  hide-header
+                  :columns="columns"
+                  virtual-scroll
+                  :pagination="{rowsPerPage: 100}"
+                  :rows-per-page-options="[50, 100, 250, 500, 1000]"
+                >
+                  <template v-slot:item="props">
+                      <q-card-section class="q-pa-none row flex flex-center" style="width: 259px; height: 269p">
+                          <TableImgAncient
+                            @click="navToAncientDetails(props.row.edition)"
+                            :edition="props.row.edition"
+                            :attributes="props.row.attributes"
+                            >
+                          </TableImgAncient>
+                          <div class="col-12 text-h6 text-center">
+                            {{ props.row.edition }}
+                          </div>
+                      </q-card-section>
+                  </template>
+                </q-table>
+              </div>
+            </q-page>
+          </div>
+        </q-scroll-area>
+      </div>
     </div>
   </div>
-  <div class="col">
-    <div class="q-ma-md">
-    <q-scroll-area class="q-mt-xl" style="height: 800px; width: 60vw; min-width: 300px">
-        <div class="q-py-xs">
-          <q-page class="flex flex-center">
-            <div class="q-pa-md">
-              <q-table
-                grid
-                :rows="items"
-                row-key="name"
-                table-style="overflow-y:hidden"
-                :filter="buildFilter()"
-                :filter-method="filterProducts"
-                hide-header
-                :columns="columns"
-                virtual-scroll
-                :pagination="{rowsPerPage: 100}"
-                :rows-per-page-options="[50, 100, 250, 500, 1000]"
-              >
-                <template v-slot:item="props">
-                    <q-card-section class="q-pa-none row flex flex-center" style="width: 220px; height: 230p">
-                        <TableImgAncient
-                          @click="navToAncientDetails(props.row.edition)"
-                          :edition="props.row.edition"
-                          :attributes="props.row.attributes"
-                          >
-                        </TableImgAncient>
-                        <div class="col-12 text-h6 text-center">
-                          {{ props.row.edition }}
-                        </div>
-                    </q-card-section>
-                </template>
-              </q-table>
-            </div>
-          </q-page>
-        </div>
-      </q-scroll-area>
-    </div>
-  </div>
-</div>
 </template>
 
 <script>
@@ -390,11 +390,5 @@ setup () {
   }
 })
 </script>
-
-<style lang="sass" scoped>
-// .mycard
-//   background-color: blue
-
-</style>
 
 

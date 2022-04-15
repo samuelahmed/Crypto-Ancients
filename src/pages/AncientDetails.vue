@@ -1,5 +1,5 @@
 <template>
-<div class="row" 
+  <div class="row" 
     tabindex="0"
     autofocus
     id="divfocus"
@@ -8,27 +8,29 @@
     @keydown.left="PreviousAncient()"
     @keydown.right="NextAncient()"
     >
-  <div class="col flex flex-center">
-    <q-btn color="blue-grey-1" label="Previous"
+    <div class="col flex flex-center">
+      <q-btn color="blue-grey-1" label="Previous"
         text-color="blue-grey-10"
-        @click="PreviousAncient()"  />      
-  </div>
-  <div class="col-7 flex flex-center">
-    <div v-if="details">
-      <AncientDetailsHeader
-        :name="details.name"
-        :edition="details.edition"
-        :attributes="details.attributes"
-        >
-      </AncientDetailsHeader>
+        @click="PreviousAncient()"  
+      />      
+    </div>
+    <div class="col-7 flex flex-center">
+      <div v-if="details">
+        <AncientDetailsHeader
+          :name="details.name"
+          :edition="details.edition"
+          :attributes="details.attributes"
+          >
+        </AncientDetailsHeader>
+      </div>
+    </div>
+    <div class="col flex flex-center">
+      <q-btn color="blue-grey-1" label="Next"
+      text-color="blue-grey-10"
+      @click="NextAncient()"  
+      />
     </div>
   </div>
-  <div class="col flex flex-center">
-    <q-btn color="blue-grey-1" label="Next"
-    text-color="blue-grey-10"
-    @click="NextAncient()"  />
-  </div>
-</div>
 </template>
 
 <script>
@@ -36,7 +38,6 @@ import { defineComponent } from 'vue'
 import AncientDetailsHeader from '../components/AncientDetailsHeader.vue'
 
 export default defineComponent({
-
   components: {
     AncientDetailsHeader
       },
@@ -55,32 +56,27 @@ export default defineComponent({
       res.status === 200
         ? (this.details = res.data)
         : alert('error fetching ancient')
-      console.log(this.details)
     } catch (error) {
       alert('there was another error')
     }
   },
   methods: {
     NextAncient() {
-      let edition = this.$route.params.edition
-      edition ++
+      let edition = this.$route.params.edition;
+      edition = Number(edition) + 1;
       this.$router.push({ name: 'AncientDetails', params: { edition }, replace:true })
     },
     PreviousAncient() {
-      let edition = this.$route.params.edition
-      edition --
+      let edition = this.$route.params.edition;
+      edition = Number(edition) - 1;
       this.$router.push({ name: 'AncientDetails', params: { edition }, replace:true })
     },
      focusOnDivFocus() {
-window.setTimeout(function () { 
-    document.getElementById('divfocus').focus(); 
-    }, 0); 
+      window.setTimeout(() => { 
+      document.getElementById('divfocus').focus(); 
+      }, 0); 
     }
   },
 })
 </script>
 
-<style lang="sass" scoped>
-  .divfocus
-    :focus
-</style>

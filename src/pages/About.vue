@@ -1,7 +1,7 @@
 /* eslint-disable */
 <template>
   <div class="background-image" style="width: 100vh; height: 100vh; position: fixed">
-  <RedParticles />
+    <RedParticles />
   </div>
   <div>
     <div class="q-mt-none">
@@ -54,7 +54,7 @@
                 </p>
               </q-card-section>
             </q-card-section>
-        </div>
+          </div>
         </div>
       </q-page>
     </div>
@@ -82,11 +82,6 @@ export default defineComponent({
 
 .fontchange
   font-family: 'Titillium Web'
-
-.my-card
-//   background: transparent
-  // opacity: 0
-
 
 $link-color: #000000
 $hover-color: #ff3333

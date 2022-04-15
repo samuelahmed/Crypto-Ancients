@@ -1,6 +1,6 @@
 <template>
   <div class="background-image" style="width: 100vh; height: 100vh; position: fixed">
-  <YellowParticles />
+    <YellowParticles />
   </div>
   <div id="absolute" class="q-mt-none">
     <div class="q-pa-xl flex flex-center">
@@ -107,6 +107,4 @@ export default defineComponent({
 
 .cafont
     font-family: 'Titillium Web'
-
-@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 </style>

@@ -1,22 +1,22 @@
 <template>
-<q-card
-  class="card text-black q-ma-sm"
-  style="height: 300px; width: 300px"
-  >
-  <q-card-section class="q-pa-none">
-    <div class="q-pa-sm final">
-      <div class="flex flex-center q-pr-sm text-h6">
-       {{ edition }}
-      </div> 
-      <div class="flex flex-center">
-        <n-image
-          :src="getImage()"
-        />   
-      </div>
-      <div class="flex flex-center q-pt-sm text-h7">
-          {{ attributes[0].trait_type }}: {{ attributes[0].value }}
-      </div> 
-      <div class="q-pt-sm"> 
+  <q-card
+    class="card text-black q-ma-sm"
+    style="height: 300px; width: 300px"
+    >
+    <q-card-section class="q-pa-none">
+      <div class="q-pa-sm final">
+        <div class="flex flex-center q-pr-sm text-h6">
+        {{ edition }}
+        </div> 
+        <div class="flex flex-center">
+          <n-image
+            :src="getImage()"
+          />   
+        </div>
+        <div class="flex flex-center q-pt-sm text-h7">
+            {{ attributes[0].trait_type }}: {{ attributes[0].value }}
+        </div> 
+        <div class="q-pt-sm"> 
           <div class="row text-center">
             <div class="col-6 text-left q-pl-lg">
               <p>{{ attributes[1].trait_type }}: {{ attributes[1].value }}</p> 
@@ -31,10 +31,10 @@
               <p>{{ attributes[9].trait_type }}: {{ attributes[9].value }}</p> 
             </div>
           </div>
+        </div>
       </div>
-    </div>
-  </q-card-section>
-</q-card>
+    </q-card-section>
+  </q-card>
 </template>
 
 <script>
@@ -63,7 +63,6 @@ export default defineComponent({
   },
   methods: {
     getImage: function () {
-      // console.log("in getImage method ")
       return `images/${this.edition}.png`
     }
   }

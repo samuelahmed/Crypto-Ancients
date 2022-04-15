@@ -1,6 +1,6 @@
 <template>
   <div class="background-image" style="width: 100vh; height: 100vh; position: fixed">
- <BlueParticles />
+    <BlueParticles />
   </div>
   <div class="q-mt-none">
     <div class="flex flex-center">
@@ -18,8 +18,9 @@
               <div class="flex flex-centered">
                 <q-card-section class="q-mt-xl" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
                   <n-image
-                  width="269"
-                  height="269"
+                  id="rcorners1"
+                  width="249"
+                  height="249"
                   :src="getImage()"
                   :alt="getAltImage ()"
                   :fallback-src="getAltImage ()"
@@ -162,8 +163,8 @@ export default defineComponent({
   background-size: contain  
   z-index:-1
 
-.img
-  border-radius: 5px
+#rcorners1 
+  border-radius: 29px
 
 .fontchange
   font-family: 'Titillium Web'

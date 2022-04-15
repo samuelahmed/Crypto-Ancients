@@ -1,27 +1,20 @@
-# cryptoancients (quasarvuecryptoancientv1)
+# cryptoancients 
 
-Front end to display Crypto Ancient NFTs
+ * Welcome to the Crypto Ancients Github :) 
 
-## Install the dependencies
+ * This is my first project, it is built with Vue 3 using the Quasar framework. 
+
+ * Website is built and hosted from this public repo by Netlify.
+
+ * The offical Crypto Ancient metadata & images will be saved here as well as on Pinata IPFS. 
+
+![alt text](https://cryptoancients.io/images/4167.png)
+
+## For those who want to change the world: 
 ```bash
-npm install
+    "Nothing in the world can take the place of persistence. Talent will
+    not; nothing is more common than unsuccessful men with talent. Genius
+    will not; unrewarded genius is almost a proverb. Education will not;
+    the world is full of educated derelicts. Persistence and determination
+    are omnipotent." - Calvin Coolidge
 ```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-### Lint the files
-```bash
-npm run lint
-```
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
-   

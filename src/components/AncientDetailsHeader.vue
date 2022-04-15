@@ -1,33 +1,32 @@
 <template>
-<div class="column fontchange flex flex-center">
-<div class="col text-h4 flex flex-center q-pt-md">
-  <p>{{ name }}</p>
-</div>
-<div class="flex flex-center q-pt-none">
-  <q-img class="q-pt-xl rounded-borders" width="369px" height="369px"  :src="getImage()"></q-img>
-</div>
-  <div class="text-h6">
-    <pre class="fontchange q-mb-none"><span class="text-h5">{{ attributes[0].trait_type }}: </span>{{ attributes[0].value }}</pre> 
+  <div class="column fontchange flex flex-center">
+    <div class="col text-h4 flex flex-center q-pt-md">
+      <p>{{ name }}</p>
+    </div>
+    <div class="flex flex-center q-pt-none">
+      <q-img id="rcorners1" class="q-pt-xl rounded-borders" width="369px" height="369px"  :src="getImage()"></q-img>
+    </div>
+      <div class="text-h6">
+        <pre class="fontchange q-mb-none"><span class="text-h5">{{ attributes[0].trait_type }}: </span>{{ attributes[0].value }}</pre> 
+      </div>
+    <div class="text-h6 flex flex-center">
+      <div class="col text-left text-h6 q-pl-md" style="min-width: 200px">
+        <pre class="fontchange"><span class="text-h5">{{ attributes[1].trait_type }}: </span>{{ attributes[1].value }}</pre>
+        <p><pre class="fontchange"><span class="text-h5">{{ attributes[3].trait_type }}: </span>{{ attributes[3].value }}</pre></p>
+        <p><pre class="fontchange"><span class="text-h5">{{ attributes[4].trait_type }}: </span>{{ attributes[4].value }}</pre></p>
+        <p><pre class="fontchange"><span class="text-h5">{{ attributes[5].trait_type }}: </span>{{ attributes[5].value }}</pre></p>
+      </div>
+      <div class="col text-left text-h6 q-pl-md" style="min-width: 200px" >
+        <pre class="fontchange"><span class="text-h5">{{ attributes[6].trait_type }}: </span>{{ attributes[6].value }}</pre>
+        <p><pre class="fontchange"><span class="text-h5">{{ attributes[7].trait_type }}: </span>{{ attributes[7].value }}</pre></p>
+        <p><pre class="fontchange"><span class="text-h5">{{ attributes[8].trait_type }}: </span>{{ attributes[8].value }}</pre></p>
+        <p><pre class="fontchange"><span class="text-h5">{{ attributes[9].trait_type }}: </span>{{ attributes[9].value }}</pre></p>
+      </div>
+    </div>
+    <div class="text-h6">
+      <a :href="`https://testnets.opensea.io/assets/0x724b1b31CEcc6036F261d2730952Eefaf1444bF9/${edition}`" target="_blank">Visit on Opensea</a>  
+    </div>
   </div>
-<div class="text-h6 flex flex-center">
-  <div class="col text-left text-h6 q-pl-md" style="min-width: 200px">
-    <pre class="fontchange"><span class="text-h5">{{ attributes[1].trait_type }}: </span>{{ attributes[1].value }}</pre>
-    <p><pre class="fontchange"><span class="text-h5">{{ attributes[3].trait_type }}: </span>{{ attributes[3].value }}</pre></p>
-    <p><pre class="fontchange"><span class="text-h5">{{ attributes[4].trait_type }}: </span>{{ attributes[4].value }}</pre></p>
-    <p><pre class="fontchange"><span class="text-h5">{{ attributes[5].trait_type }}: </span>{{ attributes[5].value }}</pre></p>
-  </div>
-  <div class="col text-left text-h6 q-pl-md" style="min-width: 200px" >
-    <pre class="fontchange"><span class="text-h5">{{ attributes[6].trait_type }}: </span>{{ attributes[6].value }}</pre>
-    <p><pre class="fontchange"><span class="text-h5">{{ attributes[7].trait_type }}: </span>{{ attributes[7].value }}</pre></p>
-    <p><pre class="fontchange"><span class="text-h5">{{ attributes[8].trait_type }}: </span>{{ attributes[8].value }}</pre></p>
-    <p><pre class="fontchange"><span class="text-h5">{{ attributes[9].trait_type }}: </span>{{ attributes[9].value }}</pre></p>
-  </div>
-</div>
-<div class="text-h6">
-  <a :href="`https://testnets.opensea.io/assets/0x724b1b31CEcc6036F261d2730952Eefaf1444bF9/${edition}`" target="_blank">Visit on Opensea</a>  
-</div>
-
-</div>
 </template>
 
 <script>
@@ -53,7 +52,6 @@ export default defineComponent({
   },
   methods: {
     getImage: function () {
-      // console.log("in getImage method ")
       return `images/${this.edition}.png`
     },
   }
@@ -61,10 +59,11 @@ export default defineComponent({
 </script>
 
 <style lang="sass" scoped>
-// .setsize
-//     min-width: 200px
 .fontchange
-    font-family: 'Titillium Web'
+  font-family: 'Titillium Web'
+
+#rcorners1 
+  border-radius: 29px
 
 $link-color: #0000FF
 $hover-color: #00009c
