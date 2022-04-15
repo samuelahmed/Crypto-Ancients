@@ -165,21 +165,17 @@
                 :rows-per-page-options="[50, 100, 250, 500, 1000]"
               >
                 <template v-slot:item="props">
-                  <div class="q-pa-sm">
-                    <q-card style="width: 250px; height: 260px">
-                      <q-card-section class="text-center">
+                    <q-card-section class="q-pa-none row flex flex-center" style="width: 220px; height: 230p">
                         <TableImgAncient
                           @click="navToAncientDetails(props.row.edition)"
                           :edition="props.row.edition"
                           :attributes="props.row.attributes"
                           >
                         </TableImgAncient>
-                        <div class="text-h6">
+                        <div class="col-12 text-h6 text-center">
                           {{ props.row.edition }}
                         </div>
-                      </q-card-section>
-                    </q-card>
-                  </div>
+                    </q-card-section>
                 </template>
               </q-table>
             </div>
@@ -323,7 +319,7 @@ setup () {
     }
   },
   computed: {
-    filterProducts: function() {
+    filterProducts() {
       if (this.modelEdition > 0)
         return this.numberSearchFilter 
       else
@@ -395,6 +391,10 @@ setup () {
 })
 </script>
 
+<style lang="sass" scoped>
+// .mycard
+//   background-color: blue
 
+</style>
 
 

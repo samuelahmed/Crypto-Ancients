@@ -13,7 +13,7 @@
         </q-card-section>
       </div> 
       <q-page class="flex-center">
-        <div id="q-app" class="flex flex-center q-mt-sm">
+        <div class="flex flex-center q-mt-sm">
           <div class="flex flex-center" style="width:1000px">
             <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
               <q-card-section class="q-pt-none">
@@ -84,7 +84,9 @@ export default defineComponent({
   font-family: 'Titillium Web'
 
 .my-card
-  background: transparent
+//   background: transparent
+  // opacity: 0
+
 
 $link-color: #000000
 $hover-color: #ff3333
