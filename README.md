@@ -8,7 +8,7 @@
 
  * The offical Crypto Ancient metadata & images will be saved here as well as on Pinata IPFS. 
 
-            ![alt text](https://cryptoancients.io/images/4167.png)
+    ![alt text](https://cryptoancients.io/images/4167.png)
 
 ## For those who want to change the world
 ```bash
