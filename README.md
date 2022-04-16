@@ -2,9 +2,9 @@
 
  * Welcome to the official Crypto Ancients Github :) 
 
- * This is my first project, it is powered by Vue 3 and the Quasar framework. 
+ * Architecture is Vue 3 framework powered by the Quasar CLI.
 
- * Website is built and hosted from this public repo by Netlify.
+ * Website is built and hosted from this public repository by Netlify.
 
  * The offical Crypto Ancient metadata & images will be saved here as well as on Pinata IPFS. 
 
