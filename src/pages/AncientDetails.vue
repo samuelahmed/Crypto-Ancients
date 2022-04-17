@@ -5,13 +5,13 @@
     id="divfocus"
     ref="divfocus"
     @keydown="focusOnDivFocus()"
-    @keydown.left="PreviousAncient()"
-    @keydown.right="NextAncient()"
+    @keydown.left="changeAncient(-1)"
+    @keydown.right="changeAncient(+1)"
     >
     <div class="col flex flex-center">
       <q-btn color="blue-grey-1" label="Previous"
         text-color="blue-grey-10"
-        @click="PreviousAncient()"  
+        @click="changeAncient(-1)"  
       />      
     </div>
     <div class="col-7 flex flex-center">
@@ -27,7 +27,7 @@
     <div class="col flex flex-center">
       <q-btn color="blue-grey-1" label="Next"
       text-color="blue-grey-10"
-      @click="NextAncient()"  
+      @click="changeAncient(+1)"  
       />
     </div>
   </div>
@@ -61,14 +61,9 @@ export default defineComponent({
     }
   },
   methods: {
-    NextAncient() {
-      let edition = this.$route.params.edition;
-      edition = Number(edition) + 1;
-      this.$router.push({ name: 'AncientDetails', params: { edition }, replace:true })
-    },
-    PreviousAncient() {
-      let edition = this.$route.params.edition;
-      edition = Number(edition) - 1;
+    changeAncient(increment) {
+      let edition = Number(this. $route.params.edition);
+      edition += increment;
       this.$router.push({ name: 'AncientDetails', params: { edition }, replace:true })
     },
      focusOnDivFocus() {
