@@ -62,7 +62,7 @@ export default defineComponent({
   },
   methods: {
     changeAncient(increment) {
-      let edition = Number(this. $route.params.edition);
+      let edition = Number(this.$route.params.edition);
       edition += increment;
       this.$router.push({ name: 'AncientDetails', params: { edition }, replace:true })
     },
@@ -74,4 +74,7 @@ export default defineComponent({
   },
 })
 </script>
+
+
+//gpt-3?
 
