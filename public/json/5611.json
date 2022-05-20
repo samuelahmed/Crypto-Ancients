@@ -1,34 +1,34 @@
 {
-  "name": "Crypto Ancients #5611",
+  "name": "Crypto Ancient FinalTest #5611",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/5611.png",
-  "dna": "742b0cbcf825233745cecc54ac2a36efd29deb76",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/5611.png",
+  "dna": "40e0418e1c04a69fe3e4fbf370f6da8f16a140e1",
   "edition": 5611,
-  "date": 1646247200744,
+  "date": 1652841828202,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Metaverse Blue"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human E"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin I"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Golden"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Dark Red"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Future"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,8 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Crazy Grey Hair"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

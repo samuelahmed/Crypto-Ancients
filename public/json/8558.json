@@ -1,38 +1,38 @@
 {
-  "name": "Crypto Ancients #8558",
+  "name": "Crypto Ancient FinalTest #8558",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/8558.png",
-  "dna": "ca4a41e5e1215c1bb8626ecd65f2fd293e928a95",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/8558.png",
+  "dna": "6d50a829d1c6bde61daf2a09e9c4b65f609e0ae4",
   "edition": 8558,
-  "date": 1646247254081,
+  "date": 1652841842797,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human L"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin J"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Red Teardrops"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Purple"
+      "value": "Orange"
     },
     {
       "trait_type": "Face",
-      "value": "Curly Mustache"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
@@ -47,5 +47,5 @@
       "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

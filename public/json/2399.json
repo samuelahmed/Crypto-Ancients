@@ -1,30 +1,30 @@
 {
-  "name": "Crypto Ancients #2399",
+  "name": "Crypto Ancient FinalTest #2399",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/2399.png",
-  "dna": "50fdbfc5f6229b606532bcd0cb6dab0ef4283b20",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/2399.png",
+  "dna": "10b54cd47fd6db159a529164d1f3b7ea2760bff4",
   "edition": 2399,
-  "date": 1646247142158,
+  "date": 1652841814406,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Desert"
     },
     {
       "trait_type": "Sun",
-      "value": "Red"
+      "value": "Standard"
     },
     {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
     },
     {
       "trait_type": "Skin",
-      "value": "Human D"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Red Teardrops"
     },
     {
       "trait_type": "Lips",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Fashion"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,8 @@
     },
     {
       "trait_type": "Head",
-      "value": "Hardhat"
+      "value": "Pink Hoodie"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

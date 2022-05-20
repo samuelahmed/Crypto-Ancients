@@ -1,34 +1,34 @@
 {
-  "name": "Crypto Ancients #1516",
+  "name": "Crypto Ancient FinalTest #1516",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/1516.png",
-  "dna": "bd597d5ddd439cee5ddda74980f8350d30601ac9",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/1516.png",
+  "dna": "a05e1ae40826f4e88b1114479d3cbc30392ab037",
   "edition": 1516,
-  "date": 1646247126084,
+  "date": 1652841810536,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human E"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin C"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Beige"
+      "value": "Dark Red"
     },
     {
       "trait_type": "Face",
@@ -44,8 +44,8 @@
     },
     {
       "trait_type": "Head",
-      "value": "Brown Punk Hair"
+      "value": "Grey Hair"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

@@ -1,38 +1,38 @@
 {
-  "name": "Crypto Ancients #6320",
+  "name": "Crypto Ancient FinalTest #6320",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/6320.png",
-  "dna": "551807e69e3b44eacb2786967aac33623ee5f97a",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/6320.png",
+  "dna": "f27f155e1ceb4feda2efb47bb494cfc6cafc4315",
   "edition": 6320,
-  "date": 1646247213559,
+  "date": 1652841831942,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Pink"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human D"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin L"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Teal Teardrops"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Metaverse Blue"
+      "value": "Dark Purple"
     },
     {
       "trait_type": "Face",
-      "value": "Mask"
+      "value": "Yellow Circle"
     },
     {
       "trait_type": "Glasses",
@@ -47,5 +47,5 @@
       "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

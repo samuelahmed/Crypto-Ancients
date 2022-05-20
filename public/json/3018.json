@@ -1,42 +1,42 @@
 {
-  "name": "Crypto Ancients #3018",
+  "name": "Crypto Ancient FinalTest #3018",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/3018.png",
-  "dna": "5989ac90b5f73b039511d8ca4f1cc407d15b79bc",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/3018.png",
+  "dna": "67c6d02178b1e1d557d6392a3104e52f8aec4000",
   "edition": 3018,
-  "date": 1646247153428,
+  "date": 1652841817254,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Pink"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human G"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Cross"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Beige"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin D"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Lips",
+      "value": "Dark Red"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Pink Heart Cheek"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "Seeing"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,8 @@
     },
     {
       "trait_type": "Head",
-      "value": "NPC Brown"
+      "value": "Pink Killa"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

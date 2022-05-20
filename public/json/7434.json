@@ -1,34 +1,34 @@
 {
-  "name": "Crypto Ancients #7434",
+  "name": "Crypto Ancient FinalTest #7434",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/7434.png",
-  "dna": "9b53bcd7fa80b5d13ddb7a829988b10e048eaa28",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/7434.png",
+  "dna": "2ddac5735065c9d2e190cbfe5b4c506170749b0b",
   "edition": 7434,
-  "date": 1646247233698,
+  "date": 1652841837300,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Metaverse Blue"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human I"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin A"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "White"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Brown"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
@@ -40,12 +40,12 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Golden Round Earring"
     },
     {
       "trait_type": "Head",
-      "value": "MetaverseBlue Punk Hair"
+      "value": "Pink Hoodie"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

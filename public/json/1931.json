@@ -1,38 +1,38 @@
 {
-  "name": "Crypto Ancients #1931",
+  "name": "Crypto Ancient FinalTest #1931",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/1931.png",
-  "dna": "b29883340836251b7a24ba3adeb396c8d5a07c0e",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/1931.png",
+  "dna": "68184a2af92ac6d6bcdacd153c5cef69f627bd87",
   "edition": 1931,
-  "date": 1646247133638,
+  "date": 1652841812384,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Nightime"
     },
     {
       "trait_type": "Sun",
-      "value": "Red"
+      "value": "Standard"
     },
     {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
     },
     {
       "trait_type": "Skin",
-      "value": "Human L"
+      "value": "Human Skin A"
     },
     {
       "trait_type": "Eyes",
-      "value": "Golden"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Purple"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Pink Circle"
     },
     {
       "trait_type": "Glasses",
@@ -44,8 +44,8 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Side Ponytail"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

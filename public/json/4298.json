@@ -1,26 +1,26 @@
 {
-  "name": "Crypto Ancients #4298",
+  "name": "Crypto Ancient FinalTest #4298",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/4298.png",
-  "dna": "a02cddf4cc2630a909521d1de0f69c032f582961",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/4298.png",
+  "dna": "fa2111e960269fa26fdbbe09cfc43548c616e5ed",
   "edition": 4298,
-  "date": 1646247176816,
+  "date": 1652841822613,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Nightime"
     },
     {
       "trait_type": "Sun",
-      "value": "Red"
+      "value": "Standard"
     },
     {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
     },
     {
       "trait_type": "Skin",
-      "value": "Human G"
+      "value": "Human Skin A"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Blue"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
@@ -47,5 +47,5 @@
       "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

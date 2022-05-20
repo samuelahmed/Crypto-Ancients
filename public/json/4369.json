@@ -1,42 +1,42 @@
 {
-  "name": "Crypto Ancients #4369",
+  "name": "Crypto Ancient FinalTest #4369",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/4369.png",
-  "dna": "69209999976ea8de1ce1bb4a8c2f9c619b724d54",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/4369.png",
+  "dna": "6e91f0b2dae8b0d703cb354c9e8beb404e6ab292",
   "edition": 4369,
-  "date": 1646247178079,
+  "date": 1652841822940,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Metaverse"
     },
     {
       "trait_type": "Sun",
-      "value": "Metaverse Blue"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human C"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "White"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Orange"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin K"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Lips",
+      "value": "Metaverse Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Stubble"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Purple"
     },
     {
       "trait_type": "Jewelry",
@@ -47,5 +47,5 @@
       "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

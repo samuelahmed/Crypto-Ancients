@@ -1,38 +1,38 @@
 {
-  "name": "Crypto Ancients #7670",
+  "name": "Crypto Ancient FinalTest #7670",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/7670.png",
-  "dna": "3fec27589e3a50c9f517d8ae74b9fff8d12f4a48",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/7670.png",
+  "dna": "bb8f68cab37ee839be2997c780516d4d3ab3a4b1",
   "edition": 7670,
-  "date": 1646247237988,
+  "date": 1652841838516,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
-      "value": "Metaverse Blue"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human I"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin M"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Brown"
+      "value": "Dark Blue"
     },
     {
       "trait_type": "Face",
-      "value": "Green Handlebars"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
@@ -47,5 +47,5 @@
       "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

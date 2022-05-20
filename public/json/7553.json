@@ -1,51 +1,51 @@
 {
-  "name": "Crypto Ancients #7553",
+  "name": "Crypto Ancient FinalTest #7553",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/7553.png",
-  "dna": "d093dc0364863285689e10116bc2c0c73c71da9f",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/7553.png",
+  "dna": "8a6e59be76d144fc8fab7a69b9adb9263a7566b0",
   "edition": 7553,
-  "date": 1646247235896,
+  "date": 1652841837961,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
       "value": "Standard"
     },
     {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
     },
     {
       "trait_type": "Skin",
-      "value": "Human L"
+      "value": "Human Skin F"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Blue"
     },
     {
       "trait_type": "Lips",
-      "value": "Dark Purple"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Glasses",
       "value": "Purple"
     },
     {
+      "trait_type": "Face",
+      "value": "Pink Circle"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "None"
+    },
+    {
       "trait_type": "Jewelry",
-      "value": "Facechain"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Blue Hair"
+      "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

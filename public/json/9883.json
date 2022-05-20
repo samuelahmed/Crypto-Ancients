@@ -1,34 +1,34 @@
 {
-  "name": "Crypto Ancients #9883",
+  "name": "Crypto Ancient FinalTest #9883",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/9883.png",
-  "dna": "0721cbd67f9702683cde44c21dae2fdb1aeb6581",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/9883.png",
+  "dna": "e0e5c24add5f2698cd2d7e1013d1b0227fd93435",
   "edition": 9883,
-  "date": 1646247277801,
+  "date": 1652841849309,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human L"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin E"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Purple Teardrops"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Brown"
+      "value": "Teal"
     },
     {
       "trait_type": "Face",
@@ -40,12 +40,12 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "Scarab Gold Plate"
+      "value": "None"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

@@ -1,34 +1,34 @@
 {
-  "name": "Crypto Ancients #8065",
+  "name": "Crypto Ancient FinalTest #8065",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/8065.png",
-  "dna": "e10b81ea8fbe4d9e9f13d7dbeb374ccf8f6b261e",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/8065.png",
+  "dna": "03ef69a451bee3e84dbb9fe2295c55379a0a583f",
   "edition": 8065,
-  "date": 1646247245162,
+  "date": 1652841840467,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human O"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin C"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Dark Blue"
+      "value": "Teal"
     },
     {
       "trait_type": "Face",
@@ -44,8 +44,8 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Purple Hair"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

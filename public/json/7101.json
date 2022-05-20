@@ -1,34 +1,34 @@
 {
-  "name": "Crypto Ancients #7101",
+  "name": "Crypto Ancient FinalTest #7101",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/7101.png",
-  "dna": "2ef447c5f50d63c69211f2b5a655f592be35f535",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/7101.png",
+  "dna": "b05269f36d15429b2e3bf60a1696beb1c879b166",
   "edition": 7101,
-  "date": 1646247227626,
+  "date": 1652841835577,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Metaverse"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human E"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin K"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "White"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Dark Purple"
+      "value": "Blue"
     },
     {
       "trait_type": "Face",
@@ -44,8 +44,8 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Napoleon Hat"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

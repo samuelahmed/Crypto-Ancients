@@ -1,51 +1,51 @@
 {
-  "name": "Crypto Ancients #9350",
+  "name": "Crypto Ancient FinalTest #9350",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/9350.png",
-  "dna": "44a5489b5c69532b48eba4048b1f73656f0dd488",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/9350.png",
+  "dna": "121e5de3c43eb9e02d6e20f35a085b32d3d8bf9b",
   "edition": 9350,
-  "date": 1646247268136,
+  "date": 1652841846769,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
       "value": "Standard"
     },
     {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
     },
     {
       "trait_type": "Skin",
-      "value": "Human M"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Swirly Eye Tattoo"
     },
     {
       "trait_type": "Lips",
-      "value": "Brown"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Glasses",
       "value": "Purple"
     },
     {
+      "trait_type": "Face",
+      "value": "Pink Handlebars"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "None"
+    },
+    {
       "trait_type": "Jewelry",
-      "value": "Purple Gem"
+      "value": "None"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

@@ -1,38 +1,38 @@
 {
-  "name": "Crypto Ancients #3818",
+  "name": "Crypto Ancient FinalTest #3818",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/3818.png",
-  "dna": "fed0f20659b9751088ef9d95a0c5aea8609631f2",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/3818.png",
+  "dna": "e4c7cd276916464064b7738863a03a4ebcd86a58",
   "edition": 3818,
-  "date": 1646247168037,
+  "date": 1652841820551,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Martian"
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human G"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin A"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green Teardrops"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Dark Purple"
+      "value": "Purple"
     },
     {
       "trait_type": "Face",
-      "value": "Young Beard"
+      "value": "Green Handlebars"
     },
     {
       "trait_type": "Glasses",
@@ -47,5 +47,5 @@
       "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

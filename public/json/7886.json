@@ -1,34 +1,34 @@
 {
-  "name": "Crypto Ancients #7886",
+  "name": "Crypto Ancient FinalTest #7886",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/7886.png",
-  "dna": "ddb986c2fb2d0798ee335e5c9b2b4bffbaedacdb",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/7886.png",
+  "dna": "d04e3a6841f176533b9916d706399c2a851b9871",
   "edition": 7886,
-  "date": 1646247241938,
+  "date": 1652841839593,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Forest"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human A"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin G"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Red"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Dark Purple"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
@@ -40,12 +40,12 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "Neck Swag Unique"
+      "value": "None"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

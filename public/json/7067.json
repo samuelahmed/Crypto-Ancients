@@ -1,51 +1,51 @@
 {
-  "name": "Crypto Ancients #7067",
+  "name": "Crypto Ancient FinalTest #7067",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/7067.png",
-  "dna": "e6b1b661215261338aca62ae59d6ef419306e13a",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/7067.png",
+  "dna": "2c9e528a0114925c75230710930d48ed6aa8f630",
   "edition": 7067,
-  "date": 1646247227013,
+  "date": 1652841835425,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Metaverse"
     },
     {
       "trait_type": "Sun",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human I"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Pink"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Blue"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin J"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Lips",
+      "value": "Beige"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Pink Circle"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "EyePatch"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Neck Swag"
+      "value": "None"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

@@ -1,34 +1,34 @@
 {
-  "name": "Crypto Ancients #4657",
+  "name": "Crypto Ancient FinalTest #4657",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/4657.png",
-  "dna": "cc7fed1ad77ca4a0ab1001f1e0d6c00defbb4dc8",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/4657.png",
+  "dna": "4ecb70c7b59963ef0dab5960b7969babe5860bf9",
   "edition": 4657,
-  "date": 1646247183298,
+  "date": 1652841824125,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human F"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin A"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Brown"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Metaverse Blue"
+      "value": "Dark Purple"
     },
     {
       "trait_type": "Face",
@@ -40,12 +40,12 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Multiple Gold Earrings"
     },
     {
       "trait_type": "Head",
-      "value": "Grey Hair"
+      "value": "Hardhat"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

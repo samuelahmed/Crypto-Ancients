@@ -1,34 +1,34 @@
 {
-  "name": "Crypto Ancients #8275",
+  "name": "Crypto Ancient FinalTest #8275",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/8275.png",
-  "dna": "1d0fa5bc3643cba014bc3f2591c0aa19c72024f2",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/8275.png",
+  "dna": "e5622b9cf34e33a63990fe9ea7b8281aa0acc6f2",
   "edition": 8275,
-  "date": 1646247248949,
+  "date": 1652841841461,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
-      "value": "Red"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human L"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin J"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Red Teardrops"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Beige"
+      "value": "Dark Purple"
     },
     {
       "trait_type": "Face",
@@ -40,12 +40,12 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "Neck Swag"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "MetaverseBlue Punk Hair"
+      "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

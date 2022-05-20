@@ -1,38 +1,38 @@
 {
-  "name": "Crypto Ancients #9791",
+  "name": "Crypto Ancient FinalTest #9791",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/9791.png",
-  "dna": "15db22ed73ff195a763b7353c2c3cd5b553788b1",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/9791.png",
+  "dna": "ff514bf1780fe408521ffcd1cc3388f25d9bd19a",
   "edition": 9791,
-  "date": 1646247276152,
+  "date": 1652841848876,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nightime"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
-      "value": "Red"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human B"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin H"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Red Teardrops"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Orange"
+      "value": "Dark Red"
     },
     {
       "trait_type": "Face",
-      "value": "Young Beard"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
@@ -40,12 +40,12 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "Gold Earing"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Lego Orange"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

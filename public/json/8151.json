@@ -1,34 +1,34 @@
 {
-  "name": "Crypto Ancients #8151",
+  "name": "Crypto Ancient FinalTest #8151",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/8151.png",
-  "dna": "b2a851a9fa264340f2fadd3b9c9842b869f98759",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/8151.png",
+  "dna": "75cfc5fc90c7782781323f3c9f23f734213d278c",
   "edition": 8151,
-  "date": 1646247246699,
+  "date": 1652841840886,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human K"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin F"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Swirly Eye Tattoo"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Dark Purple"
+      "value": "Blue"
     },
     {
       "trait_type": "Face",
@@ -44,8 +44,8 @@
     },
     {
       "trait_type": "Head",
-      "value": "Underground Pink"
+      "value": "Side Ponytail"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

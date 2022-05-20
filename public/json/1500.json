@@ -1,34 +1,34 @@
 {
-  "name": "Crypto Ancients #1500",
+  "name": "Crypto Ancient FinalTest #1500",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/1500.png",
-  "dna": "26381e2948e1a9e81fe5b72c0847c858230eb84b",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/1500.png",
+  "dna": "04245538a11654321f031aaea9b6c66b3ccad89d",
   "edition": 1500,
-  "date": 1646247125807,
+  "date": 1652841810461,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
       "value": "Standard"
     },
     {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
     },
     {
       "trait_type": "Skin",
-      "value": "Human H"
+      "value": "Human Skin A"
     },
     {
       "trait_type": "Eyes",
-      "value": "Purple Tear Drops"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Dark Purple"
+      "value": "Purple"
     },
     {
       "trait_type": "Face",
@@ -40,12 +40,12 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Pearls"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

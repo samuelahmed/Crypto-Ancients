@@ -1,51 +1,51 @@
 {
-  "name": "Crypto Ancients #739",
+  "name": "Crypto Ancient FinalTest #739",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/739.png",
-  "dna": "2c236a3058152bcaa4c7aadcd6eab74dc7f6725d",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/739.png",
+  "dna": "14d7866943982043c423bd64278dffcf7a65f0cc",
   "edition": 739,
-  "date": 1646247112347,
+  "date": 1652841806853,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
-    },
-    {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "Human A"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Standard"
     },
     {
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Human Skin I"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Teal Teardrops"
+    },
+    {
       "trait_type": "Lips",
-      "value": "Orange"
+      "value": "Dark Purple"
     },
     {
       "trait_type": "Face",
-      "value": "Mask"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Fashion"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Gold Chain"
+      "value": "None"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

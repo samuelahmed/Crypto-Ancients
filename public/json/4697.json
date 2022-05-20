@@ -1,26 +1,26 @@
 {
-  "name": "Crypto Ancients #4697",
+  "name": "Crypto Ancient FinalTest #4697",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/4697.png",
-  "dna": "658c38fa08e562066eb5897a47e7e2b1dc08a09e",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/4697.png",
+  "dna": "d206f1b374eb18db94cc24c6ba0f53d3d84fb0ba",
   "edition": 4697,
-  "date": 1646247183998,
+  "date": 1652841824311,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Forest"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
       "value": "Golden"
     },
     {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
     },
     {
       "trait_type": "Skin",
-      "value": "Human H"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Dark Purple"
+      "value": "Orange"
     },
     {
       "trait_type": "Face",
@@ -40,12 +40,12 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "Facechain"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Grey Hoodie"
+      "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

@@ -1,5 +1,5 @@
 <template>
-  <q-img id="rcorners1" class="q-pt-xl" width="249px" height="249px" :src="getImage()"></q-img>
+  <q-img id="rcorners1" class="q-pt-xl" width="69px" height="69px" :src="getImage()"></q-img>
 </template>
 
 <script>
@@ -34,5 +34,5 @@ export default defineComponent({
 
 <style lang="sass" scoped>
 #rcorners1 
-  border-radius: 29px
+  border-radius: 19px
 </style>

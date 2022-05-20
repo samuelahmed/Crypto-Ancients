@@ -161,11 +161,11 @@
                   hide-header
                   :columns="columns"
                   virtual-scroll
-                  :pagination="{rowsPerPage: 100}"
+                  :pagination="{rowsPerPage: 250}"
                   :rows-per-page-options="[50, 100, 250, 500, 1000]"
                 >
                   <template v-slot:item="props">
-                      <q-card-section class="q-pa-none row flex flex-center" style="width: 259px; height: 269p">
+                      <q-card-section class="q-pa-none row flex flex-center" style="width: 79px; height: 79px">
                           <TableImgAncient
                             @click="navToAncientDetails(props.row.edition)"
                             :edition="props.row.edition"

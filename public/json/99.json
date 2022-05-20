@@ -1,34 +1,34 @@
 {
-  "name": "Crypto Ancients #99",
+  "name": "Crypto Ancient FinalTest #99",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/99.png",
-  "dna": "42bd01ac645f855c64c250518ceab364c57cf9a8",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/99.png",
+  "dna": "54df2e3a349db9934df2a777819f28ecfb27ee00",
   "edition": 99,
-  "date": 1646247101291,
+  "date": 1652841803872,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Forest"
+      "value": "Nightime"
     },
     {
       "trait_type": "Sun",
-      "value": "Red"
+      "value": "Standard"
     },
     {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
     },
     {
       "trait_type": "Skin",
-      "value": "Human D"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
-      "value": "Green Tear Drops"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Green"
+      "value": "Dark Purple"
     },
     {
       "trait_type": "Face",
@@ -40,12 +40,12 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Gold Earring"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }

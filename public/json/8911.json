@@ -1,51 +1,51 @@
 {
-  "name": "Crypto Ancients #8911",
+  "name": "Crypto Ancient FinalTest #8911",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/8911.png",
-  "dna": "f34e00b7bd5736b7664a644549fa76f9af0a6006",
+  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/8911.png",
+  "dna": "e018294f88633d38e84b323d451b08af0d814ebb",
   "edition": 8911,
-  "date": 1646247260275,
+  "date": 1652841844560,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daytime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Red"
+      "value": "Standard"
     },
     {
-      "trait_type": "Crypto Ancient",
-      "value": "CryptoAncient"
+      "trait_type": "Style",
+      "value": "Crypto Ancient"
     },
     {
       "trait_type": "Skin",
-      "value": "Human L"
+      "value": "Human Skin A"
     },
     {
       "trait_type": "Eyes",
-      "value": "Red"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Brown"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Glasses",
       "value": "Purple"
     },
     {
+      "trait_type": "Face",
+      "value": "Number 7 Tattoo"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "None"
+    },
+    {
       "trait_type": "Jewelry",
-      "value": "Multiple Gold Earrings"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Lego Brown"
     }
   ],
-  "compiler": "Thanks to HashLips Art Engine"
+  "compiler": "HashLips Art Engine"
 }
