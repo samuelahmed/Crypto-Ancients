@@ -258,7 +258,7 @@ setup () {
         'Human Skin A', 'Human Skin B', 'Human Skin C', 'Human Skin D', 'Human Skin E', 'Human Skin F', 'Human Skin G', 'Human Skin H', 'Human Skin I', 'Human Skin K', 'Human Skin J', 'Human Skin L', 'Human Skin M'
       ],
       optionsEyes: [
-        'Blood Tear Drops', 'Bloodshot', 'Blue', 'Brown', 'Cross', 'Golden', 'Green', 'Nature Tear Drops', 'Mauve Tear Drops', 'Pink', 'Purple', 'Red', 'Swirly Eye Tattoo', 'Standard', 'Teal Tear Drops', 'White'  
+        'Blood Tears', 'Bloodshot', 'Blue', 'Brown', 'Cross', 'Golden', 'Green', 'Nature Tears', 'Mauve Tears', 'Pink', 'Purple', 'Red', 'Swirly Eye Tattoo', 'Standard', 'Teal Tears', 'White'  
       ],
       optionsLips: [
         'Admiral', 'Beige', 'Brown', 'Garnet', 'Green', 'Maya', 'Metaverse Blue', 'Orange', 'Purple', 'Red', 'Royal', 'Teal'
@@ -267,10 +267,10 @@ setup () {
         'Blue Circle', 'Blue Heart Cheek', 'Curly Mustache', 'Green Handlebars', 'Grey Beard', 'Heaven Sign', 'Mask', 'Numbers Tattoo', 'Pink Circle', 'Pink Handlebars', 'Pink Heart Cheek', 'Seven Tattoo', 'Standard', 'Stubble', 'Yellow Circle', 'Yellow Heart Cheek', 'Young Beard'
       ],
       optionsGlasses: [
-        'Active Red', 'Eye Patch', 'Fashion', 'None', 'Purple', 'Seeing', 'Sunglasses', 
+        'Active Red', 'EyePatch', 'Fashion', 'None', 'Purple', 'Seeing', 'Sunglasses', 
       ],
       optionsJewelry: [
-        'Facechain', 'Gold Chain', 'Gold Cross', 'Gold Earring', 'Golden Round Earing', 'Green Neck Swag', 'Metaverse Blue Gold', 'Multiple Gold Earrings', 'None', 'Pearls', 'Purple Gem', 'Purple Neck Swag', 'Red Neck Swag', 'Scarab Cross', 'Yellow Neck Swag' 
+        'Face Chain', 'Gold Chain', 'Gold Cross', 'Gold Earring', 'Golden Round Earring', 'Green Neck Swag', 'Metaverse Blue Gold', 'Multiple Gold Earrings', 'None', 'Pearls', 'Purple Gem', 'Purple Neck Swag', 'Red Neck Swag', 'Scarab Cross', 'Yellow Neck Swag' 
       ],
       optionsHead: [
         'Ancient Bow', 'Ancient Queen', 'Basic Priest', 'Blue Hair', 'Blue Hat', 'Brown Punk Hair', 'Crazy Blue Hair', 'Crazy Green Hair', 'Crazy Grey Hair', 'Gold Chapeau', 'Grey Hair', 'Grey Punk Hair', 'Hardhat', 'Hoodie', 'Lego Brown', 'Lego Orange', 'Metapriest', 'Metaverse Blue Punk Hair', 'Metaverse Queen', 
