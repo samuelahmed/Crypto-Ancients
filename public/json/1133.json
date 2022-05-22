@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #1133",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/1133.png",
-  "dna": "249fb3e781a2198cc8b361312bf739c97495b3d1",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1133.png",
+  "dna": "5c0b3d5c405cd2c1b2d37ea85ac671434cb05b58",
   "edition": 1133,
-  "date": 1653196998098,
+  "date": 1653209662740,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Golden"
     },
     {
       "trait_type": "Style",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cross"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Red"
+      "value": "Purple"
     },
     {
       "trait_type": "Face",
-      "value": "Blue Heart Cheek"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "EyePatch"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Purple Blue Bangs"
+      "value": "Side Ponytail"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

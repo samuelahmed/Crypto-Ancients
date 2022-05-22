@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #6751",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/6751.png",
-  "dna": "d76b2edee2a25dafdfd63d9049f2b4c63dc59a3d",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6751.png",
+  "dna": "140932cfc1905f6f47cbf61a5cc969a0570c6ba2",
   "edition": 6751,
-  "date": 1653197033339,
+  "date": 1653209690583,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin H"
     },
     {
       "trait_type": "Eyes",
@@ -28,11 +28,11 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Admiral"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Pink Heart Cheek"
     },
     {
       "trait_type": "Glasses",
@@ -40,12 +40,11 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "Green Neck Swag"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Underground Pink"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

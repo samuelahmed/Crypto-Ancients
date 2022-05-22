@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #8176",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8176.png",
-  "dna": "5b7a1f65f774a3593a273e47a47a0440a4184b7e",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8176.png",
+  "dna": "c253cb045caa841d2ff09e25a09b6adf23e6db4f",
   "edition": 8176,
-  "date": 1653197041476,
+  "date": 1653209698227,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Desert"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin K"
+      "value": "Human Skin A"
     },
     {
       "trait_type": "Eyes",
@@ -28,24 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Maya"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Seven Tattoo"
     },
     {
       "trait_type": "Glasses",
-      "value": "EyePatch"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Metaverse Blue Gold"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Gold Chapeau"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #258",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/258.png",
-  "dna": "6cc507bda963804e27d402aacb1ad2eb6e4e3cd3",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/258.png",
+  "dna": "d86fd1258349be0ff4418b097403b5d0974a0dfe",
   "edition": 258,
-  "date": 1653196993473,
+  "date": 1653209658457,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nighttime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Red"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin H"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Admiral"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Sunglasses"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Golden Round Earrings"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

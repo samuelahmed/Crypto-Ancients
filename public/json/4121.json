@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #4121",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/4121.png",
-  "dna": "fae47c875438fe7083012e8903ab5b19f302b670",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/4121.png",
+  "dna": "ee1a84e3262c769b6c9550d37005ed2c8a7d2ddc",
   "edition": 4121,
-  "date": 1653197014576,
+  "date": 1653209677337,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Nighttime"
     },
     {
       "trait_type": "Sun",
-      "value": "Pink"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Beige"
+      "value": "Royal"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Old Grey Hair"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #6234",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/6234.png",
-  "dna": "9bb131426a94a6dbdaceadd0af6a4ac297dea7c3",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6234.png",
+  "dna": "38689541cdaa7d83ba469f828253f44770c8fadf",
   "edition": 6234,
-  "date": 1653197030530,
+  "date": 1653209687966,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
@@ -28,11 +28,11 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Maya"
+      "value": "Royal"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Stubble"
     },
     {
       "trait_type": "Glasses",
@@ -40,12 +40,11 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "Purple Gem"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "NPC Brown"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

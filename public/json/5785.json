@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #5785",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/5785.png",
-  "dna": "0c59a932ed42000fadfb70e46a5f2086ee0c1cf9",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5785.png",
+  "dna": "e0ba417714bb9a1fbb3343c089196539f280c9a4",
   "edition": 5785,
-  "date": 1653197027533,
+  "date": 1653209685625,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Metaverse Blue"
     },
     {
       "trait_type": "Style",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin C"
+      "value": "Human Skin G"
     },
     {
       "trait_type": "Eyes",
-      "value": "Brown"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Brown"
+      "value": "Metaverse Blue"
     },
     {
       "trait_type": "Face",
-      "value": "Yellow Circle"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Lego Brown"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #9672",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/9672.png",
-  "dna": "9560c87547cbc4f51472ea494fd057a324c6efdf",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9672.png",
+  "dna": "8773a982a0ba539ece695c6ba209786be5963ca3",
   "edition": 9672,
-  "date": 1653197049425,
+  "date": 1653209707891,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Golden"
     },
     {
       "trait_type": "Style",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin J"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
-      "value": "Brown"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "EyePatch"
+      "value": "Sunglasses"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Napoleon Hat"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

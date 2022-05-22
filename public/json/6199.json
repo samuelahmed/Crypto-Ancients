@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #6199",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/6199.png",
-  "dna": "58d278701f22c28021f06ee8eaf016c96249773c",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6199.png",
+  "dna": "a6ef4037c402a20c73c41eba35d161d683af1d5a",
   "edition": 6199,
-  "date": 1653197030275,
+  "date": 1653209687738,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin B"
     },
     {
       "trait_type": "Eyes",
@@ -28,15 +28,15 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Maya"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
-      "value": "Yellow Circle"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "NPC Purple"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #7675",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/7675.png",
-  "dna": "cb6f900c86cca3380b8726273411fb235f1f25bd",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7675.png",
+  "dna": "dbaf302c7c32c3b916185bfeadbee89d6c5daee2",
   "edition": 7675,
-  "date": 1653197038628,
+  "date": 1653209695275,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Metaverse"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin A"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Bloodshot"
     },
     {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Orange"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "EyePatch"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Pearls"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Lego Orange"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #659",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/659.png",
-  "dna": "b4c170518d30a7f8ee5f2b0c437a714289e37d18",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/659.png",
+  "dna": "f892370748363e0f54c506c5b1e49b2b8749cb3c",
   "edition": 659,
-  "date": 1653196995570,
+  "date": 1653209660326,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Scarab Cross"
+    },
+    {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Long Purple Hair"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

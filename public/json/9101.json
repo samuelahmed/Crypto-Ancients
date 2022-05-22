@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #9101",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/9101.png",
-  "dna": "4a0a54693cb1abbb563ef79b86791c2a7910af2f",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9101.png",
+  "dna": "9e73fe8881e4b831aad9ca73486e92e3c1a557c5",
   "edition": 9101,
-  "date": 1653197046250,
+  "date": 1653209704030,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Pink"
+      "value": "Red"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin C"
+      "value": "Human Skin J"
     },
     {
       "trait_type": "Eyes",
@@ -28,15 +28,15 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Royal"
+      "value": "Red"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Mask"
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "NPC Purple"
+      "value": "Long Purple Hair"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

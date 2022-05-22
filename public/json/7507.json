@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #7507",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/7507.png",
-  "dna": "92c9564bf85f8cb339897bf6edaeed6a2c167fe1",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7507.png",
+  "dna": "aaaef3ed9a50e5e57de7009e79ac3d6a5cb1a026",
   "edition": 7507,
-  "date": 1653197037778,
+  "date": 1653209694518,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Martian"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin F"
+      "value": "Human Skin E"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Royal"
+      "value": "Admiral"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Sunglasses"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Purple Neck Swag"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Blue Hat"
+      "value": "NPC Brown"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

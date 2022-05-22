@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #3162",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/3162.png",
-  "dna": "ddd93e31880e60ab65a337dec721f022ff06026d",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/3162.png",
+  "dna": "bc3ea24c888a5a3c722ccd55a76af45851cebf57",
   "edition": 3162,
-  "date": 1653197009497,
+  "date": 1653209672616,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nighttime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin A"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
-      "value": "Pink"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Maya"
+      "value": "Purple"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Sunglasses"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Scarab Cross"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Metapriest"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

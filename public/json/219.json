@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #219",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/219.png",
-  "dna": "c8729ea275496be0236fdea478f4a6cb1380b7f2",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/219.png",
+  "dna": "6e069026c628556d54e8734b232cb444fab0277c",
   "edition": 219,
-  "date": 1653196993275,
+  "date": 1653209658271,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Martian"
     },
     {
       "trait_type": "Sun",
-      "value": "Red"
+      "value": "Metaverse Blue"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Beige"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Pearls"
+    },
+    {
       "trait_type": "Head",
-      "value": "Side Ponytail"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

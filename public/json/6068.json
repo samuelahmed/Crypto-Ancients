@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #6068",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/6068.png",
-  "dna": "0e691d22a42c9f9d9b11a8929bf96541a2d63401",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6068.png",
+  "dna": "affeef4f27707cc7144b530117acb4806654721c",
   "edition": 6068,
-  "date": 1653197029630,
+  "date": 1653209687067,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Pink"
     },
     {
       "trait_type": "Style",
@@ -20,32 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin C"
+      "value": "Human Skin B"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Pink"
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Red"
     },
     {
       "trait_type": "Face",
-      "value": "Blue Heart Cheek"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Fashion"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Gold Chain"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

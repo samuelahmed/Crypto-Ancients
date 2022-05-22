@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #1112",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/1112.png",
-  "dna": "33c98d7cb1edc9910a67c18820f26432381d6236",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1112.png",
+  "dna": "eca42a7ff4657362077e4cd0ea6ec015040d28ee",
   "edition": 1112,
-  "date": 1653196997944,
+  "date": 1653209662643,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Metaverse Blue"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin K"
+      "value": "Human Skin I"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Brown"
     },
     {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Active Red"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Purple Gem"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Crazy Green Hair"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

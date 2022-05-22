@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #3875",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/3875.png",
-  "dna": "4a4d27c54637924f1c63806daee8936fe4ddd75d",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/3875.png",
+  "dna": "cae7a2d214d0ec073acaaf2e67a6c54275643434",
   "edition": 3875,
-  "date": 1653197013312,
+  "date": 1653209676123,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin H"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Green"
+      "value": "Garnet"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Ancient Queen"
+      "value": "Napoleon Hat"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

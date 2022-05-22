@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #5887",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/5887.png",
-  "dna": "4ef737ae993a4009a7c2f848348ed4493873116a",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5887.png",
+  "dna": "5f22d3f9ef007c4c6bc3ba377fdae1b7964518bf",
   "edition": 5887,
-  "date": 1653197028375,
+  "date": 1653209686154,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,32 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin A"
+      "value": "Human Skin I"
     },
     {
       "trait_type": "Eyes",
-      "value": "Green"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Red"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mask"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Gold Chain"
     },
     {
       "trait_type": "Head",
-      "value": "NPC Purple"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

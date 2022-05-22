@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #6304",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/6304.png",
-  "dna": "d40a5a8550a73e20a7f4d3aa8ea2d7502e627ee1",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6304.png",
+  "dna": "20561e9e1c46b3e274f6d5afff121bea9107866f",
   "edition": 6304,
-  "date": 1653197030957,
+  "date": 1653209688265,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin F"
     },
     {
       "trait_type": "Eyes",
@@ -32,7 +32,7 @@
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Stubble"
     },
     {
       "trait_type": "Glasses",
@@ -40,12 +40,11 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "Face Chain"
+      "value": "None"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

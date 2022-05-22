@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #8747",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8747.png",
-  "dna": "63f29702fc13d71e484183866c90e4c728c56f86",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8747.png",
+  "dna": "40aa104b8be63aae733ce72e7b22440d729cd41c",
   "edition": 8747,
-  "date": 1653197044360,
+  "date": 1653209701916,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin C"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
-      "value": "Pink"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Red"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
-      "value": "Pink Circle"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Active Red"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Crazy Blue Hair"
+      "value": "Multicolor Hat"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

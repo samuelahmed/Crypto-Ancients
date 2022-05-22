@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #6263",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/6263.png",
-  "dna": "b14d0549a2bbfb53d36c8d07d4fedf440c5bb779",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6263.png",
+  "dna": "525c458b529bf278909bf9f7aa6b0363da9b5f06",
   "edition": 6263,
-  "date": 1653197030681,
+  "date": 1653209688087,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Pink"
+      "value": "Purple"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin J"
+      "value": "Human Skin E"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Beige"
+      "value": "Maya"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
+      "value": "Eye Patch"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Pearls"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Ancient Ribbon"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

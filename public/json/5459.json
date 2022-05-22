@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #5459",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/5459.png",
-  "dna": "037bcd77a9c7f24babeba2951f096d6a682db5bb",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5459.png",
+  "dna": "9174c0310dce00ffb8a2c3f498dba4684ca5434f",
   "edition": 5459,
-  "date": 1653197024901,
+  "date": 1653209683929,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin G"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cross"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Purple"
+      "value": "Orange"
     },
     {
       "trait_type": "Face",
-      "value": "Mask"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Active Red"
+      "value": "Sunglasses"
     },
     {
       "trait_type": "Jewelry",
@@ -46,6 +46,5 @@
       "trait_type": "Head",
       "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

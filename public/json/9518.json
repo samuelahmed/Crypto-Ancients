@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #9518",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/9518.png",
-  "dna": "2f1f02c6f9ebe35b4a5de39143a68e937e099a0f",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9518.png",
+  "dna": "d9bcfdd45c7aaf8f7f16ef89a1656c3ff3e2e6fa",
   "edition": 9518,
-  "date": 1653197048610,
+  "date": 1653209706949,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Forest"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin E"
     },
     {
       "trait_type": "Eyes",
-      "value": "Red"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Royal"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mask"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Crazy Blue Hair"
+      "value": "Side Ponytail"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

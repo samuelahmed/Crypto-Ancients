@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #1922",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/1922.png",
-  "dna": "7d125441698719f71bc4c91ed7530a1a50ef7bd1",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1922.png",
+  "dna": "e2068448dda125b10a2aef0bf2da7f58b0a7cecf",
   "edition": 1922,
-  "date": 1653197002454,
+  "date": 1653209666599,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Metaverse Blue"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin E"
     },
     {
       "trait_type": "Eyes",
@@ -28,15 +28,15 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Purple"
+      "value": "Maya"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Yellow Heart Cheek"
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Eye Patch"
     },
     {
       "trait_type": "Jewelry",
@@ -46,6 +46,5 @@
       "trait_type": "Head",
       "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

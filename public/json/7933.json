@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #7933",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/7933.png",
-  "dna": "61df030882232c918456ea1944fff78204e865ac",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7933.png",
+  "dna": "14c235a79c8f6f285ab8be743993c6ea96b55d9b",
   "edition": 7933,
-  "date": 1653197040137,
+  "date": 1653209696947,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Martian"
     },
     {
       "trait_type": "Sun",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin C"
+      "value": "Human Skin H"
     },
     {
       "trait_type": "Eyes",
-      "value": "Nature Tears"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Brown"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Royal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Curly Mustache"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "Purple"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Multicolor Hat"
+      "value": "Pink Hoodie"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

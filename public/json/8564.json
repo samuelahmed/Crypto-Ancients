@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #8564",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8564.png",
-  "dna": "88a34521e4046dee2c562580d1c2accfc1fbe6ea",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8564.png",
+  "dna": "1ca3cb936ce9ef6840b3472520de5876fd3a24c7",
   "edition": 8564,
-  "date": 1653197043421,
+  "date": 1653209700670,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Pink"
     },
     {
       "trait_type": "Style",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin J"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Bloodshot"
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Red"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Blue Heart Cheek"
     },
     {
       "trait_type": "Glasses",
-      "value": "Active Red"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Ancient Bow"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #2272",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/2272.png",
-  "dna": "15cc56458878a51cca0eb81a9b2e9858e0eebcf7",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2272.png",
+  "dna": "a703ff110cb028fa2e733fcebe0586e9cf893eb9",
   "edition": 2272,
-  "date": 1653197004732,
+  "date": 1653209668292,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Martian"
     },
     {
       "trait_type": "Sun",
-      "value": "Purple"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin I"
     },
     {
       "trait_type": "Eyes",
@@ -28,24 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Orange"
+      "value": "Teal"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Stubble"
     },
     {
       "trait_type": "Glasses",
-      "value": "Fashion"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Scarab Cross"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Underground Pink"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #3609",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/3609.png",
-  "dna": "0d40d01aab42ba49ef606a60d0aab59b2ab974d6",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/3609.png",
+  "dna": "3f6b9d69231301ea0cfd18503bc3c20d89e17d8b",
   "edition": 3609,
-  "date": 1653197011939,
+  "date": 1653209674835,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Golden"
     },
     {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Maya"
     },
     {
       "trait_type": "Face",
@@ -40,12 +40,11 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Gold Cross"
     },
     {
       "trait_type": "Head",
-      "value": "Crazy Green Hair"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

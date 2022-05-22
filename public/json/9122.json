@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #9122",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/9122.png",
-  "dna": "a0c1a53e41e7b93ae838509d3ae460785ca4b74e",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9122.png",
+  "dna": "8cfe629ace5fde9519fa0d9d645f7a6eb3e22148",
   "edition": 9122,
-  "date": 1653197046367,
+  "date": 1653209704163,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Pink"
     },
     {
       "trait_type": "Style",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Maya"
+      "value": "Royal"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
@@ -46,6 +46,5 @@
       "trait_type": "Head",
       "value": "Lego Brown"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

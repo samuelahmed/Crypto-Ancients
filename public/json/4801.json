@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #4801",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/4801.png",
-  "dna": "79293d923d1d0b0c784ef9d54854f601b48015dc",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/4801.png",
+  "dna": "190aca0dd246efe764dcbd74e7092f8f681810c7",
   "edition": 4801,
-  "date": 1653197020706,
+  "date": 1653209680720,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin F"
+      "value": "Human Skin J"
     },
     {
       "trait_type": "Eyes",
@@ -28,11 +28,11 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Royal"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Curly Mustache"
     },
     {
       "trait_type": "Glasses",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Ancient Bow"
+      "value": "Basic Priest"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

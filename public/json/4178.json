@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #4178",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/4178.png",
-  "dna": "9d99765201f1e2a3fb68ea33855f19dd1cb5b092",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/4178.png",
+  "dna": "20973b97a0cb66b6caade5d1df16f46ebc513d86",
   "edition": 4178,
-  "date": 1653197014969,
+  "date": 1653209677605,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Red"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin E"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Royal"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
+      "value": "Fashion"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Hoop Earrings"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Basic Priest"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

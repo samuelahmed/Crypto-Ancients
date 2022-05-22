@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #8390",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8390.png",
-  "dna": "d0b043196a90ccddf3b17594e1003cbec76f50a6",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8390.png",
+  "dna": "5db0864105b6878c3656cceaef7c8f796fa6f7f9",
   "edition": 8390,
-  "date": 1653197042506,
+  "date": 1653209699295,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Metaverse"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Red"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin G"
     },
     {
       "trait_type": "Eyes",
@@ -28,24 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Royal"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
-      "value": "Grey Beard"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Active Red"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Purple Neck Swag"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Metaverse Queen"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

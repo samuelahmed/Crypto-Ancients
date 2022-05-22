@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #9161",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/9161.png",
-  "dna": "698eb0d5aac67595a95dcd68507dd29a9d31c80f",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9161.png",
+  "dna": "33b7b9c44ff6dea3780592fc8b8aaf8c29d813ec",
   "edition": 9161,
-  "date": 1653197046648,
+  "date": 1653209704463,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Nighttime"
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Purple"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin F"
+      "value": "Human Skin B"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Red"
+      "value": "Garnet"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Fashion"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Golden Round Earring"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Underground Pink"
+      "value": "Grey Punk Hair"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

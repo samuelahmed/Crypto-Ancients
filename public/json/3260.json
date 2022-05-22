@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #3260",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/3260.png",
-  "dna": "9862affcc393da2aa3a117c839cd8aa97330d498",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/3260.png",
+  "dna": "73989f12dd9ee4e54ab69edc5b347da3c44cabfe",
   "edition": 3260,
-  "date": 1653197010038,
+  "date": 1653209673095,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin K"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
@@ -28,11 +28,11 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Purple"
+      "value": "Garnet"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Yellow Circle"
     },
     {
       "trait_type": "Glasses",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Hardhat"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

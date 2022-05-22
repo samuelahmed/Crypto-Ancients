@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #4023",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/4023.png",
-  "dna": "ecba931864aea8b8f8032754d8fbdac63ac21cff",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/4023.png",
+  "dna": "976526b20d27e4a19785bd9a11c56d1d67508727",
   "edition": 4023,
-  "date": 1653197014122,
+  "date": 1653209676832,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Metaverse"
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Red"
     },
     {
       "trait_type": "Style",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin K"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Cross"
     },
     {
       "trait_type": "Lips",
-      "value": "Red"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Metaverse Blue Punk Hair"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

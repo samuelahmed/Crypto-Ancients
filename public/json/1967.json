@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #1967",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/1967.png",
-  "dna": "69449e96f9721c9945de1fcf8e882d774264886a",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1967.png",
+  "dna": "e9e6d85e66b4b5e85d6c3204ed85d31c08c9f5ea",
   "edition": 1967,
-  "date": 1653197002712,
+  "date": 1653209666828,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin A"
     },
     {
       "trait_type": "Eyes",
-      "value": "Teal Tears"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Red"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "EyePatch"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Gold Chain"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

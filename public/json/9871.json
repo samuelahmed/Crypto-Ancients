@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #9871",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/9871.png",
-  "dna": "62259c8fce32d0c993a7be2d7b1c1f99bd817980",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9871.png",
+  "dna": "28c9b9244abf91a10fce1985bfae62fa626464fb",
   "edition": 9871,
-  "date": 1653197050647,
+  "date": 1653209708898,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Pink"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,11 +20,11 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin G"
     },
     {
       "trait_type": "Eyes",
-      "value": "Purple"
+      "value": "Golden"
     },
     {
       "trait_type": "Lips",
@@ -32,11 +32,11 @@
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Yellow Circle"
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "NPC Purple"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

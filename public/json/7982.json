@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #7982",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/7982.png",
-  "dna": "82c6f1732c1ecdfcc4a9ddb70bf71d1c38fdd1a4",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7982.png",
+  "dna": "e4a7ec16fbcdfba6c1134eab8243a0dba637e172",
   "edition": 7982,
-  "date": 1653197040481,
+  "date": 1653209697256,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Desert"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin E"
     },
     {
       "trait_type": "Eyes",
@@ -32,7 +32,7 @@
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Young Beard"
     },
     {
       "trait_type": "Glasses",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Lego Orange"
+      "value": "Grey Punk Hair"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

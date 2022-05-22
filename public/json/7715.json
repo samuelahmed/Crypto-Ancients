@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #7715",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/7715.png",
-  "dna": "7b76a745117e9291c2f36249167dd487ff8d79d2",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7715.png",
+  "dna": "3a64c060918db5fb41e7ab72d2001cf0af8e4e4b",
   "edition": 7715,
-  "date": 1653197038822,
+  "date": 1653209695451,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Pink"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin J"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
@@ -28,24 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Purple"
+      "value": "Maya"
     },
     {
       "trait_type": "Face",
-      "value": "Grey Beard"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "EyePatch"
+      "value": "Eye Patch"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Golden Round Earring"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Basic Priest"
+      "value": "Long Blue Hair"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

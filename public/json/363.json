@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #363",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/363.png",
-  "dna": "f3d9cd8e5a3dc783e8ee9ce3bb00cb68692d9ab9",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/363.png",
+  "dna": "3b971af41948f88d3a69e75f7f3bb579e494788c",
   "edition": 363,
-  "date": 1653196994011,
+  "date": 1653209658955,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nighttime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin J"
+      "value": "Human Skin F"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Green"
+      "value": "Orange"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "EyePatch"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Red Neck Swag"
+    },
+    {
       "trait_type": "Head",
-      "value": "Grey Hair"
+      "value": "Crazy Blue Hair"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

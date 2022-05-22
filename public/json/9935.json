@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #9935",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/9935.png",
-  "dna": "8a37ea48ab6bb3942d8a5b867a3d4305b43d41bc",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9935.png",
+  "dna": "9f18d7aa4db83fd371a9dd1033512e4bf1f1be6d",
   "edition": 9935,
-  "date": 1653197050978,
+  "date": 1653209709246,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Purple"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin K"
+      "value": "Human Skin F"
     },
     {
       "trait_type": "Eyes",
@@ -28,15 +28,15 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Orange"
+      "value": "Metaverse Blue"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Curly Mustache"
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Active Red"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Long Purple Hair"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

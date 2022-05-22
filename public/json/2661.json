@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #2661",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/2661.png",
-  "dna": "ec2d25307fc3db8b9450a3ab797489f0435a016b",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2661.png",
+  "dna": "e776855731445142f72bdb9735b54a59b09b13e3",
   "edition": 2661,
-  "date": 1653197006884,
+  "date": 1653209670166,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Metaverse Blue"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,19 +20,19 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin G"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Pink"
     },
     {
       "trait_type": "Lips",
-      "value": "Admiral"
+      "value": "Teal"
     },
     {
       "trait_type": "Face",
-      "value": "Curly Mustache"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
@@ -40,12 +40,11 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Metaverse Blue Gold"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Hardhat"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

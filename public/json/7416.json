@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #7416",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/7416.png",
-  "dna": "d7a49a95230c6fddb7f088bbb85290ee80e69ab8",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7416.png",
+  "dna": "cdf7a5f54b65f68d8dd27b5204d35fdd931ad0ba",
   "edition": 7416,
-  "date": 1653197037132,
+  "date": 1653209694151,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cross"
+      "value": "White"
     },
     {
       "trait_type": "Lips",
-      "value": "Maya"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Purple"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Green Neck Swag"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Blue Hair"
+      "value": "NPC Purple"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

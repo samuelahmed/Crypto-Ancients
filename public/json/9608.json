@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #9608",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/9608.png",
-  "dna": "3098bf65e6d8527f6f9dbb7fafd7ebfe4a56e202",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9608.png",
+  "dna": "53022c3e5fd702aa2ed3ae0d88c42205d2965dcd",
   "edition": 9608,
-  "date": 1653197049061,
+  "date": 1653209707534,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nighttime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin J"
+      "value": "Human Skin E"
     },
     {
       "trait_type": "Eyes",
@@ -28,24 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Royal"
     },
     {
       "trait_type": "Face",
-      "value": "Blue Heart Cheek"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
+      "value": "Fashion"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Purple Neck Swag"
     },
     {
       "trait_type": "Head",
-      "value": "Pink Hoodie"
+      "value": "Side Ponytail"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

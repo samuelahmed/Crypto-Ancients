@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #3247",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/3247.png",
-  "dna": "0d9b5f798858bb946f3088c23ab13de431dbea46",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/3247.png",
+  "dna": "e8cfc458fcd0a3879c043c459c2fd806e3f67ba7",
   "edition": 3247,
-  "date": 1653197009980,
+  "date": 1653209673036,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin A"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
@@ -28,24 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Admiral"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Heaven Sign"
     },
     {
       "trait_type": "Glasses",
-      "value": "EyePatch"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Purple Gems"
+    },
+    {
       "trait_type": "Head",
-      "value": "Lego Orange"
+      "value": "Lego Brown"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

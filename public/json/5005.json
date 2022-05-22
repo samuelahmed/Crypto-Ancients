@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #5005",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/5005.png",
-  "dna": "edb40960a12eacc68b4e4060c866bb0b31fc8227",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5005.png",
+  "dna": "2ea2ba64014e05f9c74c7214605f4d1b8a4a0387",
   "edition": 5005,
-  "date": 1653197021805,
+  "date": 1653209681729,
   "attributes": [
     {
       "trait_type": "Background",
@@ -24,7 +24,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Pink"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Gold Chain"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Ancient Queen"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

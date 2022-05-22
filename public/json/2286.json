@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #2286",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/2286.png",
-  "dna": "932c3077d93fc10e53c9850287192db144d161bf",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2286.png",
+  "dna": "d401220723d44d6e80460e4f472a609eb4921c0c",
   "edition": 2286,
-  "date": 1653197004876,
+  "date": 1653209668359,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Metaverse"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin L"
+      "value": "Human Skin H"
     },
     {
       "trait_type": "Eyes",
@@ -28,24 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Admiral"
+      "value": "Metaverse Blue"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Blue Circle"
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Golden Round Earrings"
+    },
+    {
       "trait_type": "Head",
-      "value": "Metapriest"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

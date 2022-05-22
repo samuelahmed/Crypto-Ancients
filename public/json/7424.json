@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #7424",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/7424.png",
-  "dna": "b7528ee3640da1f3e39ae30c2970a2568ba4fb16",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7424.png",
+  "dna": "d87ff9798ae630c8bc8260dc9369ff7cc1de3858",
   "edition": 7424,
-  "date": 1653197037176,
+  "date": 1653209694188,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Pink"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
@@ -28,11 +28,11 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Orange"
     },
     {
       "trait_type": "Face",
-      "value": "Grey Beard"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Ancient Queen"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

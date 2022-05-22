@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #8132",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8132.png",
-  "dna": "b49dd9d5b8bf09c820515d12e8df01a85cd5948c",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8132.png",
+  "dna": "6306a930857729e7477994ba0b1cef6c5a700736",
   "edition": 8132,
-  "date": 1653197041282,
+  "date": 1653209698003,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nighttime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Metaverse Blue"
+      "value": "Purple"
     },
     {
       "trait_type": "Style",
@@ -20,19 +20,19 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin J"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
-      "value": "Nature Tears"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Purple"
+      "value": "Metaverse Blue"
     },
     {
       "trait_type": "Face",
-      "value": "Seven Tattoo"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
@@ -40,12 +40,11 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Golden Round Earrings"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

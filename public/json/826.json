@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #826",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/826.png",
-  "dna": "015d4fcc84473a3cd876eb807dd3cff19aa5b7b7",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/826.png",
+  "dna": "04c2fcd0f33a17e4bab932b2962c3778c18cb6d9",
   "edition": 826,
-  "date": 1653196996406,
+  "date": 1653209661166,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Orange"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Fashion"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Lego Orange"
+      "value": "Blue Hat"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

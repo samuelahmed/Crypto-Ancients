@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #8402",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8402.png",
-  "dna": "2bb2df3cd9a1e1d6b49d2dc1236e1a2336aefeb6",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8402.png",
+  "dna": "0b9d9bfb685e36283adedf2d2984d5c26532a468",
   "edition": 8402,
-  "date": 1653197042560,
+  "date": 1653209699359,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Metaverse Blue"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin B"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Admiral"
+      "value": "Garnet"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Gold Earring"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Grey Hair"
+      "value": "Long Purple Hair"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

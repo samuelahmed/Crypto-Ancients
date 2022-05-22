@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #3363",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/3363.png",
-  "dna": "5d02e33e7ed5e28f8210f1479301dc2d5dc7d989",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/3363.png",
+  "dna": "1eb834b6c47885f1b84618165e30ff924c03b184",
   "edition": 3363,
-  "date": 1653197010580,
+  "date": 1653209673629,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Desert"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -28,11 +28,11 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Brown"
+      "value": "Maya"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Blue Heart Cheek"
     },
     {
       "trait_type": "Glasses",
@@ -46,6 +46,5 @@
       "trait_type": "Head",
       "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

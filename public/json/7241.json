@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #7241",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/7241.png",
-  "dna": "aa0a23d94cff9c60ff973d311d861f053afbba00",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7241.png",
+  "dna": "3b17f9a493f1b1f55318ab60407d5c01dd29f386",
   "edition": 7241,
-  "date": 1653197036272,
+  "date": 1653209693328,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin J"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
@@ -28,11 +28,11 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Red"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
-      "value": "Green Handlebars"
+      "value": "Grey Beard"
     },
     {
       "trait_type": "Glasses",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Napoleon Hat"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #2806",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/2806.png",
-  "dna": "2442ffa4101ab539919f3ce8efb8659de0b0e749",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2806.png",
+  "dna": "d78eea5fb39dc1251a010dea86c85f55971eeb9e",
   "edition": 2806,
-  "date": 1653197007605,
+  "date": 1653209670854,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Nighttime"
     },
     {
       "trait_type": "Sun",
@@ -20,32 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Blue"
     },
     {
       "trait_type": "Lips",
-      "value": "Purple"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
-      "value": "Heaven Sign"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "EyePatch"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Gold Earring"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Gold Chapeau"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #7850",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/7850.png",
-  "dna": "4be928a8c76464929e8719889d5f305e9aca88e4",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7850.png",
+  "dna": "0c9037e9f70c0df6777d7e135c9fefb4d5d80d8e",
   "edition": 7850,
-  "date": 1653197039567,
+  "date": 1653209696419,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Forest"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin K"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
-      "value": "Pink"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Maya"
+      "value": "Metaverse Blue"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Eye Patch"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Green Neck Swag"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Purple Hair"
+      "value": "Hardhat"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

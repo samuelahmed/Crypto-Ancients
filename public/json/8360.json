@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #8360",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8360.png",
-  "dna": "d82aeed31563b8e9514ca8a4baedb60ce33fdaa2",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8360.png",
+  "dna": "664ebba9461d3cb980412208baf9a32afb84aecc",
   "edition": 8360,
-  "date": 1653197042376,
+  "date": 1653209699133,
   "attributes": [
     {
       "trait_type": "Background",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Metaverse Blue"
+      "value": "Purple"
     },
     {
       "trait_type": "Face",
@@ -36,16 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Red Neck Swag"
+    },
+    {
       "trait_type": "Head",
-      "value": "Lego Brown"
+      "value": "Metapriest"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

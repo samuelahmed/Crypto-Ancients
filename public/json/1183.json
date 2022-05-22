@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #1183",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/1183.png",
-  "dna": "9e880fe4c68f7a471a7daea70b7b65969ede4d06",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1183.png",
+  "dna": "b44e93f75cf2b5472c6ee71f30eda84096f82317",
   "edition": 1183,
-  "date": 1653196998332,
+  "date": 1653209663005,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Metaverse"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin L"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Teal Tears"
     },
     {
       "trait_type": "Lips",
-      "value": "Maya"
+      "value": "Teal"
     },
     {
       "trait_type": "Face",
-      "value": "Pink Heart Cheek"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "EyePatch"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Metaverse Blue Punk Hair"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

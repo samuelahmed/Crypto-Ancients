@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #9911",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/9911.png",
-  "dna": "0787303ea211e4a80a6a2e0b6bc9d798c0ab3d39",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9911.png",
+  "dna": "16581bbd1297e23024e12683a9c7b66c7a4f8506",
   "edition": 9911,
-  "date": 1653197050856,
+  "date": 1653209709116,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Martian"
     },
     {
       "trait_type": "Sun",
@@ -20,19 +20,19 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin F"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Red"
     },
     {
       "trait_type": "Lips",
-      "value": "Metaverse Blue"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
-      "value": "Heaven Sign"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
@@ -40,12 +40,11 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "Red Neck Swag"
+      "value": "None"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

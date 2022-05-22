@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #1908",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/1908.png",
-  "dna": "1e91c0ecf88f399e485c1671a9e98b5b19b1177e",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1908.png",
+  "dna": "a9a23edabfa5f9180707e033930e56c49f939b93",
   "edition": 1908,
-  "date": 1653197002333,
+  "date": 1653209666520,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Red"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,32 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin I"
     },
     {
       "trait_type": "Eyes",
-      "value": "Green"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Green"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Pink Heart Cheek"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "EyePatch"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Hoop Earrings"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

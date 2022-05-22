@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #8130",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8130.png",
-  "dna": "e4a83c0e296fe1aa703e4bdc435442bab150dc8b",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8130.png",
+  "dna": "0052648d8ef6bf8a291ae7fb96dc7f2c4de3c238",
   "edition": 8130,
-  "date": 1653197041273,
+  "date": 1653209697994,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Desert"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin J"
+      "value": "Human Skin A"
     },
     {
       "trait_type": "Eyes",
@@ -28,24 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Purple"
+      "value": "Garnet"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Pink Circle"
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Purple Gem"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Blue Hat"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

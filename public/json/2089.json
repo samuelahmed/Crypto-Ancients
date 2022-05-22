@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #2089",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/2089.png",
-  "dna": "4c845678fcb145df74e5cd9a13773b56fecf1f28",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2089.png",
+  "dna": "d85f5233a1ff650526cfdbe5d7ad8c366579262a",
   "edition": 2089,
-  "date": 1653197003596,
+  "date": 1653209667441,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin M"
+      "value": "Human Skin I"
     },
     {
       "trait_type": "Eyes",
-      "value": "White"
+      "value": "Red"
     },
     {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Admiral"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Ancient Queen"
+      "value": "NPC Purple"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #3485",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/3485.png",
-  "dna": "c79089859f63a4da62c24b56617eb9a76cd400cc",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/3485.png",
+  "dna": "c2f407465bfd36a3d77e76a6b1e5ad1effe0f385",
   "edition": 3485,
-  "date": 1653197011261,
+  "date": 1653209674219,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Purple"
     },
     {
       "trait_type": "Style",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin J"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Blood Tears"
     },
     {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Sunglasses"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Pink Hoodie"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

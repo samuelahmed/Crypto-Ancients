@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #9046",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/9046.png",
-  "dna": "4b3db7fb177b42b7abbb259069df6479d74b199b",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9046.png",
+  "dna": "8296c7edb7e3d05b80272b92c3953150a561624a",
   "edition": 9046,
-  "date": 1653197045938,
+  "date": 1653209703695,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nighttime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Purple"
     },
     {
       "trait_type": "Style",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
-      "value": "Pink"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Royal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Pink Circle"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Basic Priest"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

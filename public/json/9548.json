@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #9548",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/9548.png",
-  "dna": "c379916ad25a7c9ae09523cd719a47f464c968ff",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9548.png",
+  "dna": "2e776ddc071ac6a47c86004e8e2b7bfec48f48cd",
   "edition": 9548,
-  "date": 1653197048745,
+  "date": 1653209707099,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Pink"
     },
     {
       "trait_type": "Style",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin F"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
-      "value": "Bloodshot"
+      "value": "Nature Tears"
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Purple"
     },
     {
       "trait_type": "Face",
@@ -40,12 +40,11 @@
     },
     {
       "trait_type": "Jewelry",
-      "value": "Gold Cross"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Underground Pink"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

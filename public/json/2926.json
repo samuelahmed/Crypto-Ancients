@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #2926",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/2926.png",
-  "dna": "64cc1a4bdacfe0398d6d60bb0a17c2bf84bc3c4f",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2926.png",
+  "dna": "b57bc5f3c17e58d5eb35e0a3d5f84897bb7f9aef",
   "edition": 2926,
-  "date": 1653197008275,
+  "date": 1653209671417,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Metaverse"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
@@ -28,15 +28,15 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Metaverse Blue"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Yellow Circle"
     },
     {
       "trait_type": "Glasses",
-      "value": "Fashion"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Gold Chapeau"
+      "value": "Metaverse Queen"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

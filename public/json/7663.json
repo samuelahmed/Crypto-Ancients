@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #7663",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/7663.png",
-  "dna": "2afab10c9a05f09564ff75f182711501d55c6c3a",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7663.png",
+  "dna": "0c6c7bdae5e84df1ea92717e896302bab10fa4ce",
   "edition": 7663,
-  "date": 1653197038540,
+  "date": 1653209695219,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Nighttime"
     },
     {
       "trait_type": "Sun",
-      "value": "Red"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,32 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
-      "value": "Swirly Eye Tattoo"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Metaverse Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Pink Handlebars"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Gold Cross"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Crazy Blue Hair"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #6424",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/6424.png",
-  "dna": "80bb0b14d61ab61d3b5c987c8c649a94fd3920fa",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6424.png",
+  "dna": "26aea164a8c4bd5d8702596fe6e349143bde7bd9",
   "edition": 6424,
-  "date": 1653197031671,
+  "date": 1653209688884,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin C"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
@@ -28,24 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Metaverse Blue"
     },
     {
       "trait_type": "Face",
-      "value": "Young Beard"
+      "value": "Yellow Circle"
     },
     {
       "trait_type": "Glasses",
-      "value": "EyePatch"
+      "value": "Purple"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Gold Chain"
     },
     {
       "trait_type": "Head",
       "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #5665",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/5665.png",
-  "dna": "2728bea71be3994a578094da5361176615b9b040",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5665.png",
+  "dna": "3b46f049ac5bc76a753eeeae75077875692e4b7e",
   "edition": 5665,
-  "date": 1653197026496,
+  "date": 1653209685020,
   "attributes": [
     {
       "trait_type": "Background",
@@ -24,15 +24,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Golden"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Red"
     },
     {
       "trait_type": "Face",
-      "value": "Heaven Sign"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Basic Priest"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #7042",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/7042.png",
-  "dna": "84aef429c568fde688932f4d584f4a4151c0c622",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7042.png",
+  "dna": "f5776fe13a45712ec05d4a055621a5aabd358348",
   "edition": 7042,
-  "date": 1653197035111,
+  "date": 1653209692152,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean"
+      "value": "Desert"
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin L"
+      "value": "Human Skin J"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Orange"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
@@ -46,6 +46,5 @@
       "trait_type": "Head",
       "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

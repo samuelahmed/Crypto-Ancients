@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #8386",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8386.png",
-  "dna": "5e4614aaf401c42216aafba12ff9120356f1f963",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8386.png",
+  "dna": "a9ea70e148a796215df90739fa1f6cb2ebc566f5",
   "edition": 8386,
-  "date": 1653197042488,
+  "date": 1653209699274,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Desert"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
@@ -20,32 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin F"
+      "value": "Human Skin H"
     },
     {
       "trait_type": "Eyes",
-      "value": "Brown"
+      "value": "Blue"
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
-      "value": "Pink Circle"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Golden Round Earring"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Pink Killa"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

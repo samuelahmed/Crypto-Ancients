@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #8250",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8250.png",
-  "dna": "d1e6b72ec0df609e6db7731b7ab9e06cbd2ff9a7",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8250.png",
+  "dna": "3b64c7a0d75e7541f8e27fa4d275add2122d0d5d",
   "edition": 8250,
-  "date": 1653197041863,
+  "date": 1653209698581,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Purple"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cross"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Garnet"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Blue Heart Cheek"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "Active Red"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -46,6 +46,5 @@
       "trait_type": "Head",
       "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

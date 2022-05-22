@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #1366",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/1366.png",
-  "dna": "7f9b68caa7cbd6e239fb88505ef6471a1889e24b",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1366.png",
+  "dna": "81c607a498d9b38d0de1cdbc2a417e4d41dd7957",
   "edition": 1366,
-  "date": 1653196999384,
+  "date": 1653209663865,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Desert"
+      "value": "Nighttime"
     },
     {
       "trait_type": "Sun",
-      "value": "Pink"
+      "value": "Purple"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Purple"
+      "value": "Orange"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
+      "value": "Active Red"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Side Ponytail"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

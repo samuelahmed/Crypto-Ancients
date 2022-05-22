@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #7772",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/7772.png",
-  "dna": "eb072189d6d2c83ba4b533038a9ff7ba2c1eb377",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7772.png",
+  "dna": "9956d14079e55eb8a216c422f80f2b0689a9dd5d",
   "edition": 7772,
-  "date": 1653197039104,
+  "date": 1653209695749,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,32 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Blood Tears"
     },
     {
       "trait_type": "Lips",
-      "value": "Green"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Glasses",
       "value": "Purple"
     },
     {
-      "trait_type": "Jewelry",
+      "trait_type": "Face",
+      "value": "Pink Circle"
+    },
+    {
+      "trait_type": "Glasses",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Gold Chain"
+    },
+    {
       "trait_type": "Head",
-      "value": "Blue Hair"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

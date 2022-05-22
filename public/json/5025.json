@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #5025",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/5025.png",
-  "dna": "10553e306ff0321c5a204eb3448059ef823f01da",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5025.png",
+  "dna": "988c46d1d055379caa3e777d56e1e15484bd87f6",
   "edition": 5025,
-  "date": 1653197021904,
+  "date": 1653209681816,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Red"
     },
     {
       "trait_type": "Style",
@@ -24,19 +24,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Golden"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Metaverse Blue"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Garnet"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Pink Circle"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "Purple"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "NPC Brown"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

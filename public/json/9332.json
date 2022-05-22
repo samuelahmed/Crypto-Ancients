@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #9332",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/9332.png",
-  "dna": "c78b4ee4780566bd39f2d15ed220d971942a9cb8",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9332.png",
+  "dna": "60d1482eb00cbd60bd1a13ebdecd87cb1b2162d9",
   "edition": 9332,
-  "date": 1653197047555,
+  "date": 1653209705617,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Nighttime"
     },
     {
       "trait_type": "Sun",
@@ -24,28 +24,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Bloodshot"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Admiral"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
-      "trait_type": "Glasses",
-      "value": "Fashion"
+      "trait_type": "Lips",
+      "value": "Orange"
     },
     {
-      "trait_type": "Jewelry",
+      "trait_type": "Face",
+      "value": "Curly Mustache"
+    },
+    {
+      "trait_type": "Glasses",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Golden Round Earrings"
+    },
+    {
       "trait_type": "Head",
-      "value": "Gold Chapeau"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

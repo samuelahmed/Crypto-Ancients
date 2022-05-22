@@ -258,23 +258,23 @@ setup () {
         'Human Skin A', 'Human Skin B', 'Human Skin C', 'Human Skin D', 'Human Skin E', 'Human Skin F', 'Human Skin G', 'Human Skin H', 'Human Skin I', 'Human Skin K', 'Human Skin J', 'Human Skin L', 'Human Skin M'
       ],
       optionsEyes: [
-        'Blood Tears', 'Bloodshot', 'Blue', 'Brown', 'Cross', 'Golden', 'Green', 'Nature Tears', 'Mauve Tears', 'Pink', 'Purple', 'Red', 'Swirly Eye Tattoo', 'Standard', 'Teal Tears', 'White'  
+        'Blood Tears', 'Bloodshot', 'Blue', 'Brown', 'Cross', 'Golden', 'Green', 'Nature Tears', 'Mauve Tears', 'Pink', 'Purple', 'Red', 'Standard', 'Swirly Eye Tattoo', 'Teal Tears', 'White'  
       ],
       optionsLips: [
         'Admiral', 'Beige', 'Brown', 'Garnet', 'Green', 'Maya', 'Metaverse Blue', 'Orange', 'Purple', 'Red', 'Royal', 'Teal'
       ],
       optionsFace: [
-        'Blue Circle', 'Blue Heart Cheek', 'Curly Mustache', 'Green Handlebars', 'Grey Beard', 'Heaven Sign', 'Mask', 'Numbers Tattoo', 'Pink Circle', 'Pink Handlebars', 'Pink Heart Cheek', 'Seven Tattoo', 'Standard', 'Stubble', 'Yellow Circle', 'Yellow Heart Cheek', 'Young Beard'
+        'Blue Circle', 'Blue Heart Cheek', 'Curly Mustache', 'Green Handlebars', 'Grey Beard', 'Heaven Sign', 'Mask', 'Pink Circle', 'Pink Handlebars', 'Pink Heart Cheek', 'Seven Tattoo', 'Standard', 'Stubble', 'Yellow Circle', 'Yellow Heart Cheek', 'Young Beard'
       ],
       optionsGlasses: [
-        'Active Red', 'EyePatch', 'Fashion', 'None', 'Purple', 'Seeing', 'Sunglasses', 
+        'Active Red', 'Eye Patch', 'Fashion', 'None', 'Purple', 'Seeing', 'Sunglasses', 
       ],
       optionsJewelry: [
         'Face Chain', 'Gold Chain', 'Gold Cross', 'Gold Earring', 'Golden Round Earring', 'Green Neck Swag', 'Metaverse Blue Gold', 'Multiple Gold Earrings', 'None', 'Pearls', 'Purple Gem', 'Purple Neck Swag', 'Red Neck Swag', 'Scarab Cross', 'Yellow Neck Swag' 
       ],
       optionsHead: [
-        'Ancient Bow', 'Ancient Queen', 'Basic Priest', 'Blue Hair', 'Blue Hat', 'Brown Punk Hair', 'Crazy Blue Hair', 'Crazy Green Hair', 'Crazy Grey Hair', 'Gold Chapeau', 'Grey Hair', 'Grey Punk Hair', 'Hardhat', 'Hoodie', 'Lego Brown', 'Lego Orange', 'Metapriest', 'Metaverse Blue Punk Hair', 'Metaverse Queen', 
-        'Multicolor Hat', 'Napoleon Hat', 'NPC Brown', 'NPC Purple', 'Pink Hoodie', 'Pink Killa', 'Purple Blue Bangs', 'Purple Hair', 'Side Ponytail', 'Standard', 'Underground Pink'
+        'Ancient Queen', 'Ancient Ribbon', 'Basic Priest', 'Blue Hat', 'Brown Punk Hair', 'Crazy Blue Hair', 'Crazy Green Hair', 'Crazy Grey Hair', 'Gold Chapeau', 'Grey Hoodie', 'Grey Punk Hair', 'Hardhat', 'Lego Brown', 'Lego Orange', 'Long Blue Hair', 'Long Purple Hair', 'Metapriest', 'Metaverse Blue Punk Hair', 'Metaverse Queen', 
+        'Multicolor Hat', 'Napoleon Hat', 'NPC Brown', 'NPC Purple', 'Old Grey Hair', 'Pink Hoodie', 'Pink Killa', 'Purple Blue Bangs', 'Side Ponytail', 'Standard', 'Underground Pink'
       ],
       createValue (val, done) {
         if (val.length > 0) {

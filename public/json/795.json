@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #795",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/795.png",
-  "dna": "3b70c6f0be88a4b5224319805e367c8382cfe69b",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/795.png",
+  "dna": "e3f04979758dd7441424b3cb96733abbacf76efd",
   "edition": 795,
-  "date": 1653196996268,
+  "date": 1653209661009,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin F"
+      "value": "Human Skin G"
     },
     {
       "trait_type": "Eyes",
-      "value": "Mauve Tears"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Metaverse Blue"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Grey Beard"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Eye Patch"
     },
     {
       "trait_type": "Jewelry",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "NPC Purple"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

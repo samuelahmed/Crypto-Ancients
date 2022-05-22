@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #1356",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/1356.png",
-  "dna": "9322fdcc6d4f3348c17700ae0f05946a09451db4",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1356.png",
+  "dna": "1bd25f31bc369152419264d71b1e22c1c0a5db85",
   "edition": 1356,
-  "date": 1653196999325,
+  "date": 1653209663817,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Martian"
+      "value": "Nighttime"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin M"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Maya"
+      "value": "Purple"
     },
     {
       "trait_type": "Face",
@@ -44,8 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Metaverse Queen"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

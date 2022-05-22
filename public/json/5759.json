@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #5759",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/5759.png",
-  "dna": "6cc33613660725443f540b674e6549ba1a8b6349",
+  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5759.png",
+  "dna": "17745d2872023774778382a9d1a7b28b1bc116b2",
   "edition": 5759,
-  "date": 1653197027390,
+  "date": 1653209685495,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Metaverse"
     },
     {
       "trait_type": "Sun",
@@ -20,32 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin I"
     },
     {
       "trait_type": "Eyes",
-      "value": "Mauve Tears"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Orange"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
-      "trait_type": "Glasses",
-      "value": "Seeing"
+      "trait_type": "Lips",
+      "value": "Teal"
     },
     {
-      "trait_type": "Jewelry",
+      "trait_type": "Face",
+      "value": "Yellow Heart Cheek"
+    },
+    {
+      "trait_type": "Glasses",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Face Chains"
+    },
+    {
       "trait_type": "Head",
-      "value": "NPC Purple"
+      "value": "Standard"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }
