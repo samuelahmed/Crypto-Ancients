@@ -1,14 +1,14 @@
 {
-  "name": "Crypto Ancient FinalTest #2813",
+  "name": "Crypto Ancient #2813",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/2813.png",
-  "dna": "aea492af045af6e10995ee25451e4d5b64ac3af5",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/2813.png",
+  "dna": "dbd1c418cace1d19d6eb2de820dd368654043f68",
   "edition": 2813,
-  "date": 1652841816340,
+  "date": 1653197007647,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Nighttime"
     },
     {
       "trait_type": "Sun",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin E"
     },
     {
       "trait_type": "Eyes",
-      "value": "Red Teardrops"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Dark Purple"
+      "value": "Purple"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "EyePatch"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "NPC Purple"
     }
   ],
   "compiler": "HashLips Art Engine"

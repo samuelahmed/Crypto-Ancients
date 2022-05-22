@@ -249,32 +249,32 @@ setup () {
       model: ref(null),
 
       optionsBackground: [
-        'Daytime', 'Night', 'Ocean', 'Metaverse', 'Forest'
+        'Daylight', 'Forest', 'Metaverse', 'Martian', 'Nighttime', 'Ocean'
       ],
       optionsSun: [
-        'Standard', 'Red', 'Metaverse Blue', 'Golden', 'Purple', 'Pink'
+        'Golden', 'Metaverse Blue', 'Purple', 'Pink', 'Red', 'Standard'
       ],
       optionsSkin: [
-        'Human A', 'Human B', 'Human C', 'Human D', 'Human E', 'Human F', 'Human H', 'Human I', 'Human K', 'Human L', 'Human O'
+        'Human Skin A', 'Human Skin B', 'Human Skin C', 'Human Skin D', 'Human Skin E', 'Human Skin F', 'Human Skin G', 'Human Skin H', 'Human Skin I', 'Human Skin K', 'Human Skin J', 'Human Skin L', 'Human Skin M'
       ],
       optionsEyes: [
-        'Standard', 'Bloodshot', 'Blue', 'Cross', 'Green', 'Swirly Eye Tattoo', 'Brown', 'White', 'Golden', 'Pink',  'Purple', 'Red', 'Teal Tear Drops', 'Purple Tear Drops', 'Red Tear Drops', 'Green Tear Drops'
+        'Blood Tear Drops', 'Bloodshot', 'Blue', 'Brown', 'Cross', 'Golden', 'Green', 'Nature Tear Drops', 'Mauve Tear Drops', 'Pink', 'Purple', 'Red', 'Swirly Eye Tattoo', 'Standard', 'Teal Tear Drops', 'White'  
       ],
       optionsLips: [
-        'Green', 'Blue', 'Dark Blue', 'Dark Purple', 'Brown', 'Teal', 'Purple', 'Dark Red', 'Metaverse Blue', 'Beige', 'Orange', 'Dark Purple', 'Red'
+        'Admiral', 'Beige', 'Brown', 'Garnet', 'Green', 'Maya', 'Metaverse Blue', 'Orange', 'Purple', 'Red', 'Royal', 'Teal'
       ],
       optionsFace: [
-        'Standard', 'Curly Mustache', 'Heaven Sign', 'Numbers Tattoo', 'Seven Tattoo', 'Mask', 'Pink Circle', 'Heart Cheek', 'Stubble', 'Young Beard', 'Green Handlebars', 'Grey Beard'
+        'Blue Circle', 'Blue Heart Cheek', 'Curly Mustache', 'Green Handlebars', 'Grey Beard', 'Heaven Sign', 'Mask', 'Numbers Tattoo', 'Pink Circle', 'Pink Handlebars', 'Pink Heart Cheek', 'Seven Tattoo', 'Standard', 'Stubble', 'Yellow Circle', 'Yellow Heart Cheek', 'Young Beard'
       ],
       optionsGlasses: [
-        'None', 'Fashion', 'Eye Patch', 'AR Headwear 2027', 'Future', 'Seeing', 'Active Red', 'Sunglasses', 'Purple'
+        'Active Red', 'Eye Patch', 'Fashion', 'None', 'Purple', 'Seeing', 'Sunglasses', 
       ],
       optionsJewelry: [
-        'None', 'Facechain', 'Neck Swag Two', 'Green Neck Swag', 'Golden Round Earing', 'Metaverse Blue Gold', 'Gold Cross', 'Purple Gem', 'Pearls', 'Multiple Gold Earrings', 'Scarab Gold Plate', 'Gold Chain', 'Gold Earing', 'Neck Swag Unique', 'Neck Swag' 
+        'Facechain', 'Gold Chain', 'Gold Cross', 'Gold Earring', 'Golden Round Earing', 'Green Neck Swag', 'Metaverse Blue Gold', 'Multiple Gold Earrings', 'None', 'Pearls', 'Purple Gem', 'Purple Neck Swag', 'Red Neck Swag', 'Scarab Cross', 'Yellow Neck Swag' 
       ],
       optionsHead: [
-        'Standard', 'Hardhat', 'Metapriest', 'Queen', 'Metaverse Queen', 'Ancient Headwear', 'Gold Hat', 'Blue Hair', 'Purple Hair', 'Crazy Blue Hair', 'Crazy Green Hair', 'Crazy Grey Hair', 'Side Ponytail', 'Orange Bun', 'Grey Hair', 'Purple Blue Bangs', 'Flow Hair',
-        'Brown Punk Hair', 'Metaverseblue Punk Hair', 'Gold Punk Hair', 'Multicolor Hat', 'Blue Hat', 'Animal Ears', 'Pink Hoodie', 'Grey Hoodie', 'Underground Pink', 'NPC Purple', 'NPC Brown', 'Lego Orange', 'Lego Brown', 'Pink Killa', 'Curly Purple Hair', 'Napoleon Hat'
+        'Ancient Bow', 'Ancient Queen', 'Basic Priest', 'Blue Hair', 'Blue Hat', 'Brown Punk Hair', 'Crazy Blue Hair', 'Crazy Green Hair', 'Crazy Grey Hair', 'Gold Chapeau', 'Grey Hair', 'Grey Punk Hair', 'Hardhat', 'Hoodie', 'Lego Brown', 'Lego Orange', 'Metapriest', 'Metaverse Blue Punk Hair', 'Metaverse Queen', 
+        'Multicolor Hat', 'Napoleon Hat', 'NPC Brown', 'NPC Purple', 'Pink Hoodie', 'Pink Killa', 'Purple Blue Bangs', 'Purple Hair', 'Side Ponytail', 'Standard', 'Underground Pink'
       ],
       createValue (val, done) {
         if (val.length > 0) {

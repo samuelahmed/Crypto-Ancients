@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #6856",
+  "name": "Crypto Ancient #6856",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/6856.png",
-  "dna": "20abb1cc9c6ce9eeaea90e8c3dee451ede9ccc13",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/6856.png",
+  "dna": "758dba0b0144c10a14bbc1fb78ffa78712dd5f4f",
   "edition": 6856,
-  "date": 1652841834427,
+  "date": 1653197034010,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin L"
+      "value": "Human Skin H"
     },
     {
       "trait_type": "Eyes",
-      "value": "Green"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Dark Blue"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Basic Priest"
     }
   ],
   "compiler": "HashLips Art Engine"

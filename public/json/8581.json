@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #8581",
+  "name": "Crypto Ancient #8581",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/8581.png",
-  "dna": "f8a285f06618c00838e0cfd16e1e53cdb18ab2e3",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8581.png",
+  "dna": "3cb0724917a668ac9f95f2914575afcdf98adbe2",
   "edition": 8581,
-  "date": 1652841842902,
+  "date": 1653197043522,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
@@ -28,11 +28,11 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Brown"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
-      "value": "Curly Mustache"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Metapriest"
     }
   ],
   "compiler": "HashLips Art Engine"

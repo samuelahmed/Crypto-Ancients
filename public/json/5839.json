@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #5839",
+  "name": "Crypto Ancient #5839",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/5839.png",
-  "dna": "6680e373eb4e26360fee75f33b0de24d81e9f963",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/5839.png",
+  "dna": "54e437d59a0fc28125675fac01cee83a8fa91d1a",
   "edition": 5839,
-  "date": 1652841829306,
+  "date": 1653197027964,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin A"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
@@ -28,15 +28,15 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Dark Purple"
+      "value": "Royal"
     },
     {
       "trait_type": "Face",
-      "value": "Heaven Sign"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Fashion"
+      "value": "Sunglasses"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Basic Priest"
+      "value": "Standard"
     }
   ],
   "compiler": "HashLips Art Engine"

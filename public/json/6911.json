@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #6911",
+  "name": "Crypto Ancient #6911",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/6911.png",
-  "dna": "5d59433964aa6a86f4818ba653657eb67d382c99",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/6911.png",
+  "dna": "b14ecc42a3e251791408e570ef1ef53ace9682ce",
   "edition": 6911,
-  "date": 1652841834709,
+  "date": 1653197034388,
   "attributes": [
     {
       "trait_type": "Background",
@@ -24,11 +24,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "White"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Brown"
+      "value": "Maya"
     },
     {
       "trait_type": "Face",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Ancient Bow"
     }
   ],
   "compiler": "HashLips Art Engine"

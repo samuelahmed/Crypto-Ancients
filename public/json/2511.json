@@ -1,14 +1,14 @@
 {
-  "name": "Crypto Ancient FinalTest #2511",
+  "name": "Crypto Ancient #2511",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/2511.png",
-  "dna": "c8e10ce46c4f53903665ee4510ce81c0b05be844",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/2511.png",
+  "dna": "f79e76ef1fd1d684df942804f98cc4397346eb29",
   "edition": 2511,
-  "date": 1652841815000,
+  "date": 1653197006097,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Desert"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin C"
+      "value": "Human Skin J"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Blue"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
-      "value": "Stubble"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "EyePatch"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Gold Chain"
     },
     {
       "trait_type": "Head",
-      "value": "NPC Brown"
+      "value": "Lego Brown"
     }
   ],
   "compiler": "HashLips Art Engine"

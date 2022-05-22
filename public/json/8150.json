@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #8150",
+  "name": "Crypto Ancient #8150",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/8150.png",
-  "dna": "9ad6bab5fe4c88ef70596cf4cf924f67e0455e97",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8150.png",
+  "dna": "b73a8f1b638851b2a88361dd8dbea84cb5480f06",
   "edition": 8150,
-  "date": 1652841840880,
+  "date": 1653197041362,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,31 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin F"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cross"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Red"
     },
     {
       "trait_type": "Face",
-      "value": "Grey Beard"
+      "value": "Mask"
     },
     {
       "trait_type": "Glasses",
-      "value": "Sunglasses"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Gold Earring"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Hoodie"
+      "value": "Standard"
     }
   ],
   "compiler": "HashLips Art Engine"

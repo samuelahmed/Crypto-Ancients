@@ -1,18 +1,18 @@
 {
-  "name": "Crypto Ancient FinalTest #2448",
+  "name": "Crypto Ancient #2448",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/2448.png",
-  "dna": "a4ac3e3f76bcaf109df11db0ac92096e5c213f89",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/2448.png",
+  "dna": "99d724e58cf4c019b93ba2dd2900b6b0c05b0407",
   "edition": 2448,
-  "date": 1652841814633,
+  "date": 1653197005761,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Purple"
     },
     {
       "trait_type": "Style",
@@ -24,27 +24,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "White"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Dark Red"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Metaverse Blue"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Yellow Heart Cheek"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Fashion"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Gold Cross"
     },
     {
       "trait_type": "Head",
-      "value": "Pink Killa"
+      "value": "Brown Punk Hair"
     }
   ],
   "compiler": "HashLips Art Engine"

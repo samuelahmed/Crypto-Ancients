@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #635",
+  "name": "Crypto Ancient #635",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/635.png",
-  "dna": "38e6f7ba346bfdf4e902bab2f0bbebb7e20c7c78",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/635.png",
+  "dna": "c740e8fdcc907e32827876b321090e65b5b13d30",
   "edition": 635,
-  "date": 1652841806401,
+  "date": 1653196995413,
   "attributes": [
     {
       "trait_type": "Background",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Orange"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "EyePatch"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Gold Chain"
+      "value": "Pearls"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Napoleon Hat"
     }
   ],
   "compiler": "HashLips Art Engine"

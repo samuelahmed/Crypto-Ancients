@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #2016",
+  "name": "Crypto Ancient #2016",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/2016.png",
-  "dna": "41cd73a8ecf4e5dac002bac6b6eb564921f7993e",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/2016.png",
+  "dna": "e4cdad795276b2abc8f6fbbd11598fd8c953c5b0",
   "edition": 2016,
-  "date": 1652841812787,
+  "date": 1653197003107,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,19 +20,19 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin L"
+      "value": "Human Skin A"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Brown"
     },
     {
       "trait_type": "Lips",
-      "value": "Orange"
+      "value": "Red"
     },
     {
       "trait_type": "Face",
-      "value": "Yellow Circle"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Brown Punk Hair"
     }
   ],
   "compiler": "HashLips Art Engine"

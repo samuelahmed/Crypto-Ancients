@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #8848",
+  "name": "Crypto Ancient #8848",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/8848.png",
-  "dna": "3326104da5e03b473f45912c6535934173ebcf24",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8848.png",
+  "dna": "79c9f093c368df450466f8ab02034e9024ef8b3c",
   "edition": 8848,
-  "date": 1652841844232,
+  "date": 1653197044848,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Red"
     },
     {
       "trait_type": "Style",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
-      "value": "Pink"
+      "value": "Green"
     },
     {
       "trait_type": "Lips",
-      "value": "Dark Red"
+      "value": "Admiral"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Active Red"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Basic Priest"
+      "value": "Purple Hair"
     }
   ],
   "compiler": "HashLips Art Engine"

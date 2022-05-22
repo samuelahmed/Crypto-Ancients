@@ -1,14 +1,14 @@
 {
-  "name": "Crypto Ancient FinalTest #8527",
+  "name": "Crypto Ancient #8527",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/8527.png",
-  "dna": "f2bc06ad113b6589f3c870ce5cdcbadc0565c5fc",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/8527.png",
+  "dna": "5cfbcc0ceb7987b713bef0a138b288d31e4a0ba7",
   "edition": 8527,
-  "date": 1652841842650,
+  "date": 1653197043179,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
@@ -20,11 +20,11 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin K"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
-      "value": "Teal Teardrops"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
@@ -32,19 +32,19 @@
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Grey Beard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Reading"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Pearls"
+    },
+    {
       "trait_type": "Head",
-      "value": "Multicolor Hat"
+      "value": "Standard"
     }
   ],
   "compiler": "HashLips Art Engine"

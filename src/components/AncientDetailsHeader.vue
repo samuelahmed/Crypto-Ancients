@@ -16,7 +16,7 @@
         <p><pre class="fontchange"><span class="text-h5">{{ attributes[4].trait_type }}: </span>{{ attributes[4].value }}</pre></p>
         <p><pre class="fontchange"><span class="text-h5">{{ attributes[5].trait_type }}: </span>{{ attributes[5].value }}</pre></p>
       </div>
-      <div class="col text-left text-h6 q-pl-md" style="min-width: 200px" >
+      <div class="col text-left text-h6 q-pl-md" style="min-width: 200px">
         <pre class="fontchange"><span class="text-h5">{{ attributes[6].trait_type }}: </span>{{ attributes[6].value }}</pre>
         <p><pre class="fontchange"><span class="text-h5">{{ attributes[7].trait_type }}: </span>{{ attributes[7].value }}</pre></p>
         <p><pre class="fontchange"><span class="text-h5">{{ attributes[8].trait_type }}: </span>{{ attributes[8].value }}</pre></p>
@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="text-h6">
-      <a :href="`https://testnets.opensea.io/assets/0x724b1b31CEcc6036F261d2730952Eefaf1444bF9/${edition}`" target="_blank">Visit on Opensea</a>  
+      <a :href="`https://testnets.opensea.io/assets/0x97b27C932E394D5D952039F89E21F2873e87a937/${edition}`" target="_blank">Visit on Opensea</a>  
     </div>
   </div>
 </template>

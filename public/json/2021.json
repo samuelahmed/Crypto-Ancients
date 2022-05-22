@@ -1,14 +1,14 @@
 {
-  "name": "Crypto Ancient FinalTest #2021",
+  "name": "Crypto Ancient #2021",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/2021.png",
-  "dna": "6b2e49694e87e652e3cc043e238dad322ea466bd",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/2021.png",
+  "dna": "9b09c87f0f76a79f59fdb11d46ad637a39a4a9b5",
   "edition": 2021,
-  "date": 1652841812809,
+  "date": 1653197003144,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Metaverse"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,31 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin F"
     },
     {
       "trait_type": "Eyes",
-      "value": "Red"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Orange"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Admiral"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Stubble"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Pearls"
     },
     {
       "trait_type": "Head",
-      "value": "NPC Purple"
+      "value": "Grey Punk Hair"
     }
   ],
   "compiler": "HashLips Art Engine"

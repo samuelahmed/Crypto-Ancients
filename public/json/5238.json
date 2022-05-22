@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #5238",
+  "name": "Crypto Ancient #5238",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/5238.png",
-  "dna": "1301e65d5d02f4231d4536a8e1103d2e004cb07c",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/5238.png",
+  "dna": "b51264e34fcca3a9b7cc93da006a37419bcadd90",
   "edition": 5238,
-  "date": 1652841826620,
+  "date": 1653197023013,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Red"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin G"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
@@ -28,11 +28,11 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Dark Purple"
+      "value": "Royal"
     },
     {
       "trait_type": "Face",
-      "value": "Pink Handlebars"
+      "value": "Grey Beard"
     },
     {
       "trait_type": "Glasses",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Purple Hair"
     }
   ],
   "compiler": "HashLips Art Engine"

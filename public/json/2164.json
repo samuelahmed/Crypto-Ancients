@@ -1,14 +1,14 @@
 {
-  "name": "Crypto Ancient FinalTest #2164",
+  "name": "Crypto Ancient #2164",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/2164.png",
-  "dna": "f4fe5a01b427ee56481c976afd38e59292cadb7a",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/2164.png",
+  "dna": "37069d52c2ea91b08d8f8d3fa57371aa89ebceef",
   "edition": 2164,
-  "date": 1652841813408,
+  "date": 1653197004030,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin A"
+      "value": "Human Skin E"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Green"
+      "value": "Metaverse Blue"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Stubble"
     },
     {
       "trait_type": "Glasses",
-      "value": "Fashion"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Purple Gem"
+    },
+    {
       "trait_type": "Head",
-      "value": "Crazy Green Hair"
+      "value": "NPC Purple"
     }
   ],
   "compiler": "HashLips Art Engine"

@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #1883",
+  "name": "Crypto Ancient #1883",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/1883.png",
-  "dna": "3bc9a1306926136f8a7f247ebd477d81bbdbcc92",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/1883.png",
+  "dna": "e97ba0eed690c44981c6aabfc1b60623dfcbb226",
   "edition": 1883,
-  "date": 1652841812164,
+  "date": 1653197002162,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin F"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Green"
+      "value": "Garnet"
     },
     {
       "trait_type": "Face",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Lego Orange"
+      "value": "Ancient Queen"
     }
   ],
   "compiler": "HashLips Art Engine"

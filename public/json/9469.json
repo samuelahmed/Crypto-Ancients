@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #9469",
+  "name": "Crypto Ancient #9469",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/9469.png",
-  "dna": "e9265fde87fceb5dbc2ba1282f66881420fcf00e",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/9469.png",
+  "dna": "79a73d126098523a2e8014f0c548477614bbf78f",
   "edition": 9469,
-  "date": 1652841847326,
+  "date": 1653197048327,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin H"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Green"
+      "value": "Royal"
     },
     {
       "trait_type": "Face",
-      "value": "Blue Circle"
+      "value": "Mask"
     },
     {
       "trait_type": "Glasses",
-      "value": "Reading"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Metaverse Blue Gold"
+    },
+    {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "NPC Purple"
     }
   ],
   "compiler": "HashLips Art Engine"

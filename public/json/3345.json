@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #3345",
+  "name": "Crypto Ancient #3345",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/3345.png",
-  "dna": "d23983db9a7199d496f748f0f9df0dc7513bb6c3",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/3345.png",
+  "dna": "97fc33beaae8146d125e96aef5ba08c8bc900513",
   "edition": 3345,
-  "date": 1652841818569,
+  "date": 1653197010505,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Pink"
     },
     {
       "trait_type": "Style",
@@ -20,31 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin F"
     },
     {
       "trait_type": "Eyes",
-      "value": "Bloodshot"
+      "value": "Pink"
     },
     {
       "trait_type": "Lips",
-      "value": "Dark Red"
+      "value": "Red"
     },
     {
       "trait_type": "Face",
-      "value": "Pink Heart Cheek"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Active Red"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Gold Cross"
     },
     {
       "trait_type": "Head",
-      "value": "Lego Brown"
+      "value": "Hardhat"
     }
   ],
   "compiler": "HashLips Art Engine"

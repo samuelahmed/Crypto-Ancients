@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #4958",
+  "name": "Crypto Ancient #4958",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/4958.png",
-  "dna": "4abceb38961e18ea0a0368c234f20ca87d78b5c3",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/4958.png",
+  "dna": "b496bb6aec7b269876df48fadb6b063823fb552a",
   "edition": 4958,
-  "date": 1652841825417,
+  "date": 1653197021567,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Pink"
     },
     {
       "trait_type": "Style",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin B"
     },
     {
       "trait_type": "Eyes",
-      "value": "Red"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Green"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Maya"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Heaven Sign"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Metaverse Blue Punk Hair"
+      "value": "Blue Hair"
     }
   ],
   "compiler": "HashLips Art Engine"

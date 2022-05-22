@@ -1,14 +1,14 @@
 {
-  "name": "Crypto Ancient FinalTest #3691",
+  "name": "Crypto Ancient #3691",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/3691.png",
-  "dna": "ed644d16af7af84610ee17d1d8c9cb7907fdde98",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/3691.png",
+  "dna": "cdb9d93c53e77c3c5971bcc1bbc52c846eb94309",
   "edition": 3691,
-  "date": 1652841820008,
+  "date": 1653197012394,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,31 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
-      "value": "Golden"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Red"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
-      "trait_type": "Glasses",
-      "value": "Purple"
+      "trait_type": "Lips",
+      "value": "Royal"
     },
     {
-      "trait_type": "Jewelry",
+      "trait_type": "Face",
+      "value": "Curly Mustache"
+    },
+    {
+      "trait_type": "Glasses",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Face Chain"
+    },
+    {
       "trait_type": "Head",
-      "value": "Metaverse Blue Punk Hair"
+      "value": "Standard"
     }
   ],
   "compiler": "HashLips Art Engine"

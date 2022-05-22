@@ -1,14 +1,14 @@
 {
-  "name": "Crypto Ancient FinalTest #6658",
+  "name": "Crypto Ancient #6658",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/6658.png",
-  "dna": "886be8ecf62aaa467d9fa49cb657a56947e58692",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/6658.png",
+  "dna": "6a6ecfecfd54179751dff86b9dcd0da8b33493c1",
   "edition": 6658,
-  "date": 1652841833500,
+  "date": 1653197032875,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Dark Red"
+      "value": "Teal"
     },
     {
       "trait_type": "Face",
-      "value": "Blue Circle"
+      "value": "Yellow Circle"
     },
     {
       "trait_type": "Glasses",
-      "value": "Reading"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Face Chain"
+    },
+    {
       "trait_type": "Head",
-      "value": "Hoodie"
+      "value": "Standard"
     }
   ],
   "compiler": "HashLips Art Engine"

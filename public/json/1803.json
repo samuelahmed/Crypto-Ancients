@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #1803",
+  "name": "Crypto Ancient #1803",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/1803.png",
-  "dna": "9b7f951adc292fcb7ac487596b273ea6e3533980",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/1803.png",
+  "dna": "4eb779f195b1f1130d12df084118f00f34b7e22b",
   "edition": 1803,
-  "date": 1652841811855,
+  "date": 1653197001756,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
@@ -28,15 +28,15 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Blue"
+      "value": "Admiral"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Stubble"
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "EyePatch"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Basic Priest"
+      "value": "Blue Hat"
     }
   ],
   "compiler": "HashLips Art Engine"

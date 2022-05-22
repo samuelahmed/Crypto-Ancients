@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #7300",
+  "name": "Crypto Ancient #7300",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/7300.png",
-  "dna": "60cfb7616b226d1331fbb55789b53fcd0fba0fbb",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/7300.png",
+  "dna": "caaed117c1c415d3bd22f9613e44e19f42d400bb",
   "edition": 7300,
-  "date": 1652841836496,
+  "date": 1653197036544,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin E"
     },
     {
       "trait_type": "Eyes",
-      "value": "Red"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Orange"
+      "value": "Garnet"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "EyePatch"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Pearls"
     },
     {
       "trait_type": "Head",
-      "value": "Basic Priest"
+      "value": "Brown Punk Hair"
     }
   ],
   "compiler": "HashLips Art Engine"

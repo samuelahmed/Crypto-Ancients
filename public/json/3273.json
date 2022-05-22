@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #3273",
+  "name": "Crypto Ancient #3273",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/3273.png",
-  "dna": "61950d73d53bf5e956a0fa9a48d96297c14b64b7",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/3273.png",
+  "dna": "695e5d8467cbad18ddfa00c17aa9e33de6ce4b4f",
   "edition": 3273,
-  "date": 1652841818272,
+  "date": 1653197010097,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Red"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin L"
+      "value": "Human Skin G"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Purple"
+      "value": "Red"
     },
     {
       "trait_type": "Face",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Metapriest"
+      "value": "NPC Brown"
     }
   ],
   "compiler": "HashLips Art Engine"

@@ -1,14 +1,14 @@
 {
-  "name": "Crypto Ancient FinalTest #807",
+  "name": "Crypto Ancient #807",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/807.png",
-  "dna": "c8421d7937175e751fa7bce95ee85273af2ea556",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/807.png",
+  "dna": "c32a8fc207c5ea9f7860a403c7123eecb22f1c66",
   "edition": 807,
-  "date": 1652841807114,
+  "date": 1653196996326,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nightime"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
@@ -20,11 +20,11 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin G"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Bloodshot"
     },
     {
       "trait_type": "Lips",
@@ -32,19 +32,19 @@
     },
     {
       "trait_type": "Face",
-      "value": "Pink Circle"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Reading"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Golden Round Earring"
+    },
+    {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Blue Hair"
     }
   ],
   "compiler": "HashLips Art Engine"

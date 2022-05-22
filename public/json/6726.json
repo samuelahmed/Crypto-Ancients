@@ -1,10 +1,10 @@
 {
-  "name": "Crypto Ancient FinalTest #6726",
+  "name": "Crypto Ancient #6726",
   "description": "The Nodes of Truth",
-  "image": "ipfs://Qmej8X4DiQYoS2eimHTrRzFfvRiMCXHMjLHCKagXadcyCH/6726.png",
-  "dna": "1612c40e09d7b1110922e556012d27b79fd73595",
+  "image": "ipfs://QmXihYouBnMgKx32i96Go3FRocLU5PfUr3eAECJVi5sbeu/6726.png",
+  "dna": "a4a6dcd4cda791d491a38a16055dabf31705d337",
   "edition": 6726,
-  "date": 1652841833804,
+  "date": 1653197033227,
   "attributes": [
     {
       "trait_type": "Background",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Active Red"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Queen"
+      "value": "NPC Brown"
     }
   ],
   "compiler": "HashLips Art Engine"
