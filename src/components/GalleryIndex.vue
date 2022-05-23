@@ -1,153 +1,155 @@
 <template>
   <div class="row">
     <div class="row-12">
-      <div class="q-mt-xl text-center">
-        <p class="text-h4">Attributes</p>
-        <q-btn class="q-ma-sm" style="background-color:white" @click="resetAllFilters">Reset all Filters</q-btn>
-      </div>
-    <div class="q-pt-none text-center" style="width: 17vw; min-width: 150px;">
-        <q-select
-          hide-dropdown-icon
-          filled
-          v-model="modelEdition"
-          use-input
-          use-chips
-          multiple
-          max-values="1"
-          input-debounce="0"
-          @new-value="createValue"
-          @filter="filterFn"
-          label="Search by ID">
-          <template v-slot:append>
-            <q-icon name="search" @click.stop />
-          </template>
-        </q-select>
-      </div>
-      <div class="q-pt-sm">
-        <q-select
-          v-model="modelBackground"
-          multiple
-          use-input
-          map-options
-          emit-value
-          option-value="id"
-          option-label="name"
-          outlined
-          bg-color="white"
-          :options="optionsBackground"
-          use-chips
-          max-values="1"
-          label="Background"
-        />
-      </div>
-      <div class="q-pt-sm">
-        <q-select
-          v-model="modelSun"
-          multiple
-          outlined
-          use-input 
-          bg-color="white"
-          :options="optionsSun"
-          use-chips
-          max-values="1"
-          label="Sun"
+        <div class="q-mt-xl text-center">
+          <p class="text-h4">Attributes</p>
+          <q-btn class="q-ma-sm" style="background-color:white" @click="resetAllFilters">Reset all Filters</q-btn>
+        </div>
+      <div class="q-pt-none text-center" style="width: 17vw; min-width: 125px;">
+        <div class="q-pt-sm">
+          <q-select
+            hide-dropdown-icon
+            filled
+            v-model="modelEdition"
+            use-input
+            use-chips
+            multiple
+            max-values="1"
+            input-debounce="0"
+            @new-value="createValue"
+            @filter="filterFn"
+            label="Search by ID">
+            <template v-slot:append>
+              <q-icon name="search" @click.stop />
+            </template>
+          </q-select>
+        </div> 
+        <div class="q-pt-sm">
+          <q-select
+            v-model="modelHead"
+            multiple
+            bg-color="white"
+            outlined
+            use-input 
+            :options="optionsHead"
+            use-chips
+            max-values="1"
+            label="Head"
           />
-      </div>
-      <div class="q-pt-sm">
-        <q-select
-          v-model="modelSkin"
-          multiple
-          bg-color="white"
-          outlined
-          use-input 
-          :options="optionsSkin"
-          use-chips
-          max-values="1"
-          label="Skin"
-        />
-      </div>
-      <div class="q-pt-sm">
-        <q-select
-          v-model="modelEyes"
-          multiple
-          bg-color="white"
-          outlined
-          use-input 
-          :options="optionsEyes"
-          use-chips
-          max-values="1"
-          label="Eyes"
-        />
-      </div>
-      <div class="q-pt-sm">
-        <q-select
-          v-model="modelLips"
-          multiple
-          bg-color="white"
-          outlined
-          use-input 
-          :options="optionsLips"
-          use-chips
-          max-values="1"
-          label="Lips"
-        />
-      </div>
-      <div class="q-pt-sm">
-        <q-select
-          v-model="modelFace"
-          multiple
-          bg-color="white"
-          outlined
-          use-input
-          :options="optionsFace"
-          use-chips
-          max-values="1"
-          label="Face"
-        />
-      </div>
-      <div class="q-pt-sm">
-        <q-select
-          v-model="modelGlasses"
-          multiple
-          bg-color="white"
-          outlined
-          use-input 
-          :options="optionsGlasses"
-          use-chips
-          max-values="1"
-          label="Glasses"
-        />
-      </div>
-      <div class="q-pt-sm">
-        <q-select
-          v-model="modelJewelry"
-          multiple
-          bg-color="white"
-          outlined
-          use-input 
-          :options="optionsJewelry"
-          use-chips
-          max-values="1"
-          label="jewelry"
-        />
-      </div>
-      <div class="q-pt-sm">
-        <q-select
-          v-model="modelHead"
-          multiple
-          bg-color="white"
-          outlined
-          use-input 
-          :options="optionsHead"
-          use-chips
-          max-values="1"
-          label="Head"
-        />
+        </div>
+        <div class="q-pt-sm">
+          <q-select
+            v-model="modelJewelry"
+            multiple
+            bg-color="white"
+            outlined
+            use-input 
+            :options="optionsJewelry"
+            use-chips
+            max-values="1"
+            label="Jewelry"
+          />
+        </div>
+        <div class="q-pt-sm">
+          <q-select
+            v-model="modelGlasses"
+            multiple
+            bg-color="white"
+            outlined
+            use-input 
+            :options="optionsGlasses"
+            use-chips
+            max-values="1"
+            label="Glasses"
+          />
+        </div>
+        <div class="q-pt-sm">
+          <q-select
+            v-model="modelEyes"
+            multiple
+            bg-color="white"
+            outlined
+            use-input 
+            :options="optionsEyes"
+            use-chips
+            max-values="1"
+            label="Eyes"
+          />
+        </div>      
+        <div class="q-pt-sm">
+          <q-select
+            v-model="modelFace"
+            multiple
+            bg-color="white"
+            outlined
+            use-input
+            :options="optionsFace"
+            use-chips
+            max-values="1"
+            label="Face"
+          />
+        </div>
+        <div class="q-pt-sm">
+          <q-select
+            v-model="modelLips"
+            multiple
+            bg-color="white"
+            outlined
+            use-input 
+            :options="optionsLips"
+            use-chips
+            max-values="1"
+            label="Lips"
+          />
+        </div>
+        <div class="q-pt-sm">
+          <q-select
+            v-model="modelSkin"
+            multiple
+            bg-color="white"
+            outlined
+            use-input 
+            :options="optionsSkin"
+            use-chips
+            max-values="1"
+            label="Skin"
+          />
+        </div>
+        <div class="q-pt-sm">
+          <q-select
+            v-model="modelSun"
+            multiple
+            outlined
+            use-input 
+            bg-color="white"
+            :options="optionsSun"
+            use-chips
+            max-values="1"
+            label="Sun"
+            />
+        </div>
+        <div class="q-pt-sm">
+          <q-select
+            v-model="modelBackground"
+            multiple
+            use-input
+            map-options
+            emit-value
+            option-value="id"
+            option-label="name"
+            outlined
+            bg-color="white"
+            :options="optionsBackground"
+            use-chips
+            max-values="1"
+            label="Background"
+          />
+        </div>
       </div>
     </div>
     <div class="col">
       <div class="q-ma-md">
-      <q-scroll-area class="q-mt-xl" style="height: 800px; width: 60vw; min-width: 300px">
+        <q-scroll-area class="q-mt-xl" style="height: 800px; width: 60vw; min-width: 200px">
           <div class="q-py-xs">
             <q-page class="flex flex-center">
               <div class="q-pa-md">
@@ -161,21 +163,22 @@
                   hide-header
                   :columns="columns"
                   virtual-scroll
-                  :pagination="{rowsPerPage: 250}"
-                  :rows-per-page-options="[50, 100, 250, 500, 1000]"
-                >
+                  :pagination="{rowsPerPage: 150}"
+                  :rows-per-page-options="[50, 100, 150, 250, 500, 1000]"
+                  >
                   <template v-slot:item="props">
-                      <q-card-section class="q-pa-none row flex flex-center" style="width: 79px; height: 79px">
-                          <TableImgAncient
-                            @click="navToAncientDetails(props.row.edition)"
-                            :edition="props.row.edition"
-                            :attributes="props.row.attributes"
-                            >
-                          </TableImgAncient>
-                          <div class="col-12 text-h6 text-center">
-                            {{ props.row.edition }}
-                          </div>
-                      </q-card-section>
+                    <q-card-section class="q-pa-none row flex flex-center" style="width: 79px; height: 79px">
+                      <TableImgAncient
+                        @click="navToAncientDetails(props.row.edition)"
+                        :edition="props.row.edition"
+                        :attributes="props.row.attributes"
+                        >
+                      </TableImgAncient>
+                      <!-- Will put edition numer behind -->
+                      <!-- <div class="col-12 text-h6 text-center">
+                        {{ props.row.edition }}
+                      </div> -->
+                    </q-card-section>
                   </template>
                 </q-table>
               </div>
@@ -233,7 +236,7 @@ export default defineComponent({
   },
 setup () {
     return {
-      modelTest: ref([]),
+      // modelTest: ref([]),
       modelBackground: ref([]),
       modelSun: ref([]),
       modelSkin: ref([]),
@@ -270,7 +273,7 @@ setup () {
         'Active Red', 'Eye Patch', 'Fashion', 'None', 'Purple', 'Seeing', 'Sunglasses', 
       ],
       optionsJewelry: [
-        'Face Chain', 'Gold Chain', 'Gold Cross', 'Gold Earring', 'Golden Round Earring', 'Green Neck Swag', 'Metaverse Blue Gold', 'Multiple Gold Earrings', 'None', 'Pearls', 'Purple Gem', 'Purple Neck Swag', 'Red Neck Swag', 'Scarab Cross', 'Yellow Neck Swag' 
+        'Face Chain', 'Gold Chain', 'Gold Cross', 'Golden Round Earring', 'Green Neck Swag', 'Metaverse Blue Gold', 'Multiple Gold Earrings', 'None', 'Pearls', 'Purple Gem', 'Purple Neck Swag', 'Red Neck Swag', 'Scarab Cross', 'Yellow Neck Swag' 
       ],
       optionsHead: [
         'Ancient Queen', 'Ancient Ribbon', 'Basic Priest', 'Blue Hat', 'Brown Punk Hair', 'Crazy Blue Hair', 'Crazy Green Hair', 'Crazy Grey Hair', 'Gold Chapeau', 'Grey Hoodie', 'Grey Punk Hair', 'Hardhat', 'Lego Brown', 'Lego Orange', 'Long Blue Hair', 'Long Purple Hair', 'Metapriest', 'Metaverse Blue Punk Hair', 'Metaverse Queen', 
@@ -361,7 +364,7 @@ setup () {
     myFilter (rows, filterValues) {
       return rows.filter(
         row => { 
-          for (var i=0;i<=9;i++){ 
+          for (let i = 0; i <= 9; i += 1){ 
             if (filterValues[i].length && 
               !filterValues[i].some(filterValue => (row.attributes[i]).value.toLowerCase().includes(filterValue.toLowerCase())))
               return false;
