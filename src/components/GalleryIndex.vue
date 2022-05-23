@@ -258,7 +258,7 @@ setup () {
         'Golden', 'Metaverse Blue', 'Purple', 'Pink', 'Red', 'Standard'
       ],
       optionsSkin: [
-        'Human Skin A', 'Human Skin B', 'Human Skin C', 'Human Skin D', 'Human Skin E', 'Human Skin F', 'Human Skin G', 'Human Skin H', 'Human Skin I', 'Human Skin K', 'Human Skin J', 'Human Skin L', 'Human Skin M'
+        'Human Skin A', 'Human Skin B', 'Human Skin C', 'Human Skin D', 'Human Skin E', 'Human Skin F', 'Human Skin G', 'Human Skin H', 'Human Skin I', 'Human Skin J', 'Human Skin K', 'Human Skin L', 'Human Skin M'
       ],
       optionsEyes: [
         'Blood Tears', 'Bloodshot', 'Blue', 'Brown', 'Cross', 'Golden', 'Green', 'Nature Tears', 'Mauve Tears', 'Pink', 'Purple', 'Red', 'Standard', 'Swirly Eye Tattoo', 'Teal Tears', 'White'  
