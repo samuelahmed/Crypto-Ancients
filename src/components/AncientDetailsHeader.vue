@@ -4,7 +4,7 @@
       <p>{{ name }}</p>
     </div>
     <div class="flex flex-center q-pt-none">
-      <q-img id="rcorners1" class="q-pt-xl rounded-borders" width="369px" height="369px"  :src="getImage()"></q-img>
+      <q-img id="rcorners1" class="q-pt-xl rounded-borders pixelated" width="369px" height="369px"  :src="getImage()"></q-img>
     </div>
       <div class="text-h6">
         <pre class="fontchange q-mb-none"><span class="text-h5">{{ attributes[0].trait_type }}: </span>{{ attributes[0].value }}</pre> 
@@ -81,4 +81,12 @@ a
   
   &:visited
     color: $visited-color
+
+
+.pixelated 
+  image-rendering: pixelated
+  image-rendering: crisp-edges
+
+
+
 </style>

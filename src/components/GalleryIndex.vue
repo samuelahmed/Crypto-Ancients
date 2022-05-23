@@ -5,7 +5,7 @@
           <p class="text-h4">Attributes</p>
           <q-btn class="q-ma-sm" style="background-color:white" @click="resetAllFilters">Reset all Filters</q-btn>
         </div>
-      <div class="q-pt-none text-center" style="width: 17vw; min-width: 125px;">
+      <div class="q-pt-none text-center" style="width: 17vw; min-width: 150px;">
         <div class="q-pt-sm">
           <q-select
             hide-dropdown-icon
