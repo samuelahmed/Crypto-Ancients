@@ -41,9 +41,6 @@
                      ERC-721 Tokens on Ethereum 
                     </p>
                     <p class="fontchange text-h6" style="text-align: left;">
-                     Images on Pinata IPFS
-                    </p>
-                    <p class="fontchange text-h6" style="text-align: left;">
                      1 per Mint & 10 Maximum per Address
                     </p>
                     <p class="fontchange text-h6" style="text-align: left;">
