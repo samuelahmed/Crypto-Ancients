@@ -1,6 +1,6 @@
 <template>
   <div class="background-image" style="width: 100vh; height: 100vh; position: fixed">
-    <BlueParticles />
+    <RedParticles />
   </div>
   <div class="q-mt-none">
     <div class="flex flex-center">
@@ -13,10 +13,10 @@
     <q-page class="flex-center">
       <div div id="q-app">
         <div class="row items-start q-gutter-md flex flex-center">
-          <q-card class="my-card" flat>
+          <!-- <q-card class="my-card" flat> -->
             <q-card-section horizontal>
               <div class="flex flex-centered">
-                <q-card-section class="q-mt-xl" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+                <q-card-section class="q-mt-xl">
                   <n-image
                   id="rcorners1"
                   width="249"
@@ -26,13 +26,13 @@
                   :fallback-src="getAltImage ()"
                   />  
                 </q-card-section>
-                <q-card-section class="q-pt-md" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+                <q-card-section class="q-pt-md">
                   <div class="text-caption">
                     <p class="fontchange q-mt-lg text-h6" style="text-align: left;">
                      There are 10,000 Crypto Ancients 
                     </p>
                     <p class="fontchange text-h6" style="text-align: left;">
-                     Each is unique 69x69 pixel art
+                     69x69 pixel art made from over 100 traits
                     </p>
                     <p class="fontchange text-h6" style="text-align: left;">
                      Full ownership with 0% Creator Royalty
@@ -42,6 +42,9 @@
                     </p>
                     <p class="fontchange text-h6" style="text-align: left;">
                      Images on Pinata IPFS
+                    </p>
+                    <p class="fontchange text-h6" style="text-align: left;">
+                     1 per mint & 10 maximum per address
                     </p>
                     <p class="fontchange text-h6" style="text-align: left;">
                       Mint yours for 0.01 ETH + gas 
@@ -54,10 +57,10 @@
                 </q-card-section>
               </div>
             </q-card-section>
-          </q-card>
+          <!-- </q-card> -->
         </div>
         <div class="q-pa-sm row items-start q-gutter-md flex flex-center">
-          <q-card-section class="q-mt-xl" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)">
+          <q-card-section class="q-mt-xl">
             <div class="fontchange q-mt-lg text-h6" style="text-align: left">
               <p>Official Contract: <a href="https://rinkeby.etherscan.io/address/0xA761d9C1C3639a243ee274b226A9a4D08c0178c3" target="_blank">0x724b1b31CEcc6036F261d2730952Eefaf1444bF9</a>  </p>
               <p><span class="newTokenLoad"></span></p>
@@ -75,12 +78,12 @@
 import { defineComponent, ref} from 'vue';
 import Web3 from 'web3/dist/web3.min.js'
 import { NImage } from 'naive-ui'
-import BlueParticles from "../components/BlueParticles.vue"
+import RedParticles from "../components/RedParticles.vue"
 
 export default defineComponent({
   components: {
       NImage,
-      BlueParticles
+      RedParticles
   },
   name:"Blah",
   props: {
@@ -122,7 +125,7 @@ export default defineComponent({
           if (accounts !== null) {
               console.log('MetaMask is Connected!') 
               const showAccount = document.querySelector('.showAccount');
-              showAccount.innerHTML = "Metamask Connected - Account: " +  account;}
+              showAccount.innerHTML = "Metamask Connected Account: " +  account;}
         },
         async mintButton () {
           window.web3 = new Web3(window.ethereum);
@@ -158,7 +161,7 @@ export default defineComponent({
 
 <style lang="sass" scoped>
 .background-image
-  background-image: url(~assets/sunMetaverse.png)
+  background-image: url(~assets/sunRed.png)
   background-repeat: no-repeat
   background-size: contain  
   z-index:-1

@@ -1,7 +1,7 @@
 /* eslint-disable */
 <template>
   <div class="background-image" style="width: 100vh; height: 100vh; position: fixed">
-    <RedParticles />
+    <PinkParticles />
   </div>
   <div>
     <div class="q-mt-none">
@@ -62,20 +62,20 @@
 </template>
 
 <script>
-import RedParticles from "../components/RedParticles.vue"
+import PinkParticles from "../components/PinkParticles.vue"
 import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'PageIndex',
   components: {
-    RedParticles
+    PinkParticles
   }
 })
 </script>
 
 <style lang="sass" scoped>
 .background-image
-  background-image: url(~assets/sunRed.png)
+  background-image: url(~assets/sunPink.png)
   background-repeat: no-repeat
   background-size: contain  
   z-index:-1

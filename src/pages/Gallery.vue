@@ -1,6 +1,6 @@
 <template>
   <div class="background-image" style="width: 100vh; height: 100vh; position: fixed">
-    <PinkParticles />
+    <BlueParticles />
   </div>
   <div class="q-mt-none">
     <div class="flex flex-center">
@@ -17,14 +17,14 @@
 </template>
 
 <script>
-import PinkParticles from "../components/PinkParticles"
+import BlueParticles from "../components/BlueParticles"
 import GalleryIndex from '../components/GalleryIndex.vue'
 
 
 export default {
   name: 'Galery',
   components: {
-    PinkParticles,
+    BlueParticles,
     GalleryIndex
   },
 }
@@ -32,7 +32,7 @@ export default {
 
 <style lang="sass" scoped>
 .background-image
-  background-image: url(~assets/sunPink.png)
+  background-image: url(~assets/sunMetaverse.png)
   background-repeat: no-repeat
   background-size: contain  
   z-index:-1
