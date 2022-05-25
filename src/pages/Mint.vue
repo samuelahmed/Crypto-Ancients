@@ -32,10 +32,10 @@
                      There are 10,000 Crypto Ancients 
                     </p>
                     <p class="fontchange text-h6" style="text-align: left;">
-                     69x69 pixel art made from over 100 traits
+                     Each is Unique 69x69 Pixel Art 
                     </p>
                     <p class="fontchange text-h6" style="text-align: left;">
-                     Full ownership with 0% Creator Royalty
+                     Full Ownership with 0% Creator Royalty
                     </p>
                     <p class="fontchange text-h6" style="text-align: left;">
                      ERC-721 Tokens on Ethereum 
@@ -44,7 +44,7 @@
                      Images on Pinata IPFS
                     </p>
                     <p class="fontchange text-h6" style="text-align: left;">
-                     1 per mint & 10 maximum per address
+                     1 per Mint & 10 Maximum per Address
                     </p>
                     <p class="fontchange text-h6" style="text-align: left;">
                       Mint yours for 0.01 ETH + gas 
