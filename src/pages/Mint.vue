@@ -18,6 +18,7 @@
               <div class="flex flex-centered">
                 <q-card-section class="q-mt-xl">
                   <n-image
+                  class="pixelated"
                   id="rcorners1"
                   width="249"
                   height="249"
@@ -102,7 +103,8 @@ export default defineComponent({
     return {
       getImage () {
         console.log("in getImage method with new Token:",newToken.value);
-        return `https://gateway.pinata.cloud/ipfs/QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/${newToken.value}.png`
+        return `images/${newToken.value}.png`
+        // return `https://gateway.pinata.cloud/ipfs/QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/${newToken.value}.png`
       },
       getAltImage () {
         console.log("am i here?")
@@ -185,4 +187,9 @@ a
   
   &:visited
     color: $visited-color
+
+.pixelated 
+  image-rendering: pixelated
+  image-rendering: crisp-edges
+
 </style>
