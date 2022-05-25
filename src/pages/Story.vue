@@ -177,7 +177,7 @@
             <div class="text-subtitle2">14</div>
           </q-card-section>
           <q-card-section class="q-pt-none">
-           It depends. What is your definition, but more importantly which blockchain is your NFT is on. In most cases the image itself is stored on an IPFS and not on the blockchain. The NFT is a smart contract that is stored on a blockchain; some blockchains are more secure and decentralized than others. 
+           It depends on your definition. But more importantly which blockchain is your NFT is on. In most cases the image itself is stored on an IPFS and not on the blockchain. The NFT is a smart contract that is stored on a blockchain; some blockchains are more secure and decentralized than others. 
           </q-card-section>
         </q-card>
         <q-card
@@ -213,7 +213,7 @@
             <div class="text-subtitle2">17</div>
           </q-card-section>
           <q-card-section class="q-pt-none">
-            They do not. They consist of a few hundred layers made with passion in photoshop, rearranged with a JS program into 10,000 unique images, uploaded to pinata IPFS, pointed a Ethereum smart contract to those images, built a website, and made that contract available for minting. In most cases that is every NFT project today, give or take some bells and whistles.
+            They do not. They consist of over a hundred layers made with passion in photoshop, rearranged with a Javascript program into 10,000 unique images, uploaded to pinata IPFS, pointed a Ethereum smart contract to those images, built a website, and made that contract available for minting. In most cases that is every NFT project today, give or take some bells and whistles.
           </q-card-section>
         </q-card>
         <q-card
@@ -237,7 +237,7 @@
             <div class="text-subtitle2">19</div>
           </q-card-section>
           <q-card-section class="q-pt-none">
-            Are are at the core of what make us human. NFTs and web3 offer potential new spaces but they remain in flux. What new possibilities are being created and are any being destroyed? Is the space really equal or are some groups benefiting more? How can people be aware and protected from scams? If anything we must see that constant wild speculation on all art is a little exhausting. 
+            Are at the core of what make us human. NFTs and web3 offer potential new spaces but they remain in flux. What new possibilities are being created and are any being destroyed? Is the space really equal or are some groups benefiting more? How can people be aware and protected from scams? If anything we must see that constant wild speculation on all art is a little exhausting. 
           </q-card-section>
         </q-card>
         <q-card
@@ -249,7 +249,7 @@
             <div class="text-subtitle2">20</div>
           </q-card-section>
           <q-card-section class="q-pt-none">
-            With blockchains there is no central-authority to fix mistakes. Adversaries with technical skills are everywhere. Promises to double your money or more are likely scam. The future is not determined be careful of projects that say so. If you feel pressured, it is probably a scam. Every machine that has connected to the internet could be compromised. 
+            With blockchains there is no central-authority to fix mistakes. Adversaries with technical skills are everywhere. Promises to double your money or more are likely scam. The future is not determined, be careful of projects that say so. If you feel pressured, it is probably a scam. Every machine that has connected to the internet could be compromised. 
           </q-card-section>
         </q-card>
         <q-card
