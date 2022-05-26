@@ -165,7 +165,7 @@
             <div class="text-subtitle2">13</div>
           </q-card-section>
           <q-card-section class="q-pt-none">
-           A non-fungible token (NFT) is a token on a blockchain in which each member is different. Humans are non-fungible members of the homo sapiens series, whereas the US dollar bills are fungible because they can be exchanged equally for one another. The homo sapien series is backed by methods of biology (decentralized) while the US dollar is backed by the government (centralized).
+           Non-fungible tokens (NFTs) are a foundation for digital ownership. Token on a blockchain in which each member is different. Humans are non-fungible members of the homo sapiens series, whereas the US dollar bills are fungible because they can be exchanged equally for one another. The homo sapien series is backed by methods of biology (decentralized) while the US dollar is backed by the government (centralized).
           </q-card-section>
         </q-card>
         <q-card
