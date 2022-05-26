@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #155",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/155.png",
-  "dna": "6af58ec363d86589ade7fbf82e08e8ee124af7ee",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/155.png",
+  "dna": "d15d7a63dc07da2e66881989aaa3790985c87f3b",
   "edition": 155,
-  "date": 1653209657979,
+  "date": 1653548039550,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,31 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin F"
     },
     {
       "trait_type": "Eyes",
-      "value": "Purple"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Green"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
-      "value": "Seven Tattoo"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Sunglasses"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Purple Neck Swag"
+    },
+    {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Crazy Blue Hair"
     }
   ]
 }

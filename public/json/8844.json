@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #8844",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8844.png",
-  "dna": "b078da62a6ca221a04e63fb19219ae819e791b0d",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/8844.png",
+  "dna": "ad4b079cd20725c53fea3716decf133ba768c0d8",
   "edition": 8844,
-  "date": 1653209702561,
+  "date": 1653548081275,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Metaverse Blue"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin J"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
@@ -32,19 +32,19 @@
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Green Handlebars"
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Pearls"
+    },
+    {
       "trait_type": "Head",
-      "value": "Ancient Queen"
+      "value": "Standard"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #1241",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1241.png",
-  "dna": "97a29bdf7ef52cd308154c63d8b80256e74ed5ab",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/1241.png",
+  "dna": "b32acae9f0ce0b51db8e0f29309bd66796e916fc",
   "edition": 1241,
-  "date": 1653209663249,
+  "date": 1653548044706,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nighttime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin A"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Blue"
     },
     {
       "trait_type": "Lips",
-      "value": "Royal"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Sunglasses"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Metapriest"
+      "value": "Standard"
     }
   ]
 }

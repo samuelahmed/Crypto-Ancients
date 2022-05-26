@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #7265",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7265.png",
-  "dna": "503501b79b915a9e5c152736f4851bf493cbbb8f",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/7265.png",
+  "dna": "326a2db8088fbda9f2c7b77434da92217485f945",
   "edition": 7265,
-  "date": 1653209693459,
+  "date": 1653548073594,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin A"
+      "value": "Human Skin I"
     },
     {
       "trait_type": "Eyes",
-      "value": "Pink"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Red"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Hoop Earrings"
+    },
+    {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Crazy Green Hair"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #8890",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8890.png",
-  "dna": "0513765a6a082722d0317f79c169e848129133fb",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/8890.png",
+  "dna": "6a6d515f3f30e720c34a273192ba605924f5d930",
   "edition": 8890,
-  "date": 1653209702837,
+  "date": 1653548081525,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Red"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin I"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Royal"
+      "value": "Admiral"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Purple Neck Swag"
+    },
+    {
       "trait_type": "Head",
-      "value": "NPC Brown"
+      "value": "Standard"
     }
   ]
 }

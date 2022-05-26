@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #760",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/760.png",
-  "dna": "77fcf01cbbc3715386e4803bb09b146ea1546fce",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/760.png",
+  "dna": "8380a155bf68a144021b8aa9f4ceb86b141f0227",
   "edition": 760,
-  "date": 1653209660820,
+  "date": 1653548042480,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin A"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Royal"
+      "value": "Metaverse Blue"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Face Chains"
+    },
+    {
       "trait_type": "Head",
-      "value": "Metaverse Queen"
+      "value": "Standard"
     }
   ]
 }

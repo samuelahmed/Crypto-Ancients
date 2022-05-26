@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #8486",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8486.png",
-  "dna": "ca78b1800c51e6c412d1bed0f8dea54e8482694d",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/8486.png",
+  "dna": "ad4b01b4ef2c6753b5569390d2ff5d9747fc654f",
   "edition": 8486,
-  "date": 1653209700024,
+  "date": 1653548079576,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Forest"
+      "value": "Nighttime"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin A"
+      "value": "Human Skin H"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Gold Chain"
+    },
+    {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Purple Hoodie"
     }
   ]
 }

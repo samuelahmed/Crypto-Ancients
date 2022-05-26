@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #5384",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5384.png",
-  "dna": "0ab775d2df4a8c9cdfe4a79a91076f3b71d45ae0",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/5384.png",
+  "dna": "c3c26aafe652ae0279af801446d6c3ec9dabddd7",
   "edition": 5384,
-  "date": 1653209683613,
+  "date": 1653548064370,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Metaverse Blue Gold"
+    },
+    {
       "trait_type": "Head",
-      "value": "Gold Chapeau"
+      "value": "Blue Hat"
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #6295",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6295.png",
-  "dna": "071ba9a8e95aa4608df9e1f453e70eac20c395ad",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/6295.png",
+  "dna": "54378aede56576382e77b2bafc52f48f71f2c923",
   "edition": 6295,
-  "date": 1653209688225,
+  "date": 1653548068812,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nighttime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Red"
     },
     {
       "trait_type": "Style",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin C"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Beige"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Heaven Sign"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "Active Red"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Purple Hoodie"
     }
   ]
 }

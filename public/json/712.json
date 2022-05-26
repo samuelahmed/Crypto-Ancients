@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #712",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/712.png",
-  "dna": "211d94e6b06ee78010a6b8879ace0e8a939bf935",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/712.png",
+  "dna": "4e3f4f7b3d1b73bdbdc8e5e0ce8074a19019108e",
   "edition": 712,
-  "date": 1653209660606,
+  "date": 1653548042218,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Pink"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin M"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Metaverse Blue"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
-      "value": "Grey Beard"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Scarab Cross"
+    },
+    {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Lego Orange"
     }
   ]
 }

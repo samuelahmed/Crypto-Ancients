@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #7483",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7483.png",
-  "dna": "0a8288ca5ecb5932d27f7c6d09df69854ecd2a1b",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/7483.png",
+  "dna": "d7bc6fa56c8117169692dfcc61dd09cb87c1ffe2",
   "edition": 7483,
-  "date": 1653209694422,
+  "date": 1653548074668,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Purple"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -24,19 +24,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Garnet"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Yellow Circle"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Purple"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Lego Orange"
     }
   ]
 }

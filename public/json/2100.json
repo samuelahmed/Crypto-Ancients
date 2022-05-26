@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #2100",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2100.png",
-  "dna": "0e5ad741e380e2840b071406c89913bfc502c518",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/2100.png",
+  "dna": "faac3124dfd801693a869c2dd0686a38b3332ee2",
   "edition": 2100,
-  "date": 1653209667488,
+  "date": 1653548048700,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
@@ -20,19 +20,19 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin C"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Lips",
       "value": "Brown"
     },
     {
+      "trait_type": "Lips",
+      "value": "Admiral"
+    },
+    {
       "trait_type": "Face",
-      "value": "Pink Heart Cheek"
+      "value": "Blue Heart Cheek"
     },
     {
       "trait_type": "Glasses",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Lego Brown"
     }
   ]
 }

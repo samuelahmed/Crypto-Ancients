@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #9375",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9375.png",
-  "dna": "02a72c4814a4efa3084eda7f7c6ac7c0d0763a81",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/9375.png",
+  "dna": "9094c6033c303a05f30ee21cfd5224a893ebc73b",
   "edition": 9375,
-  "date": 1653209705832,
+  "date": 1653548083900,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean"
+      "value": "Nighttime"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin M"
+      "value": "Human Skin G"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Royal"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Grey Beard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Active Red"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Pearls"
+    },
+    {
       "trait_type": "Head",
-      "value": "Underground Pink"
+      "value": "Standard"
     }
   ]
 }

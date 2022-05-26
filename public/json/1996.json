@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #1996",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1996.png",
-  "dna": "cea97487db0fa511b5487558c9cd50978898e37f",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/1996.png",
+  "dna": "b1bc05b1ae031937fa80e468b456b84bf657d694",
   "edition": 1996,
-  "date": 1653209666982,
+  "date": 1653548048229,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
@@ -20,11 +20,11 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin G"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Golden"
     },
     {
       "trait_type": "Lips",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Purple Gems"
+    },
+    {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Hardhat"
     }
   ]
 }

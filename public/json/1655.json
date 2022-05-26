@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #1655",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1655.png",
-  "dna": "1eecb63969e87c7fd34c56b01bee42dd175d1fd5",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/1655.png",
+  "dna": "fcf62e9e4165fd3e7cea9d82afc5fcbf2bac1489",
   "edition": 1655,
-  "date": 1653209665331,
+  "date": 1653548046673,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Pink"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Purple"
+      "value": "Admiral"
     },
     {
       "trait_type": "Face",
-      "value": "Blue Circle"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Eye Patch"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Metaverse Blue Gold"
+    },
+    {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "NPC Brown"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #1382",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1382.png",
-  "dna": "9a2c407c1368a4a3df0b3ef898d6f39a8be432d9",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/1382.png",
+  "dna": "f51c1d8be3f7d52799cf30a7a488b68e656e5e79",
   "edition": 1382,
-  "date": 1653209663937,
+  "date": 1653548045329,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Red"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
-      "value": "Teal Tears"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Green"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Grey Beard"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "Seeing"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Grey Hoodie"
     }
   ]
 }

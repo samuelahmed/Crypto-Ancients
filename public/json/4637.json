@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #4637",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/4637.png",
-  "dna": "0abd3e7f8acfc030202bda1dfc02ce69612129e6",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/4637.png",
+  "dna": "0e125142775cb56fa2f1b244f5552be993183877",
   "edition": 4637,
-  "date": 1653209679937,
+  "date": 1653548060760,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Desert"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin F"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Admiral"
+      "value": "Maya"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Pearls"
+    },
+    {
       "trait_type": "Head",
-      "value": "Pink Killa"
+      "value": "Standard"
     }
   ]
 }

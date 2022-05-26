@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #3408",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/3408.png",
-  "dna": "002ddf34ece33b83f14323193cfacb0baea86ce5",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/3408.png",
+  "dna": "171508cec155b2d69eb5a25053b13cf76792663c",
   "edition": 3408,
-  "date": 1653209673821,
+  "date": 1653548054936,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
-      "value": "Pink"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Orange"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Grey Beard"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "Sunglasses"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Underground Pink"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #8022",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8022.png",
-  "dna": "e918402008fd9cadeffcc7c954f5074b66b2772f",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/8022.png",
+  "dna": "e30f9ba4e8a03a43bbdbdbb8427cc180e8a5cefa",
   "edition": 8022,
-  "date": 1653209697457,
+  "date": 1653548077253,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin C"
+      "value": "Human Skin A"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Orange"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Fashion"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Face Chains"
+    },
+    {
       "trait_type": "Head",
-      "value": "NPC Brown"
+      "value": "Standard"
     }
   ]
 }

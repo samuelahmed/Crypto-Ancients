@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #8738",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8738.png",
-  "dna": "3bd596fbc64714103de7da7bd61d1f56ba0d55fd",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/8738.png",
+  "dna": "2080c8f7aa9893f01671a58f4a35147ce4312c0f",
   "edition": 8738,
-  "date": 1653209701871,
+  "date": 1653548080755,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,31 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin G"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
-      "value": "Teal Tears"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Orange"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
-      "trait_type": "Glasses",
-      "value": "Sunglasses"
+      "trait_type": "Lips",
+      "value": "Teal"
     },
     {
-      "trait_type": "Jewelry",
+      "trait_type": "Face",
+      "value": "Grey Beard"
+    },
+    {
+      "trait_type": "Glasses",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Green Neck Swag"
+    },
+    {
       "trait_type": "Head",
-      "value": "NPC Brown"
+      "value": "Standard"
     }
   ]
 }

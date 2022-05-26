@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #6388",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6388.png",
-  "dna": "1f090fb62fde396bcf22df89f4f13043b5b52321",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/6388.png",
+  "dna": "f36c807bd866fe60cd7b33a83792fc6e0f6c4ae4",
   "edition": 6388,
-  "date": 1653209688719,
+  "date": 1653548069264,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Red"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "NPC Purple"
+      "value": "Hardhat"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #9435",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/9435.png",
-  "dna": "b2e6016bc5421b67a985362d6a57e5297acdb869",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/9435.png",
+  "dna": "d38e005d18809a6ef9beb70a937a73a0763b3c6c",
   "edition": 9435,
-  "date": 1653209706303,
+  "date": 1653548084202,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Forest"
+      "value": "Desert"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin M"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Golden Round Earrings"
+    },
+    {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "NPC Brown"
     }
   ]
 }

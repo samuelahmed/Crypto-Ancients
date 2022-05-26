@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #5534",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5534.png",
-  "dna": "851762530c14549811bf804544a9a472cfb8523c",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/5534.png",
+  "dna": "44ffee5e1f725019bc138378fa2a61a8213153d6",
   "edition": 5534,
-  "date": 1653209684316,
+  "date": 1653548065079,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin F"
     },
     {
       "trait_type": "Eyes",
-      "value": "White"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Brown"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mask"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Fashion"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Pink Hoodie"
+      "value": "Side Ponytail"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #1841",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1841.png",
-  "dna": "5465f98ef76852c5098358c4cc54fe990f9cd5ec",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/1841.png",
+  "dna": "b27eab8aa4f8c29eb8d62517186b7763f40d1088",
   "edition": 1841,
-  "date": 1653209666229,
+  "date": 1653548047550,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
-      "value": "Bloodshot"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Royal"
+      "value": "Garnet"
     },
     {
       "trait_type": "Face",
@@ -36,7 +36,7 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Fashion"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Crazy Blue Hair"
+      "value": "NPC Brown"
     }
   ]
 }

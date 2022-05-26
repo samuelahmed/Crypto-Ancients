@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #2248",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2248.png",
-  "dna": "3a62453eeb57cfda053c86b8adc6d278a79fefc9",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/2248.png",
+  "dna": "a5e9acaee1e3c37fdca767a2f389ec7934d34f17",
   "edition": 2248,
-  "date": 1653209668191,
+  "date": 1653548049410,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nighttime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin F"
+      "value": "Human Skin B"
     },
     {
       "trait_type": "Eyes",
-      "value": "Pink"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Yellow Circle"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Fashion"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "NPC Purple"
+      "value": "Long Purple Hair"
     }
   ]
 }

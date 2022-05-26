@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #8374",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8374.png",
-  "dna": "3754211d3c3657f09440255349ffb0d91d9662ec",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/8374.png",
+  "dna": "fcf36c941f10ac8550821be8586a0f433a8c43c2",
   "edition": 8374,
-  "date": 1653209699199,
+  "date": 1653548079061,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Purple"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Purple Gems"
+    },
+    {
       "trait_type": "Head",
-      "value": "Grey Punk Hair"
+      "value": "Standard"
     }
   ]
 }

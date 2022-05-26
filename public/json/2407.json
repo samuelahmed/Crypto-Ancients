@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #2407",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2407.png",
-  "dna": "587f6c9d91f736c4ed6f84185c60fcac35ac3516",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/2407.png",
+  "dna": "111e886c9e2fcd00a91736e63bdb9aa5d6a047d0",
   "edition": 2407,
-  "date": 1653209668929,
+  "date": 1653548050218,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,31 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin G"
     },
     {
       "trait_type": "Eyes",
-      "value": "Teal Tears"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Admiral"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mask"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Pearls"
     },
     {
       "trait_type": "Head",
-      "value": "Underground Pink"
+      "value": "Grey Hoodie"
     }
   ]
 }

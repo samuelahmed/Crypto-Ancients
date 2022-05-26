@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #6781",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6781.png",
-  "dna": "3ac7c4b9f372884d0885dea9b7ee4c7c9dcc0528",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/6781.png",
+  "dna": "0163f2b6cbcc7e637d96a45f0d4f9db0138b6f98",
   "edition": 6781,
-  "date": 1653209690716,
+  "date": 1653548071194,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Beige"
+      "value": "Teal"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Pink Heart Cheek"
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Scarab Cross"
+    },
+    {
       "trait_type": "Head",
-      "value": "Pink Killa"
+      "value": "Standard"
     }
   ]
 }

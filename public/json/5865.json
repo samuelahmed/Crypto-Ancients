@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #5865",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5865.png",
-  "dna": "51809b727f58ec663ff52b1e8920a3fe76002d74",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/5865.png",
+  "dna": "3369be563f66ae6da403b482de17ff14b0ca667b",
   "edition": 5865,
-  "date": 1653209686054,
+  "date": 1653548066631,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Nighttime"
     },
     {
       "trait_type": "Sun",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin K"
+      "value": "Human Skin I"
     },
     {
       "trait_type": "Eyes",
-      "value": "Teal Tears"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Beige"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Garnet"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Young Beard"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "Active Red"
+      "value": "Sunglasses"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Blue Hat"
+      "value": "NPC Brown"
     }
   ]
 }

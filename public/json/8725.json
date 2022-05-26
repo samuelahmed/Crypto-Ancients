@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #8725",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8725.png",
-  "dna": "69c2501fe09cee6b53bc1f235838f16ec717c96f",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/8725.png",
+  "dna": "206617e504a7b02899bed62e6c731e80c5823cdc",
   "edition": 8725,
-  "date": 1653209701795,
+  "date": 1653548080697,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Pink"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin K"
+      "value": "Human Skin G"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
-      "value": "Curly Mustache"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Golden Round Earrings"
+    },
+    {
       "trait_type": "Head",
-      "value": "Lego Orange"
+      "value": "Side Ponytail"
     }
   ]
 }

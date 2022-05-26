@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #4111",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/4111.png",
-  "dna": "95a114c4af237c0f0b980c6c053990da5e42005a",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/4111.png",
+  "dna": "78454d1bd3555031cbf0da23c6276988f059fb2d",
   "edition": 4111,
-  "date": 1653209677264,
+  "date": 1653548058265,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin M"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Red"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
-      "value": "Mask"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Red Neck Swag"
+    },
+    {
       "trait_type": "Head",
-      "value": "Pink Killa"
+      "value": "Standard"
     }
   ]
 }

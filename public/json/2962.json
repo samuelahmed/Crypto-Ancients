@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #2962",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2962.png",
-  "dna": "cbb11f1b55fc7b1684fffb3c913f09df4303aceb",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/2962.png",
+  "dna": "15f5e165990b8acd10cd73426b2bb649d7de142d",
   "edition": 2962,
-  "date": 1653209671607,
+  "date": 1653548052749,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin C"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Metaverse Blue"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Standard"
-    },
-    {
-      "trait_type": "Glasses",
       "value": "Purple"
     },
     {
+      "trait_type": "Face",
+      "value": "Curly Mustache"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "None"
+    },
+    {
       "trait_type": "Jewelry",
-      "value": "Scarab Cross"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Long Purple Hair"
+      "value": "Grey Punk Hair"
     }
   ]
 }

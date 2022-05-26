@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #7338",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7338.png",
-  "dna": "f3ae6782af20205ec0d900b4b2af0ef24de95d69",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/7338.png",
+  "dna": "542ce54f9d4ecad1d1f9d447345c719605191a28",
   "edition": 7338,
-  "date": 1653209693776,
+  "date": 1653548073943,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Golden"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin M"
+      "value": "Human Skin H"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Metaverse Blue"
+      "value": "Orange"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Metaverse Blue Gold"
+    },
+    {
       "trait_type": "Head",
-      "value": "Ancient Ribbon"
+      "value": "Grey Punk Hair"
     }
   ]
 }

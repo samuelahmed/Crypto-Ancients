@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #6495",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6495.png",
-  "dna": "f09f4255ded8be419fe7e23f607f941b9237b62d",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/6495.png",
+  "dna": "35488c1d327b0943398c02bff7517866c88acf0f",
   "edition": 6495,
-  "date": 1653209689254,
+  "date": 1653548069777,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin K"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
-      "value": "Golden"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Beige"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Garnet"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Curly Mustache"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "Seeing"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Basic Priest"
+      "value": "Old Grey Hair"
     }
   ]
 }

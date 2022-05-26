@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #1435",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1435.png",
-  "dna": "bc030a7f1b2be4a30f0958143759bd6a28407d27",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/1435.png",
+  "dna": "8f8450e5390cfd6b29352ff4ca96404d6d843691",
   "edition": 1435,
-  "date": 1653209664297,
+  "date": 1653548045553,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Metaverse Blue"
     },
     {
       "trait_type": "Style",
@@ -20,11 +20,11 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin K"
+      "value": "Human Skin E"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Sunglasses"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Yellow Neck Swag"
+    },
+    {
       "trait_type": "Head",
-      "value": "Hardhat"
+      "value": "Basic Priest"
     }
   ]
 }

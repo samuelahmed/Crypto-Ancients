@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #1907",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1907.png",
-  "dna": "8130d98d1ecf474049c16cbbff8dc8fa5767c8ed",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/1907.png",
+  "dna": "ec1becc690b1caed73a0048c8045deeffdcc4b59",
   "edition": 1907,
-  "date": 1653209666516,
+  "date": 1653548047843,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nighttime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Red"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin A"
     },
     {
       "trait_type": "Eyes",
-      "value": "Green"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Maya"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Yellow Circle"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Sunglasses"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Blue Hat"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #2667",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2667.png",
-  "dna": "b4f402d47b3b196afda5038f879ccf1882c7f9a6",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/2667.png",
+  "dna": "4859abab88c77af819417093bacd40ba9e5045eb",
   "edition": 2667,
-  "date": 1653209670191,
+  "date": 1653548051402,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Red"
     },
     {
       "trait_type": "Face",
-      "value": "Pink Handlebars"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Eye Patch"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Scarab Cross"
+    },
+    {
       "trait_type": "Head",
-      "value": "NPC Brown"
+      "value": "Standard"
     }
   ]
 }

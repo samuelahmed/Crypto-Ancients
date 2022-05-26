@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #5423",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5423.png",
-  "dna": "e83d5e618fe8c07b7c7ecf3e7e09229636325208",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/5423.png",
+  "dna": "b245865d1cd26ee2ee62666b1ee2e8a4b722a999",
   "edition": 5423,
-  "date": 1653209683775,
+  "date": 1653548064550,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Pink"
     },
     {
       "trait_type": "Style",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
-      "value": "Mauve Tears"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Orange"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Royal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Blue Heart Cheek"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Fashion"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "NPC Purple"
+      "value": "NPC Brown"
     }
   ]
 }

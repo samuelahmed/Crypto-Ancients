@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #6079",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6079.png",
-  "dna": "53510b4c909fd39cd9df6d89c8c3c58ee5a92fd2",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/6079.png",
+  "dna": "00d0b4ca0e08cf5b713b4c22d467949f9d956748",
   "edition": 6079,
-  "date": 1653209687121,
+  "date": 1653548067726,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin E"
+      "value": "Human Skin F"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Blue"
     },
     {
       "trait_type": "Lips",
-      "value": "Teal"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Active Red"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Multiple Gold Earrings"
+    },
+    {
       "trait_type": "Head",
-      "value": "Long Blue Hair"
+      "value": "Standard"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #5432",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5432.png",
-  "dna": "31afd75304c89c94ed7160364875033fc5e76d0a",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/5432.png",
+  "dna": "f0f9e099f0b8aab2151884bb05428e39b577a906",
   "edition": 5432,
-  "date": 1653209683811,
+  "date": 1653548064588,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Purple"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin L"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
@@ -28,15 +28,15 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Admiral"
+      "value": "Orange"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Pink Circle"
     },
     {
       "trait_type": "Glasses",
-      "value": "Eye Patch"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "NPC Brown"
     }
   ]
 }

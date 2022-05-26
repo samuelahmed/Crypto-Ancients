@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #8076",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8076.png",
-  "dna": "65efc66c49d87b2944883d5c277f1d966188a430",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/8076.png",
+  "dna": "88356f73aded76dfff22405fbf4ff1c33ab760bb",
   "edition": 8076,
-  "date": 1653209697719,
+  "date": 1653548077498,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Martian"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,31 +20,31 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin A"
+      "value": "Human Skin J"
     },
     {
       "trait_type": "Eyes",
-      "value": "White"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Royal"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Yellow Circle"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Purple Gems"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "Basic Priest"
+      "value": "Standard"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #7764",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7764.png",
-  "dna": "4fa6fc7ea4cc1425d1cb8c58b348a1e588b0a041",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/7764.png",
+  "dna": "fe482bab2dda812bd88c170db21456529d6acdbc",
   "edition": 7764,
-  "date": 1653209695708,
+  "date": 1653548076068,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nighttime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin L"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Green"
+      "value": "Teal"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
-      "value": "Face Chains"
+      "value": "None"
     },
     {
       "trait_type": "Head",
-      "value": "NPC Brown"
+      "value": "Basic Priest"
     }
   ]
 }

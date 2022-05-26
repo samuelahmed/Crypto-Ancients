@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #2634",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2634.png",
-  "dna": "4a973f3e542e2726954f9135207b7952bd769479",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/2634.png",
+  "dna": "430f1bef0ee7e0347d338da597c53fb8ec0e178d",
   "edition": 2634,
-  "date": 1653209670053,
+  "date": 1653548051263,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Martian"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin I"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Scarab Cross"
+    },
+    {
       "trait_type": "Head",
-      "value": "Long Purple Hair"
+      "value": "Standard"
     }
   ]
 }

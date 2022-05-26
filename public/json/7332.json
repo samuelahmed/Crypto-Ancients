@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #7332",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7332.png",
-  "dna": "3da8ec98db0a177ef007b13bfa6b61f20855a714",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/7332.png",
+  "dna": "ada2dc2276238f74965e3e805b1f295a791953e1",
   "edition": 7332,
-  "date": 1653209693751,
+  "date": 1653548073916,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Pink"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin I"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Pink"
     },
     {
       "trait_type": "Lips",
-      "value": "Metaverse Blue"
+      "value": "Maya"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Gold Chain"
+    },
+    {
       "trait_type": "Head",
-      "value": "Crazy Grey Hair"
+      "value": "Standard"
     }
   ]
 }

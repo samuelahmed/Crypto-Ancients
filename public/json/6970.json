@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #6970",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6970.png",
-  "dna": "3c2b28c737311987306409ed5991b3f4a388e3fe",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/6970.png",
+  "dna": "646a8064ca36ba7316c23bf71d355ed267359a3b",
   "edition": 6970,
-  "date": 1653209691787,
+  "date": 1653548072193,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin M"
+      "value": "Human Skin J"
     },
     {
       "trait_type": "Eyes",
-      "value": "Nature Tears"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Green"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Royal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Seven Tattoo"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "Purple"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Purple Hoodie"
     }
   ]
 }

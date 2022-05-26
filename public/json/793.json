@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #793",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/793.png",
-  "dna": "a9bc5b429299429a4e5ad072296e679a28a3b7ff",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/793.png",
+  "dna": "3080dfcab5cc9155b6499e67bdb41af53b9fd093",
   "edition": 793,
-  "date": 1653209660997,
+  "date": 1653548042622,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin L"
+      "value": "Human Skin B"
     },
     {
       "trait_type": "Eyes",
-      "value": "White"
+      "value": "Golden"
     },
     {
       "trait_type": "Lips",
-      "value": "Royal"
+      "value": "Maya"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Pearls"
+    },
+    {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Multicolor Hat"
     }
   ]
 }

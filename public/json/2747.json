@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #2747",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2747.png",
-  "dna": "5651e180740d249f8cf88d26903f83caa8c6860b",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/2747.png",
+  "dna": "6732db1650bbe06a9ea75c51a9c8b12ce0ee6cd2",
   "edition": 2747,
-  "date": 1653209670591,
+  "date": 1653548051765,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Pink"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin F"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Purple"
     },
     {
       "trait_type": "Face",
-      "value": "Heaven Sign"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Sunglasses"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Scarab Cross"
+    },
+    {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Basic Priest"
     }
   ]
 }

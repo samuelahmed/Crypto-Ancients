@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #7307",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7307.png",
-  "dna": "951ad2966d66ea34e7a45d16a4993581485dbacd",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/7307.png",
+  "dna": "49a518e05ac22fb0fea1142f431664ac6f8ccab0",
   "edition": 7307,
-  "date": 1653209693652,
+  "date": 1653548073801,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Nighttime"
     },
     {
       "trait_type": "Sun",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin M"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Brown"
     },
     {
       "trait_type": "Lips",
-      "value": "Admiral"
+      "value": "Metaverse Blue"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Scarab Cross"
+    },
+    {
       "trait_type": "Head",
-      "value": "Gold Chapeau"
+      "value": "Standard"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #1573",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1573.png",
-  "dna": "23432e37ac540b74af9e742aaf3112b15a850c98",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/1573.png",
+  "dna": "6141b24bf30cdc56db00e1955bcce30bd2a975d1",
   "edition": 1573,
-  "date": 1653209664954,
+  "date": 1653548046255,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Golden"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin J"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Green"
+      "value": "Orange"
     },
     {
       "trait_type": "Face",
-      "value": "Standard"
+      "value": "Pink Heart Cheek"
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Purple Gems"
+    },
+    {
       "trait_type": "Head",
-      "value": "Brown Punk Hair"
+      "value": "Standard"
     }
   ]
 }

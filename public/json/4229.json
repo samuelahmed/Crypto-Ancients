@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #4229",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/4229.png",
-  "dna": "7a165c382ae8e8381dccf312e9d1583db3da68b7",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/4229.png",
+  "dna": "fcaf439fb10289ef5ab0258e5b079214fdcf9653",
   "edition": 4229,
-  "date": 1653209677837,
+  "date": 1653548058788,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nighttime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin B"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "White"
     },
     {
       "trait_type": "Lips",
-      "value": "Green"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Green Neck Swag"
+    },
+    {
       "trait_type": "Head",
-      "value": "Napoleon Hat"
+      "value": "Standard"
     }
   ]
 }

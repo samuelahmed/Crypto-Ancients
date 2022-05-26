@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #2902",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/2902.png",
-  "dna": "61668e42ed06c4f4086771433c986fd31c9bb357",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/2902.png",
+  "dna": "37efb2b82d1de906a62f9004b3c896e532fc2569",
   "edition": 2902,
-  "date": 1653209671314,
+  "date": 1653548052464,
   "attributes": [
     {
       "trait_type": "Background",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Golden"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin M"
+      "value": "Human Skin L"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Brown"
+      "value": "Beige"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Purple"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Golden Round Earrings"
+    },
+    {
       "trait_type": "Head",
-      "value": "Long Blue Hair"
+      "value": "Standard"
     }
   ]
 }

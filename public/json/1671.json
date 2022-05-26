@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #1671",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1671.png",
-  "dna": "8e7950606f3c45acaa021e8996b5198465c82b4a",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/1671.png",
+  "dna": "38205437e35b8d09601b84fa0fd61a0e8f0eab1f",
   "edition": 1671,
-  "date": 1653209665438,
+  "date": 1653548046749,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Nighttime"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin J"
+      "value": "Human Skin H"
     },
     {
       "trait_type": "Eyes",
-      "value": "Mauve Tears"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Admiral"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Beige"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Mask"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "Sunglasses"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Basic Priest"
+      "value": "Long Purple Hair"
     }
   ]
 }

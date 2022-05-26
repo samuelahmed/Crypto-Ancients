@@ -1,10 +1,10 @@
 {
   "name": "Crypto Ancient #6031",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6031.png",
-  "dna": "02d3c7319ffbdbe816f81f8461dc5101665392f0",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/6031.png",
+  "dna": "402f460318a26969d79db064545c50b567ba36a6",
   "edition": 6031,
-  "date": 1653209686884,
+  "date": 1653548067476,
   "attributes": [
     {
       "trait_type": "Background",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin L"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
-      "value": "Teal Tears"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Brown"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Royal"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Blue Circle"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "None"
+      "value": "Seeing"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "Grey Hoodie"
+      "value": "Lego Brown"
     }
   ]
 }

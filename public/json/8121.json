@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #8121",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8121.png",
-  "dna": "fa0d9a01da60d76a28f1d7d7c5218825cf9a82f2",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/8121.png",
+  "dna": "e85a4c5888b80623afe7966c5766906f22427983",
   "edition": 8121,
-  "date": 1653209697951,
+  "date": 1653548077727,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Ocean"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
-      "value": "Standard"
+      "value": "Red"
     },
     {
       "trait_type": "Style",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin F"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Maya"
+      "value": "Green"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Fashion"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Face Chains"
+    },
+    {
       "trait_type": "Head",
-      "value": "Pink Hoodie"
+      "value": "Standard"
     }
   ]
 }

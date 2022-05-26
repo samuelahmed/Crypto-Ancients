@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #5144",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5144.png",
-  "dna": "6ced47f8199575f032f599ec0b845d8c190146f5",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/5144.png",
+  "dna": "f3727b957e6317cd904fff738dc43ba654ec6880",
   "edition": 5144,
-  "date": 1653209682445,
+  "date": 1653548063125,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Desert"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin H"
+      "value": "Human Skin C"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Green"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
-      "value": "Blue Circle"
+      "value": "Standard"
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Purple Gems"
+    },
+    {
       "trait_type": "Head",
-      "value": "Blue Hat"
+      "value": "Standard"
     }
   ]
 }

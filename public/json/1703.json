@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #1703",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/1703.png",
-  "dna": "c908a5da24b52ccdaae0e942e87c4db531fc777c",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/1703.png",
+  "dna": "a4a16b93727ea302238a807e74179e2796b35b72",
   "edition": 1703,
-  "date": 1653209665584,
+  "date": 1653548046884,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Martian"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin K"
+      "value": "Human Skin D"
     },
     {
       "trait_type": "Eyes",
@@ -28,23 +28,23 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Beige"
-    },
-    {
-      "trait_type": "Face",
-      "value": "Blue Heart Cheek"
-    },
-    {
-      "trait_type": "Glasses",
       "value": "Purple"
     },
     {
+      "trait_type": "Face",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Seeing"
+    },
+    {
       "trait_type": "Jewelry",
-      "value": "None"
+      "value": "Multiple Gold Earrings"
     },
     {
       "trait_type": "Head",
-      "value": "Standard"
+      "value": "Crazy Green Hair"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #5247",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/5247.png",
-  "dna": "8225d1ea3188929425c5460fccb7bcbd1418ec52",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/5247.png",
+  "dna": "832e3c6a43bf036317a1c0beb5187cea69c3d609",
   "edition": 5247,
-  "date": 1653209682961,
+  "date": 1653548063665,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin K"
+      "value": "Human Skin G"
     },
     {
       "trait_type": "Eyes",
-      "value": "Bloodshot"
+      "value": "Standard"
     },
     {
       "trait_type": "Lips",
-      "value": "Royal"
+      "value": "Teal"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Fashion"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Pearls"
+    },
+    {
       "trait_type": "Head",
-      "value": "Pink Killa"
+      "value": "Crazy Grey Hair"
     }
   ]
 }

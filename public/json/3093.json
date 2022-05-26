@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #3093",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/3093.png",
-  "dna": "fa91e77ef31c949d7dc928d4c992be5c53edd34c",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/3093.png",
+  "dna": "e3c0df2226db7ebe0c05962beb61e6fc043edf42",
   "edition": 3093,
-  "date": 1653209672257,
+  "date": 1653548053415,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Metaverse"
+      "value": "Daylight"
     },
     {
       "trait_type": "Sun",
@@ -20,23 +20,23 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin L"
+      "value": "Human Skin A"
     },
     {
       "trait_type": "Eyes",
-      "value": "Nature Tears"
-    },
-    {
-      "trait_type": "Lips",
-      "value": "Red"
-    },
-    {
-      "trait_type": "Face",
       "value": "Standard"
     },
     {
+      "trait_type": "Lips",
+      "value": "Beige"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Curly Mustache"
+    },
+    {
       "trait_type": "Glasses",
-      "value": "Seeing"
+      "value": "None"
     },
     {
       "trait_type": "Jewelry",
@@ -44,7 +44,7 @@
     },
     {
       "trait_type": "Head",
-      "value": "NPC Brown"
+      "value": "Standard"
     }
   ]
 }

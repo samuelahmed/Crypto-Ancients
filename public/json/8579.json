@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #8579",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/8579.png",
-  "dna": "845180edce229c3d31e1c961436ab78ddc57f8ba",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/8579.png",
+  "dna": "a8d7944f8a3366c644519fd72f2c845ef517f799",
   "edition": 8579,
-  "date": 1653209700765,
+  "date": 1653548080010,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Desert"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin L"
+      "value": "Human Skin M"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Brown"
+      "value": "Maya"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Sunglasses"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Face Chains"
+    },
+    {
       "trait_type": "Head",
-      "value": "Ancient Ribbon"
+      "value": "Standard"
     }
   ]
 }

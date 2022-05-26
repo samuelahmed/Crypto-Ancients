@@ -1,18 +1,18 @@
 {
   "name": "Crypto Ancient #6986",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/6986.png",
-  "dna": "f76d4fd6ea2b515fe0175a373035c2db96e3d36a",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/6986.png",
+  "dna": "297c9a082d3451a798f2d9acecbf7ee53addc88c",
   "edition": 6986,
-  "date": 1653209691862,
+  "date": 1653548072283,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Forest"
     },
     {
       "trait_type": "Sun",
-      "value": "Red"
+      "value": "Standard"
     },
     {
       "trait_type": "Style",
@@ -20,15 +20,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin D"
+      "value": "Human Skin E"
     },
     {
       "trait_type": "Eyes",
-      "value": "Standard"
+      "value": "Blue"
     },
     {
       "trait_type": "Lips",
-      "value": "Garnet"
+      "value": "Brown"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Seeing"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Gold Chain"
+    },
+    {
       "trait_type": "Head",
-      "value": "Side Ponytail"
+      "value": "Standard"
     }
   ]
 }

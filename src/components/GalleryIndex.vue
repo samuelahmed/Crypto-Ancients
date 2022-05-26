@@ -277,7 +277,7 @@ setup () {
       ],
       optionsHead: [
         'Ancient Queen', 'Ancient Ribbon', 'Basic Priest', 'Blue Hat', 'Brown Punk Hair', 'Crazy Blue Hair', 'Crazy Green Hair', 'Crazy Grey Hair', 'Gold Chapeau', 'Grey Hoodie', 'Grey Punk Hair', 'Hardhat', 'Lego Brown', 'Lego Orange', 'Long Blue Hair', 'Long Purple Hair', 'Metapriest', 'Metaverse Blue Punk Hair', 'Metaverse Queen', 
-        'Multicolor Hat', 'Napoleon Hat', 'NPC Brown', 'NPC Purple', 'Old Grey Hair', 'Pink Hoodie', 'Pink Killa', 'Purple Blue Bangs', 'Side Ponytail', 'Standard', 'Underground Pink'
+        'Multicolor Hat', 'Napoleon Hat', 'NPC Brown', 'Old Grey Hair', 'Pink Killa', 'Purple Blue Bangs', 'Purple Hoodie', 'Side Ponytail', 'Standard', 'Underground Pink'
       ],
       createValue (val, done) {
         if (val.length > 0) {

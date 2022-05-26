@@ -1,14 +1,14 @@
 {
   "name": "Crypto Ancient #7762",
   "description": "The Nodes of Truth",
-  "image": "ipfs://QmTqi9N2JgB9LnWLaeJY18iya3ja5yupxjzCQpDnt53pQ7/7762.png",
-  "dna": "f99ea4b62ffa7db0de7f528cd70647471da0d13d",
+  "image": "ipfs://QmTTxQquhSkddo21tRprXsMSpxNESmDyaVkC84vyeoH8t4/7762.png",
+  "dna": "1df6c1a1733fd36e89376bcb401c005677272f8f",
   "edition": 7762,
-  "date": 1653209695688,
+  "date": 1653548076060,
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Daylight"
+      "value": "Ocean"
     },
     {
       "trait_type": "Sun",
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Human Skin M"
+      "value": "Human Skin K"
     },
     {
       "trait_type": "Eyes",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Lips",
-      "value": "Red"
+      "value": "Royal"
     },
     {
       "trait_type": "Face",
@@ -36,15 +36,15 @@
     },
     {
       "trait_type": "Glasses",
-      "value": "Sunglasses"
-    },
-    {
-      "trait_type": "Jewelry",
       "value": "None"
     },
     {
+      "trait_type": "Jewelry",
+      "value": "Hoop Earrings"
+    },
+    {
       "trait_type": "Head",
-      "value": "Brown Punk Hair"
+      "value": "Side Ponytail"
     }
   ]
 }
