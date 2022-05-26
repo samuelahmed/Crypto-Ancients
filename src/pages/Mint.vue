@@ -132,7 +132,7 @@ export default defineComponent({
           account = accounts[0];
           //START TRANSACTION
           contract = new web3.eth.Contract(ABI, ADDRESS)
-          let transaction = await contract.methods.mint(1).send({from: account, gas: 239665,  maxPriorityFeePerGas: 999999987, value: 10000000000000000})
+          let transaction = await contract.methods.mint(1).send({from: account, gas: 239665,  maxPriorityFeePerGas: 1999999987, value: 10000000000000000})
           //TRANSACTION IS INITIATED
           .once('sent', (payload) => {console.log('sent')})
           .once('transactionHash', (hash) => {
