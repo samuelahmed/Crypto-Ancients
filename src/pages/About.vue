@@ -37,7 +37,7 @@
                   This project was built using <a class="has-text-info" href="https://vuejs.org/" target="_blank">Vue 3</a>, <a class="has-text-info" href="https://quasar.dev/" target="_blank">Quasar</a>, <a class="has-text-info" href="https://www.naiveui.com/en-US/os-theme" target="_blank">Naive UI</a>, <a class="has-text-info" href="https://particles.js.org/" target="_blank">tsParticles</a>, <a class="has-text-info" href="https://github.com/HashLips" target="_blank">Hashlips Art Engine</a>, <a class="has-text-info" href="https://code.visualstudio.com/" target="_blank">VSCode</a> , <a class="has-text-info" href="https://remix.ethereum.org/" target="_blank">Remix</a>, <a class="has-text-info" href="https://www.adobe.com/products/photoshop.html" target="_blank">Photoshop</a>, and <a class="has-text-info" href="https://bulma.io/" target="_blank">Bulma</a> for earliers version of the website. Checkout the public repo on <a class="has-text-info" href="https://github.com/samuelahmed/quasar-vue-cryptoancient-v1.0" target="_blank">Github</a>. Website hosted by <a class="has-text-info" href="https://www.netlify.com/" target="_blank">Netlify</a>. 
                 </p>
                 <p>
-                  Official Ethereum Contract Address (Rinkeby Test Network): <a class="has-text-info" href="https://rinkeby.etherscan.io/address/0xedb9a7dD2B2e13E2996F9cc20103243734055c5F" target="_blank">0xedb9a7dD2B2e13E2996F9cc20103243734055c5F</a>
+                  Official Ethereum Contract: <a class="has-text-info" href="https://etherscan.io/address/0x835177a3aa64ee6129f4f22d598adedcc32bec74" target="_blank">0x835177a3aa64ee6129f4f22d598adedcc32bec74</a>
                 </p>
               <!-- </q-card-section> -->
             </q-card-section>
