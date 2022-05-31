@@ -13,7 +13,6 @@
     <q-page class="flex-center">
       <div div id="q-app">
         <div class="row items-start q-gutter-md flex flex-center">
-          <!-- <q-card class="my-card" flat> -->
             <q-card-section horizontal>
               <div class="flex flex-centered">
                 <q-card-section class="q-mt-xl">
@@ -55,7 +54,6 @@
                 </q-card-section>
               </div>
             </q-card-section>
-          <!-- </q-card> -->
         </div>
         <div class="q-pa-sm row items-start q-gutter-md flex flex-center">
           <q-card-section class="q-mt-xl">
@@ -104,7 +102,6 @@ export default defineComponent({
       getImage () {
         console.log("in getImage method with new Token:",newToken.value);
         return `images/${newToken.value}.png`
-        // return `https://gateway.pinata.cloud/ipfs/QmbGRXvN8eQTWyceoYX4Q5oDVToHKR5pcQhhAHqjpPdwKG/${newToken.value}.png`
       },
       getAltImage () {
         console.log("am i here?")
@@ -142,9 +139,7 @@ export default defineComponent({
           //CREATE AND DISPLAY RECEIPT ON WEBPAGE
           newToken.value = transaction.events.Transfer.returnValues.tokenId;
           let transactionLink = transaction.transactionHash;
-          console.log(newToken.value);
-          console.log(transactionLink);
-          // that needs to be replaced by a reference in the vue template   
+          //text receipt
           if (newToken.value !== null) {
             console.log('newtokencreated') 
             const newTokenLoad = document.querySelector('.newTokenLoad');

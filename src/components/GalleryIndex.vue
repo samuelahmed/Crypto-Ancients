@@ -174,10 +174,6 @@
                         :attributes="props.row.attributes"
                         >
                       </TableImgAncient>
-                      <!-- Will put edition numer behind -->
-                      <!-- <div class="col-12 text-h6 text-center">
-                        {{ props.row.edition }}
-                      </div> -->
                     </q-card-section>
                   </template>
                 </q-table>
@@ -236,7 +232,6 @@ export default defineComponent({
   },
 setup () {
     return {
-      // modelTest: ref([]),
       modelBackground: ref([]),
       modelSun: ref([]),
       modelSkin: ref([]),

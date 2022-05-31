@@ -15,7 +15,6 @@
       <q-page class="flex-center">
         <div class="flex flex-center q-mt-sm">
           <div class="flex flex-center" style="width:1000px">
-            <!-- <q-card-section style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)"> -->
               <q-card-section class="q-pt-none">
                 <div class="text-h6">Artist</div>
               </q-card-section>
@@ -27,8 +26,6 @@
                   Very attuned to the institutial extraction that is occuring from the less wealthy towards those with more. Challenging the systems that perpetuate inequalities is often abstract and requires constant tiny sacrifices as well as bold moments. Huge shoutout to <a class="has-text-info" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/" target="_blank">MIT</a> for having so many courses available online for free, youtube creators with coding content, and most importantly those who helped me directly. 
                 </p>
               </q-card-section>
-            <!-- </q-card-section> -->
-            <!-- <q-card-section class="q-mt-sm q-pt-none q-pb-none" style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)"> -->
               <q-card-section>
                 <div class="text-h6">Build</div>
               </q-card-section>
@@ -39,9 +36,7 @@
                 <p>
                   Official Ethereum Contract: <a class="has-text-info" href="https://etherscan.io/address/0x835177a3aa64ee6129f4f22d598adedcc32bec74" target="_blank">0x835177a3aa64ee6129f4f22d598adedcc32bec74</a>
                 </p>
-              <!-- </q-card-section> -->
             </q-card-section>
-            <!-- <q-card-section class="q-mt-sm q-pt-none q-pb-none"  style="background: radial-gradient(circle, #FFFFFF 0%, #FFFFFF 100%)"> -->
               <q-card-section>
                 <div class="text-h6">Copies</div>
               </q-card-section>
@@ -53,7 +48,6 @@
                   When it comes to digital ownership, who owns what can be seen by looking at the blockchain. Copy projects will have different addresses or not even be on the blockchain whatsoever. For owners there is no need to worry about these developments, on the contrary, it is likely that the more a token is desired and copied the higher the value of the original.
                 </p>
               </q-card-section>
-            <!-- </q-card-section> -->
           </div>
         </div>
       </q-page>
