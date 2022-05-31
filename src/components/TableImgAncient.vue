@@ -25,7 +25,6 @@ export default defineComponent({
   },
   methods: {
     getImage: function () {
-      // console.log(this.attributes)
       return `images/${this.edition}.png`
     }
   }
