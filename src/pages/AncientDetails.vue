@@ -74,7 +74,3 @@ export default defineComponent({
   },
 })
 </script>
-
-
-//gpt-3?
-
