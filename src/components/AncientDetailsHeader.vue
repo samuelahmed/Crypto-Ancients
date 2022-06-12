@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="text-h6">
-      <a :href="`https://testnets.opensea.io/assets/0x97b27C932E394D5D952039F89E21F2873e87a937/${edition}`" target="_blank">Visit on Opensea</a>  
+      <a :href="`https://opensea.io/assets/ethereum/0x835177a3aa64ee6129f4f22d598adedcc32bec74/${edition}`" target="_blank">Visit on Opensea</a>  
     </div>
   </div>
 </template>
