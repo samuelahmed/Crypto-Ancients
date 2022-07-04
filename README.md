@@ -5,7 +5,6 @@
  
 
 
-## For those who want to change the world
 ```bash
     "Nothing in the world can take the place of persistence. Talent will
     not; nothing is more common than unsuccessful men with talent. Genius
