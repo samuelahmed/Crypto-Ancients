@@ -1,6 +1,4 @@
-# Crypto Ancients 
-
- * Welcome to the official Crypto Ancients Github :) 
+Welcome to the official Crypto Ancients Github :) 
 
  
 
